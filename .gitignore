@@ -1,0 +1,9 @@
+# Publish only the optimized GitHub Pages build by default.
+/*
+
+!/docs/
+!/docs/**
+!/chapter_baseline/
+/chapter_baseline/*
+!/chapter_baseline/build_github_pages.py
+!/.gitignore

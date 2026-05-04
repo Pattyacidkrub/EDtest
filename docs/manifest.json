@@ -1,0 +1,20 @@
+{
+  "a09": {
+    "title": "A09 Infectious Study",
+    "html": "chapters/A09.html",
+    "source": "chapter_data\\ChapterA09Special_InfectiousStudy.html",
+    "local_refs": "162",
+    "converted_images": "160",
+    "copied_assets": "2",
+    "missing": "0"
+  },
+  "a14": {
+    "title": "A14 Renal / Urogenital Study",
+    "html": "chapters/A14.html",
+    "source": "chapter_data\\ChapterA14Special_RenalUrogenitalStudy.html",
+    "local_refs": "44",
+    "converted_images": "42",
+    "copied_assets": "2",
+    "missing": "0"
+  }
+}
