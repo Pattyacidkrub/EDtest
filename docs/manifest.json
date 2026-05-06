@@ -32,6 +32,17 @@
     "disabled_links": "0",
     "missing": "0"
   },
+  "a17": {
+    "title": "A17 Trauma Study",
+    "html": "chapters/A17.html",
+    "source": "chapter_data\\ChapterA17Special_TraumaStudy.html",
+    "group": "special",
+    "local_refs": "74",
+    "converted_images": "72",
+    "copied_assets": "2",
+    "disabled_links": "0",
+    "missing": "0"
+  },
   "c": {
     "title": "C EMS Study",
     "html": "chapters/C.html",

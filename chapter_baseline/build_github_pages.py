@@ -43,6 +43,13 @@ SPECIAL_CHAPTERS = [
         "group": "special",
     },
     {
+        "id": "a17",
+        "title": "A17 Trauma Study",
+        "source": CHAPTER_DATA / "ChapterA17Special_TraumaStudy.html",
+        "output": "A17.html",
+        "group": "special",
+    },
+    {
         "id": "c",
         "title": "C EMS Study",
         "source": CHAPTER_DATA / "ChapterCSpecial_EMSStudy.html",
