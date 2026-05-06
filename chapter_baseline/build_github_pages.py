@@ -17,37 +17,43 @@ from PIL import Image, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
 CHAPTER_DATA = ROOT / "chapter_data"
+COMPLETE_DIR = ROOT / "_Handoff_20260506" / "Complete"
 DOCS = ROOT / "docs"
 
-CHAPTERS = [
+SPECIAL_CHAPTERS = [
     {
         "id": "a09",
         "title": "A09 Infectious Study",
         "source": CHAPTER_DATA / "ChapterA09Special_InfectiousStudy.html",
         "output": "A09.html",
+        "group": "special",
     },
     {
         "id": "a14",
         "title": "A14 Renal / Urogenital Study",
         "source": CHAPTER_DATA / "ChapterA14Special_RenalUrogenitalStudy.html",
         "output": "A14.html",
+        "group": "special",
     },
     {
         "id": "a16",
         "title": "A16 Toxicology Study",
         "source": CHAPTER_DATA / "ChapterA16Special_ToxicologyStudy.html",
         "output": "A16.html",
+        "group": "special",
     },
     {
         "id": "c",
         "title": "C EMS Study",
         "source": CHAPTER_DATA / "ChapterCSpecial_EMSStudy.html",
         "output": "C.html",
+        "group": "special",
     },
 ]
 
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp"}
 PASSTHROUGH_EXTENSIONS = {".css", ".js", ".svg", ".gif", ".ico", ".pdf"}
+HTML_EXTENSIONS = {".html", ".htm"}
 REMOTE_PREFIXES = ("http://", "https://", "data:", "mailto:", "#")
 
 
@@ -70,6 +76,39 @@ def slugify(value: str) -> str:
     stem = Path(value).stem.lower()
     stem = re.sub(r"[^a-z0-9]+", "-", stem).strip("-")
     return stem[:70] or "asset"
+
+
+def chapter_sort_key(path: Path) -> tuple[int, str]:
+    match = re.search(r"Chapter(\d+)", path.name, re.I)
+    return (int(match.group(1)) if match else 9999, path.name.lower())
+
+
+def complete_title(path: Path) -> str:
+    match = re.match(r"Chapter(\d+)_(.+)\.html$", path.name, re.I)
+    if not match:
+        return path.stem
+    chapter_no, raw_title = match.groups()
+    spaced = re.sub(r"(?<=[a-z])(?=[A-Z])", " ", raw_title)
+    return f"Ch.{chapter_no} {spaced}"
+
+
+def complete_chapters() -> list[dict[str, str]]:
+    if not COMPLETE_DIR.exists():
+        return []
+    chapters = []
+    for path in sorted(COMPLETE_DIR.glob("*.html"), key=chapter_sort_key):
+        match = re.search(r"Chapter(\d+)", path.name, re.I)
+        chapter_id = f"ch{match.group(1)}" if match else slugify(path.name)
+        chapters.append(
+            {
+                "id": chapter_id,
+                "title": complete_title(path),
+                "source": path,
+                "output": f"complete/{path.name}",
+                "group": "complete",
+            }
+        )
+    return chapters
 
 
 def resolve_ref(ref: str, html_path: Path) -> Path | None:
@@ -116,32 +155,65 @@ def convert_image(source: Path, dest: Path) -> None:
             new_height = round(image.height * (max_width / image.width))
             image = image.resize((max_width, new_height), Image.Resampling.LANCZOS)
 
-        if image.mode == "RGBA":
-            # WebP supports alpha; quality keeps highlighted textbook crops readable.
-            image.save(dest, "WEBP", quality=86, method=6)
-        else:
-            image.save(dest, "WEBP", quality=84, method=6)
+        for attempt in range(5):
+            try:
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                if image.mode == "RGBA":
+                    # WebP supports alpha; quality keeps highlighted textbook crops readable.
+                    image.save(dest, "WEBP", quality=86, method=6)
+                else:
+                    image.save(dest, "WEBP", quality=84, method=6)
+                break
+            except FileNotFoundError:
+                if attempt == 4:
+                    raise
+                time.sleep(0.2)
 
 
 def copy_passthrough(source: Path, dest: Path) -> None:
     dest.parent.mkdir(parents=True, exist_ok=True)
     if not dest.exists() or dest.stat().st_mtime < source.stat().st_mtime:
-        shutil.copy2(source, dest)
+        for attempt in range(5):
+            try:
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(source, dest)
+                break
+            except FileNotFoundError:
+                if attempt == 4:
+                    raise
+                time.sleep(0.2)
 
 
-def rewrite_html(chapter: dict[str, str], manifest: dict[str, dict[str, str]]) -> dict[str, int | str]:
+def rewrite_html(
+    chapter: dict[str, str],
+    manifest: dict[str, dict[str, str]],
+    published_html_names: set[str],
+) -> dict[str, int | str]:
     html_path = Path(chapter["source"])
     chapter_id = chapter["id"]
     output_name = chapter["output"]
     text = html_path.read_text(encoding="utf-8")
+    out = DOCS / "chapters" / output_name
     collector = AttrCollector()
     collector.feed(text)
 
     ref_map: dict[str, str] = {}
-    stats = {"local_refs": 0, "converted_images": 0, "copied_assets": 0, "missing": 0}
+    stats = {
+        "local_refs": 0,
+        "converted_images": 0,
+        "copied_assets": 0,
+        "disabled_links": 0,
+        "missing": 0,
+    }
 
     for _attr, ref in collector.refs:
         if ref in ref_map or is_remote(ref):
+            continue
+        clean_ref = ref.split("#", 1)[0].split("?", 1)[0]
+        if Path(clean_ref).suffix.lower() in HTML_EXTENSIONS:
+            if Path(clean_ref).name not in published_html_names:
+                ref_map[ref] = "#"
+                stats["disabled_links"] += 1
             continue
         resolved = resolve_ref(ref, html_path)
         if not resolved:
@@ -161,7 +233,7 @@ def rewrite_html(chapter: dict[str, str], manifest: dict[str, dict[str, str]]) -
             continue
 
         stats["local_refs"] += 1
-        ref_map[ref] = "../" + dest.relative_to(DOCS).as_posix()
+        ref_map[ref] = Path(os.path.relpath(dest, out.parent)).as_posix()
 
     def attr_replacer(match: re.Match[str]) -> str:
         attr = match.group(1)
@@ -191,7 +263,6 @@ def rewrite_html(chapter: dict[str, str], manifest: dict[str, dict[str, str]]) -
         1,
     )
 
-    out = DOCS / "chapters" / output_name
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(text, encoding="utf-8")
 
@@ -199,9 +270,11 @@ def rewrite_html(chapter: dict[str, str], manifest: dict[str, dict[str, str]]) -
         "title": chapter["title"],
         "html": f"chapters/{output_name}",
         "source": str(html_path.relative_to(ROOT)),
+        "group": chapter.get("group", "special"),
         "local_refs": str(stats["local_refs"]),
         "converted_images": str(stats["converted_images"]),
         "copied_assets": str(stats["copied_assets"]),
+        "disabled_links": str(stats["disabled_links"]),
         "missing": str(stats["missing"]),
     }
     return stats | {"output": str(out)}
@@ -211,9 +284,9 @@ def dir_size(path: Path) -> int:
     return sum(p.stat().st_size for p in path.rglob("*") if p.is_file())
 
 
-def build_index(manifest: dict[str, dict[str, str]]) -> None:
+def build_cards(chapters: Iterable[dict[str, str]], manifest: dict[str, dict[str, str]], label: str) -> str:
     cards = []
-    for chapter in CHAPTERS:
+    for chapter in chapters:
         chapter_id = chapter["id"]
         item = manifest[chapter_id]
         cards.append(
@@ -221,10 +294,18 @@ def build_index(manifest: dict[str, dict[str, str]]) -> None:
             <a class="chapter-card" href="{html.escape(item['html'])}">
               <span class="chapter-card__eyebrow">{chapter_id.upper()}</span>
               <strong>{html.escape(item['title'])}</strong>
-              <span>Open practice chapter</span>
+              <span>{html.escape(label)}</span>
             </a>
             """
         )
+    return "".join(cards)
+
+
+def build_index(chapters: list[dict[str, str]], manifest: dict[str, dict[str, str]]) -> None:
+    special = [chapter for chapter in chapters if chapter.get("group") == "special"]
+    complete = [chapter for chapter in chapters if chapter.get("group") == "complete"]
+    special_cards = build_cards(special, manifest, "Open practice set")
+    complete_cards = build_cards(complete, manifest, "Open complete chapter")
 
     index = f"""<!doctype html>
 <html lang="en">
@@ -261,6 +342,7 @@ def build_index(manifest: dict[str, dict[str, str]]) -> None:
     }}
     h1 {{ margin: 0 0 8px; font-size: clamp(2rem, 6vw, 4rem); letter-spacing: 0; }}
     p {{ color: var(--muted); margin: 0 0 28px; }}
+    h2 {{ margin: 34px 0 14px; font-size: 1.1rem; color: var(--accent); letter-spacing: 0; }}
     .grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }}
     .chapter-card {{
       min-height: 150px;
@@ -284,10 +366,15 @@ def build_index(manifest: dict[str, dict[str, str]]) -> None:
   <main>
     <h1>ER Board Review</h1>
     <p>Optimized mobile build for GitHub Pages. Images are converted to WebP and lazy-loaded for iPad/iPhone.</p>
+    <h2>Special Practice Sets</h2>
     <div class="grid">
-      {''.join(cards)}
+      {special_cards}
     </div>
-    <footer>Generated from local Special chapter HTML.</footer>
+    <h2>Complete Chapters</h2>
+    <div class="grid">
+      {complete_cards}
+    </div>
+    <footer>Generated from local Special and Complete chapter HTML.</footer>
   </main>
 </body>
 </html>
@@ -300,7 +387,7 @@ def build_publish_notes() -> None:
     (DOCS / "README.md").write_text(
         """# ER Board Review Publish Build
 
-This folder is the optimized GitHub Pages build for Special practice chapters.
+This folder is the optimized GitHub Pages build for Special practice sets and Complete chapters.
 
 - Open `index.html` for chapter links.
 - Chapter pages live in `chapters/`.
@@ -320,27 +407,32 @@ If this `ER` folder is the GitHub repository root, set GitHub Pages to deploy fr
 
 
 def main() -> int:
-    if DOCS.exists():
+    if DOCS.exists() and os.environ.get("ER_PUBLISH_CLEAN") == "1":
         def handle_remove_error(function, path, _exc_info) -> None:
             os.chmod(path, stat.S_IWRITE)
             function(path)
 
-        for attempt in range(5):
+        for attempt in range(10):
             try:
                 shutil.rmtree(DOCS, onerror=handle_remove_error)
                 break
-            except PermissionError:
-                if attempt == 4:
-                    raise
+            except OSError:
+                if attempt == 9:
+                    stale = ROOT / f"docs_stale_{int(time.time())}"
+                    DOCS.rename(stale)
+                    print(f"Renamed locked docs folder to {stale}")
+                    break
                 time.sleep(0.5)
     (DOCS / "assets").mkdir(parents=True, exist_ok=True)
 
+    chapters = SPECIAL_CHAPTERS + complete_chapters()
+    published_html_names = {Path(chapter["output"]).name for chapter in chapters}
     manifest: dict[str, dict[str, str]] = {}
     stats = {}
-    for chapter in CHAPTERS:
-        stats[chapter["id"]] = rewrite_html(chapter, manifest)
+    for chapter in chapters:
+        stats[chapter["id"]] = rewrite_html(chapter, manifest, published_html_names)
 
-    build_index(manifest)
+    build_index(chapters, manifest)
     build_publish_notes()
     (DOCS / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
 
