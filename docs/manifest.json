@@ -16,5 +16,23 @@
     "converted_images": "42",
     "copied_assets": "2",
     "missing": "0"
+  },
+  "a16": {
+    "title": "A16 Toxicology Study",
+    "html": "chapters/A16.html",
+    "source": "chapter_data\\ChapterA16Special_ToxicologyStudy.html",
+    "local_refs": "243",
+    "converted_images": "241",
+    "copied_assets": "2",
+    "missing": "0"
+  },
+  "c": {
+    "title": "C EMS Study",
+    "html": "chapters/C.html",
+    "source": "chapter_data\\ChapterCSpecial_EMSStudy.html",
+    "local_refs": "146",
+    "converted_images": "144",
+    "copied_assets": "2",
+    "missing": "0"
   }
 }

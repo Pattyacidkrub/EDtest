@@ -1,6 +1,6 @@
 # ER Board Review Publish Build
 
-This folder is the optimized GitHub Pages build for A09/A14.
+This folder is the optimized GitHub Pages build for Special practice chapters.
 
 - Open `index.html` for chapter links.
 - Chapter pages live in `chapters/`.

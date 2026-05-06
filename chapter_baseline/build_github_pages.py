@@ -32,6 +32,18 @@ CHAPTERS = [
         "source": CHAPTER_DATA / "ChapterA14Special_RenalUrogenitalStudy.html",
         "output": "A14.html",
     },
+    {
+        "id": "a16",
+        "title": "A16 Toxicology Study",
+        "source": CHAPTER_DATA / "ChapterA16Special_ToxicologyStudy.html",
+        "output": "A16.html",
+    },
+    {
+        "id": "c",
+        "title": "C EMS Study",
+        "source": CHAPTER_DATA / "ChapterCSpecial_EMSStudy.html",
+        "output": "C.html",
+    },
 ]
 
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp"}
@@ -201,7 +213,8 @@ def dir_size(path: Path) -> int:
 
 def build_index(manifest: dict[str, dict[str, str]]) -> None:
     cards = []
-    for chapter_id in ["a09", "a14"]:
+    for chapter in CHAPTERS:
+        chapter_id = chapter["id"]
         item = manifest[chapter_id]
         cards.append(
             f"""
@@ -271,7 +284,7 @@ def build_index(manifest: dict[str, dict[str, str]]) -> None:
     <div class="grid">
       {''.join(cards)}
     </div>
-    <footer>Generated from local A09/A14 chapter HTML.</footer>
+    <footer>Generated from local Special chapter HTML.</footer>
   </main>
 </body>
 </html>
@@ -284,7 +297,7 @@ def build_publish_notes() -> None:
     (DOCS / "README.md").write_text(
         """# ER Board Review Publish Build
 
-This folder is the optimized GitHub Pages build for A09/A14.
+This folder is the optimized GitHub Pages build for Special practice chapters.
 
 - Open `index.html` for chapter links.
 - Chapter pages live in `chapters/`.
