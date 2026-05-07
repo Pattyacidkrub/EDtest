@@ -373,6 +373,17 @@
     "disabled_links": "0",
     "missing": "0"
   },
+  "ch204": {
+    "title": "Ch.204 Industrial Toxins",
+    "html": "chapters/complete/Chapter204_IndustrialToxins.html",
+    "source": "_Handoff_20260506\\Complete\\Chapter204_IndustrialToxins.html",
+    "group": "complete",
+    "local_refs": "0",
+    "converted_images": "0",
+    "copied_assets": "0",
+    "disabled_links": "0",
+    "missing": "0"
+  },
   "ch207": {
     "title": "Ch.207 Dyshemoglobinemias",
     "html": "chapters/complete/Chapter207_Dyshemoglobinemias.html",
