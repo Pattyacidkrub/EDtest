@@ -285,6 +285,17 @@
     "disabled_links": "0",
     "missing": "0"
   },
+  "ch196": {
+    "title": "Ch.196 Antihypertensives",
+    "html": "chapters/complete/Chapter196_Antihypertensives.html",
+    "source": "_Handoff_20260506\\Complete\\Chapter196_Antihypertensives.html",
+    "group": "complete",
+    "local_refs": "0",
+    "converted_images": "0",
+    "copied_assets": "0",
+    "disabled_links": "0",
+    "missing": "0"
+  },
   "ch197": {
     "title": "Ch.197 Anticonvulsants",
     "html": "chapters/complete/Chapter197_Anticonvulsants.html",
