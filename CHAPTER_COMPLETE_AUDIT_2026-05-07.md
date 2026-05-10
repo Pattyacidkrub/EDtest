@@ -1,0 +1,78 @@
+# Chapter Complete / Quality Audit - 2026-05-07
+
+Complete chapter HTML total: **53**
+Quality gate summary: **53 PASS / 0 FAIL**
+Content gate: **53 PASS / 0 FAIL**
+
+Quality gates: Content PASS, Chapter201 Pattern PASS, MCQ >= 26, `<mark>` > 0, `<u>` > 0, source image count includes `source-figure`, `reference-image`, `fig-wrap`, and embedded `data:image`; crop QA PASS when source images exist; ATLS integrated for trauma chapters.
+
+## Failing Chapters
+
+- None
+
+## Detail Table
+
+| Ch | File | Status | Content | Content reason | MCQ | mark | u | source images | crop QA | ATLS hits | Reasons |
+|---:|---|---|---|---|---:|---:|---:|---:|---|---:|---|
+| 55 | Chapter055_CardiomyopathiesAndPericardialDisease.html | PASS | PASS | PASS | 26 | 14 | 2 | 17 | PASS | 0 | Fresh rebuild 2026-05-10; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; every Tintinalli figure/table included (14/14); Rosen source crops topic-local; cropQA PASS (17/17) |
+| 54 | Chapter054_ValvularEmergencies.html | PASS | PASS | PASS | 26 | 9 | 2 | 13 | PASS | 0 | Fresh rebuild 2026-05-10; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; every Tintinalli figure/table included (9/9); Rosen source crops topic-local; cropQA PASS (13/13) |
+| 53 | Chapter053_AcuteHeartFailure.html | PASS | PASS | PASS | 26 | 11 | 2 | 18 | PASS | 0 | Fresh rebuild 2026-05-10; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; every Tintinalli figure/table included (11/11); Rosen source crops topic-local; cropQA PASS (18/18) |
+| 52 | Chapter052_Syncope.html | PASS | PASS | PASS | 26 | 4 | 5 | 7 | PASS | 0 | Fresh rebuild 2026-05-10; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; every Tintinalli figure/table included (4/4); Rosen source crops topic-local; cropQA PASS (7/7) |
+| 51 | Chapter051_LowProbabilityAcuteCoronarySyndrome.html | PASS | PASS | PASS | 26 | 6 | 5 | 8 | PASS | 0 | Fresh rebuild 2026-05-10; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; every Tintinalli figure/table included (6/6); Rosen source crops topic-local; cropQA PASS (8/8) |
+| 50 | Chapter050_CardiogenicShock.html | PASS | PASS | PASS | 26 | 6 | 5 | 7 | PASS | 0 | Fresh rebuild 2026-05-10; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; every Tintinalli figure/table included (6/6); Rosen source crop topic-local; cropQA PASS (7/7) |
+| 49 | Chapter049_AcuteCoronarySyndromes.html | PASS | PASS | PASS | 26 | 25 | 6 | 28 | PASS | 0 | Fresh rebuild 2026-05-09; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; every Tintinalli figure/table included (25/25); Rosen source crops topic-local; cropQA PASS (28/28) |
+| 48 | Chapter048_ChestPain.html | PASS | PASS | PASS | 26 | 6 | 7 | 9 | PASS | 0 | Fresh rebuild 2026-05-09; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; every Tintinalli figure/table included (6/6); Rosen source crops topic-local; cropQA PASS (9/9) |
+| 1 | Chapter001_EmergencyMedicalServices.html | PASS | PASS | PASS | 26 | 2 | 4 | 3 | PASS | 0 | Fresh rebuild 2026-05-09; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; Tintinalli/Rosen source crops topic-local; cropQA PASS (3/3) |
+| 151 | Chapter151_Sepsis.html | PASS | PASS | PASS | 30 | 12 | 9 | 4 | PASS | 7 | Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; cropQA PASS (4/4); Rosen integrated |
+| 152 | Chapter152_SoftTissueInfections.html | PASS | PASS | PASS | 27 | 10 | 10 | 12 | PASS | 7 | Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; cropQA PASS (12/12); Rosen/ATLS integrated |
+| 176 | Chapter176_GeneralToxicology.html | PASS | PASS | PASS | 26 | 9 | 11 | 11 | PASS | 8 | Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; cropQA PASS (11/11); Rosen/ATLS integrated |
+| 177 | Chapter177_CyclicAntidepressants.html | PASS | PASS | PASS | 28 | 7 | 9 | 6 | PASS | 7 | Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; cropQA PASS (6/6); Rosen/ATLS integrated |
+| 178 | Chapter178_AtypicalAndSerotonergicAntidepressants.html | PASS | PASS | PASS | 26 | 5 | 8 | 13 | PASS | 0 | Rebuilt to Ch186/Ch201 gate; paragraph source crops removed; topic-local Tintinalli tables plus Rosen Box 141.1 and Box 141.2 embedded; MCQ all-option explanations PASS; cropQA PASS (13/13) |
+| 179 | Chapter179_MonoamineOxidaseInhibitors.html | PASS | PASS | PASS | 26 | 3 | 4 | 5 | PASS | 0 | Rebuilt to Ch186/Ch201 gate; paragraph source crops removed; topic-local Tintinalli tables plus Rosen Table 141.1 and Box 141.1 embedded; Table 179-2 recropped; MCQ all-option explanations PASS; cropQA PASS (5/5) |
+| 180 | Chapter180_Antipsychotics.html | PASS | PASS | PASS | 26 | 3 | 3 | 4 | PASS | 0 | Rebuilt to Ch186/Ch201 gate; paragraph source crops removed; topic-local Tintinalli tables plus Rosen Box 144.2 embedded in NMS differential; Table 180-3 recropped; MCQ all-option explanations PASS; cropQA PASS (4/4) |
+| 181 | Chapter181_Lithium.html | PASS | PASS | PASS | 26 | 3 | 4 | 5 | PASS | 0 | Rebuilt from scratch to Ch186/Ch201 gate; paragraph source crops removed; topic-local Tintinalli tables and Rosen boxes 135.7/135.10/135.11 embedded; Table 181-1 trimmed and Table 181-2 recropped; MCQ all-option explanations PASS; cropQA PASS (5/5) |
+| 182 | Chapter182_Barbiturates.html | PASS | PASS | PASS | 26 | 5 | 6 | 2 | PASS | 0 | Rebuilt from scratch to Ch186/Ch201 gate; legacy mcq blocks replaced with mcq-wrapper; topic-local Tintinalli Table 182-1 and Rosen Box 154.3 embedded; MCQ all-option explanations PASS; cropQA PASS (2/2) |
+| 183 | Chapter183_Benzodiazepines.html | PASS | PASS | PASS | 26 | 3 | 4 | 5 | PASS | 0 | Rebuilt from scratch to Ch186/Ch201 gate; legacy mcq blocks replaced with mcq-wrapper; topic-local Tintinalli Tables 183-1/183-2/183-3 and Rosen Boxes 154.1/154.2 embedded; MCQ all-option explanations PASS; cropQA PASS (5/5) |
+| 184 | Chapter184_NonbenzodiazepineSedatives.html | PASS | PASS | PASS | 26 | 3 | 3 | 3 | PASS | 0 | Rebuilt from scratch to Ch186/Ch201 gate; legacy mcq blocks replaced with mcq-wrapper; topic-local Tintinalli Tables 184-1/184-2 and Rosen Box 154.4 embedded; MCQ all-option explanations PASS; cropQA PASS (3/3) |
+| 185 | Chapter185_Alcohols.html | PASS | PASS | PASS | 31 | 8 | 11 | 13 | PASS | 2 | PASS |
+| 186 | Chapter186_Opioids.html | PASS | PASS | PASS | 31 | 4 | 6 | 8 | PASS | 21 | PASS; Pattern: PASS (Chapter201 layout/source/MCQ gate) |
+| 187 | Chapter187_CocaineAmphetamines.html | PASS | PASS | PASS | 28 | 7 | 3 | 5 | PASS | 8 | PASS |
+| 188 | Chapter188_Hallucinogens.html | PASS | PASS | PASS | 26 | 6 | 5 | 2 | PASS | 13 | PASS |
+| 189 | Chapter189_Salicylates.html | PASS | PASS | PASS | 26 | 6 | 5 | 3 | PASS | 8 | PASS |
+| 190 | Chapter190_Acetaminophen.html | PASS | PASS | PASS | 26 | 8 | 4 | 5 | PASS | 10 | PASS |
+| 191 | Chapter191_NSAIDs.html | PASS | PASS | PASS | 28 | 2 | 4 | 4 | PASS | 1 | PASS; Pattern: PASS (Chapter201 layout/source/MCQ gate) |
+| 192 | Chapter192_MethylxanthinesNicotine.html | PASS | PASS | PASS | 28 | 3 | 4 | 9 | PASS | 17 | PASS; Pattern: PASS (Chapter201 layout/source/MCQ gate) |
+| 193 | Chapter193_Digitalis.html | PASS | PASS | PASS | 28 | 3 | 6 | 4 | PASS | 14 | PASS; Pattern: PASS (Chapter201 layout/source/MCQ gate) |
+| 194 | Chapter194_BetaBlockers.html | PASS | PASS | PASS | 28 | 3 | 7 | 6 | PASS | 14 | PASS; Pattern: PASS (Chapter201 layout/source/MCQ gate) |
+| 195 | Chapter195_CalciumChannelBlockers.html | PASS | PASS | PASS | 28 | 3 | 5 | 5 | PASS | 12 | PASS; Pattern: PASS (Chapter201 layout/source/MCQ gate) |
+| 196 | Chapter196_Antihypertensives.html | PASS | PASS | PASS | 26 | 3 | 1 | 1 | PASS | 10 | PASS; Pattern: PASS (Chapter201 layout/source/MCQ gate) |
+| 197 | Chapter197_Anticonvulsants.html | PASS | PASS | PASS | 26 | 3 | 5 | 5 | PASS | 12 | PASS; Pattern: PASS (Chapter201 layout/source/MCQ gate) |
+| 198 | Chapter198_Iron.html | PASS | PASS | PASS | 26 | 8 | 5 | 8 | PASS | 0 | PASS; Pattern: PASS (Chapter201 layout/source/MCQ gate) |
+| 199 | Chapter199_HydrocarbonsVolatileSubstances.html | PASS | PASS | PASS | 26 | 7 | 9 | 8 | PASS | 1 | PASS; Pattern: PASS (Chapter201 layout/source/MCQ gate) |
+| 200 | Chapter200_CausticIngestions.html | PASS | PASS | PASS | 26 | 4 | 7 | 7 | PASS | 6 | PASS; Pattern: PASS (Chapter201 layout/source/MCQ gate) |
+| 201 | Chapter201_Pesticides.html | PASS | PASS | PASS | 35 | 23 | 86 | 12 | PASS | 2 | PASS |
+| 202 | Chapter202_Anticholinergics.html | PASS | PASS | PASS | 31 | 12 | 13 | 10 | PASS | 2 | PASS |
+| 203 | Chapter203_MetalsMetalloids.html | PASS | PASS | PASS | 26 | 3 | 5 | 15 | PASS | 2 | PASS; Pattern: PASS (Chapter201 layout/source/MCQ gate) |
+| 204 | Chapter204_IndustrialToxins.html | PASS | PASS | PASS | 26 | 23 | 19 | 12 | PASS | 0 | PASS; Pattern: PASS (Chapter201 layout/source/MCQ gate) |
+| 205 | Chapter205_VitaminsHerbals.html | PASS | PASS | PASS | 26 | 10 | 8 | 4 | PASS | 0 | PASS; Pattern: PASS (Chapter201 layout/source/MCQ gate) |
+| 206 | Chapter206_Antimicrobials.html | PASS | PASS | PASS | 26 | 9 | 5 | 2 | PASS | 0 | PASS; Pattern: PASS (Chapter201 layout/source/MCQ gate) |
+| 207 | Chapter207_Dyshemoglobinemias.html | PASS | PASS | PASS | 31 | 9 | 4 | 11 | PASS | 0 | PASS |
+| 208 | Chapter208_ColdInjuries.html | PASS | PASS | PASS | 104 | 3 | 3 | 7 | PASS | 2 | PASS |
+| 209 | Chapter209_Hypothermia.html | PASS | PASS | PASS | 28 | 12 | 16 | 7 | PASS | 13 | Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; cropQA PASS (7/7); Rosen/ATLS integrated |
+| 210 | Chapter210_HeatEmergencies.html | PASS | PASS | PASS | 27 | 13 | 18 | 5 | PASS | 9 | Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; cropQA PASS (5/5); Rosen/ATLS integrated |
+| 211 | Chapter211_BitesAndStings.html | PASS | PASS | PASS | 27 | 7 | 36 | 7 | PASS | 7 | Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; cropQA PASS (7/7); Rosen/ATLS integrated |
+| 212 | Chapter212_Snakebite.html | PASS | PASS | PASS | 26 | 6 | 27 | 6 | PASS | 8 | Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; cropQA PASS (6/6); Rosen/ATLS integrated |
+| 213 | Chapter213_MarineTraumaAndEnvenomation.html | PASS | PASS | PASS | 26 | 8 | 27 | 8 | PASS | 8 | Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; cropQA PASS (8/8); Rosen/ATLS integrated |
+| 254 | Chapter254_TraumaInAdults.html | PASS | PASS | PASS | 26 | 7 | 21 | 17 | PASS | 38 | Fresh rebuild 2026-05-09; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; Tintinalli/Rosen/ATLS source crops topic-local; ATLS integrated in body; cropQA PASS (17/17) |
+| 255 | Chapter255_ElderlyTrauma.html | PASS | PASS | PASS | 26 | 3 | 14 | 9 | PASS | 27 | Fresh rebuild 2026-05-09; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; Tintinalli/Rosen/ATLS source crops topic-local; ATLS integrated in body; cropQA PASS (9/9) |
+| 257 | Chapter257_HeadTrauma.html | PASS | PASS | PASS | 26 | 2 | 9 | 11 | PASS | 21 | Fresh rebuild 2026-05-09; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; Tintinalli/Rosen/ATLS source crops topic-local; ATLS integrated in body; cropQA PASS (11/11) |
+| 260 | Chapter260_NeckTrauma.html | PASS | PASS | PASS | 26 | 1 | 11 | 17 | PASS | 7 | From-zero rebuild 2026-05-09 after deletion; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; every Tintinalli figure/table included (14/14); Rosen/ATLS source crops topic-local; ATLS integrated in body; cropQA PASS (17/17) |
+| 56 | Chapter056_VenousThromboembolismPulmonaryEmbolism.html | PASS | PASS | PASS | 26 | 2 | 18 | 20 | PASS | 10 | Fresh rebuild 2026-05-10; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; every Tintinalli figure/table included (18/18); Rosen source crops topic-local; cropQA PASS (20/20) |
+| 57 | Chapter057_SystemicHypertension.html | PASS | PASS | PASS | 26 | 3 | 13 | 18 | PASS | 10 | Fresh rebuild 2026-05-10; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; every Tintinalli figure/table included (13/13); Rosen source crops topic-local; cropQA PASS (18/18) |
+| 58 | Chapter058_PulmonaryHypertension.html | PASS | PASS | PASS | 26 | 2 | 7 | 9 | PASS | 7 | Fresh rebuild 2026-05-10; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; every Tintinalli figure/table included (7/7); Rosen source crops topic-local; cropQA PASS (9/9) |
+| 59 | Chapter059_AorticDissectionAndRelatedAorticSyndromes.html | PASS | PASS | PASS | 26 | 3 | 7 | 10 | PASS | 5 | Fresh rebuild 2026-05-10; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; every Tintinalli figure/table included (7/7); Rosen source crops topic-local; cropQA PASS (10/10) |
+| 60 | Chapter060_AneurysmalDisease.html | PASS | PASS | PASS | 26 | 3 | 8 | 11 | PASS | 4 | Fresh rebuild 2026-05-10; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; every Tintinalli figure/table included (8/8); Rosen source crops topic-local; cropQA PASS (11/11) |
+| 61 | Chapter061_ArterialOcclusion.html | PASS | PASS | PASS | 26 | 2 | 6 | 8 | PASS | 4 | Fresh rebuild 2026-05-10; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; every Tintinalli figure/table included (6/6); Rosen source crops topic-local; cropQA PASS (8/8) |
+| 62 | Chapter062_RespiratoryDistress.html | PASS | PASS | PASS | 26 | 3 | 13 | 16 | PASS | 5 | Fresh rebuild 2026-05-10; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; every Tintinalli figure/table included (13/13); Rosen source crops topic-local; cropQA PASS (16/16) |
+| 63 | Chapter063_Hemoptysis.html | PASS | PASS | PASS | 26 | 3 | 4 | 7 | PASS | 4 | Fresh rebuild 2026-05-10; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; every Tintinalli figure/table included (4/4); Rosen source crops topic-local; cropQA PASS (7/7) |
+| 64 | Chapter064_AcuteBronchitisAndUpperRespiratoryTractInfections.html | PASS | PASS | PASS | 26 | 3 | 3 | 6 | PASS | 3 | Fresh rebuild 2026-05-10; Pattern: PASS; Content: PASS; MCQ all-option explanations PASS; every Tintinalli figure/table included (3/3); Rosen source crops topic-local; cropQA PASS (6/6) |
