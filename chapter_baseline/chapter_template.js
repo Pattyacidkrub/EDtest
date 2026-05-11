@@ -30,17 +30,19 @@
   }
 
   function applySidebarState(collapsed) {
-    if (!app || !sidebarButton) {
+    if (!app) {
       return;
     }
     app.classList.toggle("is-sidebar-collapsed", collapsed);
-    sidebarButton.textContent = collapsed ? "เปิดสารบัญ" : "ซ่อนสารบัญ";
-    sidebarButton.setAttribute("aria-expanded", String(!collapsed));
+    if (sidebarButton) {
+      sidebarButton.textContent = collapsed ? "เปิดสารบัญ" : "ซ่อนสารบัญ";
+      sidebarButton.setAttribute("aria-expanded", String(!collapsed));
+    }
   }
 
   function initSidebar() {
     const saved = localStorage.getItem(sidebarStorageKey);
-    const collapsed = saved === null ? mobileSidebarQuery.matches : saved === "true";
+    const collapsed = mobileSidebarQuery.matches || saved === "true";
     applySidebarState(collapsed);
   }
 
@@ -66,6 +68,12 @@
       scoreFill.style.width = width + "%";
     }
     if (scoreText) {
+      if (total === 0) {
+        scoreText.textContent = reviewOnlyTotal
+          ? `Source-only practice: ${reviewOnlyTotal} questions (not scored)`
+          : "No practice questions in this chapter";
+        return;
+      }
       scoreText.textContent = total === 0
         ? "ยังไม่มีข้อแบบฝึกหัดในบทนี้"
         : `ถูก ${correct} / ทำแล้ว ${answered} / นับคะแนน ${total} ข้อ${reviewOnlyTotal ? ` + ${reviewOnlyTotal} ต้องทบทวน source` : ""}`;
@@ -330,6 +338,12 @@
 
   if (sidebarButton) {
     sidebarButton.addEventListener("click", toggleSidebar);
+  }
+
+  if (mobileSidebarQuery.addEventListener) {
+    mobileSidebarQuery.addEventListener("change", initSidebar);
+  } else if (mobileSidebarQuery.addListener) {
+    mobileSidebarQuery.addListener(initSidebar);
   }
 
   links.forEach((link) => {

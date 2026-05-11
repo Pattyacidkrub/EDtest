@@ -1,19 +1,118 @@
 {
-  "a09": {
-    "title": "A09 Infectious Study",
-    "html": "chapters/A09.html",
-    "source": "chapter_data\\ChapterA09Special_InfectiousStudy.html",
+  "a01": {
+    "title": "A01 Abdominal and gastrointestinal disorders",
+    "html": "chapters/A01.html",
+    "source": "chapter_data\\ChapterA01Special_SolutionReady.html",
     "group": "special",
-    "local_refs": "162",
-    "converted_images": "160",
+    "local_refs": "56",
+    "converted_images": "54",
     "copied_assets": "2",
     "disabled_links": "0",
     "missing": "0"
   },
-  "a14": {
-    "title": "A14 Renal / Urogenital Study",
-    "html": "chapters/A14.html",
-    "source": "chapter_data\\ChapterA14Special_RenalUrogenitalStudy.html",
+  "a02": {
+    "title": "A02 Cardiovascular disorders",
+    "html": "chapters/A02.html",
+    "source": "chapter_data\\ChapterA02Special_SolutionReady.html",
+    "group": "special",
+    "local_refs": "116",
+    "converted_images": "114",
+    "copied_assets": "2",
+    "disabled_links": "0",
+    "missing": "0"
+  },
+  "a03": {
+    "title": "A03 Cutaneous disorders",
+    "html": "chapters/A03.html",
+    "source": "chapter_data\\ChapterA03Special_SolutionReady.html",
+    "group": "special",
+    "local_refs": "21",
+    "converted_images": "19",
+    "copied_assets": "2",
+    "disabled_links": "0",
+    "missing": "0"
+  },
+  "a04": {
+    "title": "A04 Endocrine, metabolic and nutritional disorders",
+    "html": "chapters/A04.html",
+    "source": "chapter_data\\ChapterA04Special_SolutionReady.html",
+    "group": "special",
+    "local_refs": "199",
+    "converted_images": "197",
+    "copied_assets": "2",
+    "disabled_links": "0",
+    "missing": "0"
+  },
+  "a05": {
+    "title": "A05 Environmental disorders",
+    "html": "chapters/A05.html",
+    "source": "chapter_data\\ChapterA05Special_SolutionReady.html",
+    "group": "special",
+    "local_refs": "53",
+    "converted_images": "51",
+    "copied_assets": "2",
+    "disabled_links": "0",
+    "missing": "0"
+  },
+  "a06": {
+    "title": "A06 Head, ear, eye, nose, throat disorders",
+    "html": "chapters/A06.html",
+    "source": "chapter_data\\ChapterA06Special_SolutionReady.html",
+    "group": "special",
+    "local_refs": "118",
+    "converted_images": "116",
+    "copied_assets": "2",
+    "disabled_links": "0",
+    "missing": "0"
+  },
+  "a07": {
+    "title": "A07 Hematologic disorders",
+    "html": "chapters/A07.html",
+    "source": "chapter_data\\ChapterA07Special_SolutionReady.html",
+    "group": "special",
+    "local_refs": "77",
+    "converted_images": "75",
+    "copied_assets": "2",
+    "disabled_links": "0",
+    "missing": "0"
+  },
+  "a08": {
+    "title": "A08 Immune system disorders",
+    "html": "chapters/A08.html",
+    "source": "chapter_data\\ChapterA08Special_SolutionReady.html",
+    "group": "special",
+    "local_refs": "24",
+    "converted_images": "22",
+    "copied_assets": "2",
+    "disabled_links": "0",
+    "missing": "0"
+  },
+  "a09": {
+    "title": "A09 System infectious disorders",
+    "html": "chapters/A09.html",
+    "source": "chapter_data\\ChapterA09Special_SolutionReady.html",
+    "group": "special",
+    "local_refs": "339",
+    "converted_images": "337",
+    "copied_assets": "2",
+    "disabled_links": "0",
+    "missing": "0"
+  },
+  "a10": {
+    "title": "A10 Musculoskeletal disorders (non-traumatic)",
+    "html": "chapters/A10.html",
+    "source": "chapter_data\\ChapterA10Special_SolutionReady.html",
+    "group": "special",
+    "local_refs": "24",
+    "converted_images": "22",
+    "copied_assets": "2",
+    "disabled_links": "0",
+    "missing": "0"
+  },
+  "a11": {
+    "title": "A11 Nervous system disorders",
+    "html": "chapters/A11.html",
+    "source": "chapter_data\\ChapterA11Special_SolutionReady.html",
     "group": "special",
     "local_refs": "44",
     "converted_images": "42",
@@ -21,24 +120,112 @@
     "disabled_links": "0",
     "missing": "0"
   },
-  "a16": {
-    "title": "A16 Toxicology Study",
-    "html": "chapters/A16.html",
-    "source": "chapter_data\\ChapterA16Special_ToxicologyStudy.html",
+  "a12": {
+    "title": "A12 Obstetrics and gynecology",
+    "html": "chapters/A12.html",
+    "source": "chapter_data\\ChapterA12Special_SolutionReady.html",
     "group": "special",
-    "local_refs": "244",
-    "converted_images": "242",
+    "local_refs": "37",
+    "converted_images": "35",
+    "copied_assets": "2",
+    "disabled_links": "0",
+    "missing": "0"
+  },
+  "a13": {
+    "title": "A13 Psychobehavioral disorders",
+    "html": "chapters/A13.html",
+    "source": "chapter_data\\ChapterA13Special_SolutionReady.html",
+    "group": "special",
+    "local_refs": "11",
+    "converted_images": "9",
+    "copied_assets": "2",
+    "disabled_links": "0",
+    "missing": "0"
+  },
+  "a14": {
+    "title": "A14 Renal and urogenital disorders",
+    "html": "chapters/A14.html",
+    "source": "chapter_data\\ChapterA14Special_SolutionReady.html",
+    "group": "special",
+    "local_refs": "217",
+    "converted_images": "215",
+    "copied_assets": "2",
+    "disabled_links": "0",
+    "missing": "0"
+  },
+  "a15": {
+    "title": "A15 Thoracic-respiratory disorders",
+    "html": "chapters/A15.html",
+    "source": "chapter_data\\ChapterA15Special_SolutionReady.html",
+    "group": "special",
+    "local_refs": "208",
+    "converted_images": "206",
+    "copied_assets": "2",
+    "disabled_links": "0",
+    "missing": "0"
+  },
+  "a16": {
+    "title": "A16 Toxicologic disorders",
+    "html": "chapters/A16.html",
+    "source": "chapter_data\\ChapterA16Special_SolutionReady.html",
+    "group": "special",
+    "local_refs": "256",
+    "converted_images": "254",
+    "copied_assets": "2",
+    "disabled_links": "0",
+    "missing": "0"
+  },
+  "a17": {
+    "title": "A17 Traumatic disorders",
+    "html": "chapters/A17.html",
+    "source": "chapter_data\\ChapterA17Special_SolutionReady.html",
+    "group": "special",
+    "local_refs": "145",
+    "converted_images": "143",
+    "copied_assets": "2",
+    "disabled_links": "0",
+    "missing": "0"
+  },
+  "b": {
+    "title": "B Emergency procedures",
+    "html": "chapters/B.html",
+    "source": "chapter_data\\ChapterBSpecial_SolutionReady.html",
+    "group": "special",
+    "local_refs": "145",
+    "converted_images": "143",
     "copied_assets": "2",
     "disabled_links": "0",
     "missing": "0"
   },
   "c": {
-    "title": "C EMS Study",
+    "title": "C EMS knowledge and command skills",
     "html": "chapters/C.html",
-    "source": "chapter_data\\ChapterCSpecial_EMSStudy.html",
+    "source": "chapter_data\\ChapterCSpecial_SolutionReady.html",
     "group": "special",
-    "local_refs": "146",
-    "converted_images": "144",
+    "local_refs": "164",
+    "converted_images": "162",
+    "copied_assets": "2",
+    "disabled_links": "0",
+    "missing": "0"
+  },
+  "d": {
+    "title": "D Laboratory and interpretation skills",
+    "html": "chapters/D.html",
+    "source": "chapter_data\\ChapterDSpecial_SolutionReady.html",
+    "group": "special",
+    "local_refs": "222",
+    "converted_images": "220",
+    "copied_assets": "2",
+    "disabled_links": "0",
+    "missing": "0"
+  },
+  "e": {
+    "title": "E Ethics, professionalism and management in EM",
+    "html": "chapters/E.html",
+    "source": "chapter_data\\ChapterESpecial_SolutionReady.html",
+    "group": "special",
+    "local_refs": "23",
+    "converted_images": "21",
     "copied_assets": "2",
     "disabled_links": "0",
     "missing": "0"
@@ -319,7 +506,7 @@
     "missing": "0"
   },
   "ch199": {
-    "title": "Ch.199 Hydrocarbons and Volatile Substances",
+    "title": "Ch.199 Hydrocarbons Volatile Substances",
     "html": "chapters/complete/Chapter199_HydrocarbonsVolatileSubstances.html",
     "source": "_Handoff_20260506\\Complete\\Chapter199_HydrocarbonsVolatileSubstances.html",
     "group": "complete",
@@ -363,7 +550,7 @@
     "missing": "0"
   },
   "ch203": {
-    "title": "Ch.203 Metals and Metalloids",
+    "title": "Ch.203 Metals Metalloids",
     "html": "chapters/complete/Chapter203_MetalsMetalloids.html",
     "source": "_Handoff_20260506\\Complete\\Chapter203_MetalsMetalloids.html",
     "group": "complete",

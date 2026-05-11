@@ -48,14 +48,15 @@
     .filter-button span { color: var(--muted); font-size: .8rem; }
     .filter-button.is-active { background: var(--accent); border-color: var(--accent); color: #fff; }
     .filter-button.is-active span { color: rgba(255,255,255,.8); }
-    .section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; margin: 22px 0 9px; }
+    .section-block { margin-top: 22px; }
+    .section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; margin: 0 0 9px; }
     h2 { margin: 0; color: var(--rust); font-size: 1rem; letter-spacing: 0; }
     .result-count { color: var(--muted); font-size: .9rem; }
     .chapter-list { overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); box-shadow: 0 1px 0 rgba(20,30,35,.03); }
     .chapter-row { min-height: 58px; display: grid; grid-template-columns: 86px 1fr 132px 28px; gap: 12px; align-items: center; padding: 10px 14px; border-top: 1px solid var(--line); color: inherit; text-decoration: none; }
     .chapter-row:first-child { border-top: 0; }
     .chapter-row:hover { background: #f9fcfc; }
-    .chapter-row[hidden] { display: none !important; }
+    .chapter-row[hidden], .section-block[hidden] { display: none !important; }
     .chapter-no { color: var(--rust); font-weight: 800; font-size: .86rem; }
     .chapter-main strong { display: block; font-size: 1rem; font-weight: 720; }
     .chapter-main span { display: none; color: var(--accent-dark); font-weight: 700; font-size: .86rem; margin-top: 2px; }
@@ -67,12 +68,10 @@
     .category-trauma { background: #eceefa; color: #4c5791; }
     .category-infectious { background: #f4eef8; color: #72518b; }
     .category-ems { background: #f1efe9; color: #695d47; }
+    .category-special { background: #e7f6f7; color: #0f717a; }
     .open-mark { color: var(--muted); font-size: 1.35rem; line-height: 1; }
     .empty { display: none; padding: 22px; border: 1px dashed var(--line); border-radius: 8px; background: var(--surface); color: var(--muted); }
-    .special-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 9px; }
-    .special-row { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; padding: 12px 13px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: inherit; text-decoration: none; }
-    .special-row span { color: var(--rust); font-weight: 800; }
-    .special-row i { color: var(--accent); font-style: normal; font-weight: 700; font-size: .86rem; }
+    .empty.is-visible { display: block; }
     footer { margin-top: 26px; color: var(--muted); font-size: .88rem; }
     @media (max-width: 760px) {
       main { width: min(100% - 22px, 1080px); padding-top: 16px; }
@@ -100,449 +99,601 @@
         <h1>ER Board Review</h1>
         <p class="lede">Fast chapter library for board review. Search by chapter number, topic, or section.</p>
       </div>
-      <div class="stats"><div class="stat"><strong>62</strong><span>complete chapters</span></div></div>
+      <div class="stats"><div class="stat"><strong>62</strong><span>complete chapters</span></div><div class="stat"><strong>21</strong><span>special sets</span></div></div>
     </header>
 
     <section class="toolbar" aria-label="Chapter search and filters">
       <div class="search-row">
-        <input id="chapterSearch" class="search-input" type="search" placeholder="Search: 48, chest pain, tox, trauma..." autocomplete="off">
+        <input id="chapterSearch" class="search-input" type="search" placeholder="Search: ข้อสอบเก่า, A09, 48, chest pain, tox..." autocomplete="off">
         <button id="clearSearch" class="clear-button" type="button">Clear</button>
       </div>
-      <div class="filters" aria-label="Chapter categories">
-        <button class="filter-button is-active" type="button" data-filter="All">All<span>62</span></button> <button class="filter-button" type="button" data-filter="Cardiology">Cardiology<span>14</span></button> <button class="filter-button" type="button" data-filter="Pulmonary">Pulmonary<span>3</span></button> <button class="filter-button" type="button" data-filter="Toxicology">Toxicology<span>32</span></button> <button class="filter-button" type="button" data-filter="Environmental">Environmental<span>6</span></button> <button class="filter-button" type="button" data-filter="Trauma">Trauma<span>4</span></button> <button class="filter-button" type="button" data-filter="Infectious">Infectious<span>2</span></button> <button class="filter-button" type="button" data-filter="EMS">EMS<span>1</span></button>
+      <div class="filters" aria-label="Complete chapter categories">
+        <button class="filter-button is-active" type="button" data-filter="All">All<span>62</span></button> <button class="filter-button" type="button" data-filter="ข้อสอบเก่า">ข้อสอบเก่า<span>21</span></button> <button class="filter-button" type="button" data-filter="Cardiology">Cardiology<span>14</span></button> <button class="filter-button" type="button" data-filter="Pulmonary">Pulmonary<span>3</span></button> <button class="filter-button" type="button" data-filter="Toxicology">Toxicology<span>32</span></button> <button class="filter-button" type="button" data-filter="Environmental">Environmental<span>6</span></button> <button class="filter-button" type="button" data-filter="Trauma">Trauma<span>4</span></button> <button class="filter-button" type="button" data-filter="Infectious">Infectious<span>2</span></button> <button class="filter-button" type="button" data-filter="EMS">EMS<span>1</span></button>
       </div>
     </section>
 
-    <section>
-      <div class="section-head"><h2>Complete Chapters</h2><span id="resultCount" class="result-count">62 shown</span></div>
+    <section id="specialSection" class="section-block">
+      <div class="section-head"><h2>ข้อสอบเก่า</h2><span id="specialResultCount" class="result-count">21 shown</span></div>
+      <div id="specialList" class="chapter-list">
+      <a class="chapter-row special-row" href="chapters/A01.html" data-type="special" data-title="a01 a01 abdominal and gastrointestinal disorders ข้อสอบเก่า old exam special" data-chapter="a01" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">A01</span>
+        <span class="chapter-main"><strong>A01 Abdominal and gastrointestinal disorders</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/A02.html" data-type="special" data-title="a02 a02 cardiovascular disorders ข้อสอบเก่า old exam special" data-chapter="a02" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">A02</span>
+        <span class="chapter-main"><strong>A02 Cardiovascular disorders</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/A03.html" data-type="special" data-title="a03 a03 cutaneous disorders ข้อสอบเก่า old exam special" data-chapter="a03" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">A03</span>
+        <span class="chapter-main"><strong>A03 Cutaneous disorders</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/A04.html" data-type="special" data-title="a04 a04 endocrine, metabolic and nutritional disorders ข้อสอบเก่า old exam special" data-chapter="a04" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">A04</span>
+        <span class="chapter-main"><strong>A04 Endocrine, metabolic and nutritional disorders</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/A05.html" data-type="special" data-title="a05 a05 environmental disorders ข้อสอบเก่า old exam special" data-chapter="a05" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">A05</span>
+        <span class="chapter-main"><strong>A05 Environmental disorders</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/A06.html" data-type="special" data-title="a06 a06 head, ear, eye, nose, throat disorders ข้อสอบเก่า old exam special" data-chapter="a06" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">A06</span>
+        <span class="chapter-main"><strong>A06 Head, ear, eye, nose, throat disorders</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/A07.html" data-type="special" data-title="a07 a07 hematologic disorders ข้อสอบเก่า old exam special" data-chapter="a07" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">A07</span>
+        <span class="chapter-main"><strong>A07 Hematologic disorders</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/A08.html" data-type="special" data-title="a08 a08 immune system disorders ข้อสอบเก่า old exam special" data-chapter="a08" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">A08</span>
+        <span class="chapter-main"><strong>A08 Immune system disorders</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/A09.html" data-type="special" data-title="a09 a09 system infectious disorders ข้อสอบเก่า old exam special" data-chapter="a09" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">A09</span>
+        <span class="chapter-main"><strong>A09 System infectious disorders</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/A10.html" data-type="special" data-title="a10 a10 musculoskeletal disorders (non-traumatic) ข้อสอบเก่า old exam special" data-chapter="a10" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">A10</span>
+        <span class="chapter-main"><strong>A10 Musculoskeletal disorders (non-traumatic)</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/A11.html" data-type="special" data-title="a11 a11 nervous system disorders ข้อสอบเก่า old exam special" data-chapter="a11" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">A11</span>
+        <span class="chapter-main"><strong>A11 Nervous system disorders</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/A12.html" data-type="special" data-title="a12 a12 obstetrics and gynecology ข้อสอบเก่า old exam special" data-chapter="a12" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">A12</span>
+        <span class="chapter-main"><strong>A12 Obstetrics and gynecology</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/A13.html" data-type="special" data-title="a13 a13 psychobehavioral disorders ข้อสอบเก่า old exam special" data-chapter="a13" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">A13</span>
+        <span class="chapter-main"><strong>A13 Psychobehavioral disorders</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/A14.html" data-type="special" data-title="a14 a14 renal and urogenital disorders ข้อสอบเก่า old exam special" data-chapter="a14" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">A14</span>
+        <span class="chapter-main"><strong>A14 Renal and urogenital disorders</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/A15.html" data-type="special" data-title="a15 a15 thoracic-respiratory disorders ข้อสอบเก่า old exam special" data-chapter="a15" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">A15</span>
+        <span class="chapter-main"><strong>A15 Thoracic-respiratory disorders</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/A16.html" data-type="special" data-title="a16 a16 toxicologic disorders ข้อสอบเก่า old exam special" data-chapter="a16" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">A16</span>
+        <span class="chapter-main"><strong>A16 Toxicologic disorders</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/A17.html" data-type="special" data-title="a17 a17 traumatic disorders ข้อสอบเก่า old exam special" data-chapter="a17" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">A17</span>
+        <span class="chapter-main"><strong>A17 Traumatic disorders</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/B.html" data-type="special" data-title="b b emergency procedures ข้อสอบเก่า old exam special" data-chapter="b" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">B</span>
+        <span class="chapter-main"><strong>B Emergency procedures</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/C.html" data-type="special" data-title="c c ems knowledge and command skills ข้อสอบเก่า old exam special" data-chapter="c" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">C</span>
+        <span class="chapter-main"><strong>C EMS knowledge and command skills</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/D.html" data-type="special" data-title="d d laboratory and interpretation skills ข้อสอบเก่า old exam special" data-chapter="d" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">D</span>
+        <span class="chapter-main"><strong>D Laboratory and interpretation skills</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      <a class="chapter-row special-row" href="chapters/E.html" data-type="special" data-title="e e ethics, professionalism and management in em ข้อสอบเก่า old exam special" data-chapter="e" data-category="ข้อสอบเก่า">
+        <span class="chapter-no">E</span>
+        <span class="chapter-main"><strong>E Ethics, professionalism and management in EM</strong><span>เปิดข้อสอบเก่า</span></span>
+        <span class="category-pill category-special">ข้อสอบเก่า</span>
+        <span class="open-mark" aria-hidden="true">›</span>
+      </a>
+      </div>
+    </section>
+
+    <section id="chapterSection" class="section-block">
+      <div class="section-head"><h2>Complete Chapters</h2><span id="chapterResultCount" class="result-count">62 shown</span></div>
       <div id="chapterList" class="chapter-list">
-      <a class="chapter-row" href="chapters/complete/Chapter001_EmergencyMedicalServices.html" data-title="emergency medical services" data-chapter="1" data-category="EMS">
+      <a class="chapter-row" href="chapters/complete/Chapter001_EmergencyMedicalServices.html" data-type="chapter" data-title="emergency medical services" data-chapter="1" data-category="EMS">
         <span class="chapter-no">CH001</span>
         <span class="chapter-main"><strong>Emergency Medical Services</strong><span>Open chapter</span></span>
         <span class="category-pill category-ems">EMS</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter048_ChestPain.html" data-title="chest pain" data-chapter="48" data-category="Cardiology">
+      <a class="chapter-row" href="chapters/complete/Chapter048_ChestPain.html" data-type="chapter" data-title="chest pain" data-chapter="48" data-category="Cardiology">
         <span class="chapter-no">CH048</span>
         <span class="chapter-main"><strong>Chest Pain</strong><span>Open chapter</span></span>
         <span class="category-pill category-cardiology">Cardiology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter049_AcuteCoronarySyndromes.html" data-title="acute coronary syndromes" data-chapter="49" data-category="Cardiology">
+      <a class="chapter-row" href="chapters/complete/Chapter049_AcuteCoronarySyndromes.html" data-type="chapter" data-title="acute coronary syndromes" data-chapter="49" data-category="Cardiology">
         <span class="chapter-no">CH049</span>
         <span class="chapter-main"><strong>Acute Coronary Syndromes</strong><span>Open chapter</span></span>
         <span class="category-pill category-cardiology">Cardiology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter050_CardiogenicShock.html" data-title="cardiogenic shock" data-chapter="50" data-category="Cardiology">
+      <a class="chapter-row" href="chapters/complete/Chapter050_CardiogenicShock.html" data-type="chapter" data-title="cardiogenic shock" data-chapter="50" data-category="Cardiology">
         <span class="chapter-no">CH050</span>
         <span class="chapter-main"><strong>Cardiogenic Shock</strong><span>Open chapter</span></span>
         <span class="category-pill category-cardiology">Cardiology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter051_LowProbabilityAcuteCoronarySyndrome.html" data-title="low probability acute coronary syndrome" data-chapter="51" data-category="Cardiology">
+      <a class="chapter-row" href="chapters/complete/Chapter051_LowProbabilityAcuteCoronarySyndrome.html" data-type="chapter" data-title="low probability acute coronary syndrome" data-chapter="51" data-category="Cardiology">
         <span class="chapter-no">CH051</span>
         <span class="chapter-main"><strong>Low Probability Acute Coronary Syndrome</strong><span>Open chapter</span></span>
         <span class="category-pill category-cardiology">Cardiology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter052_Syncope.html" data-title="syncope" data-chapter="52" data-category="Cardiology">
+      <a class="chapter-row" href="chapters/complete/Chapter052_Syncope.html" data-type="chapter" data-title="syncope" data-chapter="52" data-category="Cardiology">
         <span class="chapter-no">CH052</span>
         <span class="chapter-main"><strong>Syncope</strong><span>Open chapter</span></span>
         <span class="category-pill category-cardiology">Cardiology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter053_AcuteHeartFailure.html" data-title="acute heart failure" data-chapter="53" data-category="Cardiology">
+      <a class="chapter-row" href="chapters/complete/Chapter053_AcuteHeartFailure.html" data-type="chapter" data-title="acute heart failure" data-chapter="53" data-category="Cardiology">
         <span class="chapter-no">CH053</span>
         <span class="chapter-main"><strong>Acute Heart Failure</strong><span>Open chapter</span></span>
         <span class="category-pill category-cardiology">Cardiology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter054_ValvularEmergencies.html" data-title="valvular emergencies" data-chapter="54" data-category="Cardiology">
+      <a class="chapter-row" href="chapters/complete/Chapter054_ValvularEmergencies.html" data-type="chapter" data-title="valvular emergencies" data-chapter="54" data-category="Cardiology">
         <span class="chapter-no">CH054</span>
         <span class="chapter-main"><strong>Valvular Emergencies</strong><span>Open chapter</span></span>
         <span class="category-pill category-cardiology">Cardiology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter055_CardiomyopathiesAndPericardialDisease.html" data-title="cardiomyopathies and pericardial disease" data-chapter="55" data-category="Cardiology">
+      <a class="chapter-row" href="chapters/complete/Chapter055_CardiomyopathiesAndPericardialDisease.html" data-type="chapter" data-title="cardiomyopathies and pericardial disease" data-chapter="55" data-category="Cardiology">
         <span class="chapter-no">CH055</span>
         <span class="chapter-main"><strong>Cardiomyopathies And Pericardial Disease</strong><span>Open chapter</span></span>
         <span class="category-pill category-cardiology">Cardiology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter056_VenousThromboembolismPulmonaryEmbolism.html" data-title="venous thromboembolism pulmonary embolism" data-chapter="56" data-category="Cardiology">
+      <a class="chapter-row" href="chapters/complete/Chapter056_VenousThromboembolismPulmonaryEmbolism.html" data-type="chapter" data-title="venous thromboembolism pulmonary embolism" data-chapter="56" data-category="Cardiology">
         <span class="chapter-no">CH056</span>
         <span class="chapter-main"><strong>Venous Thromboembolism Pulmonary Embolism</strong><span>Open chapter</span></span>
         <span class="category-pill category-cardiology">Cardiology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter057_SystemicHypertension.html" data-title="systemic hypertension" data-chapter="57" data-category="Cardiology">
+      <a class="chapter-row" href="chapters/complete/Chapter057_SystemicHypertension.html" data-type="chapter" data-title="systemic hypertension" data-chapter="57" data-category="Cardiology">
         <span class="chapter-no">CH057</span>
         <span class="chapter-main"><strong>Systemic Hypertension</strong><span>Open chapter</span></span>
         <span class="category-pill category-cardiology">Cardiology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter058_PulmonaryHypertension.html" data-title="pulmonary hypertension" data-chapter="58" data-category="Cardiology">
+      <a class="chapter-row" href="chapters/complete/Chapter058_PulmonaryHypertension.html" data-type="chapter" data-title="pulmonary hypertension" data-chapter="58" data-category="Cardiology">
         <span class="chapter-no">CH058</span>
         <span class="chapter-main"><strong>Pulmonary Hypertension</strong><span>Open chapter</span></span>
         <span class="category-pill category-cardiology">Cardiology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter059_AorticDissectionAndRelatedAorticSyndromes.html" data-title="aortic dissection and related aortic syndromes" data-chapter="59" data-category="Cardiology">
+      <a class="chapter-row" href="chapters/complete/Chapter059_AorticDissectionAndRelatedAorticSyndromes.html" data-type="chapter" data-title="aortic dissection and related aortic syndromes" data-chapter="59" data-category="Cardiology">
         <span class="chapter-no">CH059</span>
         <span class="chapter-main"><strong>Aortic Dissection And Related Aortic Syndromes</strong><span>Open chapter</span></span>
         <span class="category-pill category-cardiology">Cardiology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter060_AneurysmalDisease.html" data-title="aneurysmal disease" data-chapter="60" data-category="Cardiology">
+      <a class="chapter-row" href="chapters/complete/Chapter060_AneurysmalDisease.html" data-type="chapter" data-title="aneurysmal disease" data-chapter="60" data-category="Cardiology">
         <span class="chapter-no">CH060</span>
         <span class="chapter-main"><strong>Aneurysmal Disease</strong><span>Open chapter</span></span>
         <span class="category-pill category-cardiology">Cardiology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter061_ArterialOcclusion.html" data-title="arterial occlusion" data-chapter="61" data-category="Cardiology">
+      <a class="chapter-row" href="chapters/complete/Chapter061_ArterialOcclusion.html" data-type="chapter" data-title="arterial occlusion" data-chapter="61" data-category="Cardiology">
         <span class="chapter-no">CH061</span>
         <span class="chapter-main"><strong>Arterial Occlusion</strong><span>Open chapter</span></span>
         <span class="category-pill category-cardiology">Cardiology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter062_RespiratoryDistress.html" data-title="respiratory distress" data-chapter="62" data-category="Pulmonary">
+      <a class="chapter-row" href="chapters/complete/Chapter062_RespiratoryDistress.html" data-type="chapter" data-title="respiratory distress" data-chapter="62" data-category="Pulmonary">
         <span class="chapter-no">CH062</span>
         <span class="chapter-main"><strong>Respiratory Distress</strong><span>Open chapter</span></span>
         <span class="category-pill category-pulmonary">Pulmonary</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter063_Hemoptysis.html" data-title="hemoptysis" data-chapter="63" data-category="Pulmonary">
+      <a class="chapter-row" href="chapters/complete/Chapter063_Hemoptysis.html" data-type="chapter" data-title="hemoptysis" data-chapter="63" data-category="Pulmonary">
         <span class="chapter-no">CH063</span>
         <span class="chapter-main"><strong>Hemoptysis</strong><span>Open chapter</span></span>
         <span class="category-pill category-pulmonary">Pulmonary</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter064_AcuteBronchitisAndUpperRespiratoryTractInfections.html" data-title="acute bronchitis and upper respiratory tract infections" data-chapter="64" data-category="Pulmonary">
+      <a class="chapter-row" href="chapters/complete/Chapter064_AcuteBronchitisAndUpperRespiratoryTractInfections.html" data-type="chapter" data-title="acute bronchitis and upper respiratory tract infections" data-chapter="64" data-category="Pulmonary">
         <span class="chapter-no">CH064</span>
         <span class="chapter-main"><strong>Acute Bronchitis And Upper Respiratory Tract Infections</strong><span>Open chapter</span></span>
         <span class="category-pill category-pulmonary">Pulmonary</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter151_Sepsis.html" data-title="sepsis" data-chapter="151" data-category="Infectious">
+      <a class="chapter-row" href="chapters/complete/Chapter151_Sepsis.html" data-type="chapter" data-title="sepsis" data-chapter="151" data-category="Infectious">
         <span class="chapter-no">CH151</span>
         <span class="chapter-main"><strong>Sepsis</strong><span>Open chapter</span></span>
         <span class="category-pill category-infectious">Infectious</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter152_SoftTissueInfections.html" data-title="soft tissue infections" data-chapter="152" data-category="Infectious">
+      <a class="chapter-row" href="chapters/complete/Chapter152_SoftTissueInfections.html" data-type="chapter" data-title="soft tissue infections" data-chapter="152" data-category="Infectious">
         <span class="chapter-no">CH152</span>
         <span class="chapter-main"><strong>Soft Tissue Infections</strong><span>Open chapter</span></span>
         <span class="category-pill category-infectious">Infectious</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter176_GeneralToxicology.html" data-title="general toxicology" data-chapter="176" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter176_GeneralToxicology.html" data-type="chapter" data-title="general toxicology" data-chapter="176" data-category="Toxicology">
         <span class="chapter-no">CH176</span>
         <span class="chapter-main"><strong>General Toxicology</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter177_CyclicAntidepressants.html" data-title="cyclic antidepressants" data-chapter="177" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter177_CyclicAntidepressants.html" data-type="chapter" data-title="cyclic antidepressants" data-chapter="177" data-category="Toxicology">
         <span class="chapter-no">CH177</span>
         <span class="chapter-main"><strong>Cyclic Antidepressants</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter178_AtypicalAndSerotonergicAntidepressants.html" data-title="atypical and serotonergic antidepressants" data-chapter="178" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter178_AtypicalAndSerotonergicAntidepressants.html" data-type="chapter" data-title="atypical and serotonergic antidepressants" data-chapter="178" data-category="Toxicology">
         <span class="chapter-no">CH178</span>
         <span class="chapter-main"><strong>Atypical And Serotonergic Antidepressants</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter179_MonoamineOxidaseInhibitors.html" data-title="monoamine oxidase inhibitors" data-chapter="179" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter179_MonoamineOxidaseInhibitors.html" data-type="chapter" data-title="monoamine oxidase inhibitors" data-chapter="179" data-category="Toxicology">
         <span class="chapter-no">CH179</span>
         <span class="chapter-main"><strong>Monoamine Oxidase Inhibitors</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter180_Antipsychotics.html" data-title="antipsychotics" data-chapter="180" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter180_Antipsychotics.html" data-type="chapter" data-title="antipsychotics" data-chapter="180" data-category="Toxicology">
         <span class="chapter-no">CH180</span>
         <span class="chapter-main"><strong>Antipsychotics</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter181_Lithium.html" data-title="lithium" data-chapter="181" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter181_Lithium.html" data-type="chapter" data-title="lithium" data-chapter="181" data-category="Toxicology">
         <span class="chapter-no">CH181</span>
         <span class="chapter-main"><strong>Lithium</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter182_Barbiturates.html" data-title="barbiturates" data-chapter="182" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter182_Barbiturates.html" data-type="chapter" data-title="barbiturates" data-chapter="182" data-category="Toxicology">
         <span class="chapter-no">CH182</span>
         <span class="chapter-main"><strong>Barbiturates</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter183_Benzodiazepines.html" data-title="benzodiazepines" data-chapter="183" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter183_Benzodiazepines.html" data-type="chapter" data-title="benzodiazepines" data-chapter="183" data-category="Toxicology">
         <span class="chapter-no">CH183</span>
         <span class="chapter-main"><strong>Benzodiazepines</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter184_NonbenzodiazepineSedatives.html" data-title="nonbenzodiazepine sedatives" data-chapter="184" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter184_NonbenzodiazepineSedatives.html" data-type="chapter" data-title="nonbenzodiazepine sedatives" data-chapter="184" data-category="Toxicology">
         <span class="chapter-no">CH184</span>
         <span class="chapter-main"><strong>Nonbenzodiazepine Sedatives</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter185_Alcohols.html" data-title="alcohols" data-chapter="185" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter185_Alcohols.html" data-type="chapter" data-title="alcohols" data-chapter="185" data-category="Toxicology">
         <span class="chapter-no">CH185</span>
         <span class="chapter-main"><strong>Alcohols</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter186_Opioids.html" data-title="opioids" data-chapter="186" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter186_Opioids.html" data-type="chapter" data-title="opioids" data-chapter="186" data-category="Toxicology">
         <span class="chapter-no">CH186</span>
         <span class="chapter-main"><strong>Opioids</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter187_CocaineAmphetamines.html" data-title="cocaine amphetamines" data-chapter="187" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter187_CocaineAmphetamines.html" data-type="chapter" data-title="cocaine amphetamines" data-chapter="187" data-category="Toxicology">
         <span class="chapter-no">CH187</span>
         <span class="chapter-main"><strong>Cocaine Amphetamines</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter188_Hallucinogens.html" data-title="hallucinogens" data-chapter="188" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter188_Hallucinogens.html" data-type="chapter" data-title="hallucinogens" data-chapter="188" data-category="Toxicology">
         <span class="chapter-no">CH188</span>
         <span class="chapter-main"><strong>Hallucinogens</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter189_Salicylates.html" data-title="salicylates" data-chapter="189" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter189_Salicylates.html" data-type="chapter" data-title="salicylates" data-chapter="189" data-category="Toxicology">
         <span class="chapter-no">CH189</span>
         <span class="chapter-main"><strong>Salicylates</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter190_Acetaminophen.html" data-title="acetaminophen" data-chapter="190" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter190_Acetaminophen.html" data-type="chapter" data-title="acetaminophen" data-chapter="190" data-category="Toxicology">
         <span class="chapter-no">CH190</span>
         <span class="chapter-main"><strong>Acetaminophen</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter191_NSAIDs.html" data-title="nsaids" data-chapter="191" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter191_NSAIDs.html" data-type="chapter" data-title="nsaids" data-chapter="191" data-category="Toxicology">
         <span class="chapter-no">CH191</span>
         <span class="chapter-main"><strong>NSAIDs</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter192_MethylxanthinesNicotine.html" data-title="methylxanthines nicotine" data-chapter="192" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter192_MethylxanthinesNicotine.html" data-type="chapter" data-title="methylxanthines nicotine" data-chapter="192" data-category="Toxicology">
         <span class="chapter-no">CH192</span>
         <span class="chapter-main"><strong>Methylxanthines Nicotine</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter193_Digitalis.html" data-title="digitalis" data-chapter="193" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter193_Digitalis.html" data-type="chapter" data-title="digitalis" data-chapter="193" data-category="Toxicology">
         <span class="chapter-no">CH193</span>
         <span class="chapter-main"><strong>Digitalis</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter194_BetaBlockers.html" data-title="beta blockers" data-chapter="194" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter194_BetaBlockers.html" data-type="chapter" data-title="beta blockers" data-chapter="194" data-category="Toxicology">
         <span class="chapter-no">CH194</span>
         <span class="chapter-main"><strong>Beta Blockers</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter195_CalciumChannelBlockers.html" data-title="calcium channel blockers" data-chapter="195" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter195_CalciumChannelBlockers.html" data-type="chapter" data-title="calcium channel blockers" data-chapter="195" data-category="Toxicology">
         <span class="chapter-no">CH195</span>
         <span class="chapter-main"><strong>Calcium Channel Blockers</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter196_Antihypertensives.html" data-title="antihypertensives" data-chapter="196" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter196_Antihypertensives.html" data-type="chapter" data-title="antihypertensives" data-chapter="196" data-category="Toxicology">
         <span class="chapter-no">CH196</span>
         <span class="chapter-main"><strong>Antihypertensives</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter197_Anticonvulsants.html" data-title="anticonvulsants" data-chapter="197" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter197_Anticonvulsants.html" data-type="chapter" data-title="anticonvulsants" data-chapter="197" data-category="Toxicology">
         <span class="chapter-no">CH197</span>
         <span class="chapter-main"><strong>Anticonvulsants</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter198_Iron.html" data-title="iron" data-chapter="198" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter198_Iron.html" data-type="chapter" data-title="iron" data-chapter="198" data-category="Toxicology">
         <span class="chapter-no">CH198</span>
         <span class="chapter-main"><strong>Iron</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter199_HydrocarbonsVolatileSubstances.html" data-title="hydrocarbons volatile substances" data-chapter="199" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter199_HydrocarbonsVolatileSubstances.html" data-type="chapter" data-title="hydrocarbons volatile substances" data-chapter="199" data-category="Toxicology">
         <span class="chapter-no">CH199</span>
         <span class="chapter-main"><strong>Hydrocarbons Volatile Substances</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter200_CausticIngestions.html" data-title="caustic ingestions" data-chapter="200" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter200_CausticIngestions.html" data-type="chapter" data-title="caustic ingestions" data-chapter="200" data-category="Toxicology">
         <span class="chapter-no">CH200</span>
         <span class="chapter-main"><strong>Caustic Ingestions</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter201_Pesticides.html" data-title="pesticides" data-chapter="201" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter201_Pesticides.html" data-type="chapter" data-title="pesticides" data-chapter="201" data-category="Toxicology">
         <span class="chapter-no">CH201</span>
         <span class="chapter-main"><strong>Pesticides</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter202_Anticholinergics.html" data-title="anticholinergics" data-chapter="202" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter202_Anticholinergics.html" data-type="chapter" data-title="anticholinergics" data-chapter="202" data-category="Toxicology">
         <span class="chapter-no">CH202</span>
         <span class="chapter-main"><strong>Anticholinergics</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter203_MetalsMetalloids.html" data-title="metals metalloids" data-chapter="203" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter203_MetalsMetalloids.html" data-type="chapter" data-title="metals metalloids" data-chapter="203" data-category="Toxicology">
         <span class="chapter-no">CH203</span>
         <span class="chapter-main"><strong>Metals Metalloids</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter204_IndustrialToxins.html" data-title="industrial toxins" data-chapter="204" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter204_IndustrialToxins.html" data-type="chapter" data-title="industrial toxins" data-chapter="204" data-category="Toxicology">
         <span class="chapter-no">CH204</span>
         <span class="chapter-main"><strong>Industrial Toxins</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter205_VitaminsHerbals.html" data-title="vitamins herbals" data-chapter="205" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter205_VitaminsHerbals.html" data-type="chapter" data-title="vitamins herbals" data-chapter="205" data-category="Toxicology">
         <span class="chapter-no">CH205</span>
         <span class="chapter-main"><strong>Vitamins Herbals</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter206_Antimicrobials.html" data-title="antimicrobials" data-chapter="206" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter206_Antimicrobials.html" data-type="chapter" data-title="antimicrobials" data-chapter="206" data-category="Toxicology">
         <span class="chapter-no">CH206</span>
         <span class="chapter-main"><strong>Antimicrobials</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter207_Dyshemoglobinemias.html" data-title="dyshemoglobinemias" data-chapter="207" data-category="Toxicology">
+      <a class="chapter-row" href="chapters/complete/Chapter207_Dyshemoglobinemias.html" data-type="chapter" data-title="dyshemoglobinemias" data-chapter="207" data-category="Toxicology">
         <span class="chapter-no">CH207</span>
         <span class="chapter-main"><strong>Dyshemoglobinemias</strong><span>Open chapter</span></span>
         <span class="category-pill category-toxicology">Toxicology</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter208_ColdInjuries.html" data-title="cold injuries" data-chapter="208" data-category="Environmental">
+      <a class="chapter-row" href="chapters/complete/Chapter208_ColdInjuries.html" data-type="chapter" data-title="cold injuries" data-chapter="208" data-category="Environmental">
         <span class="chapter-no">CH208</span>
         <span class="chapter-main"><strong>Cold Injuries</strong><span>Open chapter</span></span>
         <span class="category-pill category-environmental">Environmental</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter209_Hypothermia.html" data-title="hypothermia" data-chapter="209" data-category="Environmental">
+      <a class="chapter-row" href="chapters/complete/Chapter209_Hypothermia.html" data-type="chapter" data-title="hypothermia" data-chapter="209" data-category="Environmental">
         <span class="chapter-no">CH209</span>
         <span class="chapter-main"><strong>Hypothermia</strong><span>Open chapter</span></span>
         <span class="category-pill category-environmental">Environmental</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter210_HeatEmergencies.html" data-title="heat emergencies" data-chapter="210" data-category="Environmental">
+      <a class="chapter-row" href="chapters/complete/Chapter210_HeatEmergencies.html" data-type="chapter" data-title="heat emergencies" data-chapter="210" data-category="Environmental">
         <span class="chapter-no">CH210</span>
         <span class="chapter-main"><strong>Heat Emergencies</strong><span>Open chapter</span></span>
         <span class="category-pill category-environmental">Environmental</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter211_BitesAndStings.html" data-title="bites and stings" data-chapter="211" data-category="Environmental">
+      <a class="chapter-row" href="chapters/complete/Chapter211_BitesAndStings.html" data-type="chapter" data-title="bites and stings" data-chapter="211" data-category="Environmental">
         <span class="chapter-no">CH211</span>
         <span class="chapter-main"><strong>Bites And Stings</strong><span>Open chapter</span></span>
         <span class="category-pill category-environmental">Environmental</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter212_Snakebite.html" data-title="snakebite" data-chapter="212" data-category="Environmental">
+      <a class="chapter-row" href="chapters/complete/Chapter212_Snakebite.html" data-type="chapter" data-title="snakebite" data-chapter="212" data-category="Environmental">
         <span class="chapter-no">CH212</span>
         <span class="chapter-main"><strong>Snakebite</strong><span>Open chapter</span></span>
         <span class="category-pill category-environmental">Environmental</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter213_MarineTraumaAndEnvenomation.html" data-title="marine trauma and envenomation" data-chapter="213" data-category="Environmental">
+      <a class="chapter-row" href="chapters/complete/Chapter213_MarineTraumaAndEnvenomation.html" data-type="chapter" data-title="marine trauma and envenomation" data-chapter="213" data-category="Environmental">
         <span class="chapter-no">CH213</span>
         <span class="chapter-main"><strong>Marine Trauma And Envenomation</strong><span>Open chapter</span></span>
         <span class="category-pill category-environmental">Environmental</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter254_TraumaInAdults.html" data-title="trauma in adults" data-chapter="254" data-category="Trauma">
+      <a class="chapter-row" href="chapters/complete/Chapter254_TraumaInAdults.html" data-type="chapter" data-title="trauma in adults" data-chapter="254" data-category="Trauma">
         <span class="chapter-no">CH254</span>
         <span class="chapter-main"><strong>Trauma In Adults</strong><span>Open chapter</span></span>
         <span class="category-pill category-trauma">Trauma</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter255_ElderlyTrauma.html" data-title="elderly trauma" data-chapter="255" data-category="Trauma">
+      <a class="chapter-row" href="chapters/complete/Chapter255_ElderlyTrauma.html" data-type="chapter" data-title="elderly trauma" data-chapter="255" data-category="Trauma">
         <span class="chapter-no">CH255</span>
         <span class="chapter-main"><strong>Elderly Trauma</strong><span>Open chapter</span></span>
         <span class="category-pill category-trauma">Trauma</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter257_HeadTrauma.html" data-title="head trauma" data-chapter="257" data-category="Trauma">
+      <a class="chapter-row" href="chapters/complete/Chapter257_HeadTrauma.html" data-type="chapter" data-title="head trauma" data-chapter="257" data-category="Trauma">
         <span class="chapter-no">CH257</span>
         <span class="chapter-main"><strong>Head Trauma</strong><span>Open chapter</span></span>
         <span class="category-pill category-trauma">Trauma</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
-      <a class="chapter-row" href="chapters/complete/Chapter260_NeckTrauma.html" data-title="neck trauma" data-chapter="260" data-category="Trauma">
+      <a class="chapter-row" href="chapters/complete/Chapter260_NeckTrauma.html" data-type="chapter" data-title="neck trauma" data-chapter="260" data-category="Trauma">
         <span class="chapter-no">CH260</span>
         <span class="chapter-main"><strong>Neck Trauma</strong><span>Open chapter</span></span>
         <span class="category-pill category-trauma">Trauma</span>
         <span class="open-mark" aria-hidden="true">›</span>
       </a>
       </div>
-      <div id="emptyState" class="empty">No chapters match this search.</div>
     </section>
 
-    <section>
-      <div class="section-head"><h2>Special Practice Sets</h2></div>
-      <div class="special-list">
-      <a class="special-row" href="chapters/A09.html"><span>A09</span><strong>Infectious Study</strong><i>Open</i></a>
-      <a class="special-row" href="chapters/A14.html"><span>A14</span><strong>Renal / Urogenital Study</strong><i>Open</i></a>
-      <a class="special-row" href="chapters/A16.html"><span>A16</span><strong>Toxicology Study</strong><i>Open</i></a>
-      <a class="special-row" href="chapters/C.html"><span>C</span><strong>EMS Study</strong><i>Open</i></a>
-      </div>
-    </section>
-
-    <footer>GitHub Pages build. Use search or filters to jump directly to a chapter.</footer>
+    <div id="emptyState" class="empty">No matching chapters or special sets.</div>
+    <footer>Generated from local Special and Complete chapter HTML.</footer>
   </main>
   <script>
-    const search = document.getElementById('chapterSearch');
-    const clear = document.getElementById('clearSearch');
-    const rows = Array.from(document.querySelectorAll('.chapter-row'));
-    const filters = Array.from(document.querySelectorAll('.filter-button'));
-    const resultCount = document.getElementById('resultCount');
+    const searchInput = document.getElementById('chapterSearch');
+    const clearButton = document.getElementById('clearSearch');
+    const filterButtons = Array.from(document.querySelectorAll('.filter-button'));
+    const allRows = Array.from(document.querySelectorAll('.chapter-row'));
+    const specialRows = Array.from(document.querySelectorAll('#specialList .chapter-row'));
+    const chapterRows = Array.from(document.querySelectorAll('#chapterList .chapter-row'));
+    const specialSection = document.getElementById('specialSection');
+    const chapterSection = document.getElementById('chapterSection');
+    const specialResultCount = document.getElementById('specialResultCount');
+    const chapterResultCount = document.getElementById('chapterResultCount');
     const emptyState = document.getElementById('emptyState');
+    const oldExamLabel = 'ข้อสอบเก่า';
     let activeFilter = 'All';
 
-    function normalize(value) {
-      return value.trim().toLowerCase().replace(/^ch\.?\s*(?=\d)/, '');
+    function rowMatchesQuery(row, query) {
+      const chapter = row.dataset.chapter || '';
+      const title = row.dataset.title || '';
+      const category = (row.dataset.category || '').toLowerCase();
+      return !query || chapter.includes(query) || title.includes(query) || category.includes(query);
+    }
+
+    function updateList(rows, query, useCategoryFilter) {
+      let shown = 0;
+      for (const row of rows) {
+        const category = row.dataset.category || '';
+        const matchesFilter = !useCategoryFilter || activeFilter === 'All' || category === activeFilter;
+        const isVisible = matchesFilter && rowMatchesQuery(row, query);
+        row.hidden = !isVisible;
+        if (isVisible) shown += 1;
+      }
+      return shown;
     }
 
     function applyFilters() {
-      const query = normalize(search.value);
-      let shown = 0;
-      rows.forEach((row) => {
-        const chapter = row.dataset.chapter || '';
-        const title = row.dataset.title || '';
-        const category = row.dataset.category || '';
-        const matchesFilter = activeFilter === 'All' || category === activeFilter;
-        const matchesQuery = !query || chapter.includes(query) || title.includes(query) || category.toLowerCase().includes(query);
-        const visible = matchesFilter && matchesQuery;
-        row.hidden = !visible;
-        if (visible) shown += 1;
-      });
-      resultCount.textContent = `${shown} shown`;
-      emptyState.style.display = shown ? 'none' : 'block';
+      const query = searchInput.value.trim().toLowerCase();
+      const oldExamOnly = activeFilter === oldExamLabel;
+      const showSpecialSection = activeFilter === 'All' || oldExamOnly;
+      const shownSpecial = showSpecialSection ? updateList(specialRows, query, false) : 0;
+      if (!showSpecialSection) {
+        specialRows.forEach((row) => { row.hidden = true; });
+      }
+      let shownChapter = 0;
+      if (oldExamOnly) {
+        chapterRows.forEach((row) => { row.hidden = true; });
+      } else {
+        shownChapter = updateList(chapterRows, query, true);
+      }
+      specialResultCount.textContent = `${shownSpecial} shown`;
+      chapterResultCount.textContent = `${shownChapter} shown`;
+      specialSection.hidden = shownSpecial === 0;
+      chapterSection.hidden = shownChapter === 0;
+      emptyState.classList.toggle('is-visible', shownSpecial + shownChapter === 0);
     }
 
-    search.addEventListener('input', applyFilters);
-    clear.addEventListener('click', () => { search.value = ''; search.focus(); applyFilters(); });
-    filters.forEach((button) => {
+    searchInput.addEventListener('input', applyFilters);
+    clearButton.addEventListener('click', () => {
+      searchInput.value = '';
+      searchInput.focus();
+      applyFilters();
+    });
+    filterButtons.forEach((button) => {
       button.addEventListener('click', () => {
-        activeFilter = button.dataset.filter;
-        filters.forEach((item) => item.classList.toggle('is-active', item === button));
+        activeFilter = button.dataset.filter || 'All';
+        filterButtons.forEach((item) => item.classList.toggle('is-active', item === button));
         applyFilters();
       });
     });
+    applyFilters();
   </script>
 </body>
 </html>
