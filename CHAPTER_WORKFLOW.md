@@ -1,10 +1,11 @@
-# Toxicology Chapter Workflow
+# Chapter Workflow
 
-This file is the standing rule for continuing the toxicology chapter build.
+This file is the standing rule for continuing chapter builds.
 
 ## Source Hierarchy
 
-- Tintinalli is the chapter spine: chapter order, headings, tables, figures, core management flow, and board emphasis follow Tintinalli first.
+- Tintinalli is the chapter spine: chapter order, headings, subheadings, tables, figures, core management flow, and board emphasis follow Tintinalli first.
+- **Every Tintinalli heading and subheading in the chapter scope must be inventoried and represented in the final chapter body.** Do not collapse a chapter into only broad summary buckets. If Tintinalli has `COMMUNITY-ACQUIRED PNEUMONIA`, `INTRODUCTION AND EPIDEMIOLOGY`, `PATHOPHYSIOLOGY`, `CLINICAL FEATURES`, `PNEUMOCOCCAL PNEUMONIA`, `OTHER BACTERIAL PNEUMONIAS`, `PNEUMONIA FROM ATYPICAL AGENTS`, `DIAGNOSIS`, `PNEUMONIA IN SPECIAL POPULATIONS`, `PNEUMONIA IN ALCOHOLICS`, `PNEUMONIA IN DIABETICS`, `PNEUMONIA IN PREGNANT WOMEN`, `PNEUMONIA IN THE ELDERLY`, `PNEUMONIA IN NURSING HOME PATIENTS`, `PNEUMONIA IN HUMAN IMMUNODEFICIENCY VIRUS PATIENTS`, `PNEUMONIA IN TRANSPLANT PATIENTS`, and more, the final HTML must include narrative coverage for each of those headings/subheadings, in order, unless the user explicitly approves an omission.
 - **Every Tintinalli table and figure in the chapter scope must be inventoried and included as a source crop unless the user explicitly says to omit it.** Do not choose only the "important-looking" Tintinalli tables/figures. If the source chapter contains `Figure 260-1` through `Figure 260-4` and `Table 260-1` through `Table 260-10`, the completed HTML and crop QA must account for all 14 objects.
 - Rosen must be integrated as real content, not just named in metadata or MCQ references.
 - If Rosen cannot be located quickly, stop and find the Rosen section before publishing.
@@ -17,7 +18,8 @@ Every completed toxicology chapter must include:
 - A rebuild means re-reading the source spine, rewriting the major sections as coherent board-review narrative, placing source tables/figures beside the exact topic they support, rebuilding MCQs so explanations for every option show after answering, redoing crop QA from the final embedded images, and then updating audit.
 - Mechanical fixes alone are not completion. Adding MCQs, adding `<mark>`/`<u>`, renaming classes, or adding a headbar to an otherwise thin chapter is still `FAIL` until the rebuilt chapter reads like the accepted examples.
 - Tintinalli-based narrative sections.
-- Every major Tintinalli heading/topic must have a real narrative summary. Do not leave a section as only source tables plus one short paragraph.
+- **All-heading coverage:** every Tintinalli heading and subheading in the source chapter span must appear in the final chapter either as a visible section/subsection or as a clearly named subsection inside a parent section. A broad combined heading is not enough if it hides named Tintinalli subtopics.
+- Every Tintinalli heading/subheading must have real narrative summary, not just a source card, table, figure, MCQ, or one token sentence. The narrative must explain the board-relevant clinical point for that named heading.
 - Content completeness is a required audit gate, not an optional style check. A chapter is `FAIL` if any major clinical heading is table-only, image-only, source-card-only, or has only a token paragraph.
 - Tables/figures must be inserted next to the exact clinical topic they support, not dumped as a block at the start or end of the chapter.
 - Treatment tables/figures belong inside the relevant treatment subsection. Do not move treatment source tables into `Drug Dose Reference`; that section is only a quick recap after the full clinical treatment discussion.
@@ -53,9 +55,24 @@ If a chapter fails content, source placement, crop, MCQ behavior, or Ch186/Ch201
 
 Do not trust a mechanical pass by itself. A chapter is not complete until the human content/source gate passes after opening or reading the rebuilt HTML.
 
+#### Mandatory Tintinalli Heading Inventory Gate
+
+Before writing the final HTML, extract the full Tintinalli chapter outline from the source span:
+
+- List every visible all-caps heading, section heading, and named subheading in chapter order.
+- Include nested clinical subheadings, named special populations, organism-specific headings, diagnosis/treatment/disposition headings, and any named subsections that appear between chapter start and the next chapter start.
+- The QA/audit file must include `Tintinalli heading inventory: X/X covered` and list the extracted headings/subheadings.
+- The final HTML must include narrative coverage for every heading/subheading in that inventory. A table/figure placed near the heading does not count as narrative coverage.
+- If any Tintinalli heading/subheading is missing, combined away, table-only, source-card-only, or reduced to a token sentence, the result is `Content: FAIL`.
+- Do not mark a chapter `PASS` just because every Tintinalli table/figure is included. Table/figure inventory and heading/subheading inventory are separate gates and both must pass.
+- For trauma chapters, ATLS is also a mandatory source inventory gate. The QA/audit must include `ATLS table/figure inventory: X/X included` when ATLS contains relevant tables, figures, or algorithms for that chapter. A trauma chapter is `FAIL` if any relevant ATLS table/figure/algorithm is missing, if ATLS crops are dumped at the start/end instead of topic-local, or if crop QA does not list every embedded ATLS source image.
+
+Chapter65 failure lesson: `Community-Acquired Pneumonia, Aspiration Pneumonia, and Noninfectious Pulmonary Infiltrates` cannot be marked complete if it only has broad sections such as CAP/organisms/treatment/disposition. It must cover the Tintinalli outline, including `COMMUNITY-ACQUIRED PNEUMONIA`, `INTRODUCTION AND EPIDEMIOLOGY`, `PATHOPHYSIOLOGY`, `CLINICAL FEATURES`, `PNEUMOCOCCAL PNEUMONIA`, `OTHER BACTERIAL PNEUMONIAS`, `PNEUMONIA FROM ATYPICAL AGENTS`, `DIAGNOSIS`, `PNEUMONIA IN SPECIAL POPULATIONS`, `PNEUMONIA IN ALCOHOLICS`, `PNEUMONIA IN DIABETICS`, `PNEUMONIA IN PREGNANT WOMEN`, `PNEUMONIA IN THE ELDERLY`, `PNEUMONIA IN NURSING HOME PATIENTS`, `PNEUMONIA IN HUMAN IMMUNODEFICIENCY VIRUS PATIENTS`, `PNEUMONIA IN TRANSPLANT PATIENTS`, treatment, disposition/follow-up, `ASPIRATION PNEUMONIA` headings/subheadings, and `NONINFECTIOUS PULMONARY INFILTRATES` headings/subheadings. Missing any of these is `Content: FAIL` until rebuilt.
+
 A chapter fails the content audit if any of these are true:
 
-- A major heading or clinical topic has no real narrative summary.
+- A Tintinalli heading/subheading or clinical topic has no real narrative summary.
+- The final HTML does not preserve the Tintinalli heading/subheading outline in chapter order.
 - A major section is mostly tables, figures, source cards, or MCQs with little explanatory prose.
 - A toxin/topic is missing one of the expected clinical elements when applicable: exposure/source, pathophysiology, clinical features, diagnostic/lab pattern, ED treatment, and disposition/observation traps.
 - Treatment content appears only in `Drug Dose Reference` or only as a source table. Treatment tables must be discussed in the relevant treatment subsection first.
@@ -64,12 +81,14 @@ A chapter fails the content audit if any of these are true:
 - Visible audit material appears inside the chapter body, such as `Rosen Source Audit`, `Source Audit`, `Included`, `Excluded`, or repair notes. Audit content belongs only in the separate audit file.
 - Rosen, Tintinalli, ATLS, or any other source is named in metadata/sidebar but not integrated into the relevant body section.
 - For trauma chapters, ATLS must be integrated in the clinical narrative and not only mentioned in metadata, captions, or MCQ rationales.
+- For trauma chapters, ATLS table/figure/algorithm crops must be inventoried, embedded, topic-local, and listed in crop QA. Missing ATLS source objects are `Content: FAIL` even if Tintinalli inventory passes.
 - Legacy inline MCQs remain as `mcq-card` blocks instead of the accepted `mcq-wrapper` interaction pattern.
 - MCQ click behavior reveals only the selected option explanation. Accepted chapters must reveal every option explanation after answering.
 
 The chapter audit file must include a content gate result:
 
-- `Content: PASS` only when every major topic has enough narrative and tables/figures are topic-local.
+- `Content: PASS` only when every Tintinalli heading/subheading has enough narrative and tables/figures are topic-local.
+- `Tintinalli heading inventory: X/X covered` must appear in the chapter-specific QA/audit before `PASS`.
 - `Content: FAIL` with short reasons when narrative is thin, table-only, misplaced, or visibly contains audit/repair text.
 
 If content fails, rebuild the affected sections before fixing cosmetic details. Do not use MCQs, source cards, or tables as a substitute for the missing narrative.
@@ -125,6 +144,10 @@ Required before final reply:
 - Every major content section must contain visible emphasis, such as `<mark>`, `<u>`, `<strong>`, and/or callout boxes.
 - Board traps must be visually marked, not buried in plain paragraphs.
 - Important toxin names, antidotes, contraindications, diagnostic clues, and disposition traps should be highlighted close to the relevant text.
+- Important non-toxicology points must also be emphasized: high-yield diagnoses, dangerous mimics, treatment thresholds, disposition rules, contraindications, and source differences.
+- Meaningful emphasis must be distributed across the chapter. A single `<mark>` or a few underlines in one early section are not enough for a long chapter with many Tintinalli headings.
+- Every major clinical section should have at least one visible high-yield emphasis element when there is a board-relevant trap, diagnostic pivot, treatment decision, or disposition decision.
+- Visual emphasis must support the actual narrative. Do not add random highlighting just to satisfy counts.
 - Do not remove emphasis while rewriting narrative sections.
 - If a rewrite replaces a section, re-add the emphasis before running final checks.
 
@@ -133,6 +156,24 @@ Minimum file-level check before final reply:
 - `<mark>` count must be greater than 0.
 - `<u>` count must be greater than 0.
 - Each major clinical section should have at least one marked or underlined board-facing phrase unless there is a clear reason not to.
+- For long chapters, the QA/audit must explicitly say `Visual emphasis: PASS` only after checking section-level distribution, not just file-level counts.
+
+Automatic visual FAIL:
+
+- Top header is missing.
+- Sidebar is missing.
+- Main content is not offset correctly.
+- There is a blank top gap before the real shell/content.
+- Source cards are not styled like the accepted Ch186/Ch201 pattern.
+- The page is not readable on desktop and mobile.
+- Highlight/mark/underline is absent from major high-yield sections.
+- Emphasis is present only in the hero or only in one early section.
+- `<mark>`/`<u>` exists mechanically but does not cover high-yield points across the chapter.
+- Source cards are used as a substitute for teaching text.
+- The page reads like plain notes or a pasted outline.
+- Dense tables/images appear without nearby explanatory text.
+
+If the visual/layout gate fails, the chapter is `FAIL` and must not be reported as complete, even when content, heading inventory, table/figure inventory, MCQs, and crop QA otherwise pass.
 
 ## Rosen Figure/Table Rule
 

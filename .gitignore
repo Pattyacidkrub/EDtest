@@ -8,4 +8,5 @@
 !/chapter_baseline/build_github_pages.py
 !/chapter_baseline/chapter_template.css
 !/chapter_baseline/chapter_template.js
+!/CHAPTER_WORKFLOW.md
 !/.gitignore
