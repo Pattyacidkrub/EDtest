@@ -1,5 +1,14 @@
 [
   {
+    "title": "Tetrodotoxin Poisoning",
+    "slug": "tetrodotoxin",
+    "system": "Toxicology / Neurology / Marine",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.8 p.41; Ch.160 pp.1064,1068; Ch.176 pp.1187-1192; Ch.213 pp.1365-1366; Ch.35 p.233",
+    "summary": "Pufferfish/fugu sodium-channel toxin with rapid paresthesias, GI symptoms, ascending paralysis, airway-first support, poison-center consultation, anticholinesterase caveat, ICU disposition, and exam traps.",
+    "href": "tetrodotoxin/index.html"
+  },
+  {
     "title": "Fournier Gangrene",
     "slug": "fournier-gangrene",
     "system": "Infectious Disease / Urology / Critical Care",

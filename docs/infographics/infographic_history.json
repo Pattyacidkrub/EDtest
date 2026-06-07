@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "tetrodotoxin",
+      "title": "Tetrodotoxin Poisoning",
+      "system": "Toxicology / Neurology / Marine",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "fournier-gangrene",
       "title": "Fournier Gangrene",
       "system": "Infectious Disease / Urology / Critical Care",
@@ -99,8 +105,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "fournier-gangrene",
-    "title": "Fournier Gangrene",
+    "slug": "tetrodotoxin",
+    "title": "Tetrodotoxin Poisoning",
     "status": "generated_codex_builtin_image_source_backed"
   }
 }
