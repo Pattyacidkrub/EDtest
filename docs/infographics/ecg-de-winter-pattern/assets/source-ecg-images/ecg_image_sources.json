@@ -1,0 +1,62 @@
+[
+  {
+    "key": "dw_variant_inferior",
+    "label": "de Winter + inferior STE variant",
+    "source_file": "bmc2021_fig1.png",
+    "article_title": "de Winter syndrome or inferior STEMI?",
+    "authors": "Shijun Wang; Liang Shen",
+    "doi": "10.1186/s12872-021-02441-4",
+    "article_url": "https://link.springer.com/article/10.1186/s12872-021-02441-4",
+    "image_url": "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1186%2Fs12872-021-02441-4/MediaObjects/12872_2021_2441_Fig1_HTML.png",
+    "figure": "Figure 1",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "local_file": "C:\\Users\\PC\\OneDrive\\เอกสาร\\codex\\ER\\ติวสอบ MCQ\\รวม infographic\\assets\\ecg-de-winter-pattern\\source-ecg-images\\dw_variant_inferior_ecgonly.jpg",
+    "cropped_file": "dw_variant_inferior_ecgonly.jpg",
+    "changes": "Cropped to ECG content and resized in poster; ECG tracing not redrawn."
+  },
+  {
+    "key": "dw_evolution_to_stemi",
+    "label": "de Winter evolving to STEMI",
+    "source_file": "bmc2020_fig1.png",
+    "article_title": "Evolutionary de Winter pattern: from de Winter ECG to STEMI-A case report",
+    "authors": "Hao Wang; Xiao-Ce Dai; Yun-Tao Zhao; Xiao-Hang Cheng",
+    "doi": "10.1186/s12872-020-01611-0",
+    "article_url": "https://link.springer.com/article/10.1186/s12872-020-01611-0",
+    "image_url": "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1186%2Fs12872-020-01611-0/MediaObjects/12872_2020_1611_Fig1_HTML.png",
+    "figure": "Figure 1",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "local_file": "C:\\Users\\PC\\OneDrive\\เอกสาร\\codex\\ER\\ติวสอบ MCQ\\รวม infographic\\assets\\ecg-de-winter-pattern\\source-ecg-images\\dw_evolution_to_stemi_ecgonly.jpg",
+    "cropped_file": "dw_evolution_to_stemi_ecgonly.jpg",
+    "changes": "Cropped to ECG content and resized in poster; ECG tracing not redrawn."
+  },
+  {
+    "key": "dw_classic_lad",
+    "label": "classic anterior de Winter pattern",
+    "source_file": "bmc2019_fig1.png",
+    "article_title": "An emergency ECG sign of ST elevation myocardial infarction",
+    "authors": "Baoze Qu; Guizhou Tao; Renguang Liu",
+    "doi": "10.1186/s12872-019-1109-0",
+    "article_url": "https://link.springer.com/article/10.1186/s12872-019-1109-0",
+    "image_url": "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1186%2Fs12872-019-1109-0/MediaObjects/12872_2019_1109_Fig1_HTML.png",
+    "figure": "Figure 1",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "local_file": "C:\\Users\\PC\\OneDrive\\เอกสาร\\codex\\ER\\ติวสอบ MCQ\\รวม infographic\\assets\\ecg-de-winter-pattern\\source-ecg-images\\dw_classic_lad_ecgonly.jpg",
+    "cropped_file": "dw_classic_lad_ecgonly.jpg",
+    "changes": "Cropped to ECG content and resized in poster; ECG tracing not redrawn."
+  },
+  {
+    "key": "dw_recurrent_dynamic",
+    "label": "dynamic/recurrent de Winter-like pattern",
+    "source_file": "bmc2019_fig6.png",
+    "article_title": "An emergency ECG sign of ST elevation myocardial infarction",
+    "authors": "Baoze Qu; Guizhou Tao; Renguang Liu",
+    "doi": "10.1186/s12872-019-1109-0",
+    "article_url": "https://link.springer.com/article/10.1186/s12872-019-1109-0",
+    "image_url": "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1186%2Fs12872-019-1109-0/MediaObjects/12872_2019_1109_Fig6_HTML.png",
+    "figure": "Figure 6",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "local_file": "C:\\Users\\PC\\OneDrive\\เอกสาร\\codex\\ER\\ติวสอบ MCQ\\รวม infographic\\assets\\ecg-de-winter-pattern\\source-ecg-images\\dw_recurrent_dynamic_ecgonly.jpg",
+    "cropped_file": "dw_recurrent_dynamic_ecgonly.jpg",
+    "changes": "Cropped to ECG content and resized in poster; ECG tracing not redrawn."
+  }
+]

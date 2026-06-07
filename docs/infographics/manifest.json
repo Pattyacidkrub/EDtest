@@ -1,5 +1,14 @@
 [
   {
+    "title": "ECG de Winter Pattern",
+    "slug": "ecg-de-winter-pattern",
+    "system": "Cardiology / ECG / ACS",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.49 pp.337,342-343,348-350; BMC Cardiovascular Disorders CC BY 4.0 real ECG figures",
+    "summary": "Real-ECG de Winter STEMI-equivalent pattern with LAD occlusion framing, morphology checklist, differential traps, ED reperfusion pathway, ACS medication cautions, and four open-access ECG examples.",
+    "href": "ecg-de-winter-pattern/index.html"
+  },
+  {
     "title": "ECG Fascicular Blocks",
     "slug": "ecg-fascicular-blocks",
     "system": "Cardiology / ECG / Conduction",

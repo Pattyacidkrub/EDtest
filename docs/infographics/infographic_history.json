@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "ecg-de-winter-pattern",
+      "title": "ECG de Winter Pattern",
+      "system": "Cardiology / ECG / ACS",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "ecg-fascicular-blocks",
       "title": "ECG Fascicular Blocks",
       "system": "Cardiology / ECG / Conduction",
