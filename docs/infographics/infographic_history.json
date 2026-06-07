@@ -11,20 +11,12 @@
       "title": "IgA Vasculitis / HSP",
       "system": "Pediatrics / Renal / Vasculitis",
       "date": "2026-06-07"
-    },
-    {
-      "slug": "pulmonary-embolism",
-      "title": "Pulmonary Embolism",
-      "system": "Cardiovascular / Pulmonary",
-      "date": "2026-06-07",
-      "source": "ER/_ch056_rebuild_fresh_2026-05-10 + ER/CH056_CROP_QA_2026-05-10.md",
-      "status": "redone"
     }
   ],
   "last_run": {
     "date": "2026-06-07",
-    "slug": "pulmonary-embolism",
-    "title": "Pulmonary Embolism",
-    "status": "redone"
+    "slug": "iga-vasculitis-hsp",
+    "title": "IgA Vasculitis / HSP",
+    "status": "current_after_pe_deleted"
   }
 }

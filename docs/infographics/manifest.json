@@ -16,16 +16,5 @@
     "href": "iga-vasculitis-hsp/",
     "chapter": "Ch.142 / Ch.137",
     "summary": "Classic tetrad, ED workup, renal/GI red flags, medication doses, disposition, and UA/BP follow-up."
-  },
-  {
-    "title": "Pulmonary Embolism",
-    "slug": "pulmonary-embolism",
-    "system": "Cardiovascular / Pulmonary",
-    "date": "2026-06-07",
-    "file": "2026-06-07-pulmonary-embolism.html",
-    "href": "2026-06-07-pulmonary-embolism.html",
-    "chapter": "Tintinalli Ch.056",
-    "source": "ER/_ch056_rebuild_fresh_2026-05-10 + ER/CH056_CROP_QA_2026-05-10.md",
-    "summary": "Redone probability-based PE dashboard: diagnosis, risk, anticoagulation, reperfusion, pediatric caveats, and disposition."
   }
 ]
