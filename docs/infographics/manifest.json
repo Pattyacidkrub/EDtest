@@ -1,5 +1,14 @@
 [
   {
+    "title": "Stevens-Johnson Syndrome / Toxic Epidermal Necrolysis (SJS/TEN)",
+    "slug": "sjs-ten",
+    "system": "Dermatology / Toxicology / Critical Care",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.249 pp.1623-1627; Ch.251 pp.1647-1648; Ch.142 pp.941-942; Ch.248 p.1622",
+    "summary": "SJS/TEN detachment thresholds, drug triggers, mucosal/airway/ocular red flags, ED resuscitation, burn-unit disposition, and medication cautions.",
+    "href": "sjs-ten/index.html"
+  },
+  {
     "title": "Anticholinergic Toxic Plants",
     "slug": "anticholinergic-toxic-plants",
     "system": "Toxicology / Environmental / Plants",

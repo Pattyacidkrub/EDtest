@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "sjs-ten",
+      "title": "Stevens-Johnson Syndrome / Toxic Epidermal Necrolysis (SJS/TEN)",
+      "system": "Dermatology / Toxicology / Critical Care",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "anticholinergic-toxic-plants",
       "title": "Anticholinergic Toxic Plants",
       "system": "Toxicology / Environmental / Plants",
@@ -75,8 +81,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "anticholinergic-toxic-plants",
-    "title": "Anticholinergic Toxic Plants",
-    "status": "generated_codex_builtin_image_with_real_photo"
+    "slug": "sjs-ten",
+    "title": "Stevens-Johnson Syndrome / Toxic Epidermal Necrolysis (SJS/TEN)",
+    "status": "generated_codex_builtin_image_source_backed"
   }
 }
