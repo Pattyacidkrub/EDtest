@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "fournier-gangrene",
+      "title": "Fournier Gangrene",
+      "system": "Infectious Disease / Urology / Critical Care",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "phlegmasia-cerulea-dolens",
       "title": "Phlegmasia Cerulea Dolens",
       "system": "Cardiovascular / Vascular / Hematology",
@@ -93,8 +99,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "shellfish-associated-illness",
-    "title": "Shellfish Toxin Poisoning",
-    "status": "redo_codex_builtin_image_with_cdc_fda_toxin_names"
+    "slug": "fournier-gangrene",
+    "title": "Fournier Gangrene",
+    "status": "generated_codex_builtin_image_source_backed"
   }
 }

@@ -1,5 +1,14 @@
 [
   {
+    "title": "Fournier Gangrene",
+    "slug": "fournier-gangrene",
+    "system": "Infectious Disease / Urology / Critical Care",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.93 pp.592-593; Ch.152 pp.1009-1012; Ch.21 pp.140-141; IDSA SSTI guideline check",
+    "summary": "Necrotizing perineal soft tissue infection with pain-out-of-proportion clues, sepsis resuscitation, broad antibiotics, immediate debridement, ICU disposition, and exam traps.",
+    "href": "fournier-gangrene/index.html"
+  },
+  {
     "title": "Phlegmasia Cerulea Dolens",
     "slug": "phlegmasia-cerulea-dolens",
     "system": "Cardiovascular / Vascular / Hematology",
