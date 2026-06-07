@@ -1,0 +1,46 @@
+[
+  {
+    "key": "foxglove",
+    "display": "Foxglove",
+    "scientific": "Digitalis purpurea",
+    "file": "digitalis-purpurea-real-photo.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Digitalis_purpurea_2_RF.jpg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Digitalis_purpurea_2_RF.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Robert Flogaus-Faust",
+    "local_file": "C:\\Users\\PC\\OneDrive\\เอกสาร\\codex\\ER\\ติวสอบ MCQ\\รวม infographic\\assets\\cardiac-glycoside-toxic-plants\\digitalis-purpurea-real-photo.jpg"
+  },
+  {
+    "key": "oleander",
+    "display": "Oleander",
+    "scientific": "Nerium oleander",
+    "file": "nerium-oleander-real-photo.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nerium_oleander_flowers_leaves.jpg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Nerium_oleander_flowers_leaves.jpg",
+    "license": "CC BY 2.5",
+    "artist": "Alvesgaspar",
+    "local_file": "C:\\Users\\PC\\OneDrive\\เอกสาร\\codex\\ER\\ติวสอบ MCQ\\รวม infographic\\assets\\cardiac-glycoside-toxic-plants\\nerium-oleander-real-photo.jpg"
+  },
+  {
+    "key": "lily",
+    "display": "Lily of the valley",
+    "scientific": "Convallaria majalis",
+    "file": "convallaria-majalis-real-photo.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Convallaria_majalis_RF.jpg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Convallaria_majalis_RF.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Robert Flogaus-Faust",
+    "local_file": "C:\\Users\\PC\\OneDrive\\เอกสาร\\codex\\ER\\ติวสอบ MCQ\\รวม infographic\\assets\\cardiac-glycoside-toxic-plants\\convallaria-majalis-real-photo.jpg"
+  },
+  {
+    "key": "yellow_oleander",
+    "display": "Yellow oleander",
+    "scientific": "Cascabela thevetia",
+    "file": "yellow-oleander-real-photo.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Yellow_oleander_(Cascabela_thevetia)_flower.jpg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Yellow_oleander_%28Cascabela_thevetia%29_flower.jpg",
+    "license": "CC0",
+    "artist": "David E Mead",
+    "local_file": "C:\\Users\\PC\\OneDrive\\เอกสาร\\codex\\ER\\ติวสอบ MCQ\\รวม infographic\\assets\\cardiac-glycoside-toxic-plants\\yellow-oleander-real-photo.jpg"
+  }
+]

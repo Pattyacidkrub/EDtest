@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "cardiac-glycoside-toxic-plants",
+      "title": "Cardiac Glycoside Toxic Plants",
+      "system": "Toxicology / Cardiovascular / Plants",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "pediatric-hip-pain-ddx",
       "title": "Pediatric Hip Pain & Limp",
       "system": "Pediatrics / Orthopedics / Infectious",
@@ -165,8 +171,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "pediatric-hip-pain-ddx",
-    "title": "Pediatric Hip Pain & Limp",
-    "status": "generated_custom_diagram_source_backed"
+    "slug": "cardiac-glycoside-toxic-plants",
+    "title": "Cardiac Glycoside Toxic Plants",
+    "status": "generated_custom_diagram_source_backed_real_flower_photos"
   }
 }

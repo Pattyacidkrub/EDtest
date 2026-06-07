@@ -1,5 +1,14 @@
 [
   {
+    "title": "Cardiac Glycoside Toxic Plants",
+    "slug": "cardiac-glycoside-toxic-plants",
+    "system": "Toxicology / Cardiovascular / Plants",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.193 pp.1266-1271; Ch.221 pp.1411-1413; Ch.176 pp.1189-1193; Ch.19 pp.78-79",
+    "summary": "Digoxin-like ornamental plant poisoning with real flower photos, Na/K ATPase mechanism, early GI warning symptoms, ECG/K risk pathway, digoxin immune Fab triggers and empiric plant dosing, treatment cautions, and disposition traps.",
+    "file": "cardiac-glycoside-toxic-plants/"
+  },
+  {
     "title": "Pediatric Hip Pain & Limp",
     "slug": "pediatric-hip-pain-ddx",
     "system": "Pediatrics / Orthopedics / Infectious",
