@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "shellfish-associated-illness",
+      "title": "Shellfish-Associated ED Illness",
+      "system": "Environmental / Toxicology / Infectious Disease / Allergy",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "monteggia-fracture",
       "title": "Monteggia Fracture-Dislocation",
       "system": "Trauma / Orthopedics / Upper Extremity",
@@ -63,8 +69,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "monteggia-fracture",
-    "title": "Monteggia Fracture-Dislocation",
+    "slug": "shellfish-associated-illness",
+    "title": "Shellfish-Associated ED Illness",
     "status": "generated_codex_builtin_image"
   }
 }
