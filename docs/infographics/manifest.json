@@ -36,13 +36,13 @@
     "href": "anticholinergic-toxic-plants/index.html"
   },
   {
-    "title": "Shellfish-Associated ED Illness",
+    "title": "Shellfish Toxin Poisoning",
     "slug": "shellfish-associated-illness",
-    "system": "Environmental / Toxicology / Infectious Disease / Allergy",
+    "system": "Environmental / Toxicology / Infectious Disease",
     "date": "2026-06-08",
-    "file": "shellfish-associated-illness-ed-infographic.html",
-    "chapter": "Tintinalli Ch.160 pp.1064-1068; Ch.73 pp.485-486; Ch.14 pp.68-72; Ch.152 pp.1006-1009; Ch.35 p.233",
-    "summary": "Shellfish toxin syndrome, raw-shellfish Vibrio and viral illness, anaphylaxis differential, ED testing, supportive care, medication cautions, and disposition red flags."
+    "chapter": "Tintinalli Ch.160/73/14/152/35 + CDC Yellow Book/HAB + FDA Seafood Hazards",
+    "summary": "Toxin-first shellfish poisoning with PSP/NSP/ASP/DSP/AZP toxin names, onset clues, red flags, ED supportive care, airway/anaphylaxis/Vibrio traps, and disposition.",
+    "href": "shellfish-associated-illness/index.html"
   },
   {
     "title": "Monteggia Fracture-Dislocation",
