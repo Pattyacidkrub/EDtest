@@ -17,13 +17,14 @@
       "title": "Pulmonary Embolism",
       "system": "Cardiovascular / Pulmonary",
       "date": "2026-06-07",
-      "source": "ER/docs/chapters/complete/Chapter056_VenousThromboembolismPulmonaryEmbolism.html"
+      "source": "ER/_ch056_rebuild_fresh_2026-05-10 + ER/CH056_CROP_QA_2026-05-10.md",
+      "status": "redone"
     }
   ],
   "last_run": {
     "date": "2026-06-07",
     "slug": "pulmonary-embolism",
     "title": "Pulmonary Embolism",
-    "status": "generated"
+    "status": "redone"
   }
 }

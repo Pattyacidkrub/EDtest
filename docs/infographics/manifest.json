@@ -22,8 +22,10 @@
     "slug": "pulmonary-embolism",
     "system": "Cardiovascular / Pulmonary",
     "date": "2026-06-07",
+    "file": "2026-06-07-pulmonary-embolism.html",
     "href": "2026-06-07-pulmonary-embolism.html",
     "chapter": "Tintinalli Ch.056",
-    "summary": "Probability-based PE diagnosis, severity stratification, anticoagulation, reperfusion, and disposition."
+    "source": "ER/_ch056_rebuild_fresh_2026-05-10 + ER/CH056_CROP_QA_2026-05-10.md",
+    "summary": "Redone probability-based PE dashboard: diagnosis, risk, anticoagulation, reperfusion, pediatric caveats, and disposition."
   }
 ]
