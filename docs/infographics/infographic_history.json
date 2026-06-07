@@ -7,6 +7,12 @@
       "date": "2026-06-07"
     },
     {
+      "slug": "guillain-barre-syndrome",
+      "title": "Guillain-Barré Syndrome",
+      "system": "Neurology / Respiratory Failure",
+      "date": "2026-06-07"
+    },
+    {
       "slug": "iga-vasculitis-hsp",
       "title": "IgA Vasculitis / HSP",
       "system": "Pediatrics / Renal / Vasculitis",
@@ -15,8 +21,8 @@
   ],
   "last_run": {
     "date": "2026-06-07",
-    "slug": "iga-vasculitis-hsp",
-    "title": "IgA Vasculitis / HSP",
-    "status": "current_after_pe_deleted"
+    "slug": "guillain-barre-syndrome",
+    "title": "Guillain-Barré Syndrome",
+    "status": "published_candidate"
   }
 }

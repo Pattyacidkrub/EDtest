@@ -9,6 +9,15 @@
     "summary": "First-trimester bleeding and pain decision dashboard."
   },
   {
+    "title": "Guillain-Barré Syndrome",
+    "slug": "guillain-barre-syndrome",
+    "system": "Neurology / Respiratory Failure",
+    "date": "2026-06-07",
+    "href": "guillain-barre-syndrome/",
+    "chapter": "Tintinalli 9e Ch.172; Ch.160",
+    "summary": "Ascending weakness, areflexia, respiratory/autonomic monitoring, IVIG vs plasma exchange, ICU triggers."
+  },
+  {
     "title": "IgA Vasculitis / HSP",
     "slug": "iga-vasculitis-hsp",
     "system": "Pediatrics / Renal / Vasculitis",
