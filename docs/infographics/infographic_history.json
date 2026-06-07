@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "ttp",
+      "title": "Thrombotic Thrombocytopenic Purpura (TTP)",
+      "system": "Hematology / Critical Care / Renal",
+      "date": "2026-06-07"
+    },
+    {
       "slug": "kawasaki-disease",
       "title": "Kawasaki Disease",
       "system": "Pediatrics / Cardiology / Dermatology",
@@ -33,8 +39,8 @@
   ],
   "last_run": {
     "date": "2026-06-07",
-    "slug": "kawasaki-disease",
-    "title": "Kawasaki Disease",
+    "slug": "ttp",
+    "title": "Thrombotic Thrombocytopenic Purpura (TTP)",
     "status": "generated_codex_builtin_image"
   }
 }
