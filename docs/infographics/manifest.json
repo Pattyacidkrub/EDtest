@@ -1,5 +1,14 @@
 [
   {
+    "title": "Spinal Shock",
+    "slug": "spinal-shock",
+    "system": "Trauma / Neurology / Critical Care",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.258 pp.1696-1714; Ch.20 pp.133-135; Ch.18 p.101; Ch.109 pp.683-684; Ch.112 pp.707-708",
+    "summary": "Temporary areflexia after spinal cord injury, differentiated from neurogenic shock, with airway vigilance, reflex/sacral-sparing exam, imaging pathway, hemodynamic support caveats, steroid cautions, and disposition pearls.",
+    "href": "spinal-shock/index.html"
+  },
+  {
     "title": "Tetrodotoxin Poisoning",
     "slug": "tetrodotoxin",
     "system": "Toxicology / Neurology / Marine",
