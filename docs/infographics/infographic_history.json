@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "tbi-reversal-agents",
+      "title": "TBI + Reversal Agents",
+      "system": "Trauma / Neurology / Hematology",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "spinal-shock",
       "title": "Spinal Shock",
       "system": "Trauma / Neurology / Critical Care",
@@ -111,8 +117,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "spinal-shock",
-    "title": "Spinal Shock",
+    "slug": "tbi-reversal-agents",
+    "title": "TBI + Reversal Agents",
     "status": "generated_codex_builtin_image_source_backed"
   }
 }

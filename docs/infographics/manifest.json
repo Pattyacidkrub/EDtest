@@ -1,5 +1,14 @@
 [
   {
+    "title": "TBI + Reversal Agents",
+    "slug": "tbi-reversal-agents",
+    "system": "Trauma / Neurology / Hematology",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.257 pp.1683-1695; Ch.239 pp.1504-1510; Ch.166 pp.1117-1118; Ch.238 pp.1497-1498; Ch.111 pp.699-703; Ch.13 p.67",
+    "summary": "Anticoagulated head trauma pathway with CT-now rule caveats, brain resuscitation targets, reversal table for warfarin/DOACs/heparins/antiplatelets, ICP/herniation actions, and disposition traps.",
+    "href": "tbi-reversal-agents/index.html"
+  },
+  {
     "title": "Spinal Shock",
     "slug": "spinal-shock",
     "system": "Trauma / Neurology / Critical Care",
