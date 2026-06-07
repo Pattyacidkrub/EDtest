@@ -1,5 +1,14 @@
 [
   {
+    "title": "Child Abuse & Neglect",
+    "slug": "child-abuse-neglect",
+    "system": "Pediatrics / Trauma / Safeguarding",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.150 pp.988-995; Ch.111 pp.699-703; Ch.138 pp.895-896; Ch.115 pp.723-727; Ch.293 pp.1967-1971; Ch.110 p.684",
+    "summary": "ED child maltreatment recognition and safety pathway covering neglect, physical abuse, TEN-4 bruising, burns/fractures, abusive head trauma, occult abdominal trauma, sexual abuse evaluation, documentation, reporting, analgesia, and disposition.",
+    "href": "child-abuse-neglect/index.html"
+  },
+  {
     "title": "Cervical Spine Injury",
     "slug": "cervical-spine-injury",
     "system": "Trauma / Spine / Neurology",
