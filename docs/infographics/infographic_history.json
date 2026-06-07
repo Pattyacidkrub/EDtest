@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "kawasaki-disease",
+      "title": "Kawasaki Disease",
+      "system": "Pediatrics / Cardiology / Dermatology",
+      "date": "2026-06-07"
+    },
+    {
       "slug": "guillain-barre-syndrome",
       "title": "Guillain-Barre Syndrome (GBS)",
       "system": "Neurology / Respiratory Failure",
@@ -27,8 +33,8 @@
   ],
   "last_run": {
     "date": "2026-06-07",
-    "slug": "guillain-barre-syndrome",
-    "title": "Guillain-Barre Syndrome (GBS)",
+    "slug": "kawasaki-disease",
+    "title": "Kawasaki Disease",
     "status": "generated_codex_builtin_image"
   }
 }

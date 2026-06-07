@@ -1,5 +1,14 @@
 [
   {
+    "title": "Kawasaki Disease",
+    "slug": "kawasaki-disease",
+    "system": "Pediatrics / Cardiology / Dermatology",
+    "date": "2026-06-07",
+    "href": "kawasaki-disease/index.html",
+    "chapter": "Tintinalli Ch.129 pp.831-832; Ch.142 pp.942-943",
+    "summary": "Fever with mucocutaneous signs, incomplete criteria, coronary risk, IVIG/aspirin treatment, and admission traps."
+  },
+  {
     "title": "Guillain-Barre Syndrome (GBS)",
     "slug": "guillain-barre-syndrome",
     "system": "Neurology / Respiratory Failure",
