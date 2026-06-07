@@ -313,14 +313,16 @@
 
     <section class="toolbar" aria-label="Infographic search and filters">
       <div class="search-row">
-        <input id="infographicSearch" class="search-input" type="search" placeholder="Search: ectopic, HSP, vasculitis, renal, ultrasound..." autocomplete="off">
+        <input id="infographicSearch" class="search-input" type="search" placeholder="Search: PE, ectopic, HSP, anticoagulation, ultrasound..." autocomplete="off">
         <button id="clearSearch" class="clear-button" type="button">Clear</button>
       </div>
       <div class="filters" aria-label="Infographic categories">
-        <button class="filter-button is-active" type="button" data-filter="All">All<span>2</span></button>
+        <button class="filter-button is-active" type="button" data-filter="All">All<span>3</span></button>
+        <button class="filter-button" type="button" data-filter="Cardiovascular">Cardiovascular<span>1</span></button>
+        <button class="filter-button" type="button" data-filter="Pulmonary">Pulmonary<span>1</span></button>
         <button class="filter-button" type="button" data-filter="OB/GYN">OB/GYN<span>1</span></button>
         <button class="filter-button" type="button" data-filter="Pediatrics">Pediatrics<span>1</span></button>
-        <button class="filter-button" type="button" data-filter="Algorithm">Algorithm<span>2</span></button>
+        <button class="filter-button" type="button" data-filter="Algorithm">Algorithm<span>3</span></button>
         <button class="filter-button" type="button" data-filter="Ultrasound">Ultrasound<span>1</span></button>
         <button class="filter-button" type="button" data-filter="Renal">Renal<span>1</span></button>
         <button class="filter-button" type="button" data-filter="Vasculitis">Vasculitis<span>1</span></button>
@@ -330,10 +332,27 @@
     <section>
       <div class="section-head">
         <h2>Infographic Library</h2>
-        <span id="resultCount" class="result-count">2 shown</span>
+        <span id="resultCount" class="result-count">3 shown</span>
       </div>
 
       <div id="infographicGrid" class="grid">
+        <a class="card" href="2026-06-07-pulmonary-embolism.html" data-title="pulmonary embolism pe venous thromboembolism cardiovascular pulmonary anticoagulation d-dimer perc wells geneva ctpa vq ultrasound thrombolysis ch056 algorithm" data-category="Cardiovascular Pulmonary Algorithm">
+          <div class="card-top">
+            <span class="code">CH056</span>
+            <span class="pill">Cardiovascular</span>
+          </div>
+          <div>
+            <h3>Pulmonary Embolism</h3>
+            <p>ED decision dashboard for probability-based diagnosis, ECG/POCUS severity clues, CTPA/VQ/US choices, anticoagulation, reperfusion, and disposition.</p>
+          </div>
+          <div class="meta">
+            <span class="tag">PERC</span>
+            <span class="tag">D-dimer</span>
+            <span class="tag">CTPA</span>
+            <span class="tag">Anticoagulation</span>
+          </div>
+        </a>
+
         <a class="card" href="ectopic-pregnancy/" data-title="ectopic pregnancy ob/gyn pregnancy first trimester ultrasound beta-hcg methotrexate discriminatory zone ch098 a12 algorithm" data-category="OB/GYN Algorithm Ultrasound">
           <div class="card-top">
             <span class="code">CH098 · A12</span>

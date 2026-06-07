@@ -1,0 +1,29 @@
+{
+  "completed": [
+    {
+      "slug": "ectopic-pregnancy",
+      "title": "Ectopic Pregnancy",
+      "system": "OB/GYN",
+      "date": "2026-06-07"
+    },
+    {
+      "slug": "iga-vasculitis-hsp",
+      "title": "IgA Vasculitis / HSP",
+      "system": "Pediatrics / Renal / Vasculitis",
+      "date": "2026-06-07"
+    },
+    {
+      "slug": "pulmonary-embolism",
+      "title": "Pulmonary Embolism",
+      "system": "Cardiovascular / Pulmonary",
+      "date": "2026-06-07",
+      "source": "ER/docs/chapters/complete/Chapter056_VenousThromboembolismPulmonaryEmbolism.html"
+    }
+  ],
+  "last_run": {
+    "date": "2026-06-07",
+    "slug": "pulmonary-embolism",
+    "title": "Pulmonary Embolism",
+    "status": "generated"
+  }
+}
