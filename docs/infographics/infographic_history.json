@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "phlegmasia-cerulea-dolens",
+      "title": "Phlegmasia Cerulea Dolens",
+      "system": "Cardiovascular / Vascular / Hematology",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "dress-syndrome",
       "title": "DRESS Syndrome",
       "system": "Dermatology / Toxicology / Pharmacology",
@@ -87,8 +93,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "dress-syndrome",
-    "title": "DRESS Syndrome",
+    "slug": "phlegmasia-cerulea-dolens",
+    "title": "Phlegmasia Cerulea Dolens",
     "status": "generated_codex_builtin_image_source_backed"
   }
 }

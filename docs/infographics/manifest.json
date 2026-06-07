@@ -1,5 +1,14 @@
 [
   {
+    "title": "Phlegmasia Cerulea Dolens",
+    "slug": "phlegmasia-cerulea-dolens",
+    "system": "Cardiovascular / Vascular / Hematology",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.56 pp.389-398; Ch.239 pp.1506-1512; Ch.99 pp.624-625; Ch.61 p.432",
+    "summary": "Limb-threatening iliofemoral DVT with blue swollen painful limb, rapid anticoagulation, vascular consultation, thrombolysis/thrombectomy pathway, and admission traps.",
+    "href": "phlegmasia-cerulea-dolens/index.html"
+  },
+  {
     "title": "DRESS Syndrome",
     "slug": "dress-syndrome",
     "system": "Dermatology / Toxicology / Pharmacology",
