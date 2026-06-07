@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "cervical-spine-injury",
+      "title": "Cervical Spine Injury",
+      "system": "Trauma / Spine / Neurology",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "ecg-de-winter-pattern",
       "title": "ECG de Winter Pattern",
       "system": "Cardiology / ECG / ACS",
@@ -135,8 +141,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "tbi-reversal-agents",
-    "title": "TBI + Reversal Agents",
+    "slug": "cervical-spine-injury",
+    "title": "Cervical Spine Injury",
     "status": "generated_codex_builtin_image_source_backed"
   }
 }

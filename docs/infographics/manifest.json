@@ -1,5 +1,14 @@
 [
   {
+    "title": "Cervical Spine Injury",
+    "slug": "cervical-spine-injury",
+    "system": "Trauma / Spine / Neurology",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.258 pp.1697-1714; Ch.254 pp.1669-1671; Ch.255 pp.1678-1679; Ch.112 pp.706-709; Ch.2 pp.6-7; Ch.35 pp.232-234",
+    "summary": "Adult ED cervical spine trauma clearance and imaging pathway with NEXUS/Canadian rules, CT/MRI indications, cord syndromes, stabilization, geriatric/pediatric traps, analgesia, steroid cautions, and disposition.",
+    "href": "cervical-spine-injury/index.html"
+  },
+  {
     "title": "ECG de Winter Pattern",
     "slug": "ecg-de-winter-pattern",
     "system": "Cardiology / ECG / ACS",
