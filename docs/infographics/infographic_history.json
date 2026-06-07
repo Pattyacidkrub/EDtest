@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "botulism",
+      "title": "Botulism",
+      "system": "Toxicology / Neurology / Infectious Disease",
+      "date": "2026-06-07"
+    },
+    {
       "slug": "ectopic-pregnancy",
       "title": "Ectopic Pregnancy",
       "system": "OB/GYN",
@@ -15,8 +21,8 @@
   ],
   "last_run": {
     "date": "2026-06-07",
-    "slug": "iga-vasculitis-hsp",
-    "title": "IgA Vasculitis / HSP",
-    "status": "current_after_pe_deleted"
+    "slug": "botulism",
+    "title": "Botulism",
+    "status": "generated_clean_gpt_image_2"
   }
 }
