@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "hus",
+      "title": "Hemolytic-Uremic Syndrome (HUS)",
+      "system": "Pediatrics / Renal / Hematology",
+      "date": "2026-06-07"
+    },
+    {
       "slug": "ttp",
       "title": "Thrombotic Thrombocytopenic Purpura (TTP)",
       "system": "Hematology / Critical Care / Renal",
@@ -39,8 +45,8 @@
   ],
   "last_run": {
     "date": "2026-06-07",
-    "slug": "ttp",
-    "title": "Thrombotic Thrombocytopenic Purpura (TTP)",
+    "slug": "hus",
+    "title": "Hemolytic-Uremic Syndrome (HUS)",
     "status": "generated_codex_builtin_image"
   }
 }

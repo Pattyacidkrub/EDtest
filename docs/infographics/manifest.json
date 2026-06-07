@@ -1,5 +1,14 @@
 [
   {
+    "title": "Hemolytic-Uremic Syndrome (HUS)",
+    "slug": "hus",
+    "system": "Pediatrics / Renal / Hematology",
+    "date": "2026-06-07",
+    "href": "hus/index.html",
+    "chapter": "Tintinalli Ch.137 pp.884-885; Ch.237 pp.1492-1494; Ch.160 p.1065; Ch.131 p.850",
+    "summary": "STEC diarrhea with MAHA, thrombocytopenia, AKI, renal support, disposition, and avoid-antibiotic/antimotility/platelet traps."
+  },
+  {
     "title": "Thrombotic Thrombocytopenic Purpura (TTP)",
     "slug": "ttp",
     "system": "Hematology / Critical Care / Renal",
