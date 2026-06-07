@@ -1,0 +1,948 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IgA Vasculitis (HSP) Final Review Board</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,600,0,0" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #09173a;
+      --navy: #071845;
+      --navy-2: #0c2b66;
+      --purple: #62359f;
+      --purple-2: #efe9fb;
+      --green: #087052;
+      --green-2: #e8f7f1;
+      --red: #b3262c;
+      --red-2: #fff0ef;
+      --amber: #b56a00;
+      --amber-2: #fff7e8;
+      --blue-2: #ecf4ff;
+      --line: #c9d3e3;
+      --soft: #f8fafc;
+      --paper: #ffffff;
+      --muted: #5d6a7c;
+      --radius: 8px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      background: #eef2f7;
+      color: var(--ink);
+      font-family: Inter, Arial, Helvetica, sans-serif;
+      letter-spacing: 0;
+    }
+
+    body {
+      margin: 0;
+      padding: 18px;
+    }
+
+    .page {
+      width: min(1240px, 100%);
+      margin: 0 auto;
+      background: var(--paper);
+      border: 1px solid #d8e0ec;
+      border-radius: 12px;
+      box-shadow: 0 18px 50px rgba(8, 23, 58, 0.16);
+      overflow: hidden;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 16px 24px 12px;
+      border-bottom: 5px solid var(--navy);
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.96), rgba(255,255,255,1)),
+        radial-gradient(circle at top right, rgba(98,53,159,0.14), transparent 34%);
+    }
+
+    .title-block {
+      min-width: 0;
+      flex: 1;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(38px, 4.35vw, 58px);
+      line-height: 0.94;
+      font-weight: 900;
+      color: var(--navy);
+      text-transform: uppercase;
+    }
+
+    .subtitle {
+      margin-top: 8px;
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 8px 14px;
+      border-radius: 6px;
+      background: var(--navy);
+      color: #fff;
+      font-size: clamp(14px, 1.35vw, 18px);
+      font-weight: 800;
+    }
+
+    .final-badge {
+      align-self: flex-start;
+      color: var(--purple);
+      font-size: clamp(24px, 2.7vw, 34px);
+      font-weight: 900;
+      line-height: 0.92;
+      text-transform: uppercase;
+      padding-top: 4px;
+      min-width: 112px;
+    }
+
+    .hero-art {
+      width: 190px;
+      height: 140px;
+      min-width: 170px;
+      border-radius: var(--radius);
+      object-fit: cover;
+      border: 1px solid #d8caef;
+      background: #fbf9ff;
+    }
+
+    .toolbar {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+      padding: 8px 24px 0;
+      background: var(--paper);
+    }
+
+    .tool-button {
+      border: 1px solid #c7d3e5;
+      background: #f8fbff;
+      color: var(--navy);
+      border-radius: 7px;
+      font: inherit;
+      font-weight: 800;
+      font-size: 12px;
+      padding: 8px 10px;
+      cursor: pointer;
+    }
+
+    .tool-button:hover { background: #edf5ff; }
+
+    .memory-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 14px;
+      padding: 14px 24px;
+    }
+
+    .memory-card {
+      min-height: 88px;
+      display: grid;
+      grid-template-columns: 52px 1fr;
+      gap: 12px;
+      align-items: center;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 12px;
+      background: var(--paper);
+    }
+
+    .memory-card.purple { border-color: #c7b6e6; background: #fbf8ff; }
+    .memory-card.red { border-color: #edb2b4; background: #fff8f7; }
+    .memory-card.green { border-color: #aad7c6; background: #f7fffb; }
+
+    .material-symbols-rounded {
+      font-family: "Material Symbols Rounded";
+      font-weight: normal;
+      font-style: normal;
+      font-size: 38px;
+      line-height: 1;
+      width: 1em;
+      overflow: hidden;
+      text-align: center;
+      letter-spacing: normal;
+      text-transform: none;
+      display: inline-block;
+      white-space: nowrap;
+      direction: ltr;
+      -webkit-font-feature-settings: "liga";
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .memory-card .label {
+      font-size: 13px;
+      text-transform: uppercase;
+      font-weight: 900;
+      color: var(--purple);
+      margin-bottom: 3px;
+    }
+
+    .memory-card.red .label { color: var(--red); }
+    .memory-card.green .label { color: var(--green); }
+
+    .memory-card .big {
+      font-size: 22px;
+      font-weight: 900;
+      line-height: 1.15;
+    }
+
+    .memory-card .small {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 330px minmax(0, 1fr) 280px;
+      gap: 14px;
+      padding: 0 24px 22px;
+    }
+
+    .stack {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      min-width: 0;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--paper);
+      overflow: hidden;
+    }
+
+    .panel-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--navy);
+      color: #fff;
+      padding: 10px 13px;
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 18px;
+      line-height: 1;
+    }
+
+    .panel-title .num {
+      display: inline-grid;
+      place-items: center;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: #ffffff;
+      color: var(--navy);
+      font-weight: 900;
+      flex: 0 0 auto;
+    }
+
+    .panel-title.red { background: var(--red); }
+    .panel-title.green { background: var(--green); }
+    .panel-title.purple { background: var(--purple); }
+
+    .panel-body {
+      padding: 14px;
+    }
+
+    .mini-title {
+      color: var(--purple);
+      font-size: 14px;
+      font-weight: 900;
+      text-transform: uppercase;
+      margin: 0 0 8px;
+    }
+
+    .section-title {
+      color: var(--navy-2);
+      font-size: 15px;
+      font-weight: 900;
+      text-transform: uppercase;
+      margin: 0 0 8px;
+    }
+
+    p {
+      margin: 0 0 8px;
+      font-size: 14px;
+      line-height: 1.42;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    li {
+      font-size: 13.5px;
+      line-height: 1.36;
+      margin: 4px 0;
+    }
+
+    strong { font-weight: 900; }
+
+    .recognize-body {
+      display: grid;
+      gap: 12px;
+    }
+
+    .callout {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 12px;
+      background: #f9fbff;
+    }
+
+    .callout.purple { border-color: #c7b6e6; background: var(--purple-2); }
+    .callout.green { border-color: #a8d9c9; background: var(--green-2); }
+    .callout.red { border-color: #e6adaf; background: var(--red-2); }
+    .callout.amber { border-color: #e3c28d; background: var(--amber-2); }
+
+    .tetrad {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .tetrad-cell {
+      min-height: 166px;
+      padding: 14px;
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      grid-template-columns: 54px 1fr;
+      gap: 12px;
+      align-items: start;
+    }
+
+    .tetrad-cell:nth-child(2n) { border-right: 0; }
+    .tetrad-cell:nth-last-child(-n+2) { border-bottom: 0; }
+
+    .iconbox {
+      width: 54px;
+      height: 54px;
+      border-radius: 8px;
+      display: grid;
+      place-items: center;
+      background: #f0f5ff;
+      color: var(--navy-2);
+      border: 1px solid #c9d7f0;
+    }
+
+    .iconbox.purple { color: var(--purple); background: var(--purple-2); border-color: #cdbbe8; }
+    .iconbox.red { color: var(--red); background: var(--red-2); border-color: #efb4b6; }
+    .iconbox.green { color: var(--green); background: var(--green-2); border-color: #a8d9c9; }
+
+    .remember {
+      margin-top: 10px;
+      padding: 9px 12px;
+      border: 1px solid #9ed7c4;
+      background: #f0fbf6;
+      color: #0a543f;
+      border-radius: var(--radius);
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .mimics {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      border: 1px solid #f0b8ba;
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .mimics > div {
+      padding: 12px;
+      background: #fff;
+    }
+
+    .mimics > div:first-child {
+      border-right: 1px solid #f0b8ba;
+      background: #fff8f8;
+    }
+
+    .checklist {
+      display: grid;
+      gap: 8px;
+    }
+
+    .check-row {
+      display: grid;
+      grid-template-columns: 22px 1fr;
+      gap: 8px;
+      align-items: start;
+      font-size: 14px;
+      line-height: 1.35;
+      border-bottom: 1px solid #e6edf6;
+      padding-bottom: 8px;
+    }
+
+    .check-row:last-child { border-bottom: 0; padding-bottom: 0; }
+
+    .dot {
+      width: 16px;
+      height: 16px;
+      border: 2px solid var(--navy-2);
+      border-radius: 50%;
+      margin-top: 2px;
+    }
+
+    .dot.green { border-color: var(--green); background: #dff7ed; }
+    .dot.red { border-color: var(--red); background: #ffe2e1; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+      line-height: 1.32;
+      background: #fff;
+    }
+
+    th, td {
+      border: 1px solid var(--line);
+      padding: 8px;
+      vertical-align: top;
+      text-align: left;
+    }
+
+    th {
+      background: #f2f6fb;
+      color: var(--navy);
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .workup-note {
+      margin-top: 10px;
+      background: #f8fbff;
+      border: 1px solid #c9d7ec;
+      border-radius: var(--radius);
+      padding: 10px;
+      font-size: 13.5px;
+      line-height: 1.38;
+    }
+
+    .dose-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1.15fr;
+      gap: 0;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .dose-card {
+      padding: 12px;
+      border-right: 1px solid var(--line);
+      min-height: 205px;
+    }
+
+    .dose-card:last-child { border-right: 0; }
+
+    .dose-card h4 {
+      margin: 0 0 8px;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 900;
+    }
+
+    .dose-card.support h4 { color: var(--green); }
+    .dose-card.pain h4 { color: var(--purple); }
+    .dose-card.steroid h4 { color: var(--navy-2); }
+
+    .dose {
+      font-size: 15px;
+      font-weight: 900;
+      color: var(--ink);
+      line-height: 1.25;
+      margin: 4px 0 8px;
+    }
+
+    .side-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .side-item {
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      gap: 10px;
+      padding: 13px;
+      border-bottom: 1px solid var(--line);
+      align-items: start;
+    }
+
+    .side-item:last-child { border-bottom: 0; }
+
+    .side-item h4 {
+      margin: 0 0 4px;
+      color: var(--navy);
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 900;
+      line-height: 1.2;
+    }
+
+    .side-item p {
+      font-size: 13px;
+      line-height: 1.35;
+      margin: 0;
+    }
+
+    .redflags .side-item h4 { color: var(--red); }
+    .redflags .material-symbols-rounded { color: var(--red); }
+
+    .prognosis {
+      background: linear-gradient(180deg, #ffffff, #f7fffb);
+    }
+
+    .footer-strip {
+      margin: 0 24px 24px;
+      border: 1px solid #cdbbe8;
+      border-radius: var(--radius);
+      padding: 12px 16px;
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      color: var(--purple);
+      font-weight: 900;
+      text-transform: uppercase;
+      background: #fcfaff;
+    }
+
+    .footer-strip span {
+      color: var(--navy);
+      font-size: 14px;
+      text-transform: none;
+    }
+
+    .sources {
+      display: none;
+      margin-top: 10px;
+      border-top: 1px solid var(--line);
+      padding-top: 10px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .show-sources .sources { display: block; }
+
+    .source-pill {
+      display: inline-block;
+      border: 1px solid #cbd7e9;
+      background: #f8fbff;
+      border-radius: 999px;
+      padding: 4px 8px;
+      margin: 3px 4px 0 0;
+      color: #33415a;
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    @media (min-width: 1021px) {
+      h1 { white-space: nowrap; }
+    }
+
+    @media (max-width: 1020px) {
+      body { padding: 8px; }
+      .topbar { flex-wrap: wrap; }
+      .hero-art { width: 100%; height: 150px; }
+      .memory-row { grid-template-columns: 1fr; }
+      .grid { grid-template-columns: 1fr; }
+      .dose-grid, .two-col, .mimics, .tetrad { grid-template-columns: 1fr; }
+      .tetrad-cell, .tetrad-cell:nth-child(2n), .tetrad-cell:nth-last-child(-n+2) {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .tetrad-cell:last-child { border-bottom: 0; }
+      .dose-card { border-right: 0; border-bottom: 1px solid var(--line); }
+      .dose-card:last-child { border-bottom: 0; }
+    }
+
+    @media print {
+      html, body { background: #fff; }
+      body { padding: 0; }
+      .page { box-shadow: none; border: 0; width: 100%; border-radius: 0; }
+      .toolbar { display: none; }
+      .grid { grid-template-columns: 31% 45% 24%; gap: 8px; padding: 0 10px 12px; }
+      .topbar { padding: 12px 14px 10px; }
+      .memory-row { padding: 10px 14px; gap: 8px; }
+      .panel-title { font-size: 14px; padding: 7px 9px; }
+      li, p, td { font-size: 10.5px; }
+      th { font-size: 9.5px; }
+      h1 { font-size: 42px; }
+      .hero-art { width: 155px; min-width: 155px; }
+      .footer-strip { margin: 0 10px 10px; }
+      .sources { display: block; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page" id="sheet">
+    <div class="topbar">
+      <div class="title-block">
+        <h1>IgA Vasculitis (HSP)</h1>
+        <div class="subtitle">Small-vessel leukocytoclastic vasculitis due to IgA immune-complex deposition</div>
+      </div>
+      <div class="final-badge">Final<br>Review<br>Board</div>
+      <img class="hero-art" src="assets/hsp-iga-vessel-illustration.png" alt="Medical illustration of IgA immune-complex deposition in a small vessel">
+    </div>
+
+    <div class="toolbar">
+      <button class="tool-button" type="button" onclick="document.body.classList.toggle('show-sources')">Toggle Sources</button>
+      <button class="tool-button" type="button" onclick="window.print()">Print / PDF</button>
+    </div>
+
+    <section class="memory-row" aria-label="High-yield memory row">
+      <div class="memory-card purple">
+        <span class="material-symbols-rounded" aria-hidden="true">key</span>
+        <div>
+          <div class="label">High-Yield Memory</div>
+          <div class="big">Purpura + belly + joints + urine</div>
+        </div>
+      </div>
+      <div class="memory-card red">
+        <span class="material-symbols-rounded" aria-hidden="true">error</span>
+        <div>
+          <div class="label">Do Not Miss</div>
+          <div class="small">Renal involvement can be clinically silent. Check urine even if the child looks well.</div>
+        </div>
+      </div>
+      <div class="memory-card green">
+        <span class="material-symbols-rounded" aria-hidden="true">verified</span>
+        <div>
+          <div class="label">Board Pearl</div>
+          <div class="small">Steroids improve severe GI/joint symptoms, but are not proven to prevent nephritis.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="stack">
+        <section class="panel">
+          <div class="panel-title"><span class="num">1</span>Recognize</div>
+          <div class="panel-body recognize-body">
+            <div>
+              <p><strong>Most common vasculitis of childhood.</strong> Tintinalli describes typical age as <strong>3-15 years</strong>, peak <strong>5-7 years</strong>; abdominal-pain chapter describes children <strong>2-11 years</strong>.</p>
+              <ul>
+                <li>Usually preceded by an upper respiratory tract infection.</li>
+                <li>Associated triggers reported: respiratory pathogens, medications, and vaccines.</li>
+                <li>Male and female children are affected equally in Tintinalli's rash chapter.</li>
+                <li>Self-limited in most children, but recurrence occurs in about one third.</li>
+              </ul>
+            </div>
+            <div class="callout purple">
+              <div class="mini-title">Pathology</div>
+              <p><strong>IgA, C3, and immune-complex deposition</strong> in small vessels involving skin, GI tract, kidneys, joints, and other tissues.</p>
+              <p>Histology classically shows a <strong>leukocytoclastic vasculitis</strong>.</p>
+            </div>
+            <div class="callout green">
+              <div class="mini-title">Typical Exam Stem</div>
+              <p>Child with <strong>palpable nonblanching purpura</strong> on legs/buttocks, colicky abdominal pain, knee/ankle arthralgia, and hematuria/proteinuria.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title red"><span class="num">3</span>Dangerous Mimics</div>
+          <div class="panel-body">
+            <div class="mimics">
+              <div>
+                <div class="section-title" style="color: var(--red)">Think of other causes</div>
+                <ul>
+                  <li>Meningococcemia or sepsis</li>
+                  <li>Idiopathic thrombocytopenic purpura</li>
+                  <li>Thrombotic thrombocytopenic purpura</li>
+                  <li>Hemolytic-uremic syndrome</li>
+                  <li>Intussusception</li>
+                  <li>Pancreatitis</li>
+                  <li>Septic arthritis or osteomyelitis</li>
+                </ul>
+              </div>
+              <div>
+                <div class="section-title" style="color: var(--red)">Clues against simple HSP</div>
+                <ul>
+                  <li>Toxic appearance or shock</li>
+                  <li>High fever or meningismus</li>
+                  <li>Abnormal platelet count</li>
+                  <li>Focal unilateral hot joint</li>
+                  <li>Severe persistent abdominal pain</li>
+                  <li>Bilious vomiting or obstruction pattern</li>
+                  <li>Renal failure, severe hypertension, or edema</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="stack">
+        <section class="panel">
+          <div class="panel-title"><span class="num">2</span>Classic Tetrad</div>
+          <div class="panel-body">
+            <div class="tetrad">
+              <div class="tetrad-cell">
+                <div class="iconbox purple"><span class="material-symbols-rounded">dermatology</span></div>
+                <div>
+                  <div class="mini-title">Palpable Purpura</div>
+                  <ul>
+                    <li>Rash occurs in nearly all patients.</li>
+                    <li>Nonblanching, palpable, nonpruritic purpura.</li>
+                    <li>Predominantly buttocks, legs, and arms; lower extremities common.</li>
+                    <li>Lesions often 2-10 mm.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="tetrad-cell">
+                <div class="iconbox red"><span class="material-symbols-rounded">gastroenterology</span></div>
+                <div>
+                  <div class="mini-title">Abdominal Pain</div>
+                  <ul>
+                    <li>Colicky abdominal pain occurs in about half; GI symptoms may occur in 50-75%.</li>
+                    <li>Nausea, vomiting, diarrhea, or GI bleeding may be the chief complaint.</li>
+                    <li>Abdominal pain can precede rash in 30-43%.</li>
+                    <li>Intussusception occurs in about 3.5%.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="tetrad-cell">
+                <div class="iconbox"><span class="material-symbols-rounded">orthopedics</span></div>
+                <div>
+                  <div class="mini-title">Arthralgia / Arthritis</div>
+                  <ul>
+                    <li>Lower-extremity joints: knees and ankles most common.</li>
+                    <li>Arthralgia/arthritis occurs in 70-85% or about 80% depending on chapter framing.</li>
+                    <li>Usually migratory, periarticular swelling, nonerosive, self-limited.</li>
+                    <li>Often bilateral; fever is usually absent.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="tetrad-cell">
+                <div class="iconbox green"><span class="material-symbols-rounded">nephrology</span></div>
+                <div>
+                  <div class="mini-title">Renal Involvement</div>
+                  <ul>
+                    <li>Renal disease may be asymptomatic.</li>
+                    <li>Renal complications occur in 20-54%; rash chapter says approximately half.</li>
+                    <li>Microscopic/gross hematuria, proteinuria, hypertension, edema, nephritic syndrome.</li>
+                    <li>Persistent inflammation is why follow-up matters.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="remember"><strong>Remember:</strong> The tetrad may occur in any order, and not all patients have all four findings at presentation.</div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title"><span class="num">4</span>Workup</div>
+          <div class="panel-body">
+            <div class="two-col">
+              <div class="checklist">
+                <div class="check-row"><span class="dot green"></span><div><strong>Urinalysis with microscopy is mandatory.</strong> Look for RBCs, casts, and protein.</div></div>
+                <div class="check-row"><span class="dot"></span><div><strong>Blood pressure at diagnosis.</strong> Hypertension suggests renal involvement until proven otherwise.</div></div>
+                <div class="check-row"><span class="dot"></span><div><strong>Renal function tests</strong> if hematuria, proteinuria, hypertension, edema, dehydration, or ill appearance.</div></div>
+                <div class="check-row"><span class="dot"></span><div><strong>CBC / platelets / coagulation studies</strong> only when presentation is atypical or mimics are possible.</div></div>
+              </div>
+              <div class="checklist">
+                <div class="check-row"><span class="dot"></span><div><strong>Stool occult blood</strong> if GI symptoms; positive guaiac can occur and alone does not require further workup.</div></div>
+                <div class="check-row"><span class="dot red"></span><div><strong>Abdominal US</strong> for severe pain, bilious vomiting, obstruction signs, or intussusception concern.</div></div>
+                <div class="check-row"><span class="dot"></span><div><strong>ASO / strep testing</strong> may be considered if post-streptococcal trigger suspected.</div></div>
+                <div class="check-row"><span class="dot"></span><div><strong>Labs do not alter routine treatment</strong> when the bedside diagnosis is classic and renal screen is normal.</div></div>
+              </div>
+            </div>
+            <div class="workup-note">
+              <strong>Renal risk factors described in Tintinalli:</strong> male sex, age &gt;10 years, abdominal pain, GI bleeding, persistent purpura, elevated ASO, WBC &gt;15,000/mm3, and platelets &gt;500 x 10<sup>9</sup>/L.
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title"><span class="num">5</span>Treatment &amp; Doses</div>
+          <div class="panel-body">
+            <div class="dose-grid">
+              <div class="dose-card support">
+                <h4>Supportive Care</h4>
+                <ul>
+                  <li>Reassure: usually self-limited.</li>
+                  <li>Hydration; encourage oral fluids if tolerated.</li>
+                  <li>Rest and avoid strenuous activity while symptomatic.</li>
+                  <li>Assess intake, output, vomiting, and dehydration.</li>
+                </ul>
+                <div class="dose">Acetaminophen: 10-15 mg/kg/dose PO q4-6h PRN</div>
+                <p>Usual max: 75 mg/kg/day or adult max 4 g/day, whichever is lower.</p>
+              </div>
+              <div class="dose-card pain">
+                <h4>Pain / Arthralgia</h4>
+                <div class="dose">Ibuprofen: 10 mg/kg/dose PO q6-8h PRN</div>
+                <p>Usual max: 40 mg/kg/day.</p>
+                <div class="dose">Ketorolac: 0.5 mg/kg IV/IM q6h PRN</div>
+                <p>Use local pediatric max dose policy; avoid prolonged use.</p>
+                <div class="callout red" style="margin-top: 8px;">
+                  <strong>Avoid NSAIDs if:</strong>
+                  <ul>
+                    <li>Renal involvement or rising creatinine</li>
+                    <li>Dehydration or poor oral intake</li>
+                    <li>GI bleeding or significant abdominal symptoms</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="dose-card steroid">
+                <h4>Severe GI or Joint Symptoms</h4>
+                <div class="dose">Prednisone: 1 mg/kg/day PO x 2 weeks, then taper over 2 weeks</div>
+                <p>Use for severe abdominal pain or significant joint symptoms after mimics and complications are considered.</p>
+                <div class="callout green" style="margin-top: 8px;">
+                  Steroids can attenuate joint and GI symptoms.
+                </div>
+                <div class="callout amber" style="margin-top: 8px;">
+                  They are <strong>not proven</strong> to prevent nephritis or long-term renal damage.
+                </div>
+                <p style="margin-top: 8px;">Severe nephritis: discuss with pediatric nephrology; therapies are controversial and specialist-led.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title"><span class="num">6</span>Disposition &amp; Follow-Up</div>
+          <div class="panel-body">
+            <table>
+              <thead>
+                <tr>
+                  <th>Disposition</th>
+                  <th>Criteria</th>
+                  <th>Next Step</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Outpatient</strong></td>
+                  <td>Stable vitals, tolerating PO, pain controlled, no severe GI symptoms, normal BP, normal or mild renal screen.</td>
+                  <td>Repeat UA and BP within 7 days; continue surveillance for 6 months.</td>
+                </tr>
+                <tr>
+                  <td><strong>Admit / observe</strong></td>
+                  <td>Ill appearing, dehydrated, unable to tolerate PO, uncontrolled pain, severe abdominal pain, GI bleeding, concern for intussusception.</td>
+                  <td>IV fluids, imaging as indicated, serial abdominal exams, pediatric/consult care.</td>
+                </tr>
+                <tr>
+                  <td><strong>Nephrology discussion</strong></td>
+                  <td>Gross hematuria, more than small proteinuria, hypertension, edema, abnormal renal function, nephritic syndrome.</td>
+                  <td>Specialist-directed renal monitoring and therapy.</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="sources">
+              <span class="source-pill">Tintinalli Ch.142 p.943-944</span>
+              <span class="source-pill">Tintinalli Ch.137 p.884</span>
+              <span class="source-pill">Tintinalli Ch.133 p.861-862</span>
+              Educational board-review material only; apply institutional pediatric dosing and consult local guidelines when treating a real patient.
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <aside class="stack">
+        <section class="panel">
+          <div class="panel-title"><span class="material-symbols-rounded">checklist</span>Ask Every Time</div>
+          <div class="side-list">
+            <div class="side-item">
+              <span class="material-symbols-rounded">blood_pressure</span>
+              <div><h4>Blood Pressure</h4><p>Check at diagnosis and follow-up. Hypertension means renal involvement until proven otherwise.</p></div>
+            </div>
+            <div class="side-item">
+              <span class="material-symbols-rounded">science</span>
+              <div><h4>Urinalysis</h4><p>UA is the ED anchor test. Look for hematuria, casts, and proteinuria.</p></div>
+            </div>
+            <div class="side-item">
+              <span class="material-symbols-rounded">gastroenterology</span>
+              <div><h4>Abdominal Pain</h4><p>Colicky? Persistent? Vomiting? Blood in stool? Consider intussusception if concerning.</p></div>
+            </div>
+            <div class="side-item">
+              <span class="material-symbols-rounded">water_drop</span>
+              <div><h4>GI Bleeding</h4><p>Assess hydration and hemoglobin when bleeding is clinically significant.</p></div>
+            </div>
+            <div class="side-item">
+              <span class="material-symbols-rounded">urology</span>
+              <div><h4>Scrotal Pain</h4><p>Can occur in IgA vasculitis; never miss testicular torsion in boys.</p></div>
+            </div>
+            <div class="side-item">
+              <span class="material-symbols-rounded">humidity_mid</span>
+              <div><h4>Hydration Status</h4><p>Ask intake/output and vomiting. Dehydration changes NSAID safety and disposition.</p></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel redflags">
+          <div class="panel-title red"><span class="material-symbols-rounded">emergency_home</span>Red Flags - ED Now</div>
+          <div class="side-list">
+            <div class="side-item"><span class="material-symbols-rounded">priority_high</span><div><h4>Severe abdominal pain</h4><p>Especially persistent, focal, bilious vomiting, or GI bleeding.</p></div></div>
+            <div class="side-item"><span class="material-symbols-rounded">monitor_heart</span><div><h4>Hypertension or edema</h4><p>Renal disease until proven otherwise.</p></div></div>
+            <div class="side-item"><span class="material-symbols-rounded">nephrology</span><div><h4>Hematuria + proteinuria</h4><p>More extensive renal involvement than isolated microscopic hematuria.</p></div></div>
+            <div class="side-item"><span class="material-symbols-rounded">trending_up</span><div><h4>Rising creatinine</h4><p>Discuss with pediatric nephrology.</p></div></div>
+            <div class="side-item"><span class="material-symbols-rounded">local_hospital</span><div><h4>Unable to hydrate</h4><p>IV fluids and admission when ill, dehydrated, or not tolerating PO.</p></div></div>
+          </div>
+        </section>
+
+        <section class="panel prognosis">
+          <div class="panel-title green"><span class="material-symbols-rounded">eco</span>Prognosis</div>
+          <div class="panel-body">
+            <p>Most children recover completely. Tintinalli notes HSP is typically self-limited and resolves over <strong>3-4 weeks</strong>.</p>
+            <ul>
+              <li>Recurrent disease: about one third.</li>
+              <li>Urinary abnormalities can persist for years.</li>
+              <li>Long-term renal impairment occurs in a small minority.</li>
+              <li>End-stage renal disease is rare.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title purple"><span class="material-symbols-rounded">school</span>One-Line Dx</div>
+          <div class="panel-body">
+            <p><strong>IgA vasculitis / HSP</strong> = IgA immune-complex small-vessel vasculitis causing palpable purpura, abdominal pain, arthralgia/arthritis, and renal findings.</p>
+          </div>
+        </section>
+      </aside>
+    </section>
+
+    <div class="footer-strip">
+      One More Time
+      <span>Palpable purpura</span>
+      <span>Belly pain / GI bleed</span>
+      <span>Joint pain</span>
+      <span>Urine abnormalities</span>
+      <span>Think HSP. Check BP and UA. Monitor closely.</span>
+    </div>
+  </main>
+
+  <script>
+    document.addEventListener("keydown", (event) => {
+      if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "p") {
+        event.preventDefault();
+        window.print();
+      }
+    });
+  </script>
+</body>
+</html>
