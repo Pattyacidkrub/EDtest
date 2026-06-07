@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "open-globe-injury",
+      "title": "Open Globe Injury",
+      "system": "Ophthalmology / Trauma / Procedures",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "regional-nerve-blocks-foot-face-forehead",
       "title": "Regional Nerve Blocks: Foot, Face & Forehead",
       "system": "Procedures / Analgesia / Trauma",
@@ -153,8 +159,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "regional-nerve-blocks-foot-face-forehead",
-    "title": "Regional Nerve Blocks: Foot, Face & Forehead",
+    "slug": "open-globe-injury",
+    "title": "Open Globe Injury",
     "status": "generated_custom_diagram_source_backed"
   }
 }

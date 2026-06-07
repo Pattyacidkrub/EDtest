@@ -1,5 +1,14 @@
 [
   {
+    "title": "Open Globe Injury",
+    "slug": "open-globe-injury",
+    "system": "Ophthalmology / Trauma / Procedures",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.241 pp.1523-1560; Ch.35 pp.231-233; Ch.115 pp.724-727; Ch.47 pp.324-325",
+    "summary": "Vision-threatening ocular trauma pathway: occult high-speed penetration, red flags, stop-exam rule, rigid shield, CT orbit, IV antibiotics, antiemetic/analgesia/tetanus, and immediate ophthalmology disposition.",
+    "href": "open-globe-injury/index.html"
+  },
+  {
     "title": "Regional Nerve Blocks: Foot, Face & Forehead",
     "slug": "regional-nerve-blocks-foot-face-forehead",
     "system": "Procedures / Analgesia / Trauma",
