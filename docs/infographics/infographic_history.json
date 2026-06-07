@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "guillain-barre-syndrome",
+      "title": "Guillain-Barre Syndrome (GBS)",
+      "system": "Neurology / Respiratory Failure",
+      "date": "2026-06-07"
+    },
+    {
       "slug": "botulism",
       "title": "Botulism",
       "system": "Toxicology / Neurology / Infectious Disease",
@@ -21,8 +27,8 @@
   ],
   "last_run": {
     "date": "2026-06-07",
-    "slug": "botulism",
-    "title": "Botulism",
-    "status": "generated_clean_gpt_image_2"
+    "slug": "guillain-barre-syndrome",
+    "title": "Guillain-Barre Syndrome (GBS)",
+    "status": "generated_codex_builtin_image"
   }
 }

@@ -1,5 +1,14 @@
 [
   {
+    "title": "Guillain-Barre Syndrome (GBS)",
+    "slug": "guillain-barre-syndrome",
+    "system": "Neurology / Respiratory Failure",
+    "date": "2026-06-07",
+    "href": "guillain-barre-syndrome/index.html",
+    "chapter": "Tintinalli Ch.172 pp.1160-1161",
+    "summary": "Ascending areflexic weakness, respiratory monitoring, intubation/ICU criteria, IVIG/plasma exchange, and exam traps."
+  },
+  {
     "title": "Botulism",
     "slug": "botulism",
     "system": "Toxicology / Neurology / Infectious Disease",
