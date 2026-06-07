@@ -1,5 +1,14 @@
 [
   {
+    "title": "Geriatric Trauma + Frailty",
+    "slug": "geriatric-trauma-frailty",
+    "system": "Geriatrics / Trauma / Critical Care",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.255 pp.1677-1680; Ch.169 pp.1144-1145; Ch.257 p.1687; Ch.35 pp.230-235; Ch.37 pp.252-253",
+    "summary": "Older-adult trauma risk lens focused on frailty, misleading vital signs, occult hypoperfusion, low-impact high-consequence mechanisms, lower imaging thresholds, medication cautions, and admission/ICU indicators.",
+    "href": "geriatric-trauma-frailty/index.html"
+  },
+  {
     "title": "TBI + Reversal Agents",
     "slug": "tbi-reversal-agents",
     "system": "Trauma / Neurology / Hematology",

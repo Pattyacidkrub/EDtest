@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "geriatric-trauma-frailty",
+      "title": "Geriatric Trauma + Frailty",
+      "system": "Geriatrics / Trauma / Critical Care",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "tbi-reversal-agents",
       "title": "TBI + Reversal Agents",
       "system": "Trauma / Neurology / Hematology",
