@@ -1,5 +1,14 @@
 [
   {
+    "title": "HIV PEP Medications",
+    "slug": "hiv-pep-medications",
+    "system": "Infectious Disease / Occupational Exposure / Sexual Assault",
+    "date": "2026-06-07",
+    "href": "hiv-pep-medications/index.html",
+    "chapter": "Tintinalli Ch.163 pp.1093-1096; Ch.293 pp.1969-1970; Ch.155 pp.1041-1043",
+    "summary": "Post-exposure HIV regimen, timing, adult doses, cautions, baseline labs, follow-up, and occupational/sexual assault traps."
+  },
+  {
     "title": "Hemolytic-Uremic Syndrome (HUS)",
     "slug": "hus",
     "system": "Pediatrics / Renal / Hematology",

@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "hiv-pep-medications",
+      "title": "HIV PEP Medications",
+      "system": "Infectious Disease / Occupational Exposure / Sexual Assault",
+      "date": "2026-06-07"
+    },
+    {
       "slug": "hus",
       "title": "Hemolytic-Uremic Syndrome (HUS)",
       "system": "Pediatrics / Renal / Hematology",
@@ -45,8 +51,8 @@
   ],
   "last_run": {
     "date": "2026-06-07",
-    "slug": "hus",
-    "title": "Hemolytic-Uremic Syndrome (HUS)",
+    "slug": "hiv-pep-medications",
+    "title": "HIV PEP Medications",
     "status": "generated_codex_builtin_image"
   }
 }
