@@ -1,0 +1,1228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ectopic Pregnancy ED Decision Dashboard</title>
+  <style>
+    :root {
+      --ink: #101820;
+      --navy: #10253d;
+      --navy-2: #0a1524;
+      --blue: #174a78;
+      --line: #cbd7e1;
+      --soft: #f6f8fb;
+      --soft-blue: #edf5fb;
+      --soft-green: #edf8f0;
+      --soft-red: #fff0ec;
+      --soft-purple: #f5effd;
+      --green: #1f7a4d;
+      --red: #b72126;
+      --purple: #5b2a87;
+      --amber: #9a5a00;
+      --muted: #526170;
+      --radius: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      background: #e9eef3;
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 0;
+    }
+
+    body {
+      margin: 0;
+      padding: 16px;
+    }
+
+    .dashboard {
+      max-width: 1420px;
+      margin: 0 auto;
+      background: white;
+      border: 1px solid #b9c6d3;
+      box-shadow: 0 18px 48px rgba(12, 24, 38, 0.15);
+      overflow: hidden;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(620px, 1fr) 430px 132px;
+      gap: 28px;
+      align-items: center;
+      padding: 18px 30px 16px;
+      color: white;
+      background:
+        linear-gradient(90deg, rgba(9, 17, 28, 0.98), rgba(15, 29, 47, 0.96));
+      border-bottom: 10px solid #f4f7fa;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: clamp(34px, 3.85vw, 54px);
+      line-height: 0.95;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .hero .subtitle {
+      margin-top: 7px;
+      color: #9db4ca;
+      font-size: clamp(20px, 2.2vw, 31px);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    .hero .rule {
+      border-left: 2px solid rgba(255,255,255,0.65);
+      padding-left: 22px;
+      font-size: 18px;
+      line-height: 1.35;
+      font-weight: 700;
+    }
+
+    .uterus-mark {
+      justify-self: end;
+      width: 110px;
+      border: 2px solid rgba(255,255,255,0.45);
+      border-radius: 8px;
+      padding: 8px;
+      color: #ffd1d1;
+      text-align: center;
+      font-size: 12px;
+      line-height: 1.2;
+      text-transform: uppercase;
+      background: rgba(255,255,255,0.04);
+    }
+
+    .uterus-mark img {
+      display: block;
+      margin: 8px auto 4px;
+      width: 72px;
+      height: 72px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .content {
+      display: grid;
+      grid-template-columns: 375px minmax(560px, 1fr) 365px;
+      gap: 16px;
+      padding: 0 14px 16px;
+      align-items: start;
+    }
+
+    .stack {
+      display: grid;
+      gap: 14px;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: white;
+      overflow: hidden;
+    }
+
+    .panel-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 44px;
+      padding: 10px 14px;
+      background: linear-gradient(90deg, var(--navy), var(--navy-2));
+      color: white;
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 16px;
+      line-height: 1.15;
+    }
+
+    .panel-title.red {
+      background: linear-gradient(90deg, #b51d23, #8f1117);
+    }
+
+    .panel-title.green {
+      background: linear-gradient(90deg, #1c7648, #115738);
+    }
+
+    .panel-title.blue {
+      background: linear-gradient(90deg, #174a78, #0f3152);
+    }
+
+    .num {
+      flex: 0 0 auto;
+      display: inline-grid;
+      place-items: center;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      color: white;
+      background: #245a90;
+      font-weight: 900;
+      font-size: 15px;
+      line-height: 1;
+    }
+
+    .panel-title.red .num {
+      background: #df4b4f;
+    }
+
+    .panel-title.green .num {
+      background: #36a168;
+    }
+
+    .panel-body {
+      padding: 12px 14px;
+    }
+
+    .flow {
+      display: grid;
+      gap: 10px;
+      position: relative;
+    }
+
+    .step {
+      display: grid;
+      grid-template-columns: 38px 1fr;
+      gap: 10px;
+      padding: 10px 10px 10px 0;
+      border-bottom: 1px solid #d8e0e8;
+      position: relative;
+    }
+
+    .step:last-child {
+      border-bottom: 0;
+    }
+
+    .step-index {
+      display: grid;
+      place-items: center;
+      width: 34px;
+      height: 34px;
+      margin-top: 2px;
+      border-radius: 50%;
+      background: var(--blue);
+      color: white;
+      font-weight: 900;
+      font-size: 20px;
+    }
+
+    .step h3 {
+      margin: 0 0 6px;
+      color: #103b66;
+      font-size: 16px;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    li {
+      margin: 3px 0;
+      font-size: 14px;
+      line-height: 1.28;
+    }
+
+    .branch {
+      border: 1px solid #ced9e3;
+      border-radius: var(--radius);
+      padding: 10px;
+      background: var(--soft);
+    }
+
+    .branch h4 {
+      margin: 0 0 8px;
+      font-size: 14px;
+      color: #1b334c;
+      text-transform: uppercase;
+    }
+
+    .yes-no {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 26px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 900;
+      color: white;
+      text-transform: uppercase;
+    }
+
+    .pill.red {
+      background: var(--red);
+    }
+
+    .pill.green {
+      background: var(--green);
+    }
+
+    .callout {
+      padding: 12px;
+      border: 1px solid #efb9b2;
+      border-left: 5px solid var(--red);
+      border-radius: var(--radius);
+      background: var(--soft-red);
+    }
+
+    .callout h3,
+    .soft-box h3 {
+      margin: 0 0 7px;
+      font-size: 15px;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+
+    .callout h3 {
+      color: var(--red);
+    }
+
+    .soft-box {
+      padding: 11px;
+      border: 1px solid #cbd7e1;
+      border-radius: var(--radius);
+      background: #f8fbfd;
+      margin-top: 8px;
+    }
+
+    .soft-box.green {
+      border-color: #bcd9c9;
+      background: var(--soft-green);
+    }
+
+    .soft-box.red {
+      border-color: #efb9b2;
+      background: var(--soft-red);
+    }
+
+    .soft-box.purple {
+      border-color: #d4c3ec;
+      background: var(--soft-purple);
+    }
+
+    .soft-box.green h3 {
+      color: var(--green);
+    }
+
+    .soft-box.red h3 {
+      color: var(--red);
+    }
+
+    .soft-box.purple h3 {
+      color: var(--purple);
+    }
+
+    .pearl-list li,
+    .risk-list li,
+    .return-list li {
+      font-size: 14px;
+    }
+
+    .matrix-card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: white;
+    }
+
+    .zone {
+      text-align: center;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfbfe;
+    }
+
+    .zone h3 {
+      margin: 0 0 8px;
+      font-size: 17px;
+      text-transform: uppercase;
+    }
+
+    .zone-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      border: 1px solid #c8badf;
+      background: #f6f0fb;
+    }
+
+    .zone-item {
+      padding: 14px 10px;
+    }
+
+    .zone-item + .zone-item {
+      border-left: 1px solid #c8badf;
+    }
+
+    .zone-label {
+      color: #2f2641;
+      font-size: 13px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .zone-value {
+      margin-top: 8px;
+      color: var(--purple);
+      font-size: 28px;
+      font-weight: 900;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      border: 1px solid var(--line);
+      padding: 10px 9px;
+      vertical-align: top;
+      font-size: 14px;
+      line-height: 1.3;
+    }
+
+    th {
+      color: #121a24;
+      background: #f3f6f8;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    .matrix td:first-child {
+      width: 21%;
+      text-align: center;
+      font-weight: 900;
+    }
+
+    .matrix td:nth-child(2) {
+      width: 42%;
+    }
+
+    .matrix tr.ok td {
+      background: var(--soft-green);
+    }
+
+    .matrix tr.danger td {
+      background: var(--soft-red);
+    }
+
+    .matrix tr.pul td {
+      background: var(--soft-purple);
+    }
+
+    .interpret {
+      font-weight: 900;
+      font-size: 15px;
+    }
+
+    .interpret.green {
+      color: var(--green);
+    }
+
+    .interpret.red {
+      color: var(--red);
+    }
+
+    .interpret.purple {
+      color: var(--purple);
+    }
+
+    .micro-note {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 4px;
+    }
+
+    .mini-table {
+      margin-top: 12px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .mini-table h3 {
+      margin: 0;
+      padding: 10px 12px;
+      font-size: 16px;
+      line-height: 1.1;
+      border-bottom: 1px solid var(--line);
+      background: #f8fbfd;
+      text-transform: uppercase;
+    }
+
+    .trend td:first-child {
+      width: 27%;
+      font-weight: 900;
+    }
+
+    .trend .up {
+      color: var(--green);
+      font-weight: 900;
+      font-size: 22px;
+      text-align: center;
+    }
+
+    .trend .bad {
+      color: var(--red);
+      font-weight: 900;
+      font-size: 22px;
+      text-align: center;
+    }
+
+    .trend .down {
+      color: var(--amber);
+      font-weight: 900;
+      font-size: 22px;
+      text-align: center;
+    }
+
+    .ultrasound {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      padding: 12px;
+      background: white;
+    }
+
+    .us-card {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      overflow: hidden;
+      background: #0b0d10;
+    }
+
+    .us-image {
+      aspect-ratio: 1.44 / 1;
+      background-image: url("assets/ectopic-ultrasound-grid.png");
+      background-size: 300% 200%;
+      background-repeat: no-repeat;
+    }
+
+    .us-1 { background-position: 0% 0%; }
+    .us-2 { background-position: 50% 0%; }
+    .us-3 { background-position: 100% 0%; }
+    .us-4 { background-position: 0% 100%; }
+    .us-5 { background-position: 50% 100%; }
+    .us-6 { background-position: 100% 100%; }
+
+    .us-caption {
+      min-height: 64px;
+      padding: 8px;
+      color: #102030;
+      background: #f7f9fb;
+      font-size: 12px;
+      line-height: 1.25;
+      text-align: center;
+    }
+
+    .us-caption strong {
+      display: block;
+      margin-bottom: 3px;
+      color: #0f3152;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    .redflag-list {
+      display: grid;
+      gap: 0;
+    }
+
+    .redflag {
+      display: grid;
+      grid-template-columns: 10px 1fr;
+      gap: 10px;
+      padding: 12px 0;
+      border-bottom: 1px solid #efc8c5;
+    }
+
+    .redflag:last-child {
+      border-bottom: 0;
+    }
+
+    .redflag:before {
+      content: "";
+      width: 7px;
+      height: 100%;
+      min-height: 28px;
+      border-radius: 4px;
+      background: var(--red);
+    }
+
+    .redflag strong {
+      display: block;
+      color: #351112;
+      font-size: 15px;
+      line-height: 1.2;
+    }
+
+    .redflag span {
+      display: block;
+      margin-top: 3px;
+      color: #29333d;
+      font-size: 13px;
+      line-height: 1.25;
+    }
+
+    .checklist {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .checklist li {
+      display: grid;
+      grid-template-columns: 20px 1fr;
+      gap: 8px;
+      padding: 8px 0;
+      border-bottom: 1px solid #d5e1d9;
+      font-size: 14px;
+      line-height: 1.25;
+    }
+
+    .checklist li:last-child {
+      border-bottom: 0;
+    }
+
+    .box {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border: 2px solid var(--green);
+      border-radius: 2px;
+      margin-top: 1px;
+    }
+
+    .regimen {
+      border: 1px solid #bcd9c9;
+      border-radius: var(--radius);
+      background: #f5fbf7;
+      padding: 10px;
+      margin-top: 10px;
+    }
+
+    .regimen h4,
+    .contra h4 {
+      margin: 0 0 7px;
+      text-align: center;
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+
+    .contra {
+      border: 1px solid #efb9b2;
+      border-radius: var(--radius);
+      background: var(--soft-red);
+      padding: 10px;
+      margin-top: 10px;
+    }
+
+    .contra ul {
+      columns: 1;
+    }
+
+    .contra li {
+      color: #4c1618;
+      font-size: 13px;
+    }
+
+    .two-bottom {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      padding: 0 14px 16px;
+    }
+
+    .reference-list {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    .reference-list li {
+      font-size: 12px;
+      line-height: 1.25;
+    }
+
+    .kicker {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: none;
+    }
+
+    .print-note {
+      padding: 10px 16px 16px;
+      color: #607080;
+      font-size: 12px;
+      text-align: center;
+    }
+
+    @media (max-width: 1180px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .hero .rule {
+        border-left: 0;
+        padding-left: 0;
+        border-top: 1px solid rgba(255,255,255,0.35);
+        padding-top: 12px;
+      }
+
+      .uterus-mark {
+        justify-self: start;
+      }
+
+      .content {
+        grid-template-columns: 1fr;
+      }
+
+      .two-bottom {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 720px) {
+      body {
+        padding: 0;
+      }
+
+      .dashboard {
+        border: 0;
+        box-shadow: none;
+      }
+
+      .hero {
+        padding: 18px;
+      }
+
+      .hero h1 {
+        white-space: normal;
+      }
+
+      .content,
+      .two-bottom {
+        padding: 0 10px 12px;
+      }
+
+      .zone-grid,
+      .yes-no {
+        grid-template-columns: 1fr;
+      }
+
+      .zone-item + .zone-item {
+        border-left: 0;
+        border-top: 1px solid #c8badf;
+      }
+
+      .ultrasound {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      th,
+      td {
+        font-size: 12px;
+        padding: 8px 6px;
+      }
+    }
+
+    @media print {
+      html {
+        background: white;
+      }
+
+      body {
+        padding: 0;
+      }
+
+      .dashboard {
+        max-width: none;
+        border: 0;
+        box-shadow: none;
+      }
+
+      .content {
+        grid-template-columns: 33% 44% 23%;
+        gap: 8px;
+        padding: 0 8px 8px;
+      }
+
+      .panel,
+      .matrix-card {
+        break-inside: avoid;
+      }
+
+      .print-note {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="dashboard">
+    <header class="hero">
+      <div>
+        <h1>Ectopic Pregnancy</h1>
+        <div class="subtitle">ED Decision Dashboard</div>
+      </div>
+      <div class="rule">
+        Think EP in any woman of childbearing age with abdominal pain, pelvic pain, vaginal bleeding, syncope, or unexplained shock.
+      </div>
+      <div class="uterus-mark" aria-label="uterus schematic">
+        <img src="assets/ectopic-uterus-icon.png" alt="Uterus line icon">
+        first trimester<br>killer
+      </div>
+    </header>
+
+    <section class="content">
+      <aside class="stack">
+        <section class="panel">
+          <div class="panel-title"><span class="num">1</span> Pathway: presentation to disposition</div>
+          <div class="panel-body flow">
+            <div class="step">
+              <div class="step-index">1</div>
+              <div>
+                <h3>Presentation</h3>
+                <ul>
+                  <li>Abdominal or pelvic pain</li>
+                  <li>Vaginal bleeding or spotting</li>
+                  <li>Shoulder pain</li>
+                  <li>Syncope, near syncope, dizziness</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step-index">2</div>
+              <div>
+                <h3>Initial assessment</h3>
+                <ul>
+                  <li>ABCs, vital signs, shock index</li>
+                  <li>Focused menstrual, OB, risk-factor history</li>
+                  <li>Pregnancy test in all reproductive-age patients</li>
+                  <li>If unstable: IV access, NPO, activate OB/GYN</li>
+                  <li>Labs: quantitative &beta;-hCG, CBC, type &amp; screen, CMP; progesterone optional</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="branch">
+              <h4>Risk stratify: any hemodynamic instability or peritoneal signs?</h4>
+              <div class="yes-no">
+                <span class="pill red">Yes</span>
+                <span class="pill green">No</span>
+              </div>
+              <div class="callout">
+                <h3>Unstable / suspected rupture</h3>
+                <ul>
+                  <li>Activate OB/GYN immediately</li>
+                  <li>Resuscitate: crystalloid, blood products if needed</li>
+                  <li>Prepare for operative management</li>
+                  <li>Give RhIg if Rh-negative</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step-index">3</div>
+              <div>
+                <h3>Stable diagnostic workup</h3>
+                <ul>
+                  <li>Transvaginal US is usually first-line</li>
+                  <li>Interpret with quantitative &beta;-hCG</li>
+                  <li>Use discriminatory zone carefully</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step-index">4</div>
+              <div>
+                <h3>Diagnosis &amp; management</h3>
+                <div class="soft-box green">
+                  <h3>IUP confirmed</h3>
+                  Routine OB follow-up unless heterotopic risk.
+                </div>
+                <div class="soft-box red">
+                  <h3>Ectopic confirmed</h3>
+                  Treat: surgical or medical, depending on stability and eligibility.
+                </div>
+                <div class="soft-box purple">
+                  <h3>Pregnancy of unknown location</h3>
+                  Serial &beta;-hCG and repeat US with strict return precautions.
+                </div>
+              </div>
+            </div>
+
+            <div class="step">
+              <div class="step-index">5</div>
+              <div>
+                <h3>Disposition</h3>
+                <ul>
+                  <li>Document follow-up plan and access</li>
+                  <li>Explain rupture symptoms clearly</li>
+                  <li>OB/GYN consultation for presumed or confirmed EP</li>
+                  <li>Rh-negative: RhIg if indicated</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title blue"><span class="num">2</span> Key pearls</div>
+          <div class="panel-body">
+            <ul class="pearl-list">
+              <li>EP can occur with very low &beta;-hCG.</li>
+              <li>No single lab test confirms or excludes EP.</li>
+              <li>An IUP usually excludes EP, but consider heterotopic pregnancy after IVF or ovulation induction.</li>
+              <li>Stable PUL often needs close follow-up, not immediate intervention.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-body">
+            <h3 style="margin:0 0 6px;color:#103b66;text-transform:uppercase;font-size:16px;">Risk factors</h3>
+            <ul class="risk-list">
+              <li>Prior ectopic pregnancy</li>
+              <li>PID, chlamydia, or prior STI</li>
+              <li>Tubal surgery or sterilization</li>
+              <li>IUD in place at conception</li>
+              <li>Infertility treatment or IVF</li>
+              <li>Smoking, age &gt;35, DES exposure in utero</li>
+            </ul>
+          </div>
+        </section>
+      </aside>
+
+      <section class="stack">
+        <section class="panel">
+          <div class="panel-title"><span class="num">3</span> Decision matrix: use &beta;-hCG + ultrasound</div>
+          <div class="matrix-card">
+            <div class="zone">
+              <h3>Discriminatory zone <span class="kicker">(no IUP should be seen above these levels)</span></h3>
+              <div class="zone-grid">
+                <div class="zone-item">
+                  <div class="zone-label">Transvaginal US</div>
+                  <div class="zone-value">&ge; 1,500 mIU/mL</div>
+                </div>
+                <div class="zone-item">
+                  <div class="zone-label">Transabdominal US</div>
+                  <div class="zone-value">&ge; 6,000 mIU/mL</div>
+                </div>
+              </div>
+            </div>
+
+            <table class="matrix">
+              <thead>
+                <tr>
+                  <th>&beta;-hCG level</th>
+                  <th>Ultrasound findings</th>
+                  <th>Interpretation &amp; next step</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="ok">
+                  <td>Any level</td>
+                  <td>
+                    <strong>IUP with yolk sac or fetal cardiac activity</strong>
+                    <span class="micro-note">Check heterotopic risk if IVF/assisted reproduction.</span>
+                  </td>
+                  <td>
+                    <span class="interpret green">IUP confirmed</span>
+                    <span class="micro-note">Routine OB care if otherwise well.</span>
+                  </td>
+                </tr>
+                <tr class="danger">
+                  <td>Any level</td>
+                  <td>
+                    <strong>Definite or highly suggestive ectopic</strong>
+                    <ul>
+                      <li>Extrauterine gestational sac</li>
+                      <li>Adnexal mass + free fluid</li>
+                      <li>Fetal cardiac activity outside uterus</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <span class="interpret red">Ectopic pregnancy confirmed or presumed</span>
+                    <span class="micro-note">Treat surgically or medically.</span>
+                  </td>
+                </tr>
+                <tr class="pul">
+                  <td>&lt; discriminatory zone</td>
+                  <td>
+                    <strong>No IUP, no definite EP</strong>
+                    <ul>
+                      <li>No adnexal mass</li>
+                      <li>No significant free fluid</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <span class="interpret purple">Pregnancy of unknown location</span>
+                    <span class="micro-note">If stable and low risk: repeat &beta;-hCG in 48 h; repeat TVUS when appropriate.</span>
+                  </td>
+                </tr>
+                <tr class="pul">
+                  <td>&ge; discriminatory zone</td>
+                  <td>
+                    <strong>No IUP on US</strong>
+                    <span class="micro-note">Empty uterus above the zone is not normal.</span>
+                  </td>
+                  <td>
+                    <span class="interpret purple">High suspicion for EP</span>
+                    <span class="micro-note">Consult OB/GYN; consider repeat US, serial &beta;-hCG, D&amp;C, or laparoscopy based on clinical picture.</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="mini-table">
+          <h3>&beta;-hCG dynamics <span class="kicker">(trend every 48 hours)</span></h3>
+          <table class="trend">
+            <tbody>
+              <tr>
+                <td style="color:var(--green);">Normal IUP</td>
+                <td class="up">Up</td>
+                <td>Rise &ge;53% in 48 h; often close to doubling early.</td>
+              </tr>
+              <tr>
+                <td>Ectopic / abnormal IUP</td>
+                <td class="bad">Flat</td>
+                <td>Rise &lt;53%, plateau, or abnormal slow decline.</td>
+              </tr>
+              <tr>
+                <td>Failing pregnancy</td>
+                <td class="down">Down</td>
+                <td>Drop &ge;21% in 48 h supports failing pregnancy; slower decline keeps EP on the table.</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="mini-table">
+          <h3>Serum progesterone <span class="kicker">(helpful adjunct, not definitive)</span></h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Level</th>
+                <th>Interpretation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="width:30%;font-weight:900;">&le; 5 ng/mL</td>
+                <td>Highly suggestive of nonviable pregnancy: ectopic or failing IUP.</td>
+              </tr>
+              <tr>
+                <td style="font-weight:900;">5-25 ng/mL</td>
+                <td>Indeterminate; do not make disposition from this alone.</td>
+              </tr>
+              <tr>
+                <td style="font-weight:900;">&gt; 25 ng/mL</td>
+                <td>Consistent with viable IUP, but still not a complete EP exclusion in high-risk patients.</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title"><span class="num">4</span> Ultrasound findings <span class="kicker" style="color:#d9e8f7;">(transvaginal US)</span></div>
+          <div class="ultrasound">
+            <div class="us-card">
+              <div class="us-image us-1"></div>
+              <div class="us-caption"><strong>Normal IUP</strong>Intrauterine gestational sac + yolk sac.</div>
+            </div>
+            <div class="us-card">
+              <div class="us-image us-2"></div>
+              <div class="us-caption"><strong>Viable IUP</strong>Fetal pole with cardiac activity in uterus.</div>
+            </div>
+            <div class="us-card">
+              <div class="us-image us-3"></div>
+              <div class="us-caption"><strong>Ectopic pregnancy</strong>Adnexal tubal ring or extrauterine gestational sac.</div>
+            </div>
+            <div class="us-card">
+              <div class="us-image us-4"></div>
+              <div class="us-caption"><strong>Adnexal mass</strong>Complex mass with empty uterus is highly suspicious.</div>
+            </div>
+            <div class="us-card">
+              <div class="us-image us-5"></div>
+              <div class="us-caption"><strong>Free fluid</strong>Large or complex free fluid suggests hemoperitoneum.</div>
+            </div>
+            <div class="us-card">
+              <div class="us-image us-6"></div>
+              <div class="us-caption"><strong>Pseudogestational sac</strong>Central endometrial fluid; no yolk sac or fetal pole.</div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <aside class="stack">
+        <section class="panel">
+          <div class="panel-title red"><span class="num">5</span> Do not miss <span class="kicker" style="color:#ffe0e0;">(red flags)</span></div>
+          <div class="panel-body redflag-list">
+            <div class="redflag">
+              <div>
+                <strong>Hemodynamic instability</strong>
+                <span>Tachycardia, hypotension, shock index concern.</span>
+              </div>
+            </div>
+            <div class="redflag">
+              <div>
+                <strong>Signs of rupture</strong>
+                <span>Acute severe pain, rebound, guarding, shoulder pain.</span>
+              </div>
+            </div>
+            <div class="redflag">
+              <div>
+                <strong>Syncope or near syncope</strong>
+                <span>Think hemoperitoneum until proven otherwise.</span>
+              </div>
+            </div>
+            <div class="redflag">
+              <div>
+                <strong>&beta;-hCG above discriminatory zone with no IUP</strong>
+                <span>Presumed EP until clarified.</span>
+              </div>
+            </div>
+            <div class="redflag">
+              <div>
+                <strong>Falling hemoglobin or large free fluid</strong>
+                <span>Escalate early; do not wait for serial labs.</span>
+              </div>
+            </div>
+            <div class="redflag">
+              <div>
+                <strong>High-risk patient</strong>
+                <span>Prior EP, tubal surgery, PID/STI, IVF, DES exposure.</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title green"><span class="num">6</span> Methotrexate therapy checklist</div>
+          <div class="panel-body">
+            <ul class="checklist">
+              <li><span class="box"></span><span>Hemodynamically stable.</span></li>
+              <li><span class="box"></span><span>Unruptured ectopic pregnancy.</span></li>
+              <li><span class="box"></span><span>No contraindications to MTX.</span></li>
+              <li><span class="box"></span><span>&beta;-hCG generally &lt;5,000 mIU/mL; higher levels increase failure risk.</span></li>
+              <li><span class="box"></span><span>No fetal cardiac activity.</span></li>
+              <li><span class="box"></span><span>Reliable follow-up and access to emergency care.</span></li>
+              <li><span class="box"></span><span>Normal CBC, renal function, and liver function.</span></li>
+              <li><span class="box"></span><span>Patient understands risks, benefits, and return precautions.</span></li>
+            </ul>
+
+            <div class="regimen">
+              <h4>Methotrexate regimen</h4>
+              <ul>
+                <li><strong>Single-dose:</strong> MTX 50 mg/m&sup2; IM once.</li>
+                <li>Follow &beta;-hCG on day 4 and day 7.</li>
+                <li>If day 4 to day 7 drop is &ge;15%: weekly &beta;-hCG until undetectable.</li>
+                <li>If drop is &lt;15%: repeat dose or surgical management.</li>
+              </ul>
+            </div>
+
+            <div class="contra">
+              <h4>Contraindications / poor candidate</h4>
+              <ul>
+                <li>Hemodynamic instability or suspected rupture</li>
+                <li>Breastfeeding</li>
+                <li>Immunodeficiency</li>
+                <li>Significant hepatic or renal dysfunction</li>
+                <li>Blood dyscrasias or severe anemia</li>
+                <li>Active peptic ulcer disease</li>
+                <li>Active pulmonary disease</li>
+                <li>Inability to comply with follow-up</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title blue"><span class="num">7</span> Rh immunoglobulin <span class="kicker" style="color:#d9e8f7;">(Rh-negative)</span></div>
+          <div class="panel-body">
+            <p style="margin:0 0 8px;font-size:14px;line-height:1.35;">Give RhIg to Rh-negative patients with ectopic pregnancy or bleeding in early pregnancy.</p>
+            <ul>
+              <li>&lt;12 weeks: 50 &micro;g IM; 300 &micro;g acceptable.</li>
+              <li>&ge;12 weeks: 300 &micro;g IM.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-body">
+            <h3 style="margin:0 0 8px;color:var(--red);text-transform:uppercase;font-size:16px;">Return precautions</h3>
+            <p style="margin:0 0 8px;font-size:13px;line-height:1.3;">Return immediately for:</p>
+            <ul class="return-list">
+              <li>Worsening abdominal or pelvic pain</li>
+              <li>Heavy vaginal bleeding</li>
+              <li>Dizziness, weakness, fainting, or syncope</li>
+              <li>Shoulder pain or shortness of breath</li>
+              <li>Fever or feeling acutely worse</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-body">
+            <h3 style="margin:0 0 8px;color:#1b334c;text-transform:uppercase;font-size:15px;">References selected</h3>
+            <ol class="reference-list">
+              <li>Tintinalli's Emergency Medicine, 9th ed. Chapter 98, pp. 615-620.</li>
+              <li>ACOG Practice Bulletin No. 193: Tubal Ectopic Pregnancy.</li>
+              <li>Barnhart K. Clinical practice: ectopic pregnancy. N Engl J Med. 2009.</li>
+            </ol>
+          </div>
+        </section>
+      </aside>
+    </section>
+
+    <section class="two-bottom">
+      <section class="panel">
+        <div class="panel-body">
+          <h3 style="margin:0 0 8px;color:#103b66;text-transform:uppercase;font-size:16px;">Key points to remember</h3>
+          <ul>
+            <li>Clinical suspicion + &beta;-hCG + TVUS is the cornerstone of diagnosis.</li>
+            <li>Discriminatory zone helps guide next steps; it is not a treatment trigger by itself.</li>
+            <li>Most EPs are detected before rupture when early pregnancy bleeding/pain is worked up correctly.</li>
+            <li>Stable patients with PUL need reliable follow-up and strict return precautions.</li>
+          </ul>
+        </div>
+      </section>
+      <section class="panel">
+        <div class="panel-body">
+          <h3 style="margin:0 0 8px;color:#103b66;text-transform:uppercase;font-size:16px;">Exam memory line</h3>
+          <p style="margin:0;font-size:16px;line-height:1.45;font-weight:800;">Positive pregnancy test + pain or bleeding + no confirmed IUP = keep ectopic pregnancy active until it is safely excluded.</p>
+        </div>
+      </section>
+    </section>
+
+    <div class="print-note">
+      Built as an English ED board-review dashboard. Designed for browser review, screenshot sharing, and print-to-PDF.
+    </div>
+  </main>
+</body>
+</html>

@@ -34,6 +34,9 @@
     .topbar { display: grid; grid-template-columns: 1fr auto; gap: 18px; align-items: end; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
     h1 { margin: 0; font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1; letter-spacing: 0; }
     .lede { margin: 9px 0 0; color: var(--muted); max-width: 620px; }
+    .quick-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .quick-button { display: inline-flex; align-items: center; min-height: 36px; padding: 0 13px; border: 1px solid var(--accent); border-radius: 999px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 750; font-size: .92rem; }
+    .quick-button:hover { background: var(--accent-dark); border-color: var(--accent-dark); }
     .stats { display: flex; gap: 10px; align-items: stretch; }
     .stat { min-width: 132px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); box-shadow: var(--shadow); }
     .stat strong { display: block; font-size: 1.65rem; line-height: 1; }
@@ -98,6 +101,7 @@
       <div>
         <h1>ER Board Review</h1>
         <p class="lede">Fast chapter library for board review. Search by chapter number, topic, or section.</p>
+        <div class="quick-links"><a class="quick-button" href="infographics/">Infographics</a></div>
       </div>
       <div class="stats"><div class="stat"><strong>93</strong><span>complete chapters</span></div><div class="stat"><strong>21</strong><span>special sets</span></div></div>
     </header>
@@ -883,3 +887,4 @@
   </script>
 </body>
 </html>
+
