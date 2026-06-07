@@ -1,0 +1,898 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tetralogy of Fallot - ED Decision Dashboard</title>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <style>
+    :root {
+      --navy: #08213b;
+      --navy-2: #0d3158;
+      --ink: #101820;
+      --muted: #526273;
+      --paper: #f4f7fa;
+      --line: #b7c6d8;
+      --red: #b21e22;
+      --red-soft: #fff0ee;
+      --green: #116c43;
+      --green-soft: #eef9f2;
+      --teal: #08736a;
+      --teal-soft: #edf9f7;
+      --blue-soft: #eef6ff;
+      --amber: #9b6b00;
+      --amber-soft: #fff8e6;
+      --purple: #60469b;
+      --purple-soft: #f4f0ff;
+      --shadow: 0 10px 30px rgba(8, 33, 59, 0.10);
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      background: #dfe8f2;
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      line-height: 1.35;
+    }
+
+    body {
+      margin: 0;
+      padding: 18px;
+    }
+
+    .dashboard {
+      width: min(1560px, 100%);
+      margin: 0 auto;
+      background: white;
+      border: 2px solid var(--navy);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+
+    .hero {
+      background: linear-gradient(90deg, #061626, #0b2b4c);
+      color: white;
+      padding: 22px 28px 16px;
+    }
+
+    .hero-top {
+      display: grid;
+      grid-template-columns: 112px 1fr 188px;
+      gap: 24px;
+      align-items: center;
+    }
+
+    .star {
+      width: 92px;
+      aspect-ratio: 1;
+      background: var(--red);
+      border: 4px solid white;
+      clip-path: polygon(40% 0,60% 0,60% 28%,88% 12%,100% 32%,72% 48%,100% 64%,88% 84%,60% 68%,60% 100%,40% 100%,40% 68%,12% 84%,0 64%,28% 48%,0 32%,12% 12%,40% 28%);
+      display: grid;
+      place-items: center;
+      box-shadow: inset 0 0 0 2px rgba(255,255,255,.35);
+    }
+
+    .star i {
+      font-size: 34px;
+      color: white;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: clamp(44px, 6.1vw, 86px);
+      letter-spacing: 0;
+      line-height: .9;
+      font-weight: 900;
+    }
+
+    .hero .subtitle {
+      margin-top: 6px;
+      color: #9ed1ff;
+      font-size: clamp(22px, 3vw, 42px);
+      font-weight: 800;
+      letter-spacing: 2px;
+    }
+
+    .chapter {
+      justify-self: end;
+      border: 2px solid #ff5b4f;
+      border-radius: 12px;
+      padding: 12px 14px;
+      text-align: center;
+      min-width: 170px;
+    }
+
+    .chapter strong {
+      display: block;
+      color: #ff746b;
+      font-size: 19px;
+      letter-spacing: 1px;
+    }
+
+    .chapter span {
+      display: block;
+      margin-top: 8px;
+      font-size: 18px;
+      line-height: 1.25;
+      font-weight: 700;
+    }
+
+    .hero-strip {
+      margin-top: 18px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(255,255,255,.35);
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 18px;
+      color: #edf7ff;
+      font-weight: 700;
+      font-size: 16px;
+    }
+
+    .hero-strip div {
+      border-right: 1px solid rgba(255,255,255,.35);
+      padding-right: 16px;
+    }
+
+    .hero-strip div:last-child { border-right: 0; }
+    .hero-strip i { color: #ffd75a; margin-right: 8px; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1.02fr 1.62fr 1.16fr;
+      gap: 18px;
+      padding: 18px;
+      background: linear-gradient(#fff, #f6f9fc);
+    }
+
+    .panel {
+      background: white;
+      border: 1.5px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(8, 33, 59, .05);
+    }
+
+    .panel-title {
+      padding: 12px 16px;
+      color: white;
+      background: var(--navy);
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .4px;
+      font-size: 22px;
+      line-height: 1.05;
+    }
+
+    .panel-title small {
+      display: block;
+      font-size: 13px;
+      opacity: .92;
+      text-transform: none;
+      letter-spacing: 0;
+      margin-top: 2px;
+      font-weight: 700;
+    }
+
+    .title-green { background: var(--green); }
+    .title-teal { background: var(--teal); }
+    .title-red { background: var(--red); }
+
+    .path-step {
+      display: grid;
+      grid-template-columns: 44px 1fr;
+      gap: 12px;
+      padding: 15px 16px;
+      border-bottom: 1px solid var(--line);
+      position: relative;
+    }
+
+    .path-step:last-child { border-bottom: 0; }
+
+    .num {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: var(--navy-2);
+      color: white;
+      display: grid;
+      place-items: center;
+      font-weight: 900;
+      font-size: 20px;
+      flex: none;
+    }
+
+    .path-step h3 {
+      margin: 0 0 7px;
+      color: var(--navy-2);
+      font-size: 18px;
+      text-transform: uppercase;
+      line-height: 1.12;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 19px;
+    }
+
+    li { margin: 3px 0; }
+
+    .step-red {
+      background: var(--red-soft);
+    }
+
+    .step-red h3, .step-red .num { color: white; }
+    .step-red .num { background: var(--red); }
+    .step-red h3 { color: var(--red); }
+
+    .yes-no {
+      display: grid;
+      grid-template-columns: 80px 80px;
+      gap: 12px;
+      margin: 10px 0;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 6px;
+      color: white;
+      font-weight: 900;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .badge.red { background: var(--red); }
+    .badge.green { background: var(--green); }
+    .badge.navy { background: var(--navy-2); }
+    .badge.purple { background: var(--purple); }
+
+    .icon-note {
+      color: var(--muted);
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .icon-note i { width: 18px; color: var(--navy-2); }
+
+    .center-content {
+      padding: 16px;
+    }
+
+    .anatomy {
+      display: grid;
+      grid-template-columns: .82fr 1.42fr .82fr;
+      gap: 14px;
+      align-items: center;
+    }
+
+    .anatomy img {
+      width: 100%;
+      max-height: 360px;
+      object-fit: contain;
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .component-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .component {
+      display: grid;
+      grid-template-columns: 32px 1fr;
+      gap: 9px;
+      align-items: start;
+      font-size: 15px;
+    }
+
+    .component b {
+      color: var(--teal);
+      display: block;
+      font-size: 15px;
+      text-transform: uppercase;
+    }
+
+    .component .num {
+      width: 28px;
+      height: 28px;
+      font-size: 16px;
+      background: var(--teal);
+    }
+
+    .subhead {
+      margin: 18px 0 9px;
+      padding-top: 14px;
+      border-top: 1.5px solid var(--line);
+      color: var(--teal);
+      font-size: 19px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .3px;
+    }
+
+    .cycle {
+      display: grid;
+      gap: 8px;
+      max-width: 560px;
+      margin: 0 auto;
+    }
+
+    .cycle-box {
+      border: 1.5px solid #6aa7a2;
+      background: var(--teal-soft);
+      border-radius: 8px;
+      padding: 8px 12px;
+      text-align: center;
+      font-weight: 800;
+      color: #134640;
+    }
+
+    .cycle-box small {
+      display: block;
+      color: var(--muted);
+      font-weight: 700;
+      font-size: 12px;
+    }
+
+    .cycle-box.final {
+      background: var(--teal);
+      color: white;
+      border-color: var(--teal);
+    }
+
+    .arrow {
+      text-align: center;
+      color: var(--teal);
+      font-size: 18px;
+      line-height: 1;
+      font-weight: 900;
+    }
+
+    .diagnostics {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .diagnostic-card {
+      border: 1.5px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    .diagnostic-card h4 {
+      margin: 0;
+      padding: 8px 10px;
+      background: var(--blue-soft);
+      color: var(--navy-2);
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 14px;
+      letter-spacing: .3px;
+    }
+
+    .diagnostic-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      display: block;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .diagnostic-card ul {
+      padding: 9px 14px 10px 27px;
+      font-size: 13px;
+    }
+
+    .trigger-row {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 8px;
+      padding: 10px;
+      border: 1.5px solid var(--line);
+      border-radius: 8px;
+      background: #fbfdff;
+    }
+
+    .trigger {
+      text-align: center;
+      color: var(--navy-2);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .trigger i {
+      display: block;
+      font-size: 24px;
+      color: var(--teal);
+      margin-bottom: 4px;
+    }
+
+    .treatment-row {
+      display: grid;
+      grid-template-columns: 42px 44px 1fr;
+      gap: 12px;
+      align-items: center;
+      padding: 13px 14px;
+      border-bottom: 1px solid #b7d2bf;
+      background: #fff;
+    }
+
+    .treatment-row:last-child { border-bottom: 0; }
+
+    .treatment-row .num {
+      background: var(--green);
+      width: 32px;
+      height: 32px;
+      font-size: 18px;
+    }
+
+    .treatment-row i {
+      color: var(--green);
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .treatment-row h3 {
+      margin: 0 0 2px;
+      color: var(--green);
+      font-size: 18px;
+      text-transform: uppercase;
+      line-height: 1.1;
+    }
+
+    .dose {
+      font-size: 14px;
+      font-weight: 700;
+      color: #13301f;
+    }
+
+    .why {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      margin-top: 2px;
+    }
+
+    .alert-box {
+      margin: 14px;
+      border: 1.5px solid #df8a83;
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--red-soft);
+    }
+
+    .alert-box h3 {
+      margin: 0;
+      padding: 9px 12px;
+      color: white;
+      background: var(--red);
+      font-size: 17px;
+      text-transform: uppercase;
+    }
+
+    .alert-box ul {
+      padding: 10px 14px 12px 28px;
+      font-size: 13px;
+    }
+
+    .mini-panels {
+      display: grid;
+      grid-template-columns: 1fr 1.4fr 1.15fr;
+      gap: 18px;
+      padding: 0 18px 18px;
+      background: #f6f9fc;
+    }
+
+    .mini {
+      background: white;
+      border: 1.5px solid var(--line);
+      border-radius: 8px;
+      padding: 13px 16px;
+    }
+
+    .mini h3 {
+      margin: 0 0 8px;
+      color: var(--navy-2);
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+
+    .mini h3 i {
+      color: var(--navy-2);
+      margin-right: 6px;
+    }
+
+    .mini ul { font-size: 13px; }
+
+    .pearl {
+      background: var(--amber-soft);
+      border: 1.5px solid #edc76c;
+      border-radius: 8px;
+      padding: 12px 14px;
+      margin-top: 14px;
+    }
+
+    .pearl h3 {
+      margin: 0 0 7px;
+      color: var(--amber);
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+
+    .source-box {
+      background: #f8fafc;
+      border: 1.5px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 12px;
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .source-box b { color: var(--ink); }
+
+    .footer-goal {
+      background: var(--navy);
+      color: #ffd75a;
+      text-align: center;
+      padding: 10px 18px;
+      font-weight: 900;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 15px;
+    }
+
+    .nowrap { white-space: nowrap; }
+    .red-text { color: var(--red); font-weight: 900; }
+    .green-text { color: var(--green); font-weight: 900; }
+    .teal-text { color: var(--teal); font-weight: 900; }
+
+    @media (max-width: 1080px) {
+      body { padding: 0; }
+      .dashboard { border-radius: 0; border-left: 0; border-right: 0; }
+      .hero-top { grid-template-columns: 1fr; text-align: center; }
+      .star { margin: 0 auto; }
+      .chapter { justify-self: center; }
+      .hero-strip, .grid, .mini-panels, .anatomy, .diagnostics {
+        grid-template-columns: 1fr;
+      }
+      .trigger-row { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    @media print {
+      body { padding: 0; background: white; }
+      .dashboard { width: 100%; box-shadow: none; border-radius: 0; }
+      .hero h1 { font-size: 52px; }
+      .hero .subtitle { font-size: 28px; }
+      .grid { grid-template-columns: 1.05fr 1.55fr 1.15fr; gap: 10px; padding: 10px; }
+      .mini-panels { gap: 10px; padding: 0 10px 10px; }
+      .panel-title { font-size: 16px; padding: 8px 10px; }
+      .path-step, .treatment-row { padding: 9px 10px; }
+      html { font-size: 11px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="dashboard">
+    <header class="hero">
+      <div class="hero-top">
+        <div class="star" aria-hidden="true"><i class="fa-solid fa-staff-snake"></i></div>
+        <div>
+          <h1>TETRALOGY OF FALLOT</h1>
+          <div class="subtitle">ED DECISION DASHBOARD</div>
+        </div>
+        <div class="chapter">
+          <strong>CHAPTER 129</strong>
+          <span>Tintinalli 9e<br>pp. 821-825</span>
+        </div>
+      </div>
+      <div class="hero-strip">
+        <div><i class="fa-regular fa-lightbulb"></i>High-risk cyanotic congenital heart disease</div>
+        <div>Tet spell = hypercyanotic episode</div>
+        <div>Goal: improve oxygenation, preload, pulmonary blood flow, and SVR</div>
+      </div>
+    </header>
+
+    <section class="grid">
+      <aside class="panel">
+        <div class="panel-title">1&nbsp; Clinical Pathway <small>From recognition to disposition</small></div>
+
+        <div class="path-step">
+          <div class="num">1</div>
+          <div>
+            <h3>Presentation</h3>
+            <ul>
+              <li>Sudden or episodic central cyanosis</li>
+              <li>Irritability, inconsolable crying, agitation</li>
+              <li>Dyspnea, tachypnea, poor feeding</li>
+              <li>Squatting in older children</li>
+              <li>Syncope or near syncope in severe spells</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="path-step">
+          <div class="num">2</div>
+          <div>
+            <h3>Initial Assessment</h3>
+            <ul>
+              <li>ABCs, continuous monitoring, IV/IO access</li>
+              <li>Vitals: SpO<sub>2</sub>, HR, BP, RR, temperature</li>
+              <li>Central vs acral cyanosis; perfusion and pulses</li>
+              <li>Focused cardiac exam: single S<sub>2</sub>, systolic ejection murmur at mid/lower LSB, thrill</li>
+              <li>Look for triggers: crying, fever, dehydration, anemia, pain, agitation</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="path-step">
+          <div class="num">3</div>
+          <div>
+            <h3>Is This a Tet Spell?</h3>
+            <div class="icon-note"><i class="fa-solid fa-circle-question"></i>Hypercyanotic crisis</div>
+            <ul>
+              <li>Known or suspected TOF</li>
+              <li>Acute worsening cyanosis; SpO<sub>2</sub> often &lt;80%-85%</li>
+              <li>Agitation, lethargy, or syncope</li>
+              <li>No better pulmonary or toxicologic explanation</li>
+            </ul>
+            <div class="yes-no">
+              <span class="badge red">YES</span>
+              <span class="badge green">NO</span>
+            </div>
+            <small>If no, evaluate sepsis, pneumonia/asthma, foreign body, methemoglobinemia, pulmonary hypertension, and other cyanotic CHD.</small>
+          </div>
+        </div>
+
+        <div class="path-step step-red">
+          <div class="num">4</div>
+          <div>
+            <h3>Immediate Maneuvers</h3>
+            <ul>
+              <li>Call pediatric cardiology and ICU early</li>
+              <li>Parent's arms, calm room, minimize stimulation</li>
+              <li>Knee-chest position or squatting posture</li>
+              <li>100% oxygen by nonrebreather mask</li>
+              <li>Treat fever, pain, dehydration, anemia, acidosis</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="path-step">
+          <div class="num">5</div>
+          <div>
+            <h3>Medications</h3>
+            <p style="margin:0">Use the dose ladder in the green column. Escalate if cyanosis, distress, or acidosis persists.</p>
+          </div>
+        </div>
+
+        <div class="path-step">
+          <div class="num">6</div>
+          <div>
+            <h3>Response Evaluation</h3>
+            <ul>
+              <li>Improved color, mental status, and respiratory effort</li>
+              <li>SpO<sub>2</sub> returns toward known baseline</li>
+              <li>If no improvement: pressor/beta-blocker escalation, bicarbonate, ketamine, and airway plan</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="path-step">
+          <div class="num">7</div>
+          <div>
+            <h3>Disposition</h3>
+            <ul>
+              <li>Admit to ICU; continuous SpO<sub>2</sub>, ECG, BP monitoring</li>
+              <li>Cardiology consultation and echocardiography</li>
+              <li>Correct precipitating factors</li>
+              <li>Definitive repair is surgical; timing per pediatric cardiology/cardiac surgery</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+      <section class="panel">
+        <div class="panel-title title-teal">Tetralogy of Fallot - Pathophysiology</div>
+        <div class="center-content">
+          <div class="anatomy">
+            <div class="component-list">
+              <div class="component"><span class="num">1</span><span><b>Large VSD</b>Nonrestrictive ventricular septal defect equalizes RV and LV systolic pressures.</span></div>
+              <div class="component"><span class="num">2</span><span><b>RVOT obstruction</b>Valvular, supravalvular, or infundibular pulmonary stenosis limits pulmonary blood flow.</span></div>
+            </div>
+            <img src="assets-tof/tof-anatomy-wikimedia.svg" alt="Real educational diagram of Tetralogy of Fallot anatomy">
+            <div class="component-list">
+              <div class="component"><span class="num">3</span><span><b>Overriding aorta</b>Aorta receives blood from both ventricles across the septal defect.</span></div>
+              <div class="component"><span class="num">4</span><span><b>RV hypertrophy</b>Chronic pressure load from outflow obstruction thickens the right ventricle.</span></div>
+            </div>
+          </div>
+
+          <div class="subhead">Tet Spell Mechanism: Vicious Cycle</div>
+          <div class="cycle">
+            <div class="cycle-box">Increased RVOT obstruction <small>Low preload, low SVR, infundibular spasm, agitation, acidosis</small></div>
+            <div class="arrow">&darr;</div>
+            <div class="cycle-box">Increased right ventricular pressure</div>
+            <div class="arrow">&darr;</div>
+            <div class="cycle-box">Increased right-to-left shunt across VSD</div>
+            <div class="arrow">&darr;</div>
+            <div class="cycle-box">Hypoxemia + acidosis</div>
+            <div class="arrow">&darr;</div>
+            <div class="cycle-box">Pulmonary vasoconstriction increases PVR</div>
+            <div class="arrow">&darr;</div>
+            <div class="cycle-box final">Worse RVOT obstruction + R-to-L shunt = worsening hypoxemia</div>
+          </div>
+
+          <div class="subhead">Diagnostic Clues</div>
+          <div class="diagnostics">
+            <div class="diagnostic-card">
+              <h4>Chest X-ray</h4>
+              <img src="assets-tof/tof-boot-shaped-heart-wikimedia.jpg" alt="Real chest radiograph showing boot-shaped heart pattern">
+              <ul>
+                <li>Boot-shaped heart, "coeur en sabot"</li>
+                <li>Normal-sized heart in classic TOF</li>
+                <li>Decreased pulmonary vascular markings</li>
+              </ul>
+            </div>
+            <div class="diagnostic-card">
+              <h4>ECG</h4>
+              <img src="assets-tof/rvh-ecg-litfl.jpg" alt="Real ECG example showing right ventricular hypertrophy pattern">
+              <ul>
+                <li>Right axis deviation</li>
+                <li>Right ventricular hypertrophy</li>
+                <li>Use age-appropriate pediatric ECG norms</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="subhead">Common Triggers</div>
+          <div class="trigger-row">
+            <div class="trigger"><i class="fa-regular fa-face-sad-cry"></i>Crying</div>
+            <div class="trigger"><i class="fa-solid fa-temperature-high"></i>Fever</div>
+            <div class="trigger"><i class="fa-solid fa-droplet"></i>Dehydration</div>
+            <div class="trigger"><i class="fa-solid fa-vial"></i>Anemia</div>
+            <div class="trigger"><i class="fa-solid fa-bolt"></i>Pain</div>
+            <div class="trigger"><i class="fa-solid fa-head-side-virus"></i>Agitation</div>
+          </div>
+
+          <div class="pearl">
+            <h3>Physiology Pearls</h3>
+            <ul>
+              <li>Severity of cyanosis tracks with the degree of RVOT obstruction.</li>
+              <li>Knee-chest increases venous return and SVR, reducing R-to-L shunt.</li>
+              <li>Oxygen treats hypoxia and promotes pulmonary vasodilation, but cyanotic CHD may not fully correct with oxygen.</li>
+              <li>Acyanotic or "pink" TOF can occur when pulmonary stenosis is mild and shunt is left-to-right.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <aside class="panel">
+        <div class="panel-title title-green">Treatment Checklist &amp; Dosing <small>Stepwise approach for tet spell</small></div>
+
+        <div class="treatment-row">
+          <div class="num">1</div><i class="fa-solid fa-mask-ventilator"></i>
+          <div><h3>100% Oxygen</h3><div class="dose">Nonrebreather facemask</div><span class="why">Pulmonary vasodilation; treat hypoxemia</span></div>
+        </div>
+
+        <div class="treatment-row">
+          <div class="num">2</div><i class="fa-solid fa-child-reaching"></i>
+          <div><h3>Knee-Chest</h3><div class="dose">Or squatting posture</div><span class="why">Increases venous return and SVR; reduces R-to-L shunt</span></div>
+        </div>
+
+        <div class="treatment-row">
+          <div class="num">3</div><i class="fa-solid fa-hand-holding-heart"></i>
+          <div><h3>Calm / Minimize</h3><div class="dose">Parent's arms; quiet room</div><span class="why">Reduces catecholamine surge, crying, pain, and oxygen demand</span></div>
+        </div>
+
+        <div class="treatment-row">
+          <div class="num">4</div><i class="fa-solid fa-syringe"></i>
+          <div><h3>Morphine</h3><div class="dose">0.1-0.2 mg/kg IM, SC, or IV</div><span class="why">Analgesia/sedation; decreases agitation and catecholamines</span></div>
+        </div>
+
+        <div class="treatment-row">
+          <div class="num">5</div><i class="fa-solid fa-prescription-bottle-medical"></i>
+          <div><h3>Normal Saline Bolus</h3><div class="dose">5-10 mL/kg IV/IO</div><span class="why">Increases preload and pulmonary blood flow</span></div>
+        </div>
+
+        <div class="treatment-row">
+          <div class="num">6</div><i class="fa-solid fa-flask-vial"></i>
+          <div><h3>Sodium Bicarbonate</h3><div class="dose">1-2 mEq/kg IV bolus</div><span class="why">Treats acidosis; may promote pulmonary vasodilation. Tintinalli table lists 1; text lists 2.</span></div>
+        </div>
+
+        <div class="treatment-row">
+          <div class="num">7</div><i class="fa-solid fa-heart-pulse"></i>
+          <div><h3>Propranolol</h3><div class="dose">0.2 mg/kg IV over 3-5 min</div><span class="why">Relieves infundibular spasm and RVOT obstruction</span></div>
+        </div>
+
+        <div class="treatment-row">
+          <div class="num">8</div><i class="fa-solid fa-prescription-bottle"></i>
+          <div><h3>Phenylephrine</h3><div class="dose">10 mcg/kg IV, then 2-3 mcg/kg/min infusion</div><span class="why">Increases SVR; narrative range for refractory spells: 2-10 mcg/kg/min</span></div>
+        </div>
+
+        <div class="treatment-row">
+          <div class="num">9</div><i class="fa-solid fa-syringe"></i>
+          <div><h3>Ketamine</h3><div class="dose">0.5-3 mg/kg IV, IO, or IM</div><span class="why">Sedation while increasing systemic vascular resistance</span></div>
+        </div>
+
+        <div class="treatment-row">
+          <div class="num">10</div><i class="fa-solid fa-lungs"></i>
+          <div><h3>RSI + Paralysis</h3><div class="dose">For refractory spell or respiratory fatigue</div><span class="why">Use ICU/cardiology support; avoid hypotension and falling SVR</span></div>
+        </div>
+
+        <div class="treatment-row">
+          <div class="num">11</div><i class="fa-solid fa-bed-pulse"></i>
+          <div><h3>ICU Admission</h3><div class="dose">Continuous monitoring</div><span class="why">Cardiology consultation and definitive repair planning</span></div>
+        </div>
+
+        <div class="alert-box">
+          <h3><i class="fa-solid fa-triangle-exclamation"></i> Refractory / Critical</h3>
+          <ul>
+            <li>Persistent cyanosis or SpO<sub>2</sub> below baseline despite treatment</li>
+            <li>Altered mental status, syncope, seizure, or severe agitation</li>
+            <li>Hypotension, bradycardia, severe acidosis</li>
+            <li>Prepare for pressors, intubation, neuromuscular blockade, and urgent cardiology evaluation</li>
+          </ul>
+        </div>
+
+        <div class="alert-box" style="background:var(--blue-soft); border-color:#8fb6dc;">
+          <h3 style="background:var(--navy-2);"><i class="fa-solid fa-baby"></i> Undiagnosed Cyanotic Neonate</h3>
+          <ul>
+            <li>If cyanotic heart disease cannot be ruled out: prostaglandin E<sub>1</sub> infusion 0.05 mcg/kg/min, titrate to minimum effective dose.</li>
+            <li>Chapter 129 table lists 0.05-0.1 mcg/kg/min in shock with abnormal cardiac exam in infants &lt;1 month.</li>
+            <li>Caution: obstructed TAPVR and PPHN require expert guidance.</li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+
+    <section class="mini-panels">
+      <div class="mini">
+        <h3><i class="fa-solid fa-stethoscope"></i>Differential Diagnosis</h3>
+        <ul>
+          <li>Breath-holding spells</li>
+          <li>Sepsis or severe pneumonia</li>
+          <li>Asthma/status asthmaticus</li>
+          <li>Foreign body aspiration</li>
+          <li>Methemoglobinemia</li>
+          <li>Transposition, TAPVR, tricuspid atresia, truncus arteriosus</li>
+        </ul>
+      </div>
+
+      <div class="mini">
+        <h3><i class="fa-solid fa-bullseye"></i>Key Points to Remember</h3>
+        <ul>
+          <li>Tet spell is acute R-to-L shunting through VSD, usually from worsened RVOT obstruction.</li>
+          <li>Treat physiology: increase preload, increase SVR, reduce RVOT obstruction, reduce PVR, correct acidosis.</li>
+          <li>Hyperoxia test: poor PaO<sub>2</sub> rise with 100% oxygen supports cardiac mixing or R-to-L shunt.</li>
+          <li>Early cardiology involvement improves safety; definitive therapy is surgical repair.</li>
+        </ul>
+      </div>
+
+      <div class="mini">
+        <h3><i class="fa-solid fa-book-medical"></i>Sources &amp; Image Credit</h3>
+        <ul>
+          <li><b>Core text:</b> Tintinalli's Emergency Medicine, 9e, Ch.129, pp. 821-825.</li>
+          <li><b>Anatomy:</b> Wikimedia Commons TOF educational diagram.</li>
+          <li><b>CXR:</b> Wikimedia Commons boot-shaped heart image.</li>
+          <li><b>ECG:</b> LITFL ECG Library RVH example.</li>
+          <li><b>Cross-check:</b> MSD/Merck Manual Professional TOF overview.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer-goal">
+      Goal: improve oxygenation, reduce RVOT obstruction, increase preload and systemic vascular resistance
+    </footer>
+  </main>
+</body>
+</html>
