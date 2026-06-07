@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "anticholinergic-toxic-plants",
+      "title": "Anticholinergic Toxic Plants",
+      "system": "Toxicology / Environmental / Plants",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "shellfish-associated-illness",
       "title": "Shellfish-Associated ED Illness",
       "system": "Environmental / Toxicology / Infectious Disease / Allergy",
@@ -69,8 +75,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "shellfish-associated-illness",
-    "title": "Shellfish-Associated ED Illness",
-    "status": "generated_codex_builtin_image"
+    "slug": "anticholinergic-toxic-plants",
+    "title": "Anticholinergic Toxic Plants",
+    "status": "generated_codex_builtin_image_with_real_photo"
   }
 }
