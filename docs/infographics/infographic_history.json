@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "ecg-fascicular-blocks",
+      "title": "ECG Fascicular Blocks",
+      "system": "Cardiology / ECG / Conduction",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "geriatric-trauma-frailty",
       "title": "Geriatric Trauma + Frailty",
       "system": "Geriatrics / Trauma / Critical Care",

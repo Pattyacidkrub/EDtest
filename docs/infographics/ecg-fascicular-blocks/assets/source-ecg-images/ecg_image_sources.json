@@ -1,0 +1,50 @@
+[
+  {
+    "key": "lafb",
+    "label": "Left anterior fascicular block (LAFB)",
+    "filename": "E000715_(CardioNetworks_ECGpedia).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/E000715_%28CardioNetworks_ECGpedia%29.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:E000715_(CardioNetworks_ECGpedia).jpg",
+    "credit": "Michael Rosengarten / CardioNetworks ECGpedia via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "content_type": "image/jpeg",
+    "local_file": "C:\\Users\\PC\\OneDrive\\เอกสาร\\codex\\ER\\ติวสอบ MCQ\\รวม infographic\\assets\\ecg-fascicular-blocks\\source-ecg-images\\lafb.jpg",
+    "bytes": 3415809
+  },
+  {
+    "key": "lpfb",
+    "label": "Left posterior fascicular block (LPFB)",
+    "filename": "E000717_(CardioNetworks_ECGpedia).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/E000717_%28CardioNetworks_ECGpedia%29.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:E000717_(CardioNetworks_ECGpedia).jpg",
+    "credit": "Michael Rosengarten / CardioNetworks ECGpedia via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "content_type": "image/jpeg",
+    "local_file": "C:\\Users\\PC\\OneDrive\\เอกสาร\\codex\\ER\\ติวสอบ MCQ\\รวม infographic\\assets\\ecg-fascicular-blocks\\source-ecg-images\\lpfb.jpg",
+    "bytes": 4473150
+  },
+  {
+    "key": "rbbb_lafb",
+    "label": "Bifascicular block: RBBB + LAFB",
+    "filename": "E000721_(CardioNetworks_ECGpedia).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/E000721_%28CardioNetworks_ECGpedia%29.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:E000721_(CardioNetworks_ECGpedia).jpg",
+    "credit": "Michael Rosengarten / CardioNetworks ECGpedia via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "content_type": "image/jpeg",
+    "local_file": "C:\\Users\\PC\\OneDrive\\เอกสาร\\codex\\ER\\ติวสอบ MCQ\\รวม infographic\\assets\\ecg-fascicular-blocks\\source-ecg-images\\rbbb_lafb.jpg",
+    "bytes": 4442370
+  },
+  {
+    "key": "rbbb_lafb_pr",
+    "label": "Bifascicular block + first-degree AV block pattern",
+    "filename": "E217_(CardioNetworks_ECGpedia).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/E217_%28CardioNetworks_ECGpedia%29.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:E217_(CardioNetworks_ECGpedia).jpg",
+    "credit": "Michael Rosengarten / CardioNetworks ECGpedia via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "content_type": "image/jpeg",
+    "local_file": "C:\\Users\\PC\\OneDrive\\เอกสาร\\codex\\ER\\ติวสอบ MCQ\\รวม infographic\\assets\\ecg-fascicular-blocks\\source-ecg-images\\rbbb_lafb_pr.jpg",
+    "bytes": 4483013
+  }
+]

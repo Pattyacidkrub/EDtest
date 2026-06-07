@@ -1,5 +1,14 @@
 [
   {
+    "title": "ECG Fascicular Blocks",
+    "slug": "ecg-fascicular-blocks",
+    "system": "Cardiology / ECG / Conduction",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.49 pp.335,350; Ch.52 p.367; Ch.18 pp.112-113; ECGpedia/Wikimedia ECG morphology examples",
+    "summary": "Real-ECG pattern recognition for LAFB, LPFB, bifascicular block, and bifascicular-plus-PR prolongation, with ED red flags for ACS, syncope, high-grade AV block, and pacing/consult triggers.",
+    "href": "ecg-fascicular-blocks/index.html"
+  },
+  {
     "title": "Geriatric Trauma + Frailty",
     "slug": "geriatric-trauma-frailty",
     "system": "Geriatrics / Trauma / Critical Care",
