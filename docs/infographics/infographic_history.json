@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "monteggia-fracture",
+      "title": "Monteggia Fracture-Dislocation",
+      "system": "Trauma / Orthopedics / Upper Extremity",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "nephrotoxic-agents",
       "title": "Nephrotoxic Agents",
       "system": "Renal / Toxicology / Pharmacology",
@@ -56,9 +62,9 @@
     }
   ],
   "last_run": {
-    "date": "2026-06-07",
-    "slug": "nephrotoxic-agents",
-    "title": "Nephrotoxic Agents",
+    "date": "2026-06-08",
+    "slug": "monteggia-fracture",
+    "title": "Monteggia Fracture-Dislocation",
     "status": "generated_codex_builtin_image"
   }
 }

@@ -1,5 +1,14 @@
 [
   {
+    "title": "Monteggia Fracture-Dislocation",
+    "slug": "monteggia-fracture",
+    "system": "Trauma / Orthopedics / Upper Extremity",
+    "date": "2026-06-08",
+    "file": "monteggia-fracture-ed-infographic.html",
+    "chapter": "Tintinalli Ch.141 pp.910,915; Ch.270 pp.1813,1820-1821; Ch.35 pp.232-234; Ch.37 pp.251-252; Ch.115 pp.725-730",
+    "summary": "Ulna fracture with radial head dislocation, radiocapitellar alignment, neurovascular exam, ED immobilization, orthopedic consultation, and missed-injury traps."
+  },
+  {
     "title": "Nephrotoxic Agents",
     "slug": "nephrotoxic-agents",
     "system": "Renal / Toxicology / Pharmacology",
