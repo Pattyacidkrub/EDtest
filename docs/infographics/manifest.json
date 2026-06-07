@@ -1,5 +1,14 @@
 [
   {
+    "title": "DRESS Syndrome",
+    "slug": "dress-syndrome",
+    "system": "Dermatology / Toxicology / Pharmacology",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.249 pp.1624,1627-1628; Ch.251 pp.1647-1648; Ch.248 pp.1607,1619-1622; Ch.35 p.232; Ch.190 pp.1252-1253; Ch.142 pp.941-942",
+    "summary": "Delayed severe drug rash with fever, eosinophilia/organ injury, culprit-drug triggers, ED workup, steroids/supportive care, and admission criteria.",
+    "href": "dress-syndrome/index.html"
+  },
+  {
     "title": "Stevens-Johnson Syndrome / Toxic Epidermal Necrolysis (SJS/TEN)",
     "slug": "sjs-ten",
     "system": "Dermatology / Toxicology / Critical Care",

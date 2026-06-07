@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "dress-syndrome",
+      "title": "DRESS Syndrome",
+      "system": "Dermatology / Toxicology / Pharmacology",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "sjs-ten",
       "title": "Stevens-Johnson Syndrome / Toxic Epidermal Necrolysis (SJS/TEN)",
       "system": "Dermatology / Toxicology / Critical Care",
@@ -81,8 +87,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "sjs-ten",
-    "title": "Stevens-Johnson Syndrome / Toxic Epidermal Necrolysis (SJS/TEN)",
+    "slug": "dress-syndrome",
+    "title": "DRESS Syndrome",
     "status": "generated_codex_builtin_image_source_backed"
   }
 }
