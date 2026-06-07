@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "nephrotoxic-agents",
+      "title": "Nephrotoxic Agents",
+      "system": "Renal / Toxicology / Pharmacology",
+      "date": "2026-06-07"
+    },
+    {
       "slug": "hiv-pep-medications",
       "title": "HIV PEP Medications",
       "system": "Infectious Disease / Occupational Exposure / Sexual Assault",
@@ -51,8 +57,8 @@
   ],
   "last_run": {
     "date": "2026-06-07",
-    "slug": "hiv-pep-medications",
-    "title": "HIV PEP Medications",
+    "slug": "nephrotoxic-agents",
+    "title": "Nephrotoxic Agents",
     "status": "generated_codex_builtin_image"
   }
 }

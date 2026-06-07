@@ -1,5 +1,14 @@
 [
   {
+    "title": "Nephrotoxic Agents",
+    "slug": "nephrotoxic-agents",
+    "system": "Renal / Toxicology / Pharmacology",
+    "date": "2026-06-07",
+    "href": "nephrotoxic-agents/index.html",
+    "chapter": "Tintinalli Ch.88 pp.563-569; Ch.89 pp.570-572; Ch.185 pp.1228,1231-1232; Ch.297 pp.1990-1991; Ch.35 pp.233-234",
+    "summary": "Drug-induced AKI risk factors, nephrotoxin mechanisms, diagnostic clues, ED renal-protection steps, dialysis triggers, and medication cautions."
+  },
+  {
     "title": "HIV PEP Medications",
     "slug": "hiv-pep-medications",
     "system": "Infectious Disease / Occupational Exposure / Sexual Assault",
