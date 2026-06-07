@@ -1,5 +1,14 @@
 [
   {
+    "title": "Pediatric Hip Pain & Limp",
+    "slug": "pediatric-hip-pain-ddx",
+    "system": "Pediatrics / Orthopedics / Infectious",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.141 pp.917-924; Ch.115 pp.725-726; Ch.281 pp.1896-1897",
+    "summary": "ED differential and decision pathway for a child with hip pain or limp: septic arthritis versus transient synovitis, SCFE, Legg-Calve-Perthes, toddler fracture/trauma, osteomyelitis, psoas abscess, inflammatory, hematologic, and referred causes.",
+    "href": "pediatric-hip-pain-ddx/index.html"
+  },
+  {
     "title": "Open Globe Injury",
     "slug": "open-globe-injury",
     "system": "Ophthalmology / Trauma / Procedures",
