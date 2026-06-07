@@ -1,5 +1,14 @@
 [
   {
+    "title": "Herpes in the ED: HSV vs VZV",
+    "slug": "herpes-hsv-vzv-ed",
+    "system": "Infectious Disease / Dermatology / Ophthalmology",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.154 pp.1025-1029; Ch.250 pp.1629-1631; Ch.102 pp.651-652; Ch.120 pp.752-755; Ch.122 pp.768-769; Ch.241 pp.1541-1543; Ch.253/283",
+    "summary": "ED approach to herpes simplex and varicella-zoster infections: mucocutaneous HSV/genital herpes, gingivostomatitis, herpetic whitlow, HSV encephalitis/neonatal HSV, ocular HSV, herpes zoster/HZO, antiviral dosing, red flags, disposition, and exam traps.",
+    "file": "herpes-hsv-vzv-ed/"
+  },
+  {
     "title": "ECG Tall R in aVR: ED DDx",
     "slug": "ecg-tall-r-avr-ddx",
     "system": "Cardiology / ECG / Toxicology",

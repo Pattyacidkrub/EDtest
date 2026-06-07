@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "herpes-hsv-vzv-ed",
+      "title": "Herpes in the ED: HSV vs VZV",
+      "system": "Infectious Disease / Dermatology / Ophthalmology",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "ecg-tall-r-avr-ddx",
       "title": "ECG Tall R in aVR: ED DDx",
       "system": "Cardiology / ECG / Toxicology",
@@ -177,8 +183,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "ecg-tall-r-avr-ddx",
-    "title": "ECG Tall R in aVR: ED DDx",
+    "slug": "herpes-hsv-vzv-ed",
+    "title": "Herpes in the ED: HSV vs VZV",
     "status": "generated_custom_diagram_source_backed"
   }
 }
