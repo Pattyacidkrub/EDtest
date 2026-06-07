@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "ecg-tall-r-avr-ddx",
+      "title": "ECG Tall R in aVR: ED DDx",
+      "system": "Cardiology / ECG / Toxicology",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "cardiac-glycoside-toxic-plants",
       "title": "Cardiac Glycoside Toxic Plants",
       "system": "Toxicology / Cardiovascular / Plants",
@@ -171,8 +177,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "cardiac-glycoside-toxic-plants",
-    "title": "Cardiac Glycoside Toxic Plants",
-    "status": "generated_custom_diagram_source_backed_real_flower_photos"
+    "slug": "ecg-tall-r-avr-ddx",
+    "title": "ECG Tall R in aVR: ED DDx",
+    "status": "generated_custom_diagram_source_backed"
   }
 }

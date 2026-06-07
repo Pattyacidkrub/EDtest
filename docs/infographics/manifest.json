@@ -1,5 +1,14 @@
 [
   {
+    "title": "ECG Tall R in aVR: ED DDx",
+    "slug": "ecg-tall-r-avr-ddx",
+    "system": "Cardiology / ECG / Toxicology",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.177 pp.1196-1198; Ch.187 pp.1245-1246; Ch.194 pp.1272-1273; Ch.18 pp.113-114; Ch.49 p.337",
+    "summary": "ED differential for terminal tall R in aVR: sodium-channel blockade/TCA pattern, cocaine/cathinones, membrane-stabilizing beta-blockers, class I antiarrhythmics, wide-complex tachycardia/VT algorithm traps, and ACS ST-elevation-in-aVR distinction.",
+    "file": "ecg-tall-r-avr-ddx/"
+  },
+  {
     "title": "Cardiac Glycoside Toxic Plants",
     "slug": "cardiac-glycoside-toxic-plants",
     "system": "Toxicology / Cardiovascular / Plants",
