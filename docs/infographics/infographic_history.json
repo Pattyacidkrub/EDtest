@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "regional-nerve-blocks-foot-face-forehead",
+      "title": "Regional Nerve Blocks: Foot, Face & Forehead",
+      "system": "Procedures / Analgesia / Trauma",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "child-abuse-neglect",
       "title": "Child Abuse & Neglect",
       "system": "Pediatrics / Trauma / Safeguarding",
@@ -147,8 +153,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "child-abuse-neglect",
-    "title": "Child Abuse & Neglect",
-    "status": "generated_codex_builtin_image_source_backed"
+    "slug": "regional-nerve-blocks-foot-face-forehead",
+    "title": "Regional Nerve Blocks: Foot, Face & Forehead",
+    "status": "generated_custom_diagram_source_backed"
   }
 }
