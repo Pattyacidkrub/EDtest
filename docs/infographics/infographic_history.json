@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "mca-infarction",
+      "title": "MCA Infarction: Anterior Circulation Stroke",
+      "system": "Neurology / Stroke / Critical Care",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "scaphoid-fracture",
       "title": "Scaphoid Fracture: Occult Wrist Injury",
       "system": "Orthopedics / Hand / Trauma / Pediatrics",

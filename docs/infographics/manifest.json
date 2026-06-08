@@ -1,5 +1,14 @@
 [
   {
+    "title": "MCA Infarction: Anterior Circulation Stroke",
+    "slug": "mca-infarction",
+    "system": "Neurology / Stroke / Critical Care",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.167 pp.1119-1134; Ch.239 p.1509; Ch.57 p.404",
+    "summary": "ED approach to middle cerebral artery infarction: anterior-circulation MCA syndrome, dominant aphasia versus nondominant neglect, stroke mimics, last-known-well timing, NIHSS caveats, CT/CTA/perfusion pathway, alteplase and tenecteplase dosing cautions, blood-pressure targets, thrombectomy criteria for ICA/proximal MCA occlusion, malignant MCA edema, disposition, and exam traps.",
+    "file": "mca-infarction-infographic.html"
+  },
+  {
     "title": "Scaphoid Fracture: Occult Wrist Injury",
     "slug": "scaphoid-fracture",
     "system": "Orthopedics / Hand / Trauma / Pediatrics",
