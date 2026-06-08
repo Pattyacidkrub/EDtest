@@ -1,5 +1,14 @@
 [
   {
+    "title": "Hemophilia Factor Calculation",
+    "slug": "hemophilia-factor-calculation",
+    "system": "Hematology / Emergency Medicine / Calculations",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.235 pp.1478-1481; Ch.144 pp.949-952; Ch.234 p.1474",
+    "summary": "ED factor replacement calculator for hemophilia A/B: FVIII and FIX unit formulas, target factor levels by bleed site, treat-before-CT/procedure rule, pediatric high-risk targets, desmopressin/TXA/inhibitor dosing, disposition, and exam traps.",
+    "file": "hemophilia-factor-calculation/"
+  },
+  {
     "title": "ACEI-Induced Angioedema",
     "slug": "acei-induced-angioedema",
     "system": "Allergy / Airway / Toxicology",

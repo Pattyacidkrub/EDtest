@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "hemophilia-factor-calculation",
+      "title": "Hemophilia Factor Calculation",
+      "system": "Hematology / Emergency Medicine / Calculations",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "acei-induced-angioedema",
       "title": "ACEI-Induced Angioedema",
       "system": "Allergy / Airway / Toxicology",
