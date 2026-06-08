@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "cerebellar-infarction-hints-exam",
+      "title": "Cerebellar Infarction + HINTS Exam",
+      "system": "Neurology / Stroke / Vertigo",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "flexor-tenosynovitis-kanavel",
       "title": "Pyogenic Flexor Tenosynovitis",
       "system": "Orthopedics / Hand / Infectious Disease",
@@ -297,8 +303,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "flexor-tenosynovitis-kanavel",
-    "title": "Pyogenic Flexor Tenosynovitis",
-    "status": "generated_code_native_poster_with_custom_hand_diagram"
+    "slug": "cerebellar-infarction-hints-exam",
+    "title": "Cerebellar Infarction + HINTS Exam",
+    "status": "generated_code_native_poster_with_custom_hints_diagram"
   }
 }
