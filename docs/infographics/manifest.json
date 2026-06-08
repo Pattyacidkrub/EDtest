@@ -1,5 +1,14 @@
 [
   {
+    "title": "Acid-Base Interpretation + Oxygenation",
+    "slug": "acid-base-interpretation-oxygenation",
+    "system": "Resuscitation / Critical Care / Calculations",
+    "date": "2026-06-08",
+    "href": "acid-base-interpretation-oxygenation/",
+    "chapter": "Tintinalli Ch.15 pp.73-78; Ch.16 pp.79-80; Merck Manual; Berlin ARDS definition",
+    "summary": "Thai ED formula dashboard for ABG/VBG acid-base interpretation: pH-first workflow, anion gap and albumin correction, delta gap/delta ratio, expected compensation, mixed-disorder traps, A-a gradient, P/F ratio, FiO2 estimates, pulse-ox/VBG limitations, and oxygen delivery pearls."
+  },
+  {
     "title": "Cerebellar Infarction + HINTS Exam",
     "slug": "cerebellar-infarction-hints-exam",
     "system": "Neurology / Stroke / Vertigo",
