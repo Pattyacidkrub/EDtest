@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "carbon-monoxide-poisoning-ct",
+      "title": "Carbon Monoxide Poisoning: CT Findings + ED Oxygen Pathway",
+      "system": "Toxicology / Environmental / Critical Care / Radiology",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "seatbelt-injury",
       "title": "Seatbelt Injury: ED Trauma Pattern",
       "system": "Trauma / Abdomen / Spine / Thoracic",

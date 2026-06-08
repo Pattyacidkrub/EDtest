@@ -1,5 +1,14 @@
 [
   {
+    "title": "Carbon Monoxide Poisoning: CT Findings + ED Oxygen Pathway",
+    "slug": "carbon-monoxide-poisoning-ct",
+    "system": "Toxicology / Environmental / Critical Care / Radiology",
+    "date": "2026-06-08",
+    "href": "carbon-monoxide-poisoning-ct/",
+    "chapter": "Tintinalli Ch.222 pp.1414-1417; Ch.217 pp.1388-1389; Ch.21 pp.137-140; Ch.62 p.430; CDC clinical guidance; Du et al. PMC6425274 CT figure",
+    "summary": "ED approach to carbon monoxide poisoning with real CT lesion description: normal SpO2 trap, COHb co-oximetry, brain/heart injury, smoke inhalation cyanide screening, 100% oxygen, hyperbaric oxygen referral, pregnancy/pediatric cautions, delayed neurologic sequelae, and disposition."
+  },
+  {
     "title": "Seatbelt Injury: ED Trauma Pattern",
     "slug": "seatbelt-injury",
     "system": "Trauma / Abdomen / Spine / Thoracic",
