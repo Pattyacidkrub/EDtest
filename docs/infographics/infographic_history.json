@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "xanthopsia-digoxin-toxicity",
+      "title": "Xanthopsia: Digoxin/Cardiac Glycoside Toxicity",
+      "system": "Toxicology / Ophthalmology / Cardiology",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "acid-base-interpretation-oxygenation",
       "title": "Acid-Base Interpretation + Oxygenation",
       "system": "Resuscitation / Critical Care / Calculations",
