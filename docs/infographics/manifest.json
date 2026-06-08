@@ -1,5 +1,14 @@
 [
   {
+    "title": "Warfarin Pathophysiology",
+    "slug": "warfarin-pathophysiology",
+    "system": "Hematology / Pharmacology / Emergency Medicine",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.239 pp.1501-1505; Ch.232 p.1468; Ch.233 p.1470; Ch.234 pp.1475-1476; Ch.166 p.1118; Ch.201 pp.1307-1308",
+    "summary": "Mechanism-first ED infographic for warfarin: vitamin K activation and hepatic carboxylation, factor II/VII/IX/X and protein C/S effects, delayed INR kinetics, early hypercoagulability, interaction physiology, bleeding thresholds, and reversal logic with vitamin K, PCC, and FFP.",
+    "file": "warfarin-pathophysiology/"
+  },
+  {
     "title": "Hemophilia Factor Calculation",
     "slug": "hemophilia-factor-calculation",
     "system": "Hematology / Emergency Medicine / Calculations",

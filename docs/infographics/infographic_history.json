@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "warfarin-pathophysiology",
+      "title": "Warfarin Pathophysiology",
+      "system": "Hematology / Pharmacology / Emergency Medicine",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "hemophilia-factor-calculation",
       "title": "Hemophilia Factor Calculation",
       "system": "Hematology / Emergency Medicine / Calculations",
