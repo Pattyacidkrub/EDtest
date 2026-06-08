@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "intussusception-ultrasound",
+      "title": "Intussusception: Ultrasound + ED Reduction Pathway",
+      "system": "Pediatrics / GI / Ultrasound / Surgery",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "herpes-hsv-vzv-ed",
       "title": "Herpes in the ED: HSV vs VZV",
       "system": "Infectious Disease / Dermatology / Ophthalmology",

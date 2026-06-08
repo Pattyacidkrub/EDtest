@@ -1,5 +1,14 @@
 [
   {
+    "title": "Intussusception: Ultrasound + ED Reduction Pathway",
+    "slug": "intussusception-ultrasound",
+    "system": "Pediatrics / GI / Ultrasound / Surgery",
+    "date": "2026-06-08",
+    "href": "intussusception-ultrasound/",
+    "chapter": "Tintinalli Ch.133 pp.857-860; Ch.131 p.844; Ch.134 p.868; Ch.140 p.903; Merck/StatPearls; Wikimedia US images",
+    "summary": "ED approach to pediatric intussusception with real ultrasound examples and lesion description: target/donut sign, pseudokidney sign, bowel-within-bowel anatomy, pain-lethargy presentations, red flags, ultrasound/air-enema pathway, reduction contraindications, recurrence, and disposition."
+  },
+  {
     "title": "Herpes in the ED: HSV vs VZV",
     "slug": "herpes-hsv-vzv-ed",
     "system": "Infectious Disease / Dermatology / Ophthalmology",
