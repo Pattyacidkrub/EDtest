@@ -1,0 +1,3407 @@
+========================================================================================
+Tintinalli 9e Ch.35 Acute Pain Management adult analgesia pp.229-235
+========================================================================================
+
+--- PDF PAGE 274 ---
+229
+SE C T I O N 
+5
+Acute Pain Management
+James Ducharme 
+INTRODUCTION
+Pain is the most common presenting symptom for patients coming to 
+the ED, with 70% to 80% of all patients having pain as their primary 
+complaint.1,2 Despite increasing research and information about pain 
+management, oligoanalgesia, or the undertreatment of pain, persists.3 
+While all patients are susceptible to oligoanalgesia, certain subgroups, 
+such as ethnic minorities, the aged, the very young, and those with 
+diminished cognitive function, are more at risk (Table 35-1).4-7 Pain 
+management can also be negatively influenced by concerns of prescrip­
+tion opioid misuse, a situation declared to be a public health epidemic in 
+North America.8 An initial prescription of opioids, such as upon ED 
+discharge, has been associated with persistence of opioid use months 
+after the original visit.9 Nevertheless, appropriate treatment of acute 
+severe pain should not be withheld for fear of facilitating drug misuse; 
+rather, opioid use should be but one of many options considered in pain 
+management.10 Pain and addiction are not mutually exclusive.
+Specific measures to treat pain should occur in addition to, and at 
+the same time as, treatment of the underlying illness or injury. It is not 
+possible to generalize the extent and quality of pain control needed 
+for a specific patient. For example, pain is an indicator of ongoing 
+cardiac ischemia, and the goal should be to eliminate all pain. On the 
+other hand, a patient with a traumatic injury may choose to endure more 
+pain out of personal or cultural beliefs. Whenever possible, medications 
+that act on specific sites that initiate the pain signal—a mechanistic 
+approach—are preferred to agents such as opioids that mask pain, 
+which is more a symptomatic approach. Current migraine treatment is 
+an excellent example of the mechanistic approach; preferred treatment 
+includes a serotonin agonist (triptan) or a dopamine antagonist (pheno­
+thiazine or metoclopramide), rather than opiates.11
+PATHOPHYSIOLOGY
+Pain is the physiologic response to a noxious stimulus, whereas 
+suffering—the expression of pain—is modified by the complex interac­
+tion of cognitive, behavioral, and sociocultural dimensions. Individual 
+pain experience is therefore not static, but varies depending on current 
+and past medical history, physical and emotional maturity, cognitive 
+state, meaning of pain, family attitudes, culture, and environment. Emo­
+tions can modify pain either negatively or positively: fear and anxiety 
+may accentuate pain, or pain can be suppressed completely if an essen­
+tial task must be performed or if there is acute concern about a loved 
+one. It is difficult for another to assess the severity of pain a patient is 
+feeling as they cannot understand the impact of these modifying vari­
+ables on any given patient. It is why self-reporting is considered the 
+gold standard for quantifying the severity of a patient’s pain. Since 
+pain and suffering are so intertwined, it must be recognized that a pain 
+score using a standardized rating scale does not have more than a mod­
+erate relationship to the amount or type of analgesia required.
+The peripheral nervous system (e.g., nociceptors, C fibers, A-δ 
+fibers, and free nerve endings) initiates the sensation of somatic pain by 
+responding to a noxious stimulus and sending a neuronal discharge to 
+the dorsal horn of the spinal cord. Neurons in the dorsal horn of the spi­
+nal cord integrate and modulate input from multiple peripheral nerves 
+and other sensory stimuli. Transmission then proceeds up the spinal 
+cord to the CNS (e.g., hypothalamus, thalamic nuclei, limbic system, and 
+reticular activating system) where further integration and processing 
+generate the perception of pain. Identification and localization of pain, 
+cognitive interpretation, and triggering of emotional and physiologic 
+reactions also occur at these central sites. Unlike somatic pain, which 
+is easily localized, visceral pain pathways are more complex and differ 
+in structure from somatic pain pathways, which may explain the poor 
+localization of visceral pain.
+Opioid analgesics work by binding to receptors in the spinal cord 
+and brain. There are four types of opioid receptors: three classic ones 
+(delta, kappa, and mu, each with identified subtypes) and nociceptin, a 
+receptor with significant structural homology. These receptors are found 
+in the brain, spinal cord, and GI tract where their physiologic function 
+is to interact with endogenous dynorphins, enkephalins, endomorphins, 
+endorphins, and nociceptin. Opioid analgesics interact with these recep­
+tors in varying degrees, accounting for the difference in desired and 
+adverse effects among the drugs in this class. Stimulation of the mu-1 
+(µ1) receptor produces supraspinal analgesia. Stimulation of the mu-2 
+(µ2) receptor results in euphoria, miosis, respiratory depression, and 
+depressed GI motility. Stimulation of the delta (δ) receptor produces 
+analgesia, but less than the µ1 receptor, and also exerts an antidepressant 
+effect. Stimulation of the kappa (κ) receptor produces dysphoria, along 
+with dissociation, delirium, and diuresis by inhibiting antidiuretic hor­
+mone release. Opioid receptors, surprisingly, are not linked to addiction, 
+which is much more closely linked to the cannabinoid-1 receptor.
+EVALUATION
+Document the degree of pain on initial assessment. This process serves 
+to identify patients with severe pain and facilitate pain treatment. ED 
+pain assessment should determine duration, location, quality, severity, 
+and exacerbating and relieving factors. The patient’s subjective report­
+ing of pain, not the healthcare provider’s impression, is the basis for 
+pain assessment and treatment. There is a weak correlation between 
+nonverbal signs, such as tachycardia, tachypnea, and changes in patient 
+expression and movements, and the patient’s report of pain, so do not 
+rely on these to determine the severity of a patient’s pain12,13 or their 
+response to treatment.14 Because pain is dynamic and changes with time, 
+periodic pain reassessment is needed.
+
+ PAIN SCALES
+Although standardized scales for measuring reported pain are com­
+monly used, their impact on effective pain control is uncertain.15,16 
+The primary purpose of pain scales is to quantitate pain severity, 
+guide the selection and administration of an analgesic agent, and 
+reassess the pain response to determine the need for repeated doses or 
+alternative analgesics. Pain scales are also essential in pain management 
+research, enabling reproducible comparisons of interventions. Some 
+studies have suggested that the use of pain scales may actually decrease 
+the provision of analgesics. Given the subjectivity both of pain reporting 
+and the provider’s interpretation of such reporting, the use of simple 
+descriptors such as “a little” or “an awful lot” is equally valid in the clinical 
+setting. What is important is that the patient’s subjective reporting should 
+be the basis for assessment and management. For most, but not all, pain­
+ful conditions, the goal is to control pain to the level the patient desires. 
+Once it is determined a patient requires pain management, asking if the 
+CHAPTER
+35
+Analgesia, Anesthesia, and 
+Procedural Sedation
+
+
+--- PDF PAGE 275 ---
+230 
+ 
+  SECTION 5: Analgesia, Anesthesia, and Procedural Sedation 
+patient requires more analgesic may even be simpler and accomplish 
+more than using any standardized pain evaluation tool.17,18
+Several self-report instruments are valid in patients with acute pain, 
+with some requiring only a verbal response (Table 35-2). Each tool has 
+advantages and specific limitations. ED personnel in any one location 
+should use the same tool so information collected is standardized. A 
+value assigned by a patient is not an absolute value but rather a refer­
+ence point based on past personal experience.19
+
+ PAIN SCALE PERFORMANCE IN SPECIAL PATIENT POPULATIONS
+The elderly often report pain differently from younger patients because 
+of physiologic, psychological, and cultural changes associated with 
+aging. Visual, hearing, motor, and cognitive impairments can be barriers 
+to effective pain assessment. Using a numerical pain scale, the elderly 
+may also experience a decrease in the minimum clinically significant 
+noticeable difference in acute pain over time, making it difficult to 
+assess response to successive doses of analgesics.21,22 Family members 
+and caregivers are often able to judge nonverbal actions of the patient as 
+representing pain or distress, so they should be used if available to help 
+with pain assessment in the noncommunicating elderly patient.23
+Trauma patients and those with acute intoxication do not perform 
+as well on pain scales.24 Women are more likely to express pain and to 
+actively seek treatment for pain,25,26 yet there is a tendency to underes­
+timate and undertreat pain in women. Ethnicity of both the patient and 
+the physician has a bearing on different cultural concepts of pain and 
+on the characteristics of culturally appropriate pain-related behaviors.5 
+Translators and family members should be asked to provide assistance. 
+There is also interplay between the ethnicity of the patient and that of 
+the physician.5 When there are language difficulties or cross-cultural 
+differences, the visual analog scale is the preferred pain assessment 
+tool because it is the least affected by these factors.
+PHARMACOLOGIC ACUTE PAIN TREATMENT
+The administration of pharmacologic agents is the mainstay of acute 
+pain management. The key to effective pharmacologic pain manage­
+ment in the ED is selection of an agent appropriate for the intensity of 
+pain, time to onset of analgesic activity, ease of administration, safety, 
+and efficacy.27 Acute pain is usually accompanied by anxiety and feel­
+ings of loss of control. Management of the suffering component of acute 
+pain may be best managed by restoring emotional control and providing 
+information about the situation. If verbal reassurance combined with an 
+analgesic does not suffice, an anxiolytic may be useful.
+The “tiered approach” to pain management starts with an agent of 
+low potency regardless of pain intensity, assesses the response after a 
+clinically relevant period, and sequentially changes to agents of higher 
+potency if pain persists. The tiered approach to acute pain manage­
+ment unnecessarily subjects the patient to more prolonged suffering. 
+It is preferable to select initial analgesics that are appropriate to treat 
+the intensity (mild, moderate, or severe) of the patient’s pain. Agents 
+such as NSAIDs should be considered for mild to moderate pain or 
+when targeting severe pain originating from smooth muscle spasm such 
+as renal or biliary colic. Systemic opioids should be reserved for severe 
+nociceptive pain (Table 35-3); opioids have little if any role in managing 
+acute neuropathic pain or acute pain flares linked to chronic pain states. 
+In specific instances such as renal and biliary colic, although parenteral 
+NSAIDs may control severe pain, combination therapy with an opioid 
+is usually superior.
+When possible, local or regional anesthesia can be a useful adjunct. 
+Peripheral nerve blockade for pain control and for procedures is an 
+excellent option, especially if guided by US (see Chapter 36, “Local and 
+Regional Anesthesia”).28,29
+  TABLE 35-1    Barriers to Adequate ED Pain Control
+Patient Related
+Provider Related
+System Related
+Ethnicity, gender, age 
+(very young, very old)
+Diminished cognitive 
+function
+Fear of medications: 
+addiction, side effects
+Acceptance of pain as being 
+inevitable
+Unwillingness to bother 
+healthcare providers
+Inadequate education
+No objective measuring 
+tool for pain
+Accepting only pain 
+reports that conform to 
+expectations
+Concerns of opioid 
+addiction and drug-
+seeking behavior
+Lack of clearly articulated 
+standards
+Paucity of treatment 
+guidelines
+Fear of regulatory 
+sanctions
+Lack of healthcare 
+provider accountability
+  TABLE 35-2    Pain Scales20
+Scale
+Method
+Comments
+Adjective rating scale
+(Figure 35-1)
+Patient rates pain by choosing from an ordered list of pain 
+descriptors, ranging from no pain to worst possible pain, with 
+allowance for marks between discrete labels.
+Easy to administer.
+Visual analog scale (VAS)
+(Figure 35-2)
+Patient places a mark that best describes pain intensity along 
+a 10-cm linear scale marked at one end with a term such as no 
+pain and at the other end with worst imaginable pain.
+Pain intensity measured in millimeters from the no-pain end.
+A difference of 13 mm is the minimum clinically significant change noticeable by patients, 
+whereas an average decrease of 30 mm appears to be the minimum acceptable change for 
+pain control.
+Numeric rating scale
+(Figure 35-3)
+The patient is asked to self-report pain on a scale of 0 to 10 
+with descriptors for 0, 5, and 10.
+Can be used in patients with visual, speech, or manual dexterity difficulties by using 
+upheld fingers.
+Not as discriminating as the VAS.
+5-Point global scale
+Patient rates pain as:
+0 = none
+1 = a little
+2 = some
+3 = a lot
+4 = worst possible
+A decrease of 1 point is a large change; scales with more choices allow monitoring of small 
+changes in pain and may be more sensitive to changes.
+Verbal quantitative scale
+The patient is asked to self-report pain on a scale of 0 to 
+10 without descriptors.
+Most commonly used scale; easy to administer.
+No
+pain
+Worst
+possible
+pain
+Very
+severe
+pain
+Severe
+pain
+Moderate
+pain
+Mild
+pain
+FIGURE 35-1.  Pain scale: Adjective rating scale.
+
+
+--- PDF PAGE 276 ---
+CHAPTER 35: Acute Pain Management 
+ 
+  231 
+
+ OPIOID ANALGESICS
+Opioid analgesics are the cornerstone of pharmacologic management 
+for severe acute pain (Table 35-4). The term opiate refers to agents that 
+are structurally related to natural alkaloids found in opium, the dried 
+resin of the opium poppy. The term opioid describes any compound 
+with pharmacologic activity similar to an opiate, regardless of chemical 
+structure. Opioid use in the ED is often affected by concern for the pre­
+cipitation of adverse events, such as respiratory depression or hypoten­
+sion, or for facilitating drug-seeking behavior. Based on World Health 
+Organization recommendations, amounts of opioids prescribed per 
+capita are excessive in North America, but this should not preclude the 
+use of opioids for ED patients in severe pain; when opioids are felt to be 
+indicated, they should be titrated to effect based on patient feedback or 
+with patient-controlled analgesia systems. Considerations for use of dif­
+ferent opioids include (1) desired onset of action; (2) available routes of 
+administration; (3) duration of action, which will determine achievable 
+frequency of administration; (4) concurrent use of nonopioid analgesics 
+and adjunctive agents; (5) possible incidence and severity of side effects; 
+and (6) continuation of the agent in an inpatient or ambulatory setting.
+Opioids should be titrated to effect after the initial dose as patients 
+differ greatly in their response to opioid analgesics.32-34 Variation in pain 
+reduction is related to age, initial pain severity, and previous or chronic 
+exposure to opioids, but not body mass35,36 or gender.37 Relative potency 
+estimates provide a rational basis for selecting the appropriate starting 
+dose to initiate analgesic therapy,38,39 changing the route of admin­
+istration (e.g., from parenteral to PO), or switching to another opioid 
+(Table 35-5), but undue reliance on these ratios is an oversimplification 
+with potential for over- or underdosing.40
+Oral opioids are often manufactured in combination with acetamino­
+phen (paracetamol), ibuprofen, or aspirin. There is evidence that such 
+combinations possess a synergistic effect in treating chronic pain. It is 
+possible for the patient to consume a toxic amount of the nonopioid 
+component with frequent dosing. Patients may also consume a toxic 
+amount by continuing to take their nonopioid analgesic in addition to 
+the prescribed opioid combination. Avoid prescribing combinations 
+upon patient discharge.
+Opioid hypersensitivity is uncommon, and true allergic reactions are 
+extremely rare. There is minimal evidence of clinical cross-sensitivity 
+within opioid classes, with the possible exception that cross-sensitivity 
+has been suggested among the phenylpiperidines (fentanyl, alfentanil, 
+and sufentanil). Until more is known, it would be prudent to switch 
+to a drug from a different opioid class if a patient develops a hyper­
+sensitivity reaction. When used in equianalgesic doses, there is no 
+compelling evidence to recommend one opioid over another. As much 
+as possible, avoid using multiple agents, and titrate a single drug to the 
+desired effect.
+Codeine is not a reliable analgesic, and it produces more nausea, 
+vomiting, and dysphoria than other opioids. The analgesic effect of 
+codeine is highly dependent on the metabolic conversion to the active 
+metabolites codeine-6-glucuronide and morphine. Up to 10% of the U.S. 
+population, and 30% of Asians are deficient in the relevant enzymes for 
+this conversion and cannot obtain any analgesic response. Conversely, 
+there are case reports of neonatal deaths as a result of breastfeeding 
+from mothers who were hypermetabolizers of codeine. In addition, the 
+standard PO dose of 30 to 60 milligrams produces little analgesic effect 
+above that of acetaminophen or NSAIDs alone.41,42
+Tramadol binds to mu receptors and weakly inhibits the reuptake 
+of norepinephrine and serotonin, producing a central opioid analge­
+sic effect.43 Tramadol is extensively metabolized by cytochrome P450 
+enzymes into more potent opioid metabolites, with desmetramadol 
+binding to the mu receptor at 700-fold higher affinity than the parent 
+compound. Thus, the analgesic potency of tramadol varies according 
+to the patient’s cytochrome P450 activity. Common side effects include 
+dizziness, nausea, constipation, and headache. Tramadol can induce 
+serotonin syndrome. Severe toxicity can include agitation and seizures. 
+Tramadol is one of the many substances that can produce a false-positive 
+result on the urine phencyclidine screen.44
+Meperidine (pethidine) was removed from the World Health Organi­
+zation list of essential medications in 2003, and its use in North America 
+has decreased because of its potential for addiction and adverse side 
+effects.45 Meperidine is considered to produce more elation than other 
+opioids, prompting concern the euphoria induced will more likely lead 
+to continued use, misuse, and addiction. Meperidine can interact with 
+many drugs to precipitate serotonin syndrome, although this interaction 
+is also seen with other opioids.46,47 Compared to other opioids, meperi­
+dine is associated with an increased risk of delirium in the elderly.48 
+Meperidine is metabolized to normeperidine, which has neuroexcit­
+atory properties and a long elimination half-life (24 to 48 hours).49 With 
+continued use, such as duration greater than 48 hours or total daily 
+dose greater than 600 milligrams, normeperidine can accumulate and 
+produce toxicity, typically seizures, in the elderly and those with renal 
+failure, although this is a rare event.50
+Adverse effects of opioids include nausea, vomiting, constipation, pru­
+ritus, urinary retention, confusion, and respiratory depression. Pruritus, 
+urinary retention, confusion, and respiratory depression are more common 
+with IV, transmucosal, and epidural administrations as opposed to PO 
+administration.
+Adjuncts are sometimes used to enhance the analgesic effect, reduce 
+the amount of opioid required, and prevent side effects (Table 35-6). 
+Depending on the agent, amount, route, and setting, a beneficial effect 
+can be seen. However, appropriate titration with opioids in the ED is 
+highly effective, and there are few data to support the routine use of 
+adjuncts with opioids in the ED.51 Pretreatment with antiemetics is not 
+necessary given the low risk of emesis,52 but symptom-targeted therapy 
+is sometimes necessary.
+Transdermal formulations are not useful for acute pain treatment 
+because of delayed onset and prolonged duration of action. Transder­
+mal fentanyl and transdermal buprenorphine preparations are used 
+for chronic pain, particularly in cancer patients. When such patients are 
+treated for acute pain in the ED, it is best to remove the delayed-release 
+transdermal opioid patches to better titrate the acute opioid dose and to 
+minimize adverse reactions from the combination of agents.
+
+ OPIOID AGONISTS-ANTAGONISTS
+Opioid agonists-antagonists are used to minimize some of the adverse 
+effects of pure opioid agonists (Table 35-7). The major benefit claimed 
+is a ceiling on respiratory depression, with no further reduction in res­
+piration with increasing doses past a set amount. It is not clear if there 
+  TABLE 35-3    Pain Severity With VAS or NRS
+Pain Severity
+VAS (0 to 100 mm) or NRS (0 to 10)
+Mild
+VAS: 0 to 30–40 mm or NRS: 0 to 3–4
+Moderate
+VAS: 40 to 60–70 mm or NRS: 4 to 6–7
+Severe
+VAS: >60–70 mm or NRS: >6–7
+Abbreviations: NRS = numeric rating scale; VAS = visual analog scale.
+0
+No
+pain
+Worst
+possible pain
+Moderate
+pain
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+FIGURE 35-3.  Pain scale: Numeric rating scale.
+No
+pain
+Worst
+imaginable pain
+FIGURE 35-2.  Pain scale: Visual analog scale (VAS).
+
+
+--- PDF PAGE 277 ---
+232 
+ 
+  SECTION 5: Analgesia, Anesthesia, and Procedural Sedation 
+  TABLE 35-4    Pain Treatment: Initial Opioid Dosing
+Drug [Origin, Class]
+Typical Initial Adult Dose
+Pharmacokinetics
+Comments
+Morphine
+[natural alkaloid phenanthrene]
+ 
+ 
+2–6 milligrams IV
+10 milligrams IM/SC
+10–30 milligrams PO IR tablet
+Onset: 1–2 min IV, 10–15 min IM/SC, and 30 min 
+PO IR tablet
+Histamine release may produce transient hypotension or 
+nausea and emesis; neither requires routine adjunctive 
+treatment.
+Peak effect: 3–5 min IV, 15–30 min IM/SC, and 
+1 h PO IR tablet
+Duration: 1–2 h IV, 3–4 h IM/SC, and 3–5 h PO 
+IR tablet
+Hydromorphone
+[semisynthetic phenanthrene]
+ 
+0.5–2 milligrams IV
+Onset: 5–15 min IV
+More euphoria inducing than morphine.
+1–2 milligrams IM
+ 
+Peak effect: 10–20 min IV
+Duration: 2–4 h IV
+Fentanyl
+[synthetic phenylpiperidine]
+ 
+ 
+ 
+ 
+50–100 micrograms IV
+Onset: <1 min IV
+Less cardiovascular depression than morphine.
+High doses (>5 micrograms/kg IV) can cause chest 
+wall rigidity.
+Peak effect: 2–5 min IV
+Duration: 30–60 min IV
+100-microgram nasal spray in 
+1 nostril30
+ 
+Used for breakthrough pain in opioid-tolerant cancer patients.
+Wait >2 h before treating another episode.
+May increase dose by 100 micrograms per episode.
+100-microgram buccal mucosa 
+tablet31
+ 
+Used for breakthrough pain in opioid-tolerant cancer patients.
+May repeat after 30 min.
+Wait >4 h before treating another episode.
+May increase dose by 100 micrograms per episode.
+Available transmucosal forms not bioequivalent.
+Meperidine (pethidine)
+[synthetic phenylpiperidine]
+25–50 milligrams IV
+50–150 milligrams IM/SC
+Onset: 5 min IV
+Peak effect: 5–10 min IV
+Duration: 2–3 h IV
+Contraindicated when patient has taken a monoamine 
+oxidase inhibitor within the past 14 d to avoid precipitating 
+serotonin syndrome.
+Neurotoxicity may occur when multiple doses are given for 
+>48 h or with a total daily dose >600 milligrams, especially 
+in the presence of renal failure.
+Oxycodone
+[semisynthetic phenanthrene]
+5–10 milligrams PO
+Onset: 10–15 min PO
+Duration: 3–6 h PO
+Lower incidence of nausea than other opioids.
+Possible inadvertent acetaminophen overdose with 
+combination agents.
+Hydrocodone/acetaminophen
+[semisynthetic phenanthrene]
+5/325–10/325 milligrams PO
+Onset: 30–60 min PO
+Duration: 4–6 h PO
+Lower incidence of nausea than other opioids.
+IR tablets only available as hydrocodone-acetaminophen 
+combination; possible inadvertent acetaminophen overdose 
+with concomitant use of nonprescription acetaminophen.
+Codeine
+[natural alkaloid phenanthrene]
+30–60 milligrams PO
+30–100 milligrams IM
+Onset: 30–60 min PO and 10–30 min IM
+Duration: 4–6 h PO and IM
+High incidence of GI side effects.
+Some patients cannot convert to codeine-6-glucuronide 
+and morphine.
+Possible inadvertent acetaminophen overdose with 
+combination agents or with concomitant use of 
+nonprescription acetaminophen.
+Tramadol
+[other]
+50–100 milligrams PO
+Onset: 1 h PO
+Duration: 4–6 h PO
+CNS side effects common.
+Abbreviation: IR = immediate release.
+  TABLE 35-5    Equipotent Opioid Doses
+Drug
+Equipotent Parenteral Dose (milligrams)
+Equipotent PO Dose (milligrams)
+Morphine Milligram Equivalents (MME)* 
+for PO Dosing
+Morphine
+10
+60 (acute) and 30 (chronic)
+1
+Hydromorphone
+1.5
+7.5
+4
+Fentanyl
+0.1
+0.2 (transmucosal)
+2.4 (transdermal in micrograms/h)
+Meperidine (pethidine)
+75
+300
+0.1
+Oxycodone
+—
+20
+1.5
+Hydrocodone
+—
+30
+1
+Codeine
+120
+200
+0.15
+Tramadol
+—
+300
+0.1
+*Multiply the dose for each opioid by the conversion factor to determine the dose in MMEs.
+
+
+--- PDF PAGE 278 ---
+CHAPTER 35: Acute Pain Management 
+ 
+  233 
+is a ceiling effect for analgesia. The variability in efficacy relates to each 
+particular agent’s affinity for the various central opioid receptors. These 
+agents may precipitate withdrawal symptoms in opioid-addicted 
+patients due to the antagonistic effect.
+
+ NONOPIOID AGENTS
+Acetaminophen (paracetamol) is an effective analgesic for acute 
+mild to moderate pain,53 but is not effective for persistent or 
+chronic pain (Table 35-8).54 Acetaminophen does not affect platelet 
+aggregation and does not have anti-inflammatory properties. No 
+dosage change is required for renal or mild hepatic impairment. An 
+important precaution is to carefully monitor nonprescription 
+acetaminophen use when concomitantly using combination opioid-
+acetaminophen products.
+Aspirin and the NSAIDs are both anti-inflammatory agents and 
+analgesics. As anti-inflammatory agents, aspirin and NSAIDs decrease 
+the production of prostanoids and arachidonic acid–mediated inflam­
+matory peptides generated at the site of tissue injury, diminishing the 
+inflammatory response seen with some noxious stimuli. As analgesics, 
+inhibition of the cyclooxygenase-2 enzyme in the spinal cord decreases 
+the excitability of dorsal horn neurons that produce hyperalgesia and 
+allodynia. These agents do not cause sedation or respiratory depression 
+or interfere with bowel or bladder function. NSAIDs have significant 
+opioid dose-sparing effects and are more effective than acetaminophen 
+for acute musculoskeletal pain.53 There is no consistent evidence that 
+the combination of acetaminophen and ibuprofen is more effective than 
+either agent singly for acute pain in the ED.
+Adverse effects of NSAIDs include platelet dysfunction, GI irrita­
+tion and mucosal bleeding, nephropathy, headaches, and dizziness. All 
+NSAIDs increase the risk of cardiac death in patients with ischemic 
+heart disease.55,56 NSAID-induced acute renal failure is more common 
+in elderly patients and in those who are volume depleted, have preexist­
+ing renal or cardiac disease, or are taking loop diuretics. Alternating 
+acetaminophen and an NSAID using standard doses every 3 to 4 hours 
+is one approach to reducing toxic side effects when treating acute pain 
+for several days.
+
+ OTHER PHARMACOLOGIC AGENTS
+Ketamine  A phencyclidine derivative, ketamine produces analgesia and/
+or dissociative anesthesia with the advantage of causing minimal respira­
+tory depression at usual doses (see Chapter 37, “Procedural Sedation and 
+Analgesia in Adults”). Low-dose (subdissociative or analgesic dose) infu­
+sions of ketamine are effective in combination with opioids for patients in 
+severe pain.57,58 Ketamine dosing for analgesia is typically an IV loading 
+dose, followed by repeat doses or a continuous infusion (Table 35-8).59 
+IV ketamine works best as an adjunct to opioids for patients in severe 
+pain, reducing the amount of opioids required,59,60 as with pain associated 
+with sickle cell vaso-occlusive crisis.61,62 Occasionally, ketamine can be 
+effective on its own for acute severe pain.63 Adverse effects such as dyspho­
+ria, hallucinations (at times frightening), and dissociative symptoms have 
+been reported with even these low doses of ketamine.57-59
+Lidocaine  Lidocaine, a local anesthetic, has been studied as an IV 
+systemic analgesic for perioperative and neuropathic pain. A small 
+number of studies have been done using fixed (50 to 150 milligrams) 
+or weight-based dose (1 to 2 milligrams/kg) IV lidocaine for ED pain 
+management in patients with migraine, renal colic, radicular low back 
+pain, and critical limb ischemia.64-66 There is no consistent benefit 
+with IV lidocaine when compared with standard therapy (morphine, 
+fentanyl, ketorolac, dihydroergotamine, or chlorpromazine) for the 
+appropriate condition.
+Nitrous Oxide  Nitrous oxide is a fast-onset, short-acting analgesic 
+and sedative inhalational agent useful for brief, minor procedures 
+(see Chapter 37) and for prehospital analgesia.67,68 The primary adverse 
+effects are nausea and vomiting. Nitrous oxide as a preblended 50% 
+mixture with oxygen and administered to the patient by facemask pro­
+vides variable results in terms of pain relief and sedation. If available, 
+the 70/30 nitrous oxide/oxygen mixture is consistently effective. While 
+minimally available in the United States, the latter mixture is used rou­
+tinely in pediatric departments in Canada, the United Kingdom, and 
+Australasia. Barriers to ED use of nitrous oxide seem to be related to 
+misunderstanding of risk as well as concern of misuse by staff. An effec­
+tive scavenging system is mandatory and is now standard in all available 
+systems. Nitrous oxide is contraindicated in patients with altered mental 
+status, head injury, suspected pneumothorax, or perforated abdominal 
+viscus. Severe pulmonary disease also may alter the respiratory elimina­
+tion of nitrous oxide.
+Antidepressants and Anticonvulsants  Patients with acute-onset 
+neuropathic pain, such as postherpetic or trigeminal neuralgia, are 
+  TABLE 35-6    Opioid Pain Management: Adjunctive Medications
+Drug
+Initial Dosing
+Elimination 
+Half-Life
+Comments
+Ondansetron
+4–8 milligrams IV/PO
+3–6 h
+Can prolong QT 
+interval
+Prochlorperazine
+5–10 milligrams IV/IM/PO
+7 h
+Can cause 
+extrapyramidal 
+reactions
+Promethazine
+25–50 milligrams IV/IM
+7–14 h
+Can cause 
+extrapyramidal 
+reactions
+Metoclopramide
+5–10 milligrams IV/IM/PO
+5–6 h
+Can cause 
+extrapyramidal 
+reactions
+  TABLE 35-7    Pain Management: Initial Opioid Agonist-Antagonist Dosing
+Drug [Class]
+Initial Dosing
+Pharmacokinetics
+Morphine Milligram 
+Equivalents (MME)
+Comments
+Buprenorphine
+[synthetic phenanthrene]
+0.3 milligram IV/IM every 6 h
+75-microgram buccal film every 12 h
+Onset: rapid
+Elimination half-life: 20–44 h
+10 (approximate, no 
+reliable conversion)
+Sedation, dizziness, nausea
+Butorphanol
+[synthetic morphinan]
+1 milligram IV or 2 milligrams IM every 3–4 h
+1 milligram nasal spray every 3-4 h
+Onset: <1 min
+Elimination half-life: 5–6 h
+7
+Sedation, dizziness, nausea
+Dezocine*
+[synthetic benzomorphan]
+0.1 milligram/kg IV every 4 h
+Onset: 15 min IV and 30 min IM
+Elimination half-life: 2 h
+4–6
+Dizziness, respiratory depression
+Nalbuphine
+[synthetic phenanthrene]
+10 milligrams IV/IM/SC every 3–6 h
+Onset: 2–3 min IV and <15 min IM
+Elimination half-life: 5 h
+1
+Sedation, headache, dizziness
+Pentazocine
+[synthetic benzomorphan]
+30 milligrams IV/IM/SC every 3–6 h
+Onset: 2–3 min IV and 15–20 min IM
+Elimination half-life: 2–3 h
+0.37
+CNS side effects
+*No longer clinically used in Western countries.
+
+
+--- PDF PAGE 279 ---
+234 
+ 
+  SECTION 5: Analgesia, Anesthesia, and Procedural Sedation 
+difficult to treat with short-acting opioid analgesics. It may be difficult 
+to identify neuropathic causes of pain in ED patients, but if suspected, 
+cyclic antidepressants, serotonin-norepinephrine reuptake inhibi­
+tors, or anticonvulsants can be initiated (Table 35-9).69,70 When ini­
+tiating an agent for patients with new-onset neuropathic pain, close 
+follow-up with the primary care physician is important so that titration 
+to effect may continue. Patients already taking one of these agents for 
+chronic neuropathic pain may require either titration upward of their 
+medication or addition of a second agent; this should be discussed with 
+the patient’s regular physician.
+Topical Medications  Topical administration of medications at the 
+site of injury or inflammation can provide pain relief with reduced 
+systemic drug absorption and a lower risk of adverse drug reactions 
+(Table 35-10).71,72 This approach differs from transdermal drug admin­
+istration to achieve systemic effects, typically with opioids. Topical 
+NSAIDs are effective for treating acute soft tissue injuries such as sprains 
+  TABLE 35-8    Pain Management: Nonopioid Analgesics
+Drug
+Adult Dosage
+Comments
+Acetaminophen
+(paracetamol)
+325–1000 milligrams PO every 4–6 h
+325–650 milligrams PR every 4–6 h
+If >50 kg: 1 gram IV every 6 h
+If <50 kg: 15 milligrams/kg IV every 6 h
+Liver dysfunction and necrosis.
+Maximum oral dose is 4 grams/d under direction of physician but no more than 3 grams/d when 
+using nonprescription product.
+Maximum IV dose is 4 grams/d if >50 kg body weight and 3.75 grams/d if <50 kg body weight.
+Not effective for chronic pain.
+Aspirin (acetylsalicylic acid)
+325–650 milligrams PO every 4 h
+300–600 milligrams PR every 4–6 h
+GI irritation and mucosal bleeding.
+Platelet dysfunction.
+Tinnitus, CNS toxicity, metabolic acidosis.
+Maximum dose is 4 grams/d.
+Ibuprofen (NSAID)
+400–800 milligrams PO every 4–6 h
+400–800 milligrams IV every 6 h
+GI upset, platelet dysfunction, renal dysfunction, bronchospasm.
+Maximum dose is 3200 milligrams/d.
+Naproxen (NSAID)
+250–500 milligrams PO every 8–12 h
+GI upset, platelet dysfunction, renal dysfunction, bronchospasm.
+Maximum dose is 1250 milligrams on initial day and 1000 milligrams on subsequent days.
+Indomethacin (NSAID)
+25–50 milligrams PO every 8 h
+25–75 milligrams PR every 6–8 h
+GI upset, platelet dysfunction, renal dysfunction, bronchospasm.
+Maximum dose is 200 milligrams/d.
+Ketorolac (NSAID)
+15 milligrams IV/IM every 6 h
+10 milligrams PO every 4–6 h
+GI upset, platelet dysfunction, renal dysfunction, bronchospasm.
+Greater risk of GI bleeding than ibuprofen.
+Use limited to 3 d IV and 5 d PO.
+Maximum IV/IM dose is 120 milligrams/d, but if age >65 y or weight <50 kg, then maximum dose 
+is 60 milligrams/d.
+Maximum PO dose is 40 milligrams/d.
+Ketamine
+0.1–0.3 milligram/kg (maximum 30 milligrams) 
+IV over 10–15 min; can repeat in 1–15 min up 
+to 0.5 milligram/kg; can follow by IV infusion of 
+0.1–0.2 milligram/kg per h
+No renal or hepatic adjustment; administer slowly to reduce dystonic reactions, laryngospasm, 
+or mental status changes; adverse effects uncommon with single doses; dizziness, agitation, and 
+hallucinations possible with higher doses.
+Lidocaine
+Fixed dose: 50–150 milligrams IV
+Weight-based dose: 1–2 milligrams/kg IV
+No consistent benefit in migraine, renal colic, or radicular low back pain.
+Adverse effects noted in 9% of patients.
+Not U.S. Food and Drug Administration approved for acute pain management.
+  TABLE 35-9    Pain Management: Neuropathic Pain Syndromes
+Drug
+Use
+Initial Dosage
+Titrate
+Typical Effective Dosage (Maximum Daily Dose)
+Amitriptyline or 
+nortriptyline
+Chronic pain
+25–50 milligrams PO once in the evening
+Increase over 2–3 wk
+10–50 milligrams/d PO (maximum 150 milligrams/d)
+Carbamazepine
+Trigeminal neuralgia
+100 milligrams PO twice per day
+Increase 100–200 milligrams/d
+200–400 milligrams PO twice per day (maximum 
+1200 milligrams/d)
+Oxcarbazepine
+Trigeminal neuralgia
+300 milligrams PO daily
+Increase to 300 milligrams PO 
+twice a day after 3 d
+450–1200 milligrams PO twice per day
+Duloxetine
+Diabetic neuropathic 
+pain
+30 milligrams PO once per day
+Increase after 1 wk on initial 
+dose
+60 milligrams PO once per day (maximum 60 milligrams/d)
+Gabapentin
+Neuropathic pain, 
+postherpetic neuralgia
+For neuropathic pain: 300 milligrams PO 
+3 times a day
+For postherpetic neuralgia: 300 milligrams 
+PO on day 1, followed by 300 milligrams 
+PO twice a day on day 2, and 
+300 milligrams PO 3 times a day on day 3
+Titrate by increasing by 
+300 milligrams per day up to 
+effective dose
+Neuropathic pain: 300–1200 milligrams PO 3 times per day
+Postherpetic neuralgia: 1800–3600 milligrams/d
+(maximum 3600 milligrams/d)
+Pregabalin
+Neuropathic pain, 
+postherpetic neuralgia
+50 milligrams PO 3 times per day or 
+75 milligrams PO twice per day
+Increase over 1 wk
+150 milligrams PO twice per day to 100 milligrams PO 
+3 times per day (maximum 600 milligrams/d)
+
+
+--- PDF PAGE 280 ---
+CHAPTER 35: Acute Pain Management 
+ 
+  235 
+and strains and also for treating chronic joint pain from osteoarthritis. 
+Topical lidocaine therapy is effective for patients with postherpetic neu­
+ralgia and diabetic neuropathy. Topical capsaicin has produced variable 
+results depending on the treatment population and dose applied; regular 
+use appears necessary for prolonged pain relief. A single 60-minute applica­
+tion of a high-dose preparation (8% capsaicin topical patch) is effective 
+for postherpetic neuralgia, but requires professional application and 
+removal to minimize side effects.
+The primary adverse reaction of topical medications is local burning, 
+particularly seen with capsaicin, which is derived from chili peppers. 
+Rare cases of localized burns have been reported with topical muscle 
+and joint pain relievers.73 Most of the serious burns were associated with 
+agents containing menthol (>3% concentration) and/or methyl salicy­
+late (>10% concentration).
+
+ PRECAUTIONS
+Safe and effective use of opioids is facilitated by choosing an appro­
+priate initial dose and subsequently titrating additional doses toward 
+the desired effect, thus avoiding overmedication and minimizing 
+unwanted effects. Excessive doses of opioids given without titration 
+and patient feedback can result in respiratory depression and decreased 
+levels of consciousness. Hypotension is infrequent, is almost always 
+due to histamine release with the first dose of medication, and is usu­
+ally of short duration. With comorbidities, such as altered mental 
+status, hemodynamic instability, respiratory dysfunction, or multisystem 
+trauma, initial dosing should be decreased.
+The Elderly  Acute pain management for the elderly can be a chal­
+lenge; these patients may have more than one source of pain and/or 
+multiple comorbidities and are at increased risk for drug–drug and 
+drug–disease interactions.74 Opioid-naive elderly patients are more 
+sensitive to the analgesic effects of opioid drugs because they experi­
+ence a higher peak and longer duration of pain relief. Moreover, they 
+are more sensitive to sedation, respiratory depression, and cognitive 
+and neuropsychiatric dysfunction. Initial IV opioid doses in the 
+elderly are typically half those used in younger adults, although single 
+doses may not achieve adequate pain control for elderly patients with 
+acute severe pain.75
+Addiction and Dependence  Addiction is the misuse of a medication 
+or drug to the detriment of the patient’s well-being. Dependence infers 
+that abrupt cessation of a medication will result in acute withdrawal 
+symptoms. Dependence on opioids requires regular daily usage for 4 
+to 6 weeks in most patients, whereas addiction may occur after one use 
+of heroin or even a few pills of a prescribed opioid. Consider carefully 
+risk factors for misuse, such as concomitant mental health illness or 
+previous drug or alcohol abuse, when prescribing opioids (see Chapter 
+292, “Substance Use Disorders”). There is no validated assessment tool 
+to classify ED patients for abuse risk. When uncertain, the general 
+approach is to err on the side of acute pain control, using nonopioid 
+options whenever possible. Management in opioid-tolerant patients 
+can be a challenge.76 Although EDs are not where most cases of opioid 
+addiction originate,77 they are perceived as a potential perpetuator of 
+misuse.78 Distinguishing patient requests for medications because of 
+oligoanalgesia from addiction often requires multiple patient assess­
+ments over time; subjective assessment in the ED during a single visit 
+is usually inaccurate for identifying addiction versus aberrant behavior 
+due to oligoanalgesia.
+Renal and Hepatic Dysfunction  Because most analgesics are 
+metabolized by the liver or kidney, care must be taken when giving 
+opioids to patients with impaired hepatic or renal function. Renal 
+excretion is a major route of elimination for such pharmacologically 
+active opioid metabolites such as morphine-6-glucuronide and dihy­
+drocodeine. Mild renal failure can impede excretion of the metabolites 
+of many opioids, resulting in clinically significant narcosis and respira­
+tory depression. In patients with renal failure, hydromorphone and 
+fentanyl are the preferred opioids. Mild hepatic dysfunction has little 
+effect on opioid metabolism. In patients with severe hepatic dysfunc­
+tion, titration with low doses of analgesics will minimize the risk of 
+overdose.
+Respiratory Insufficiency  Patients with respiratory insufficiency and 
+those with chronic obstructive pulmonary disease, cystic fibrosis, and 
+neuromuscular disorders affecting respiratory effort (e.g., muscular 
+dystrophy and myasthenia gravis) are particularly vulnerable to the 
+respiratory depressant effects of opioids and nitrous oxide. Careful dose 
+titration and monitoring of oxygenation and ventilation are necessary. 
+Ketamine may be a useful alternative agent in such cases.
+Drug Interactions  Opioids may have adverse synergistic sedative 
+effects in patients with psychiatric illnesses taking anxiolytics or other 
+psychoactive drugs. The cyclic antidepressants clomipramine and 
+amitriptyline may increase morphine levels and potentiate the opioid 
+effects. The combination of opioids with benzodiazepines carries a high 
+risk of central sleep apnea and should be used with caution.
+NONPHARMACOLOGIC MODALITIES
+Traditionally, nonpharmacologic techniques of pain management in 
+the ED have been limited to application of heat or cold and immo­
+bilization and elevation of injured extremities. Other techniques 
+may be useful in the ED and after discharge.79 Cognitive-behavioral 
+techniques can be effective in reducing pain and anxiety, may control 
+mild pain when used alone, and can enhance patient satisfaction. Such 
+techniques include reassurance, explanation, reframing, relaxation, 
+breathing exercises, music, psychoprophylaxis, biofeedback, guided 
+  TABLE 35-10    Pain Management: Topical Analgesic Agents
+Agent
+Preparation
+Comments
+Diclofenac
+1% gel
+1.3% topical patch
+Gel: apply using dosing card—4 grams for 
+knees, ankles, and feet, and 2 grams for 
+elbows, wrists, and hands. Lightly rub until 
+absorbed. Use up to 4 times a day. Maximum 
+total daily dose is 32 grams.
+Patch: apply to intact skin at most painful 
+site twice a day.
+Ibuprofen
+5% gel
+Squeeze 50–125 milligrams (4–10 cm) of 
+the gel from the tube and lightly rub into 
+the affected area until absorbed. Apply up to 
+4 times per day.
+Ketoprofen
+2.5% gel
+Squeeze 2–4 grams (5–10 cm) of the gel 
+from the tube and lightly rub into the 
+affected area until absorbed. Apply 
+2–4 times per day.
+Lidocaine
+5% gel
+5% topical patch
+Gel: apply a moderately thick layer to the 
+affected area (approximately 1/8 inch 
+thick). Allow time for numbness to develop. 
+Best results obtained 20 min to 1 h after 
+application.
+Patch: apply to intact skin to cover the most 
+painful area. Up to 3 patches can be applied 
+in a single application. Patch may be cut 
+to size to fit. Use only once for up to 12 h 
+within a 24-h period.
+Capsaicin
+0.025% cream
+0.075% cream
+0.1% gel
+8% patch
+Cream and gel: apply to affected area not 
+more than 3–4 times daily. Massage into 
+area until thoroughly absorbed.
+Patch: only for postherpetic neuralgia. 
+Requires physician or healthcare professional 
+application. Applied for 60 min. Treatment 
+may be repeated every 3 mo.
+Methyl salicylate
+10% patch
+Use only one patch at a time. Apply patch to 
+the affected area and leave on for 8–12 h. 
+Do not use more than 2 patches per day and 
+do not use for more than 3 d in a row.
+
+========================================================================================
+Tintinalli 9e Ch.115 pediatric ED pain table p.726
+========================================================================================
+
+--- PDF PAGE 771 ---
+726 
+ 
+  SECTION 12: Pediatrics
+  TABLE 115-2    Analgesics for Acute ED Pain Management in Children
+Route
+Class
+Agent
+Dose
+Comments
+PO
+Nonopioid analgesic
+Acetaminophen
+15 milligrams/kg
+Less effective than ibuprofen; may be combined with ibuprofen
+NSAID
+ 
+Ibuprofen
+10 milligrams/kg
+Use singly or in combination with acetaminophen
+Ketorolac
+Not applicable
+Not approved for children
+Opioid
+ 
+ 
+ 
+ 
+Morphine
+Not recommended
+Not better than ibuprofen alone; greater side effects
+Oxycodone
+Not better than ibuprofen alone; greater side effects
+Hydrocodone
+Not recommended
+Contraindicated <6 y old
+Codeine
+Not recommended
+Contraindicated <12 y old
+Tramadol
+ 
+Contraindicated <12 y old
+Intranasal
+Opioid
+Fentanyl
+1.5–2 micrograms/kg 
+(maximum, 100 milligrams)
+Faster and better than IV morphine; duration 30 min
+Other
+Ketamine
+0.5–1.0 milligram/kg
+Analgesic dose (subdissociative); duration 60 min
+Parenteral
+NSAID
+Ketorolac
+0.5 milligram/kg 
+(maximum, 30 milligrams)
+For use in patients ≥24 mo old
+Opioid
+ 
+ 
+Morphine
+0.05–0.1 milligram/kg 
+(maximum, 10 milligrams)
+Histamine release/pruritus; seizures in neonates; nausea; hypotension
+Hydromorphone
+0.01–0.02 milligram/kg 
+(maximum, 2 milligrams/dose)
+Nausea; pruritus
+Fentanyl
+1–2 micrograms/kg 
+(maximum, 100 micrograms/dose)
+Bradycardia; respiratory depression (outlasts analgesic effect); chest wall 
+rigidity in young infants (increased risk with larger dose, rapid push)
+Other
+Ketamine
+0.1–0.4 milligram/kg
+Analgesic (subdissociative) dose
+
+ IV NONSTEROIDAL ANTI-INFLAMMATORY AGENTS
+IV ketorolac is approved by the U.S. Food and Drug Administration 
+for use in children as young as 24 months of age. Oral ketorolac is not 
+more effective than ibuprofen or other NSAIDs, and oral ketorolac is not 
+approved by the U.S. Food and Drug Administration for use in children.
+
+ IV SUBDISSOCIATIVE KETAMINE
+Ketamine is a noncompetitive N-methyl-d-aspartate and glutamate 
+receptor antagonist that provides analgesia by decreasing central sensiti­
+zation and pain memory.48 Subdissociative ketamine appears to have the 
+same analgesic efficacy as intranasal fentanyl or IV morphine in early 
+studies for fracture pain in the ED.47,49,50
+
+ IV OPIOIDS
+For children with moderate to severe pain and established vascular 
+access, IV opioids offer a rapid and effective pain management strategy. 
+Children require more opioids proportionate to their weight than 
+adults. The specific choice of parenteral opioids is determined by the 
+individual characteristics of the drug, the clinical indication, and the 
+patient’s prior experience with opioids.
+The initial IV dose of morphine is 0.05 to 0.1 milligram/kg (maximum, 
+10 milligrams per dose) and can be repeated at 10- to 15-minute intervals 
+until adequate analgesia is accomplished. Once an adequate dose is estab­
+lished, it can be redosed every 2 to 4 hours, or more frequently if needed.
+Fentanyl is shorter acting, is associated with less histamine release 
+than the nonsynthetic opioids, and has a relatively short duration of 
+action. It can be dosed at 1 to 2 micrograms/kg (maximum, 100 micro­
+grams per dose) for IV use. If fentanyl is given as a rapid IV bolus or in 
+high doses to infants, it can cause “rigid chest phenomenon,” which may 
+require emergency reversal with naloxone or neuromuscular blockade. 
+Hydromorphone has a much higher potency than morphine and may 
+be useful for ongoing pain in children (e.g., sickle cell pain crisis).
+PAIN MANAGEMENT AFTER DISCHARGE
+Discharge teaching regarding pain assessment and management at 
+home should be a standard part of emergency care. Without clear 
+guidance, families risk inadequate pain management for the child, 
+slower return to typical activities, and return visits for inadequately 
+treated pain. Ibuprofen is the first-line agent for analgesia at home 
+and can be combined or alternated with acetaminophen. Oral opioids 
+including codeine, morphine, and oxycodone do not appear to offer 
+advantage over ibuprofen alone and are associated with greater risk of 
+side effects.51,52
+
+ PROCEDURAL PAIN
+When painful procedures are unavoidable, use physical, psychological, 
+and pharmacologic interventions to minimize pain. Advise parents to 
+avoid false reassurances, such as “It won’t hurt” or “It’s over,” because one 
+cannot always reliably predict the end of the procedure or the effective­
+ness of the analgesia that has been provided.
+Commonly performed ED procedures, such as IV cannulation, 
+venipuncture, lumbar punctures, and urethral catheterizations, can be 
+associated with significant pain and distress for children.53,54 Children 
+report needle-related pain as one of the worst things they experi­
+ence while in hospital.55 Undertreated pain has short- and long-term 
+negative consequences for children and their families. In addition to 
+causing acute discomfort, inadequate pain management may lead to 
+increased perceived pain during future medical encounters, increased 
+fear of medical procedures, and over- or underuse of future medical 
+care. Thus, addressing the pain and distress associated with common 
+ED procedures for children should be a standard part of practice 
+(Table 115-3).
+When treating a laceration, when possible, tissue adhesives (e.g., 
+Dermabond®, Glu-Stitch®) are preferred over sutures for all ages, as long 
+as the laceration is not close to the eyes or over an area of tension.56 If 
+sutures are required, select absorbable sutures for areas of low tension 
+(i.e., not joints) to avoid the retraumatization that some children experi­
+ence with suture removal.57
+Children over the developmental age of 4 years generally benefit 
+from simple information regarding what to expect during a medical 
+procedure. They can be told the steps of a procedure, what it might feel 
+like (e.g., cold, wet), and even see what medical supplies will be used. 
+Parents also require preparation regarding what to expect, how they 
+can help with positioning and distraction, and how best to support 
+their child.
+
+========================================================================================
+Tintinalli 9e Ch.141 pediatric carpal bone injuries p.916
+========================================================================================
+
+--- PDF PAGE 961 ---
+916 
+ 
+  SECTION 12: Pediatrics
+FIGURE 141-23.  Anteroposterior, lateral, and oblique radiographs illustrating a minimally displaced Salter-Harris type II fracture (arrows). [Reproduced with permission from Hospital 
+for Sick Children 2018, Toronto, Canada.]
+Salter-Harris I fractures often require urgent closed reduction in the ED. 
+Consult orthopedic surgery for guidance on when reduction is recom­
+mended. Salter-Harris type II injuries (Figure 141-23) can be managed as 
+per Salter-Harris I fractures of the distal radius. For Salter-Harris types III, 
+IV, and V injuries, urgent orthopedic consultation is necessary.
+CARPAL BONE INJURIES
+Fractures of the carpal bones are quite rare in the skeletally immature 
+child. However, these injuries increase in frequency in the skeletally 
+mature adolescent population. Most are sports-related injuries. Frac­
+ture patterns and presentation are similar to the adult, and scaphoid 
+fractures are the most common type (Figure 141-24), although rare 
+in and of themselves.21 For example, the scaphoid may be fractured in 
+older adolescents with the typical mechanism being that of a fall on an 
+outstretched hand. There is typically the classically expected snuffbox 
+tenderness and pain with longitudinal compression of the thumb. How­
+ever, unlike adults, nonunion is less common in children.22 A high index 
+of suspicion for this type of injury is required. Immobilize any suspected 
+fracture of carpal bone in a thumb spica splint and arrange early ortho­
+pedic follow-up, even in the absence of radiographic findings. Repeat 
+plain radiographs, CT, or MRI may be used at follow-up for further 
+assessment of the injury.
+PHALANGEAL FRACTURES
+The most common injury is that to the distal phalanx resulting from a 
+crush injury, typically seen when the child catches his or her hand in 
+a door. Immobilize a distal phalanx “tuft” fracture with a finger splint. 
+If there is associated nail bed injury, the fracture is considered “open,” 
+and orthopedic or plastic surgery follow-up in 1 week or less must be 
+arranged. The role of prophylactic antibiotics in open fractures of the 
+distal tuft remains controversial, with no clear evidence of benefit.23
+Fractures of the phalangeal shaft should be examined for dis­
+placement, rotational deformity, and tendon disruption. Significantly 
+displaced or rotated fractures or those with tendon disruption need 
+orthopedic/plastic surgery consultation for reduction and repair.
+FIGURE 141-24.  Radiograph demonstrates a mildly displaced fracture of the distal 
+aspect of the scaphoid bone involving the tubercle (arrow). This is also minimally displaced 
+with a tiny avulsion fragment. [Reproduced with permission from the Hospital for Sick 
+Children, Toronto, Canada.]
+
+========================================================================================
+Tintinalli 9e Ch.267 orthopedic evaluation/splinting pp.1769-1778
+========================================================================================
+
+--- PDF PAGE 1814 ---
+CHAPTER 267: Initial Evaluation and Management of Orthopedic Injuries 
+ 
+  1769 
+that it will be irreversible. In some cases, reducing a deformity by means 
+of longitudinal traction is all that is necessary to restore circulation or 
+nerve function.
+PREHOSPITAL CARE
+
+ PRELIMINARY SPLINTING
+Effective splinting of an injured extremity is important for several rea­
+sons: (1) it reduces pain; (2) it reduces damage to nerves and vessels by 
+preventing them from being compressed between the fracture fragments 
+or being stretched by angulation at the fracture site; (3) it reduces the 
+chance of inadvertently converting a closed fracture to an open one 
+should a sharp bone fragment poke its way through the skin; and (4) it 
+reduces the pain associated with patient transport by minimizing motion 
+of the fracture fragments.
+
+ PREHOSPITAL SPLINTING DEVICES
+Many splinting modalities are available to EMS personnel. These may 
+range from sophisticated devices, such as vacuum splints containing 
+small beads that conform to the extremity when air is removed, to sim­
+pler techniques such as cardboard or pillow splints, or padded IV boards.
+Sling and Swath  For injuries of the wrist or forearm, consider using a 
+sling to supplement the splint, because optimal immobilization includes 
+the joint above and the joint below the fracture, and a sling helps keep 
+the elbow at rest.
+For suspected injuries to the shoulder, humerus, or elbow, a sling-
+and-swathe arrangement works well. This method involves applying a 
+sling, then binding the affected arm to the thorax with a gauze wrap. An 
+exception to this principle is immobilization of patients with suspected 
+anterior dislocation of the shoulder. Many patients with this injury have 
+difficulty adducting the forearm, and forcibly binding it to the thorax 
+may be painful. A simple sling is adequate in such cases. Injuries to the 
+ankle may be immobilized in a pillow or well-padded cardboard splint. 
+If a fracture of the tibial shaft or knee is suspected, the device should 
+extend well above the knee to immobilize the joint above and the joint 
+below the fracture.
+Splints  Some injuries warrant special splints, such as a winch-mechanism 
+traction apparatus for femoral shaft fractures. Although such a device 
+does not immobilize the hip (the joint above the fracture), the traction 
+component makes this unnecessary. If a traction device is not available, 
+then both the hip and knee should be immobilized. One method of 
+accomplishing this is to bind the legs together and then bind the patient 
+to a backboard from ankles to thorax with folded sheets or towels beneath 
+the lower legs (but not the feet) to ease pressure on the heels.
+Other types of splints exist, but their use is controversial. Inflatable 
+plastic splints, for example, may be used for injuries to the ankle or wrist 
+but sometimes are used inappropriately for fracture of the humerus 
+or femur. Because these devices normally do not extend sufficiently 
+proximally, they provide inadequate immobilization for such injuries. 
+Also, overinflating the device may impair circulation. If the inflatable 
+splint cannot be dented by moderate thumb pressure, it is probably 
+overinflated. Inflatable splints should not be applied over clothing, 
+because wrinkles in the clothing may cause pressure sores in swollen 
+and vulnerable tissue.
+Also controversial are nonmalleable aluminum splints, because they 
+are based on the “one size fits all” principle, which some clinicians 
+interpret as “this size fits none.” Malleable aluminum splints are prefer­
+able, as they can be made to conform more closely to the contour of 
+the extremity, even accommodating some degree of deformity. If used, 
+aluminum splints of either type should be well padded, because their 
+hard surface may cause pressure sores. Like any splint, they should 
+immobilize the joint above and the joint below the fracture when used 
+for long-bone injuries. For example, an above-knee splint is indicated 
+for suspected fracture of the tibial shaft. Aluminum splints should be 
+removed promptly once a fracture is diagnosed or ruled out. If a frac­
+ture is confirmed, replace the splint with an alternative immobilization 
+dressing before the patient leaves the ED, because aluminum splints may 
+cause pressure sores even when padded.
+Pelvic Binding  An outdated device is military antishock trousers, which
+historically were applied during ambulance transport for patients in 
+shock with already diagnosed pelvic ring fracture, or for patients with 
+a clinically apparent femoral fracture when a traction device is not at 
+hand, as the device immobilizes the joints above and below the fracture. 
+Military antishock trousers were cumbersome to apply, prolonging scene 
+time; they possibly contributed to compartment syndrome, fluid and 
+electrolyte imbalance, pressure ulcers, and circulatory impairment.8,9 A 
+variety of current methods may be used by EMS to stabilize an injured 
+pelvis. Advanced Trauma Life Support recommends circumferential 
+application of a pelvic sheet wrap. Other commercial devices that may be 
+available to use are the SAM PelvicSling, T-POD, and PelvicBinder.10,11
+
+ REDUCING DEFORMITY IN THE FIELD
+Many EMS programs do not recommend prehospital reduction of defor­
+mity for an injured extremity, as injudicious manipulation may convert a 
+pure dislocation to a fracture-dislocation. Even if a fracture had already 
+existed, there would be no way to prove it was not caused by the manipu­
+lation. One circumstance in which prehospital reduction of obvious 
+fracture to the shaft of a long bone may be justified is a nonpalpable 
+distal pulse. In the absence of a common standard, the indications for 
+reduction of deformity by prehospital personnel remain at the discretion 
+of the supervising EMS program.
+CLINICAL FEATURES
+The importance of a careful history and physical examination cannot 
+be overstated. Orthopedic diagnosis is sometimes thought of as being 
+as simple as taking a radiograph of the painful area. Although imaging 
+is an important adjunct, it is not the ultimate diagnostic resource. The 
+pain of a fracture or a dislocation may be referred to another area. 
+For example, patients with disruption of the sternoclavicular joint or 
+fracture of the humeral shaft may complain only of shoulder pain. If the 
+radiograph is based solely on where the patient reports discomfort, then 
+the injured part might not be included on the film. Imaging decisions 
+should be based not only on the chief complaint but also on system­
+atic palpation, observation of subtle deformity or significant point 
+tenderness, and mechanism of injury.
+Some fractures or dislocations may be demonstrated only by special 
+radiographic views, which are not part of the standard series for that 
+body part. Such views will never be ordered unless the clinician has 
+already formulated a presumptive diagnosis based on the history and 
+physical findings.
+Some injuries might not be radiographically apparent on the 
+first day, regardless of what views are taken. Common examples are 
+fracture of the scaphoid, nondisplaced fracture of the radial head, and 
+stress fracture of a metatarsal. The classic radiographic signs accompa­
+nying these injuries, such as the fat pad sign of the elbow, are not always 
+conveniently present, but mechanism, history, and findings suggesting 
+the injuries often are. CT or MRI may allow early diagnosis of fractures 
+that are not radiographically evident. However, such tests are not always 
+available or feasible on the day of injury. In such cases, the diagnosis 
+of fracture may be purely clinical until 7 to 10 days after trauma, when 
+enough bony resorption has occurred at the fracture site to reveal a 
+lucency on plain radiographs.
+
+ HISTORY
+The value of the history in cases of orthopedic trauma is often under­
+estimated. Knowing the precise mechanism of injury may be the key 
+to diagnosing some fractures or dislocations. For example, a history 
+of shoulder injury combined with the complaint of dysphagia may be 
+the only clue to the existence of posterior sternoclavicular dislocation. 
+This entity, which causes pressure on mediastinal structures, often can 
+be demonstrated only by CT and may result in severe complications if 
+treatment is delayed. Table 267-2 provides other examples of mecha­
+nisms that may lead the clinician to suspect, or presumptively treat for, 
+specific injuries. This is by no means a definitive or exhaustive list. Some 
+of the mechanisms described may produce injuries other than those 
+
+
+--- PDF PAGE 1815 ---
+1770 
+ 
+  SECTION 22: Orthopedics
+dislocation or fracture near the joint. An exception is posterior disloca­
+tion of the shoulder, which, although intensely painful, might not be 
+accompanied by obvious deformity, although the humeral head may be 
+palpable posteriorly.
+Palpation  When gross deformity is not present, presumptive diagnosis 
+strongly depends on findings noted on palpation. Palpation may disclose 
+areas of bony step-off and the precise location of point tenderness.
+The palpation examination should be done systematically and con­
+sistently from one patient to the next. The area palpated should extend 
+well beyond the location of pain described by the patient, as the pain 
+may be referred. For example, when an injured patient complains of 
+shoulder pain, palpation should begin at the sternoclavicular joint, then 
+proceed along the clavicle onto the acromioclavicular joint, then onto 
+the humeral head and along the entire humeral shaft. In addition, the 
+scapula should be palpated for tenderness, and the posterior aspect of 
+the shoulder should be palpated for any unnatural prominence or fullness 
+that might suggest posterior dislocation of the humeral head. Injury to 
+any of these areas may be reported by the patient as “pain in the shoulder.” 
+Only a meticulous palpation examination may protect the clinician from 
+being misled by referred pain and missing a crucial diagnosis.
+Neurovascular Assessment  When injury involves an extremity, as 
+opposed to the vertebral column, sensorimotor testing should be per­
+formed on the basis of peripheral nerve function, rather than nerve root 
+and dermatomal distribution (Figure 267-1). In the upper extremity, the 
+mentioned. Conversely, the injuries may be produced by mechanisms in 
+addition to those listed.
+Some musculoskeletal injuries or conditions may not necessarily be 
+associated with a history of direct trauma. Occult fracture of the hip in 
+an osteoporotic individual, occult stress fracture of a metatarsal in some­
+one who has recently done an unusual amount of walking, and slipped 
+capital femoral epiphysis in a preteenager or young adolescent are 
+examples of injuries in which symptoms may be gradual and insidious in 
+onset, unrelated to an isolated traumatic event. Exquisite tenderness to 
+palpation or pain on weight bearing or passive range of motion sug­
+gests the possibility of an occult or easily missed fracture. Depending 
+on the index of suspicion, further studies, such as a bone scan or MRI, 
+may be indicated to exclude significant pathologic conditions before the 
+patient is allowed to resume weight bearing.
+History taking should not necessarily be limited to orthopedic 
+issues. Depending on the situation, a general medical history should 
+be obtained because it may have implications for further workup, the 
+potential for complications, or ultimate prognosis for recovery of func­
+tion. Relevant issues may include a history of cancer, heart disease or 
+neurologic disease, taking anticoagulant medication, falling due to syn­
+cope or transient hemiparesis, or an unsteady baseline gait that cannot 
+withstand further impairment.
+
+ PHYSICAL EXAMINATION
+Essential components of the examination for musculoskeletal trauma 
+are (1) inspection for wounds, swelling, discoloration, or deformity; 
+(2) assessment of active and passive range of motion of the joints proximal 
+and distal to the injury; (3) palpation for tenderness or deformity; and 
+(4) assessment of neurovascular status.
+Inspection and Range of Motion  Gross deformity along the shaft 
+of a long bone is pathognomonic for fracture. Deformity at a joint, loss 
+of range of motion, and severe pain at rest suggest the presence of a 
+  TABLE 267-2    Mechanisms Associated With Particular Orthopedic Injuries
+Mechanism
+Possible Injury
+Bilateral compression of the 
+shoulders
+Anterior or posterior sternoclavicular dislocation
+Direct blow to the medial clavicle
+Posterior sternoclavicular dislocation
+Fall, landing on the apex of the 
+shoulder
+Acromioclavicular separation
+Direct blow to the anterior shoulder, 
+fall on the outstretched arm, seizure 
+or electroconvulsive muscular activity
+Posterior dislocation of the shoulder
+Sudden traction force to a toddler’s 
+arm
+Subluxed radial head (sometimes misdiagnosed 
+as brachial plexus injury because of pseudopa­
+ralysis of the arm)
+Fall, landing on the outstretched arm 
+or with the elbow beneath the body
+Fracture of the radial head (may be occult on 
+initial radiograph)
+Forced dorsiflexion of the wrist
+Fracture of the scaphoid, lunate dislocation, 
+perilunar dislocation, Colles’ fracture
+Striking the knee against the 
+dashboard in a high-speed collision
+Posterior dislocation of the hip
+Landing flat on the feet from a height
+Calcaneus fracture; tibial plateau fracture; 
+acetabular fracture; vertebral compression 
+fracture, usually lumbar
+Ankle inversion force
+Fracture of any of the three malleoli, fracture of 
+the base of the fifth metatarsal
+Rotatory ankle force
+Fracture of any of the three malleoli, disruption 
+of the anterior tibiofibular ligament with 
+proximal fibular fracture (Maisonneuve’s injury)
+Inversion or medial or lateral stress 
+to the forefoot; axial load on the 
+metatarsal heads with the ankle 
+plantarflexed
+Midfoot dislocation (Lisfranc’s injury)
+FIGURE 267-1.  A. Peripheral sensory nerve distribution of the hand. B. Peripheral 
+sensory nerve distribution of the foot.
+Median nerve
+Radial nerve
+Ulnar nerve
+A
+B
+Saphenous
+nerve
+Superficial fibular
+(peroneal) nerve
+Deep fibular
+(peroneal) nerve
+Dorsolateral
+cutaneous nerve
+
+
+--- PDF PAGE 1816 ---
+CHAPTER 267: Initial Evaluation and Management of Orthopedic Injuries 
+ 
+  1771 
+radial, median, and ulnar nerves should be tested. When the shoulder is 
+anteriorly dislocated, two additional nerves, the axillary (supplying sen­
+sation to the lateral aspect of the shoulder) and the musculocutaneous 
+(supplying sensation to the extensor aspect of the forearm), also should 
+be checked. In the lower extremity, examination of the saphenous (sen­
+sory only), peroneal, and tibial nerves should be performed. Neurologic 
+deficit is important to document early, particularly before the patient has 
+undergone any significant manipulation or reduction maneuvers.
+Assess vascular status early. The sooner circulatory compromise 
+is identified and addressed, the better the chance of avoiding tis­
+sue ischemia or necrosis. Injuries such as dislocation of the knee 
+(tibiofemoral joint), fracture-dislocation of the ankle, and displaced 
+supracondylar fracture of the elbow in children may be associated with 
+vascular disruption, with resulting circulatory impairment.
+DIAGNOSIS
+
+ IMAGING
+The joints above and below a fracture should generally be imaged 
+because injury at the proximal or distal joint may coexist with long-
+bone fractures. Injuries that may require special views or advanced 
+imaging modalities in order to be visualized include acromioclavicular 
+separation, fracture of the scaphoid, posterior shoulder dislocation, and 
+sternoclavicular dislocation. Plain radiographs are still the mainstay for 
+fracture diagnosis. They can also be helpful in detecting foreign bodies, 
+air, or gas. It is important that the physician be familiar with routine 
+views as well as specialized views such as the Judet’s view of the acetabu­
+lum, the sunrise view of the patella, or stress views of the foot and ankle. 
+Remember that at least two perpendicular views are necessary when eval­
+uating long bones. If the degree of injury suspicion is high, then request 
+more views or consider other imaging modalities for further evaluation.6
+The use of bedside US has been reported for pediatric clavicle and 
+forearm fractures and long-bone fractures. However, US for these pur­
+poses is operator dependent and has not replaced traditional diagnostic 
+imaging.12-15 US has become a common bedside diagnostic aid in the 
+ED, and its role in orthopedic complaints continues to evolve. Soft 
+tissue and musculoskeletal US is now recognized as one of the core 
+emergency applications. This modality is noninvasive, quick, and allows 
+for comparison of the affected side to an unaffected side. Common US 
+applications in the ED include tendon evaluation, joint effusion evalu­
+ation, muscle evaluation, foreign body identification, and procedural 
+guidance. US can be used in conjunction with plain radiographs and has 
+even shown benefit in diagnosing injuries missed on plain radiographs, 
+such as rib or scaphoid fractures.16,17
+Children who have sustained trauma at or near a joint may need 
+comparison studies of the opposite extremity to differentiate fracture 
+lines from normal epiphyseal plates or ossifying growth centers. This 
+is particularly true of the pediatric elbow, which typically exhibits six 
+ossification centers sequentially as the child grows.
+Although the clinician may be tempted to base diagnostic and treat­
+ment decisions on the radiologist’s report, this is not advisable for at 
+least two reasons. First, a negative radiologic report does not exclude 
+significant injury. Fracture of the radial head, scaphoid, or metatarsal 
+shaft, for example, may be undetectable on radiographs initially, even 
+when special views are taken. Second, the terminology used by radiolo­
+gists to describe malposition of fracture fragments or disrupted joints 
+often differs from the terminology used by orthopedists. Because the 
+emergency physician may confer with an orthopedist regarding the 
+initial management of a patient, and because this interaction commonly 
+involves describing the radiographic appearance of an injury, it is impor­
+tant that the two physicians “speak the same language.” CT may be used 
+to confirm fractures in some cases and helps to better define displace­
+ment, alignment, and fragmentation of the fracture, which may assist the 
+orthopedist with operative planning.
+
+ DESCRIBING RADIOGRAPHS
+As more hospitals convert from film-based to digital imaging, orthope­
+dic consultants are increasingly likely to be able to examine a patient’s 
+imaging studies by remote access. In the absence of such technology, 
+proper management of the patient may depend on the emergency physi­
+cian’s ability to convey the radiographic appearance of the injury to the 
+consultant. In such cases, the narrative often will influence the orthope­
+dist’s decision regarding the need for hospital admission and whether 
+surgical versus nonsurgical management is warranted. In essence, the 
+emergency physician should be able to transmit a virtual copy of the 
+radiograph by means of verbal description.
+There are a number of ways to characterize the appearance of frac­
+tures. The method presented below is intended to be the most practical 
+from the standpoint of communicating with an orthopedic consultant.
+Open Versus Closed  Although not a radiologic finding per se, 
+whether a bony injury is open or closed is an important consideration 
+and should be conveyed to the orthopedist at the outset. The implica­
+tions of open fracture are of such significance that this factor alone may 
+determine the patient’s immediate care or ultimate disposition.
+Location of the Fracture  Typical reference points used by ortho­
+pedists to describe the location of a fracture along the shaft of a 
+long bone are the midshaft, the junction of the proximal and middle 
+thirds, and the junction of the middle and distal thirds. Any fracture 
+more proximal or distal than these locations may be described in terms 
+of its distance, in centimeters, from the bone end.
+When a fracture extends into the adjacent joint, it is termed intra-
+articular. Intra-articular fractures have special significance because 
+disruption of the joint surface may warrant surgery to restore the joint’s 
+contour and prevent subsequent traumatic arthritis. This feature of a 
+fracture line, if present, constitutes important information.
+Anatomic bony reference points should be cited when applicable. 
+A fracture just above the condyles of the distal humerus or femur, for 
+example, is termed a supracondylar fracture. A fracture running from 
+the greater to the lesser trochanter of the proximal femur is an intertro­
+chanteric hip fracture, whereas a fracture just below the trochanters is 
+subtrochanteric, a fracture just above them is said to involve the femoral 
+neck, and a higher fracture just below the femoral head is referred to as 
+subcapital. The area at or proximal to the coronoid process of the ulna 
+is the olecranon and should be referred to as such, rather than simply 
+the “proximal ulna.” Other bony landmarks include the radial head at 
+the elbow, radial styloid at the wrist, and the greater tuberosity of the 
+humeral head. Numerous additional examples exist.
+Orientation of the Fracture Line  The most common orientations 
+of fracture lines are illustrated in Figure 267-2. Torus and greenstick 
+fractures occur almost exclusively in young children, whose bones are 
+more pliable than those of adults. Note the segmental fracture, which is 
+commonly described incorrectly as a comminuted fracture. To an ortho­
+pedist, the term comminuted implies splintering or shattering. A single, 
+large, free-floating segment of bone between two well-defined fracture 
+lines is a segmental fracture.
+Displacement and Separation  The term displacement may be used 
+in either of two ways. In the broadest sense, it pertains to any deviation 
+from anatomic position or alignment. Used more precisely, displace­
+ment refers to the extent to which fracture fragments are nonconcen­
+tric or offset from each other. The magnitude of displacement may be 
+expressed in terms of direct measurement (e.g., 4-mm displacement) or 
+in terms of the percentage of the width of the bone (e.g., 50% displace­
+ment, complete displacement). The direction of displacement is based 
+on the position of the distal fragment relative to the proximal fragment.
+Displacement should not be confused with separation, which is the 
+distance two fragments have been pulled apart. Figure 267-3 illustrates 
+principles of displacement and separation.
+Shortening  Shortening, expressed in millimeters or centimeters, is 
+the amount by which a bone’s length has been reduced. Shortening may 
+occur by impaction (telescoping of the fragments into one another) or by 
+the overlap of two completely displaced fragments (Figure 267-4). The 
+latter is referred to by some orthopedists as overriding. Because a radio­
+graph affords no depth perception, a fracture that appears impacted on 
+one view needs to be visualized at an angle 90 degrees from the first to 
+differentiate it from a fracture whose ends are completely displaced and 
+overriding. Depending on the location of the fracture and the age of the 
+patient, shortening may have long-range functional implications and 
+may have to be corrected by closed manipulation or by surgery.
+
+
+--- PDF PAGE 1817 ---
+1772 
+ 
+  SECTION 22: Orthopedics
+Angulation  Angulation is described in terms of two parameters: degree 
+and direction (Figure 267-5). Quantifying the angulation is relatively 
+simple. One need only estimate the amount of “unbending” (expressed in 
+degrees) that would be needed to make the fragments parallel.
+Conveying the direction of angulation may be more difficult because 
+the terminology is less consistent among clinicians. In general, when a 
+fracture is near the midshaft of a long bone, the direction of angulation 
+is the direction of the apex of the angle formed by the two fragments. 
+Figures 267-5A and 267-5B illustrate 30 degrees of dorsal angulation. 
+When a fracture is near the end of a bone, however, angulation is 
+described in terms of the direction the terminal fragment is deviated. 
+Thus Figure 267-5C also shows 30 degrees of dorsal angulation, even 
+though the apex of the angle formed by the fragments is pointing in 
+the opposite direction from that in the preceding figures. If there is a 
+possibility of ambiguity in the description, specifying the direction of 
+deviation of the distal fragment usually can resolve it.
+Depending on the anatomic area involved, direction of angulation 
+may be expressed as anterior or posterior, lateral or medial, radial or 
+ulnar, or dorsal or volar.
+Rotational Deformity  Rotational deformity—that is, the extent to 
+which the distal fracture fragment is twisted on its own axis relative 
+to the proximal fragment—is generally not apparent on radiographs. 
+This element of fracture description depends on physical examination. 
+Its detection is particularly important in the phalanges of the fingers, 
+where, if rotational deformity goes unrecognized and uncorrected, the 
+injured finger will permanently be malaligned when the hand is closed.
+Fracture Combined With Dislocation or Subluxation  Injuries near 
+a joint may involve dislocation or subluxation combined with a 
+proximate fracture. An example is fracture of one or more ankle mal­
+leoli, together with partial or complete displacement of the talus from 
+beneath the tibia. These are significant injuries, often requiring surgi­
+cal intervention. If, in describing the injury, the clinician emphasizes 
+the fracture component but expresses the dislocation or subluxation as 
+mere “displacement,” then the full severity may not be appreciated by the 
+orthopedist. Such injuries should be described as fracture-dislocations 
+or fracture-subluxations.
+B
+A
+C
+E
+D
+G
+F
+FIGURE 267-2.  Fracture line orientation. A. Transverse. B. Oblique. C. Spiral. 
+D. Comminuted. E. Segmental. F. Torus. G. Greenstick.
+A
+B
+C
+D
+E
+4 mm
+FIGURE 267-3.  Fracture displacement and separation. A. No displacement, slight 
+separation. B. Fifty percent dorsal displacement. C. Complete dorsal displacement. D. Nondis­
+placed, no separation. E. A 4-mm separation.
+
+
+--- PDF PAGE 1818 ---
+CHAPTER 267: Initial Evaluation and Management of Orthopedic Injuries 
+ 
+  1773 
+B
+A
+FIGURE 267-4.  Shortening at fracture site. A. Complete displacement with overriding. 
+B. Impaction. In both cases, the width of the shaded area represents the amount of shortening.
+A
+B
+C
+FIGURE 267-5.  Fracture angulation. All figures depict 30-degree dorsal angulation. 
+A, B. Direction is based on the apex of the angle drawn below the figures. C. Direction is based 
+on the direction of the terminal fragment.
+Metaphysis
+Physis (Epiphyseal plate)
+Epiphysis
+FIGURE 267-6.  Epiphyseal anatomy in the growing child.
+  TABLE 267-3    Description of Salter-Harris Fractures
+Salter Type
+What Is Broken Off
+I
+The entire epiphysis
+II
+The entire epiphysis along with a portion of the metaphysis
+III
+A portion of the epiphysis
+IV
+A portion of the epiphysis along with a portion of the metaphysis
+V
+Compression injury of the epiphyseal plate (nothing is “broken off”)
+Salter-Harris Fractures  Salter and Harris classified fractures involving 
+the epiphyseal plate at the end of the long bone of a growing child into five 
+types based on the pattern of the fracture line. Because the type generally 
+correlates with the potential for future growth disturbance (and, conse­
+quently, with the aggressiveness of the treatment warranted), the ability to 
+identify the fracture type based on its radiographic appearance is important.
+Perhaps the easiest way to remember the Salter-Harris classifica­
+tion system is to think of these injuries not in terms of where the frac­
+ture line runs, but in terms of what has been broken off. Figure 267-6 
+illustrates the anatomy involved. Table 267-3 lists the five types of Salter-
+Harris fractures, which are illustrated in Figure 267-7. The potential for 
+growth disturbance is least for type I and increases with the classification 
+number, with the worst prognosis being associated with type V injuries.
+Type I and type V Salter fractures may be radiographically 
+undetectable. Type I injuries usually involve no transverse displacement 
+and little or no separation of the epiphysis from the rest of the bone. Also, 
+the lucent fracture line is not visible within the equally lucent epiphyseal 
+plate. Diagnosis of acute Salter type I fractures is usually presumptive, based 
+on the presence of swelling and tenderness in the region of the physis.
+Type V injuries may be evident only retrospectively, when growth 
+disturbance first begins to appear. At the time of initial presentation, 
+however, a history of a significant axial loading force, coupled with sig­
+nificant tenderness in the area of the epiphyseal plate, should suggest the 
+possibility of a type V injury. Such injuries should be immobilized and 
+referred for orthopedic follow-up.
+TREATMENT
+
+ CONTROL PAIN AND SWELLING
+Initiate measures to reduce swelling early. Severe swelling not only inten­
+sifies the pain of injury but also may delay the application of a definitive 
+immobilization dressing and may make the skin more susceptible to 
+skin blisters and pressure sores. Although sometimes regarded as trivial 
+modalities, the application of cold and elevation are often quite effective 
+in keeping swelling to a minimum or at least halting its progression. Jew­
+elry, watches, or rings that may cause compression or constriction as an 
+extremity swells should be removed immediately and prior to imaging.
+Administer analgesics as necessary. Underuse of analgesics after ortho­
+pedic injuries has been a well-documented occurrence in the ED. If the 
+patient is relatively comfortable at rest, medication may not be required. 
+Even opiate analgesics may have minimal effect on the pain of move­
+ment or manipulation unless combined with other CNS-acting agents. 
+Consider alternative pain control methods, such as local injection, hema­
+toma blocks, and regional blocks, which have been shown to provide 
+adequate analgesia and help to reduce patient discomfort and need for 
+procedural sedation and recovery time.18-20
+
+ WITHHOLD ORAL INTAKE
+Any patient who might be a candidate for prompt surgical fixation, 
+manipulation, or any other procedure under general anesthesia or pro­
+cedural sedation should not be allowed to eat or drink from the moment 
+
+
+--- PDF PAGE 1819 ---
+1774 
+ 
+  SECTION 22: Orthopedics
+of arrival until the need for, and timing of, such a procedure has been 
+ascertained.
+
+ REDUCE FRACTURE DEFORMITY
+The long-term purpose of reducing significant deformity associated with 
+fractures is restoration of normal appearance and function of the extrem­
+ity. However, there are also short-term benefits to reducing deformity 
+early: (1) alleviating pain, (2) relieving the tension on nerves or vessels 
+that may be stretched as they pass along the deformity, (3) eliminating 
+or significantly minimizing the possibility of inadvertently converting a 
+closed fracture to an open one when the skin is tented by a sharp bony 
+fragment, and (4) restoring circulation to a pulseless distal extremity.
+After the patient has been appropriately sedated, deformity at or near 
+the midshaft of a long bone is usually reduced with gradual, steady, 
+longitudinal traction. Any rotational deformity should be corrected 
+only after the angular component has been addressed and should be 
+performed while traction is maintained.
+The nearer a deformity is to a joint, the more difficult it may be to 
+correct and the more specialized the reduction maneuver may have 
+to be. When deformity is associated with circulatory deficit, a true 
+emergency exists, and the anticipated delay until reduction should 
+be considered.
+
+ REDUCE DISLOCATIONS
+The techniques used to reduce specific dislocations are discussed in 
+subsequent chapters. In general, prereduction radiographs are advis­
+able when there has been significant trauma, unless time is crucial 
+because circulation is threatened. Radiographs are needed because 
+dislocations and fracture-dislocations may have a similar appearance 
+on physical examination, but the techniques used to treat them may be 
+very different.
+Of course, there are circumstances in which the potential benefits of a 
+prereduction radiograph may be outweighed by the associated expendi­
+ture of time and money. For example, a prereduction radiograph may be 
+omitted in a patient with a history of multiple recurrent dislocations of 
+the shoulder who presents with history, signs, and symptoms typical of 
+another recurrence in the absence of significant trauma.
+After a reduction maneuver, postreduction radiographs are valuable 
+for confirming the success of the procedure, as well as for providing 
+documentation in the event that the joint redislocates after the patient is 
+discharged from the ED.
+
+ INITIAL MANAGEMENT OF OPEN FRACTURES
+Open fractures warrant prompt and meticulous attention. The most 
+important elements in the treatment of open fractures, aside from 
+tetanus prophylaxis that applies generally to any wound, are irrigation, 
+debridement, and antibiotics as soon as is practical.21
+Early administration of antibiotics can prevent or reduce the clinical 
+consequences of bacterial contamination in open fractures.22,23 Con­
+sequently, initiate antibiotic therapy promptly in the ED. There is no 
+standard antibiotic regimen. An accepted approach, but by no means the 
+only regimen in use, is a first-generation cephalosporin, with the addi­
+tion of an aminoglycoside when the wound is >10 cm with severe soft 
+tissue injury and loss of bone coverage.24,25 Some studies advocate the 
+use of ciprofloxacin as an alternative to a cephalosporin.26 When there 
+is significant contamination by plants or soil, consider the addition of 
+penicillin (or metronidazole, clindamycin, or vancomycin for penicillin-
+allergic patients) for anaerobic coverage. Aerobic and anaerobic wound 
+cultures may be obtained before antibiotics are administered, although 
+the value of pretreatment cultures for open fractures is controversial.27
+To lower the infection rate, not only antibiotics but also generous 
+irrigation and adequate debridement are necessary to reduce bacte­
+rial contamination and colonization.28 The purposes of debridement 
+and irrigation are (1) to expose the wound in order to allow better 
+identification of the limits of injury and facilitate inspection for foreign 
+material; (2) to identify and remove clots, debris, and nonviable tissue; 
+and (3) to reduce bacterial contamination and make the wound more 
+resistant to the effects of any residual contamination. (See Chapter 40, 
+“Wound Preparation,” for complete discussion of wound irrigation.)
+Debridement and irrigation of minor wounds overlying a fracture 
+sometimes may be performed in the ED. When tissue damage is moder­
+ate or severe, debridement and irrigation are typically performed in the 
+operating room.
+ORTHOPEDIC CONSULTATION IN THE ED
+In many cases, such as fracture of the hip, the need for hospital admis­
+sion and/or orthopedic consultation in the ED is obvious. In some 
+situations, however, differences of opinion may exist regarding whether 
+the patient needs to be seen by an orthopedist in the ED or whether the 
+patient may be treated in preliminary fashion and referred for definitive 
+orthopedic management. Even patients with injuries that ultimately may 
+require surgical repair, such as an unstable ankle fracture, sometimes 
+may be immobilized and discharged with a referral for prompt ortho­
+pedic follow-up.
+
+ COMPARTMENT SYNDROME
+In cases of known or suspected compartment syndrome, obtain prompt 
+orthopedic consultation. Emergency surgical intervention may be 
+required to try to avert permanent tissue damage and muscle contrac­
+ture. The physiology and potentially catastrophic consequences of com­
+partment syndrome are described in the section “Complications” later in 
+this chapter and in Chapter 278, “Compartment Syndromes.”
+
+ IRREDUCIBLE DISLOCATION
+The emergency physician sometimes may be unable to reduce a dislocation, 
+even with the aid of a nerve block or procedural sedation. Although 
+technique is certainly a factor, there may be other reasons closed reduc­
+tion cannot be accomplished, such as the interposition of soft tissues 
+within the joint or the presence of an associated fracture. Orthopedic 
+consultation should be sought in such cases. Timely reduction, which 
+sometimes can be achieved only surgically, may help minimize the com­
+plications (and shorten the duration of pain) resulting from a dislocated 
+joint.
+I
+II
+III
+IV
+V
+FIGURE 267-7.  Epiphyseal plate fractures based on the classification of Salter and 
+Harris.
+
+
+--- PDF PAGE 1820 ---
+CHAPTER 267: Initial Evaluation and Management of Orthopedic Injuries 
+ 
+  1775 
+
+ CIRCULATORY COMPROMISE
+Circulatory deficit due to musculoskeletal injury warrants prompt 
+orthopedic consultation. Even if circulation has been restored by the 
+emergency physician through the correction of deformity, the ortho­
+pedist may wish to investigate the integrity of the involved vessels and 
+should at least be contacted to discuss the case.
+
+ OPEN FRACTURE
+Some open fractures need to be treated aggressively in the operating 
+room. Other types, such as those involving the phalanges, often may be 
+irrigated in the ED and referred for follow-up. If there is any question, a 
+discussion with the orthopedist may result in a mutually agreeable plan 
+of care.
+
+ INJURIES REQUIRING SURGICAL INTERVENTION
+Whereas some musculoskeletal injuries require operative intervention 
+as soon as possible, others may be treated on a delayed basis. In many 
+cases, orthopedists differ in their preferred approach to the timing of 
+surgery. Orthopedic consultation, at least by telephone, is indicated in 
+cases of musculoskeletal injury that the emergency physician believes 
+may require operative fixation or repair. The orthopedist may then 
+exercise the option to admit the patient or to see the patient in timely 
+follow-up and schedule any necessary surgery at that time.
+SPLINTING MATERIALS AND TECHNIQUES
+Immobilization is indicated not only for fractures but also for dislocated 
+joints that have been reduced. When a joint becomes dislocated, the 
+ligaments that had provided its stability are disrupted, and the joint is 
+susceptible to redislocation until healing has occurred.
+The materials most commonly used for orthopedic immobilization 
+are plaster of Paris (calcium sulfate) and fiberglass fabric combined with 
+a polyurethane resin. Fiberglass has the advantages of being lightweight, 
+fast setting, and resistant to damage by moisture. However, it is not as 
+malleable as plaster, so it might not conform as well to the contour of 
+the limb. This may be an issue when the purpose of the dressing is not 
+only to provide immobilization but also to maintain the position of the 
+fragments once a displaced fracture has been reduced.
+Whether plaster or fiberglass is used for immobilization depends on 
+a number of factors, including the emergency physician’s preference, the 
+philosophy of the orthopedic community, the needs of the patient, and 
+the hospital’s resources.
+
+ PRINCIPLES OF SPLINTING
+The chemical reactions that cause plaster or fiberglass to set are initiated 
+by contact with water. The higher the water temperature, the faster the 
+materials harden. However, these reactions are exothermic, meaning 
+they liberate heat. The faster the setting process, the more heat is gener­
+ated. Therefore, the temperature to which the skin ultimately is exposed 
+will be the additive result of the water temperature and the heat released 
+by the chemical reaction. For this reason, severe burns may occur when 
+plaster or fiberglass has been immersed in mildly hot water, even though 
+the temperature of the water itself would not be sufficient to cause such 
+burns. Although there is no universally prescribed ideal water tempera­
+ture, a safe practice is to make the water room temperature. If steam is 
+visible, the water is certainly too hot.
+To avoid irritation and to minimize the potential for pressure sores, 
+plaster or fiberglass dressings should include several layers of padding 
+over the skin. When non-prepadded longitudinal plaster splints are 
+used, cast padding has to be applied separately. The padding does not 
+necessarily have to be circumferential. Several layers of longitudinal pad­
+ding will effectively protect the skin as long as they exceed the width and 
+length of the splinting material. The best way to ensure this is to fashion 
+the dry splint first, then measure the padding over it. Longitudinal 
+splints may be fashioned from fixed-length plaster strips, from plaster 
+rolls normally used to create circumferential casts, or from prepadded 
+material with plaster or fiberglass enclosed. The splint should be long 
+enough to provide the leverage needed to immobilize the injured joint. 
+To immobilize the elbow, for example, a splint should begin distal to 
+the wrist and extend high up the lateral arm, almost to the level of the 
+humeral neck. To immobilize the ankle effectively, a splint should extend 
+from beneath the metatarsal heads to the proximal calf. If the fracture is 
+along the midportion of a distal extremity (i.e., the forearm or the lower 
+leg) rather than at a joint, the splint should be long enough to immobi­
+lize the joint above and the joint below the fracture.
+
+ NON-PREPADDED PLASTER
+When a splint is fashioned from plaster rolls, determine the length of 
+the splint by measuring out a single layer along the extremity according 
+to the principles described previously. Then, on a flat surface, unroll the 
+plaster back and forth over itself to make a multilayered splint. If fixed-
+length plaster strips are used instead of rolls, the only way their length 
+can be customized is to shorten them, so an adequate length should be 
+selected at the outset and trimmed as necessary. In either case, the splint 
+should be at least 12 layers thick for an adult. Even more layers should 
+be used for children, who typically remain as active as possible and have 
+little regard for protecting the dressing.
+When the dry splint has been prepared, measure out several layers of 
+padding over it, making the padding longer and wider than the plaster. 
+After setting the padding aside, grip each end of the splint and immerse 
+it in water, keeping it submerged until bubbling stops (indicating that 
+water has been fully absorbed into the interstices of the material). Then 
+withdraw the splint and remove the excess water by sliding the com­
+pressed thumb and index finger along the length of the plaster on each 
+edge. (Use a stripping motion, rather than crumpling or wringing out 
+the dressing, or much of the plaster may be lost.)
+The next step, frequently overlooked, is to lay the splint on a flat sur­
+face and massage the layers into one another so that they fuse together. 
+This creates a strong dressing that is solid on cross-section. A splint 
+whose separate layers are still visible on cross-section is much weaker.
+The padding should now be laid on the plaster and the dressing 
+applied to the extremity, with the padded surface against the skin. When 
+two plaster segments are used, as for a thumb spica or a posterior ankle 
+mold with an additional transverse “sugar-tong” component, no pad­
+ding should be interposed between the segments. Rather, they should 
+be molded into each other where they overlap. An assistant can hold 
+the splint against the extremity while it is wrapped in place with gauze 
+bandage. The assistant should use the palms, rather than the fingertips, 
+when holding the splint in place. Hardened finger dents may cause irri­
+tation or even pressure sores. When a compressive effect is desired, an 
+elastic bandage may be wrapped over the gauze. (If an elastic bandage 
+is wrapped directly onto plaster without an interposed layer of gauze, it 
+will set into the plaster and may lose most of its compressive function.)
+While the plaster is setting, the affected joint may need to be held in 
+a particular position. Again, use the palms, rather than the fingers, for 
+reasons already described. Once the setting process is well under way, 
+the position of a joint should not be changed, or the dressing may crack 
+and become functionally useless. If the joint has gradually migrated 
+from the desired position, the clinician must decide to accept the current 
+position or remove the dressing and start over. There is no need to feel 
+hesitant about the latter course. Patients generally appreciate a desire for 
+perfection by their clinician.
+
+ PREPADDED MATERIAL
+Some plaster or fiberglass splinting products are manufactured with the 
+immobilization material already enclosed in padding, either as strips 
+of predetermined length or as rolls from which splints may be cut to 
+the desired length. Precut strips come packaged in airtight foil. When a 
+roll is used, the cut end is sealed with a tight clip to protect the exposed 
+material. (Even when not immersed in water, fiberglass may set within 
+10 to 15 minutes, simply from exposure to moisture in the air.)
+Prepadded material is fast and convenient to use because the layers 
+are already in place and the padding need not be applied separately. 
+However, the potential disadvantages are that the thickness of the 
+dressing cannot be customized, and the material does not lend itself to 
+
+
+--- PDF PAGE 1821 ---
+1776 
+ 
+  SECTION 22: Orthopedics
+  TABLE 267-4    Immobilization Devices and Uses
+Immobilization Technique
+Clinical Application
+Shoulder immobilizer
+Clavicle fracture
+Acromioclavicular separation
+Shoulder dislocation (postreduction)
+Humeral neck fracture
+Sling
+A variety of upper extremity injuries, in conjunction with other immobilization techniques; may be used alone for nondisplaced 
+or clinically suspected fracture of the radial head
+Long-arm gutter
+Elbow fracture other than nondisplaced radial head fracture
+Reduced elbow dislocation
+Sugar-tong
+Wrist or forearm fracture
+Short-arm gutter
+Metacarpal or proximal phalanx fracture (ulnar gutter for fourth or fifth ray; radial gutter for second [index] or third [middle] ray)
+Thumb spica
+Scaphoid fracture (proven or suspected)
+Thumb metacarpal or proximal thumb phalanx fracture
+Knee immobilizer
+Fracture or reduced subluxation of patella
+Knee dislocation, postreduction (temporary)
+Tibial plateau fracture
+Knee ligament injury
+Suspected meniscal tear (provided the knee can be fully extended)
+Posterior ankle mold (consider above-the-knee 
+extension and/or adjunctive use of ankle 
+sugar-tong for unstable ankle injuries)
+Ankle dislocation or fracture-dislocation
+Unstable ankle fracture (high distal fibular fracture or medial and/or posterior malleolar fracture)
+Widened medial mortise (indicates disruption of stabilizing medial structures)
+Metatarsal fracture (alternative immobilization dressings may be used)
+Ankle stirrup
+Simple ankle sprain
+Stable lateral malleolus fracture (below the superior border of the talus) without other ankle involvement (no medial swelling or 
+tenderness, posterior malleolus intact)
+Hard-soled shoe
+Toe fracture
+Some metatarsal fractures (see the section “Hard-Soled Shoe” later in this chapter)
+Short-leg walking boot
+Some toe or foot contusions or fractures where weight bearing is allowed29
+FIGURE 267-8.  Shoulder immobilizer.
+applying two overlapping segments, because they cannot be molded into 
+each other to create a sturdy dressing. If these issues are not a consider­
+ation, then prepadded material is a reasonable choice.
+
+ TYPES OF IMMOBILIZATION DRESSINGS
+The more common immobilization dressings used in the ED are dis­
+cussed next and are summarized in Table 267-4.29
+Shoulder Immobilizer  This is a removable Velcro®-fastened device 
+that keeps the arm in “sling position” but allows less mobility than a sling 
+(Figure 267-8). A wide band wraps around the thorax. Two cuffs are 
+attached to the thoracic piece: one on the lateral side, which grasps the 
+upper arm, keeping the shoulder adducted, and one anteriorly, which 
+holds the wrist to the chest, keeping the shoulder internally rotated. This 
+dressing is suitable for fractures about the shoulder girdle, including 
+clavicle and well-positioned humeral neck fractures, and for reduced 
+shoulder dislocations.
+A shoulder immobilizer is also commonly used for acromioclavicular 
+separations, although from a mechanical standpoint, the ideal dress­
+ing for this injury is one that exerts upward pressure on the elbow and 
+downward pressure on the clavicle to bring the clavicle and acromion 
+back into alignment. Commercial versions of such dressings exist, but 
+they are cumbersome to apply and uncomfortable to wear, leading to 
+noncompliance. A shoulder immobilizer (or sling and swathe) is an 
+acceptable alternative dressing.
+Arm Sling  Although it does not provide rigid immobilization, a sling 
+(Figure 267-9) may be used as an adjunct to other splinting techniques 
+for a variety of upper extremity injuries to enhance comfort, reduce 
+motion, and provide some degree of support and elevation to the upper 
+extremity. In some cases, as for nondisplaced fracture of the radial head, it 
+may be used alone, without the need for supplementary immobilization.
+Clavicle Strap (Figure-of-Eight Bandage)  The figure-of-eight clavi­
+cle strap is mentioned only as a historical note. This dressing had long 
+been considered the appropriate immobilization method for fracture of 
+the clavicle, but in fact it is fairly ineffective at maintaining alignment of 
+the fracture fragments and produces no difference in clinical outcome 
+compared with a simple sling.30 In addition, the clavicle strap may be 
+awkward to apply, may require frequent readjustment, may cause prob­
+lems related to pressure on the brachial plexus, and is often uncomfort­
+able for the patient. A shoulder immobilizer or sling is a much better 
+choice.
+
+
+--- PDF PAGE 1822 ---
+CHAPTER 267: Initial Evaluation and Management of Orthopedic Injuries 
+ 
+  1777 
+Long-Arm Gutter Splint  A long-arm gutter splint immobilizes the 
+elbow (Figure 267-10). The upper extremity is placed in “sling position” 
+(elbow flexed about 90 degrees and palm facing the abdomen). The 
+splint begins on the ulnar surface of the hand at the metacarpal heads 
+and extends along the ulnar surface of the forearm, past the elbow, to a 
+spot high on the lateral surface of the upper arm just opposite and below 
+the axillary crease. It should be supplemented with a sling.
+The most common error associated with fashioning this dressing 
+is insufficient length. If the splint is not carried far enough above the 
+elbow, it will not exert enough leverage to prevent motion of that joint.
+The long-arm gutter is useful for injuries about the elbow, including 
+displaced radial head fracture, supracondylar humeral fracture, and 
+reduced dislocation of the elbow.
+Sugar-Tong Splint  The sugar-tong is a splint that prevents motion of 
+the wrist and elbow, including pronation-supination (Figure 267-11). 
+The upper extremity is placed in “sling position,” as described in the 
+preceding section “Long-Arm Gutter Splint.” The splint begins on the 
+extensor aspect of the hand at the level of the metacarpal heads and runs 
+along the extensor aspect of the forearm, around the elbow and humeral 
+condyles, onto the flexor aspect of the forearm, and ultimately to the 
+palmar aspect of the hand, ending at the level of the metacarpal heads. 
+It is wrapped in place with gauze and often topped off with an elastic 
+compression bandage. It should be supplemented with a sling.
+Proper length of the sugar-tong dressing is important. Too short a 
+splint will fail to immobilize the wrist. If the dressing is too long, it will 
+impair motion of the metacarpophalangeal joints, leaving them stiff and 
+making the fingers more susceptible to swelling due to immobility.
+The sugar-tong splint is appropriate for fractures about the wrist or 
+distal forearm. Some orthopedists use it as a definitive dressing after 
+reduction of wrist fractures.
+Cock-Up Wrist Splint (to Be Avoided)  A cock-up splint extends from 
+the distal forearm to the proximal portion of the hand and maintains 
+the wrist in a dorsiflexed position. It should not be used for fractures 
+of the wrist or carpals because injuries to those areas usually are caused 
+by forceful dorsiflexion, and a cock-up splint reproduces the position of 
+injury, imposing considerable pain in the process. Generally, fractures 
+about the wrist are immobilized in neutral position. Colles’ fractures 
+may sometimes be immobilized in palmar flexion after reduction.
+Cock-up splints may be useful in some situations not related to 
+trauma, such as to immobilize the wrist for tendinitis or to support it in 
+the case of wrist drop due to radial nerve palsy. In such instances, passive 
+dorsiflexion of the wrist is indicated to preserve grip strength.
+Short-Arm Gutter Splint  A short-arm gutter splint immobilizes the 
+wrist and the ulnar or radial half of the hand (Figure 267-12). The ulnar 
+FIGURE 267-9.  Arm sling.
+FIGURE 267-10.  Long-arm gutter splint.
+FIGURE 267-11.  Sugar-tong splint.
+FIGURE 267-12.  Short-arm ulnar gutter splint.
+
+
+--- PDF PAGE 1823 ---
+1778 
+ 
+  SECTION 22: Orthopedics
+gutter, for example, extends along the ulnar surface of the hand and 
+forearm, beginning just proximal to the tip of the fifth finger and ending 
+high on the forearm. It should be wide enough to encompass the fourth 
+and fifth rays (phalanges and metacarpals) on the extensor and flexor 
+aspects of the hand. The splint is wrapped in place so that the fourth and 
+fifth fingers are bound together, with a thin layer of padding between 
+them to prevent maceration of the skin. The metacarpophalangeal joints 
+and interphalangeal joints are positioned in gentle flexion. The dressing 
+may be supplemented with a sling.
+The short-arm ulnar gutter is useful for fracture of the proximal 
+phalanx of the ring or little finger or for fracture of the fourth or fifth 
+metacarpal (including the common “boxer’s fracture”). The counterpart 
+of this splint, the short-arm radial gutter, is designed in similar fashion 
+but extends along the radial surface of the hand and forearm and is used 
+for comparable injuries of the index or middle rays. It can be fashioned 
+with a hole that allows the thumb to pass through, or by splitting the dis­
+tal end so the two halves can be run along the extensor and volar aspects 
+of the index and middle rays while the thumb remains free.
+Thumb Spica Splint  A thumb spica immobilizes the wrist and the 
+thumb (Figure 267-13). The term spica applies to any dressing that 
+encompasses a main trunk plus one or more of its branches—in this 
+case, the forearm plus the thumb. It is used for fracture of the scaphoid 
+or for fracture of the thumb metacarpal or proximal phalanx.
+A thumb spica may be fashioned from one wide splint that runs along 
+the thumb and radial aspect of the wrist and forearm, but an even more 
+effective dressing can be made from two separate non-prepadded plaster 
+splints. The wrist piece runs along the extensor aspect of the hand and 
+forearm, beginning at the metacarpal heads and ending just short of the 
+antecubital crease. The narrower thumb piece, approximately 2 inches 
+wide, extends from the tip of the thumb, along the outer aspect of the 
+thumb metacarpal, and onto the extensor aspect of the forearm, well 
+overlapping the first splint. Along their area of contact, the two splints 
+are molded into each other, with no padding between them, to form a 
+sturdy dressing. The plaster is wrapped in place with gauze, and a com­
+pression wrap may be added at the clinician’s discretion. The dressing 
+may be supplemented with a sling.
+This technique is not suitable for prepadded splints with plaster or 
+fiberglass already enclosed, as the two pieces cannot be molded into 
+one another, which compromises the structural integrity of the dressing. 
+When prepadded material is used, a single wide splint encompassing the 
+thumb must suffice.
+While the dressing is setting, optimal position may be achieved by 
+keeping the wrist in neutral position and having the patient oppose the 
+tips of the thumb and index finger in the form of an “OK” sign. This pre­
+serves thumb-to-index pinch function, so as to minimize the patient’s 
+incapacitation. The neutral position of the wrist also avoids reproducing 
+the position of injury in the case of scaphoid fracture, which is typically 
+caused by forced dorsiflexion.
+Knee Immobilizer  The knee immobilizer is a removable circumferential 
+device that extends from the thigh to just above the ankle (Figure 267-14). 
+The splint contains longitudinal struts that, in some cases, may be reposi­
+tioned as needed, and is secured with Velcro® straps.
+A knee immobilizer maintains the knee in extension, the position of 
+maximum stability. The device is useful for a variety of injuries, includ­
+ing fracture of the lateral or medial tibial plateau, fracture of the patella, 
+meniscal injuries (provided the knee is not locked in partial flexion), 
+and ligamentous strains or tears.
+Use of an immobilizer for more than a few days in the elderly or for 
+more than a week or two in young patients may result in painful stiff­
+ness of the knee joint. For that reason, orthopedic follow-up should 
+occur within approximately 7 days. If immobilization is indicated 
+beyond that point, the orthopedist may replace the original device with 
+a cast brace or other orthosis that allows controlled and progressive 
+range of motion.
+Motion and Strength Exercises for the Knee  Joint stiffness and 
+instability due to quadriceps weakness may occur rapidly when the knee 
+is immobilized. Patients wearing an immobilizer should be encour­
+aged to remove the device periodically and perform the following 
+exercises:
+1.	 Passive flexion: While sitting on a flat surface, grasp the ends of a 
+towel draped beneath the sole of the foot and pull upward, creating 
+as much knee flexion as possible without undue pain.
+2.	 “Gravity-assisted” flexion: While sitting on the edge of a bed or chair, 
+support the knee in extension, with the well foot beneath the ankle of 
+the injured extremity, then gradually lower the supporting foot so the 
+injured knee “drops” into flexion. When tolerance is reached, bring 
+the knee back into extension.
+3.	 Quadriceps strengthening: While lying supine with a pillow beneath 
+the knee, actively bring the knee to full extension in a straight leg 
+raise, then relax.
+Each of these exercises should be performed as multiple repetitions 
+several times a day.
+Posterior Ankle Mold  The posterior ankle mold is used to immobilize 
+the ankle (Figure 267-15). It begins beneath the metatarsal heads, runs 
+along the plantar aspect of the foot, and continues up the back of the 
+lower leg, ending at high calf. The splint is used for fractures or severe 
+FIGURE 267-13.  Thumb spica splint.
+FIGURE 267-14.  Knee immobilizer.
+
+========================================================================================
+Tintinalli 9e Ch.268 hand exam/referral pp.1787-1789
+========================================================================================
+
+--- PDF PAGE 1832 ---
+CHAPTER 268: Injuries to the Hand and Digits  
+ 
+  1787 
+  TABLE 268-1    Hand Physical Examination
+Examination
+Finding
+General inspection
+Swelling, discoloration, open wound, deformity, penetrating 
+injury, bleeding
+Puncture wound consistent with fight bite
+Boutonnière deformity, Jersey finger, mallet finger
+Rotation deformity of the digits
+Range of motion 
+(passive and active)
+Digits 2–5 MCP, PIP, DIP
+Thumb MCP and IP
+Palpation
+Point tenderness
+Crepitus
+Anatomical snuffbox tenderness due to scaphoid fracture
+Tendon (extensor and 
+flexor)
+FDS and FDP tendon function in all digits
+Extensor tendon function
+Ligamentous stability
+Valgus/varus stress of PIP, DIP, MCP
+Joint laxity 30-degree with radial stress of thumb MCP joint
+Vascular
+Evidence of bleeding, with control of pulsatile bleeding
+Capillary refill and skin color compared to other extremity, or 
+Doppler assessment
+Nerve function
+Median: Thumb opposition/abduction, light touch/two-point 
+discrimination at distal second digit
+Ulnar: Thumb adduction, Froment sign, light touch/two-point 
+discrimination at distal fifth digit
+Radial: Extension of all digits and wrist, light touch/two-point 
+discrimination at dorsal thumb CMC joint
+Abbreviations: CMC = carpometacarpal; DIP = distal interphalangeal; FDP = flexor digitorum profundus; 
+FDS = flexor digitorum superficialis; IP = interphalangeal; MCP = metacarpophalangeal; PIP = 
+proximal interphalangeal.
+with the volar pulp of the thumb against the radial side of the PIP joint 
+of the index finger. If the patient can maintain the key pinch of the 
+paper against resistance, then the adductor pollicis is relatively strong. 
+Froment’s sign occurs with weak adductor pollicis function and ulnar 
+nerve pathology, displayed when the patient cannot hold the paper and 
+uses the FPL and flexes the IP joint to compensate. All these reviewed 
+maneuvers for the ulnar nerve test intrinsic muscles so that an ulnar 
+nerve injury at the level of the wrist would be revealed by these test 
+maneuvers.
+To test the radial nerve, have the patient hyperextend the finger MCP 
+joints against resistance, which will test the extensor digitorum com­
+munis tendons. One way to test this is to have the patient put the palm 
+on a table, with fingers flat and hyperextended, and then lift each digit 
+straight up and extend up from the table while keeping the palm flat. 
+Finger resistance can also be checked in this extended, upright position. 
+During this maneuver, it is important to keep the finger MCP joints in 
+hyperextension because the interossei extend the IP joints of the fingers 
+(but flex the MCP joints), and failure to keep the digit in full extension 
+can mislead the examiner into believing the radial nerve is intact. The 
+interossei cannot hyperextend the finger MCP joints. By extending the 
+thumb against resistance, the extensor pollicis longus integrity is con­
+firmed. If a patient has a posterior interosseous nerve (which innervates 
+the majority of the extensor muscles) palsy, the patient will be unable to 
+hyperextend his or her fingers, but may be able to extend the wrist in a 
+radial direction because the extensor radialis longus and extensor radia­
+lis brevis are innervated by the radial nerve proper before the posterior 
+interosseous nerve branches.
+Sensation is determined by two-point discrimination. Normal two-
+point discrimination is 5 mm at the volar fingertips. Older patients 
+may have 6 mm of two-point discrimination. Compare both injured 
+and contralateral fingers to establish a reasonable baseline, because 
+patients may have preexisting compressive neuropathies such as carpal 
+and cubital tunnel syndrome or previous nerve injuries. Examine the 
+radial and ulnar sides of each finger to determine which digital nerve is 
+injured. Hand specialists recommend repeating two-point discrimina­
+tion testing two to four times on each side of the digit, because patients 
+can guess sensation correctly by chance. At least 80% accuracy is con­
+sidered acceptable. Less than 80% or indeterminate accuracy suggests 
+the possibility of digital nerve injury. A sensory deficit also implies a 
+potential digital artery laceration because of the close proximity of 
+the two.
+
+ TESTING OF TENDONS
+Assess full range of motion of each tendon against resistance and 
+compare with the uninjured side. It is important to test resistance 
+because up to 90% of a tendon can be lacerated with preservation 
+of range of motion without resistance. In addition, the juncturae 
+tendinum contributes to digital extension, so patients with lacerations 
+to the extensor digitorum communis may be able to extend the digit 
+but may not have the same motor power. Pain along the course of 
+the tendon during resistance testing suggests a partial laceration 
+even if strength appears adequate. US of the digits in a waterbath, 
+using a linear high frequency transducer, provides high-resolution 
+images of small-digit structures and can identify tendon lacerations, 
+foreign bodies, and fluid or blood collections (See Video: Waterbath 
+for Finger Exam). US waterbath testing also causes minimal patient 
+discomfort.
+Test FDP function by checking flexion of the DIP joint against resis­
+tance while holding the PIP and MCP joints in extension. Test the FDS 
+by having the patient flex the PIP joint against resistance while the 
+remaining fingers are held in full extension. When the rest of the fingers 
+are in extension, the FDP of the tested finger cannot fire and the FDS 
+function is isolated. If the test is not performed this way, PIP joint flex­
+ion may be due to the FDP because this tendon also traverses the PIP 
+joint, whereas the FDS does not.
+To determine whether the central slip is intact, perform the Elson’s 
+test. Hold the PIP joint of the affected finger in flexion (therefore 
+tightening the central slip and loosening the lateral bands) and ask 
+the patient to extend the finger at the PIP. The examiner should resist 
+and tendon function of both hands to assess baseline function. Test 
+range of motion and strength against resistance. Have the patient make 
+a clenched fist to observe the orientation and rotation of the middle and 
+distal phalanxes. All phalanges should be oriented parallel to each other 
+with the nails positioned in the same plane and be pointing toward the 
+scaphoid when the fist is clenched. Circulation is assessed by regional 
+pulses and capillary refill.1 Doppler assessment can also help assess 
+digital artery flow.
+
+ NERVE TESTING
+To test the median nerve, have the patient flex the IP joint of the 
+thumb against resistance, which tests FPL function. Alternatively, hold 
+the index or middle finger PIP and MCP joints in extension and have 
+the patient flex the DIP joint, which tests FDP function of the index 
+and middle fingers. The “OK” sign will reveal the ability to flex the 
+IP joint of the thumb and the DIP joint of the index finger. To test 
+the motor branch of the median nerve, position the thumb in palmar 
+abduction with the palm up. Have the patient resist a force directing the 
+thumb toward the palm, and assess the motor power while palpating 
+the belly of the abductor pollicis brevis muscle to ensure it is contract­
+ing. Abnormal function of the median nerve can result in weakness 
+of thumb opposition and anterior interosseous function. Note that a 
+laceration at the level of the wrist or distal forearm may demonstrate 
+intact FDP function of the index and middle fingers and FPL function 
+to the thumb, because these muscles have been innervated at the proxi­
+mal forearm. A median nerve injury at the level of the wrist or distal 
+forearm can only be determined by examining two-point discrimina­
+tion in the three and a half radial digits or motor branch integrity to 
+the thenar muscles.
+To assess ulnar nerve integrity, have the patient spread the fingers apart 
+(finger abduction) and assess motor power by resisting a force pushing 
+the index and small fingers to midline. Alternatively, have the patient 
+cross the fingers. To test thumb adduction (the ulnar nerve innervates 
+the adductor pollicis muscles), have the patient hold a piece of paper 
+
+
+--- PDF PAGE 1833 ---
+1788 
+ 
+  SECTION 22: Orthopedics
+Plane of cross-section
+Palm
+Digital nerves
+Digital artery
+Lumbrical muscle
+in sheath
+Flexor tendon in sheath
+Palmar aponeurosis
+Opponens muscles
+1st metacarpal
+Thenar space
+Palmar interosseous
+muscles
+Dorsal subaponeurotic
+space
+Dorsal interosseous
+muscles
+Digital arteries
+and nerves
+Hypothenar
+muscles
+5th metacarpal
+Flexor tendon
+on sheath
+Midpalmar
+space
+Extensor
+tendons
+FIGURE 268-9.  Relationship of nerves, arteries, tendons, and muscles at the level of the metacarpals.
+  TABLE 268-2    Immediate Hand Surgery Consultation Guidelines
+•  Vascular injury with signs of tissue ischemia or poorly controlled hemorrhage
+•  Irreducible dislocations
+•  Grossly contaminated wounds
+•  Severe crush injury
+•  Open fracture
+•  Compartment syndrome
+•  High-pressure injection injury
+•  Hand/finger amputation
+extension; if the DIP is loose, then Elson’s test is negative, meaning the 
+central slip is intact and the extension force is being transmitted to 
+the central slip. If the DIP is rigid and the PIP does not extend, Elson’s 
+test is positive, meaning the central slip is not intact and the extension 
+force is being transmitted through the lateral bands to the terminal 
+tendon to the DIP joint. The contralateral finger should be examined. 
+Sometimes the patient can overpower the examiner and should be 
+asked to decrease the extension force on the finger. Lastly, if the patient 
+resists PIP flexion due to pain, a digital block can be placed and the 
+test repeated.
+ANESTHESIA AND DIRECT WOUND EXAMINATION
+Anesthesia and direct wound inspection are necessary because partial 
+tendon lacerations or intra-articular injuries are not always readily 
+apparent. Perform the initial motor and sensory exam before anesthesia 
+(Figure 268-9). If pain limits the motor exam, a digital block can be 
+performed and then motor function reassessed. A bloodless field can 
+be facilitated by milking the digit proximally and then applying a local 
+tourniquet or Penrose drain around the base of the digit. The tourni­
+quet should not be stretched to more than 150% of its length and can 
+be held in place with a hemostat. The digit can be milked by wrapping 
+another Penrose drain circumferentially around the entire digit, going 
+from distal to proximal, or by reconfiguring a 4 × 4-inch gauze dress­
+ing into a narrow band and wrapping that circumferentially around the 
+entire digit. Only moderate compression should be used to avoid com­
+pression injury to the digit. Do not leave the tourniquet in place for 
+>20 minutes. If repair may require greater time, intermittent tourniquet 
+release is recommended. Irrigate contaminated wounds copiously with 
+normal saline, and administer antibiotics. Cephalosporins are often the 
+first choice, but tailor antibiotic selection to the particular contaminant. 
+Administer tetanus toxoid as needed.
+
+ IMAGING, CONSULTATION, AND DISPOSITION
+Radiologic evaluation should include at a minimum posteroanterior, lat­
+eral, and oblique projections of the hand. Similar projections are used for 
+the digits, except that the radiographic beam is centered over the affected 
+digit(s), so that true posteroanterior and lateral views should be obtained 
+of the affected digit. Evaluate all radiographs for adequacy of view, bony 
+alignment, and individual bone morphology. CT displays greater sensitiv­
+ity and specificity for fracture than radiograph, although it is usually not 
+required in the emergency setting and can be obtained as an outpatient. It 
+is recommended if intra-articular fracture is suspected but not found on 
+radiograph.1,2 US is useful to identify fractures, with sensitivity and speci­
+ficity over 90%, as well as assess reduction of fractures.3-6 Waterbath US 
+testing may also be used to assess tendon function and presence of rupture. 
+Several studies suggest high sensitivity and specificity for tendon injury, 
+although nerve injury is not assessable with US.7,8 Actual or suspected inju­
+ries of tendons and nerves should be referred to a hand specialist. Whether 
+consultation is provided in the ED or in follow-up (1 to 3 days) depends 
+on local resources. Injuries requiring immediate and delayed follow-up by 
+a hand surgeon are listed in Tables 268-2 and 268-3, respectively.
+
+
+--- PDF PAGE 1834 ---
+CHAPTER 268: Injuries to the Hand and Digits  
+ 
+  1789 
+Table 268-4 provides guidelines for immobilization and follow-up 
+for specific hand injuries referred for delayed hand surgery evaluation. 
+Often, the skin can be closed and the hand splinted in the position of 
+function. The wound can be extended and explored at follow-up, with 
+definitive repair performed by the hand specialist. Most hand special­
+ists prefer to do definitive repair of the acute injuries as soon as pos­
+sible so patients should be informed to seek evaluation immediately 
+and not in 2 weeks, as is often instructed. Also, some diagnoses may be 
+missed in the acute stage when patients are in pain and a thorough exam 
+is difficult. Thus, early referral to a hand specialist verifies the diagnosis 
+and can detect other injuries. Although most injuries involving <20% 
+of the tendon are not surgically repaired, hand specialist follow-up and 
+rehabilitation are still necessary to accurately determine the extent of 
+injury, minimize scarring and tendon contraction, and minimize neu­
+roma formation.
+Primary closure can be completed in the ED for hand lacerations, 
+although contraindications include infected wounds, wounds requiring 
+hand surgery repair, and high infection risk (immunocompromise, bites, 
+puncture wounds, crush injury, open fracture, gross contamination). 
+Patients with dirty wounds and those at risk for infection undergoing 
+primary closure should receive antibiotics.1,2 For patients with hand or 
+digit lacerations that are sutured in the ED, and when there is no suspi­
+cion of neurovascular or tendon injury, follow-up evaluation and suture 
+removal in the ED should always include repeat hand examination to 
+make sure that significant injuries have not been missed.
+FLEXOR TENDON INJURIES
+The most common cause of flexor tendon injury is laceration. Flexor 
+tendon lacerations can be subtle. A hand surgeon should repair all flexor 
+tendon lacerations, and injuries should be referred to a hand surgeon for 
+evaluation within 7 days of injury.2 Temporary stabilization and loose 
+closure may be performed in the ED, but should occur within 12 hours. 
+Definitive treatment can occur up to 4 weeks after the injury, but as 
+soon as possible is best. In general, flexor tendon lacerations of <25% 
+do not need to be repaired, but it is difficult to make this assessment in 
+the ED. A distal-to-proximal five-zone (I to V) classification system for 
+flexor tendon injuries has been developed based on location, treatment 
+considerations, and prognosis (Figure 268-10).9
+  TABLE 268-4    Immobilization for Common Hand Injuries
+Injury
+Splint
+Ligamentous injuries
+ 
+Thumb MCP ulnar collateral 
+ligament rupture
+ 
+ 
+Partial tears
+Thumb spica, IP free to flex
+ 
+Complete or equivocal
+Thumb spica (presurgical repair) (See Video: Thumb Spica 
+Splint)
+Tendon injuries
+ 
+Mallet finger
+Dorsal splint, full extension at DIP
+Flexor tendon laceration
+Dorsal splint, 30-degree wrist flex, 70-degree MCP flexion, 
+30- to 45-degree PIP flexion (presurgical repair)
+Dislocations
+ 
+DIP joint
+Dorsal splint, full extension
+PIP joint
+ 
+ 
+Stable/postreduction
+Dorsal splint, 30-degree PIP flexion
+ 
+Unstable/postreduction
+Dorsal splint, 30-degree PIP flexion
+MCP joint
+Buddy taping
+Carpometacarpal joint
+Dorsal-volar splint
+Thumb IP joint
+Dorsal splint, full extension
+Thumb MCP joint
+Thumb spica
+Fractures
+ 
+Distal phalanx
+Volar or hairpin splint not immobilizing PIP
+Middle/proximal phalanx
+ 
+ 
+Stable/nondisplaced
+Buddy taping/dynamic splinting
+ 
+Unstable/displaced
+Radial/ulnar gutter, 90-degree MCP flexion, <15- to 
+20-degree PIP flexion, <5- to 10-degree DIP flexion
+Thumb proximal phalanx
+Thumb spica
+Metacarpal
+ 
+ 
+Index, middle
+Radial gutter, 20-degree wrist flexion, 90-degree MCP 
+flexion, PIP left mobile (See Video: Radial Gutter Splint)
+ 
+Ring, small
+Ulnar gutter, 20-degree wrist flexion, 90-degree MCP 
+flexion, PIP left mobile (See Video: Ulnar Gutter Splint)
+ 
+Thumb metacarpal
+ 
+ 
+ 
+Extra-articular
+Thumb spica
+ 
+ 
+Intra-articular
+Thumb spica for initial immobilization (presurgical repair)
+Abbreviations: DIP = distal interphalangeal; IP = interphalangeal; MCP = metacarpophalangeal; 
+PIP = proximal interphalangeal.
+Note: Hairpin splint: metal-backed splint with foam padding; dynamic splint: spring-loaded splint that 
+allows some motion at unaffected joints while protecting the injured joint, usually available from a 
+hand surgeon or occupational therapist.
+  TABLE 268-3    Delayed Hand Surgery Consultation Guidelines
+•  Extensor/flexor tendon laceration (if not repaired in ED)
+•  Flexor digitorum profundus rupture (closed) (Jersey finger) or extensor digitorum 
+rupture (mallet finger)
+•  Nerve injury
+•  Closed fractures
+•  Dislocations
+•  Ligamentous injuries with instability
+Zone I
+Zone II
+Zone III
+Zone IV
+Zone V
+No man’s land
+Lumbrical
+origin
+Carpal tunnel
+Proximal to
+carpal tunnel
+Distal to sublimis
+FIGURE 268-10.  Flexor tendon zones and no man’s land.
+
+========================================================================================
+Tintinalli 9e Ch.269 wrist injuries/scaphoid pp.1795-1803
+========================================================================================
+
+--- PDF PAGE 1840 ---
+CHAPTER 269: Wrist Injuries 
+ 
+  1795 
+The triangular fibrocartilage complex forms a smooth, continuous, ulnarly 
+directed extension of the distal radial surface, and supports the lunate and 
+triquetrum on the distal ulna. The distal radius has a concave sigmoid notch 
+at its ulnar aspect that articulates with the curvature of the ulnar head, which 
+permits wrist rotation during pronation/supination of the forearm.6 The 
+distal radioulnar joint is also supported by dorsal and volar radioulnar liga­
+ments that merge with the triangular fibrocartilage complex.7
+
+ CARPAL BONES
+Eight carpal bones are arranged in two rows. The distal carpal row (tra­
+pezium, trapezoid, capitate, and hamate) is joined tightly together and to 
+the adjoining metacarpals. The distal row is quite stable and moves with 
+the metacarpals as a unit in a relatively stable arch. The proximal carpal 
+row (scaphoid, lunate, triquetrum, and pisiform) is also arranged in an 
+arch between the distal radius and the distal carpal row, functioning as 
+a mobile link, or “intercalated segment,” and is potentially unstable by 
+virtue of this position. The scaphoid is critical to wrist stability, acting as 
+a stabilizing strut and linking the proximal and distal carpal rows at the 
+radial aspect of the wrist. This position explains the scaphoid’s greater 
+propensity for injury.
+Forearm muscles that insert onto the bases of the metacarpals pro­
+duce wrist motion. Except for the pisiform, a sesamoid bone of the flexor 
+carpi ulnaris, there are no direct tendon insertions on the carpal bones.8 
+The carpal bones move passively in response to hand position. Often, 
+the radiocarpal joint is referred to as the wrist joint. However, wrist 
+motion is divided almost equally between the radiocarpal and midcarpal 
+joints.9 This is best understood by viewing carpal movement from the 
+sagittal view. During flexion and extension of the wrist, each row moves 
+in the same direction with similar degrees of angulation.
+The carpal bones are stabilized to one another by intrinsic ligaments 
+and to the bones of the forearm by extrinsic ligaments. The key extrinsic 
+ligaments are arranged in three arcades, two of which are volar and one 
+dorsal. The two volar ligaments are arranged in two inverted V-shaped 
+arches and are thought to play a major role in stabilizing the wrist. The 
+apex of one arch inserts on the lunate supporting the proximal carpal 
+row, whereas the other arch reaches to the distal carpal row, inserting on 
+the capitate. The area between these two palmar arches is inherently weak 
+and is known as the space of Poirier (Figure 269-2).4,5 This space lies at 
+the junction of the capitate and lunate and widens upon dorsiflexion of 
+the wrist. Forceful dorsiflexion may tear the capsule here and produce a 
+lunate or perilunate dislocation. The single dorsal arcade has its origins 
+on the rim and styloid of the radius on one side and distal ulna/triangular 
+fibrocartilage complex on the other. This ligament is less important for 
+wrist stability, acting as a sling across the dorsum of the wrist.4,9
+The space of Poirier on the volar aspect of the wrist is the site of dis­
+ruption in perilunate and lunate dislocations. The intrinsic ligaments are 
+largely responsible for holding the carpal bones together as a kinematic 
+unit in their respective carpal rows, and these ligaments of the mobile 
+proximal carpal row have high propensity for injury. The intrinsic liga­
+ments of the proximal carpal row are named after the respective carpal 
+bones they connect: the scapholunate and triquetrolunate. The palmar 
+flexed posture of the scaphoid produces a flexion torque on the lunate 
+that is counterbalanced by an extension torque from the triquetrum. 
+This delicate balance is lost if either ligament is disrupted, producing 
+a dorsal or volar tilt of the proximal carpal row and carpal instability.4
+PATHOPHYSIOLOGY
+It is helpful to understand the mechanism of injury when assessing wrist 
+injuries. Most injuries are caused by a fall creating an axial load on an 
+outstretched arm and dorsiflexed wrist and hand. Impact on the thenar 
+eminence is likely to injure the scaphoid and its supporting ligaments. 
+An impact on the hypothenar eminence is likely to cause injury to the 
+triquetrum, pisiform, and their supporting ligaments. Age affects the 
+maturity of the bones and predisposes patients to certain types of injury.10 
+Children are likely to sustain injuries to the immature, weaker epiphy­
+seal plate or metaphysis of the radius, sparing the still cartilaginous 
+carpal bones.4 Young adults, particularly those with active lifestyles, are 
+likely to be injured with greater force and disrupt either the scaphoid, 
+proximal row intrinsic ligaments, or distal radial metaphysis.4 In the 
+elderly, especially with underlying osteoporosis, the weak point is the 
+brittle distal radial metaphysis, resulting in a Colles’ fracture, often 
+with intra-articular involvement.11 The elderly possess the highest rate 
+of injury to the carpal bones, primarily due to falls.
+CLINICAL FEATURES
+Begin assessment by looking at both wrists to assess for symmetry and 
+range of motion in dorsiflexion, palmar flexion, and radioulnar devia­
+tion, in addition to obvious deformities and soft tissue swelling. Pinpoint 
+areas of tenderness and correlate them to anatomic landmarks of the 
+wrist to determine which structure may be injured and the best way to 
+evaluate it radiographically (Figure 269-3).
+The most noteworthy landmark on the dorsum of the wrist is the 
+anatomic snuffbox. The anatomic snuffbox is a triangle formed by the 
+bony radial styloid at its proximal base, the extensor pollicis brevis 
+tendon at its radial aspect, and the extensor pollicis longus tendon at 
+its ulnar aspect. Palpate the scaphoid within this triangle, as well as 
+the scaphoid tubercle.12 Tenderness in this area may suggest a scaphoid 
+fracture.12 The extensor pollicis longus tendon wraps around a bony 
+prominence of the distal radius, known as Lister’s tubercle. The area 
+immediately distal to this point marks the location of the scapholunate 
+joint. Tenderness in this area suggests scapholunate ligamentous injury 
+or lunate fracture.13 The scaphoid shift test can further assess scapholu­
+nate ligament injury. To perform the scaphoid shift test, place the wrist 
+in ulnar deviation and apply pressure with your thumb over the scaph­
+oid tuberosity. Then move the wrist from ulnar to radial deviation; in the 
+event of ligament injury, a palpable “clunk” will be felt.4,13
+Immediately ulnar to the scapholunate joint is a palpable indentation 
+in the center of the wrist. This is the location of the lunate and capitate, 
+which are palpable as they rise out of this space during wrist flexion.13 
+Wrist flexion allows lunate palpation distal to the radius in line with 
+the third phalanx, ulnar to the scaphoid.4 Tenderness here may indi­
+cate lunate or triquetrolunate joint injury. The ulnar styloid is the bony 
+prominence on the ulnar aspect of the wrist. The triquetrum and triangu­
+lar fibrocartilage complex are located just distal to this prominence. The 
+triquetrum can be palpated on the volar distal wrist (distal to the ulna and 
+pisiform) in line with the fifth phalanx.4 Tenderness over the ulnar styloid 
+may indicate ulnar styloid or triangular fibrocartilage complex injury. The 
+ulnocarpal stress test can further evaluate the triangular fibrocartilage 
+complex; apply a compression load to the wrist in ulnar deviation.10 Pain 
+or clicking may indicate triangular fibrocartilage complex injury.
+Pain with pronation and supination of the forearm may indicate distal 
+radioulnar joint injury. The piano key sign, which is the ulnar head 
+springing back when depressed while supporting the forearm in prona­
+tion, suggests distal radioulnar joint injury.13
+Trapezium
+Space of Poirier
+Pisiform
+Triquetrum
+Ulnar
+collateral
+ligament
+Lunate and 
+strong band
+Radius
+Ulna
+Tubercle of
+scaphoid
+Radial
+collateral
+ligament
+Capitate and
+strong band
+Palmar
+radiocarpal
+ligaments
+FIGURE 269-2.  Ligaments of the wrist.
+
+
+--- PDF PAGE 1841 ---
+1796 
+ 
+  SECTION 22: Orthopedics
+FIGURE 269-3.  Surface anatomy of the wrist. A. Dorsal aspect. B. Palmar aspect. APL = 
+abductor pollicis longus; EPB = extensor pollicis brevis; EPL = extensor pollicis longus; FCR = 
+flexor carpi radialis; FCU = flexor carpi ulnaris; LT = lunotriquetral joint; PL = palmaris longus; 
+SL = scapholunate joint; STT = scaphotrapeziotrapezoid joint.
+A
+B
+The crease on the volar aspect of the wrist marks the location of the 
+proximal carpal row (Figure 269-3). The scaphotrapezial joint is pal­
+pable at the base of the thenar eminence. The pisiform is the palpable 
+bony prominence at the base of the hypothenar eminence. The hook of 
+the hamate is palpable in the soft tissue 1 to 2 cm distal and radial to the 
+pisiform in the hypothenar eminence.14 Tenderness in these areas may 
+require further evaluation than standard radiographic views.15
+IMAGING
+Clinical examination determines which radiographic views will best 
+support a diagnosis. Standard views of the wrist include posteroanterior, 
+lateral, and oblique views. These views are adequate in most cases, but 
+other projections may be necessary for specific injuries.15,16
+The key to interpreting the radiograph is to first ensure proper hand 
+positioning, then identify specific features on each projection. On a 
+properly positioned posteroanterior view, the distal radius and ulna 
+should not overlap at their distal articulation, and the axis of the third 
+metacarpal should parallel that of the radius. In addition to looking for 
+disruption of the bony cortex, key elements on the posteroanterior view 
+are illustrated in Figure 269-1.
+On the posteroanterior view, three smooth arcs (Gilula lines) outline 
+the articular surfaces at the radiocarpal and midcarpal joints. Two of 
+these arcs are formed by the proximal and distal surfaces of the scaph­
+oid, lunate, and triquetrum. The first arc includes the proximal scaph­
+oid, whereas the second arc includes the distal scaphoid. The third arc 
+is formed by the proximal articular surface of the capitate and hamate 
+in the midcarpal joint. Any distortion of these lines implies a fracture, 
+dislocation, or subluxation at the site.4,15,16
+The carpal bones fit together much like a jigsaw puzzle, with the 
+pieces separated by a uniform 1- to 2-mm space. This space is increased 
+or obliterated with ligament disruption, carpal instability patterns, or 
+fracture/dislocations. This occurs most often around the lunate at the 
+scapholunate and capitolunate joints.
+The scaphoid has an elongated shape in its normal, palmarly flexed 
+position. Fractures or ligament disruption may cause further palmar 
+rotation, causing the scaphoid to appear shortened on the posteroan­
+terior view. Injuries to the scaphoid also may obscure the scaphoid fat 
+stripe, a linear or triangular radiolucent collection of fat distal to the 
+radial styloid and parallel to the radial border of the scaphoid.
+Unfortunately, incorrect positioning can produce overlap patterns that 
+can be misinterpreted as pathologic. For example, radial deviation of the 
+wrist causes normal physiologic rotation of the proximal carpal row, oblit­
+erating the capitolunate space. At the same time, the scaphoid that should 
+appear elongated on the posteroanterior view appears shorter as it rotates 
+palmarly and can be confused with a rotary subluxation of the scaphoid.
+The radial styloid should project 8 to 18 mm beyond the distal 
+radioulnar joint and create an ulnar inclination of 13 to 30 degrees on 
+the posteroanterior view. Distal radius fractures can alter these measure­
+ments. At the distal radioulnar joint, the ulna and adjacent portion of the 
+radius should be of equal length, forming a smooth articular surface, and 
+the distal radius generally should articulate with at least half the lunate. 
+The extrinsic ligaments along with the triangular fibrocartilage complex 
+prevent ulnar translocation (migration of the carpal bones down the ulnar 
+tilt of the radiocarpal surface).17 The lunate would have less contact and 
+support from the radius if ulnar translocation were present. A shorter ulna 
+(negative ulnar variance) provides less support to the lunate and increases 
+potential shear stress to the lunate, predisposing the lunate to injury.18
+A properly positioned lateral radiograph is important for determin­
+ing carpal alignment and degree of fracture angulation.15 The radius 
+and ulna should completely overlap one another, and the radial styloid 
+should be centered over the distal radial articular surface. The key ele­
+ments are illustrated in Figure 269-4A.
+The axis of the radius, lunate, and capitate is collinear on the lateral 
+view. If the articular surfaces of these bones were highlighted, they would 
+appear as three consecutive C’s. This provides a simple radiographic 
+assessment of wrist dislocation. Measurement of the capitolunate and 
+scapholunate angles is a more precise assessment of carpal alignment. 
+The axis of the capitate, lunate, and scaphoid runs through the center of 
+their proximal and distal articular surfaces. The axis of the lunate and 
+
+
+--- PDF PAGE 1842 ---
+CHAPTER 269: Wrist Injuries 
+ 
+  1797 
+10–15°
+C
+CL < 10–20°
+SL 30–60°
+S
+A
+L
+R
+C
+CL > 10–20°
+SL > 60°
+S
+B
+C
+L
+C
+CL > 10–20°
+SL 30–60°
+S
+L
+R
+R
+FIGURE 269-4.  A. Normal wrist. Axis of the radius (R), lunate (L), and capitate (C) are 
+collinear (three C’s sign). The capitolunate (CL) angle is <10 to 20 degrees. The scapholunate 
+(SL) angle is between 30 and 60 degrees. The radial volar tilt is 10 to 15 degrees. B. Dorsal 
+intercalated segment instability. The lunate tilts dorsal and slides palmar, increasing the 
+capitolunate angle. The scaphoid (S) tilts more palmar and increases the scapholunate angle. 
+The axes of the radius, lunate, and capitate take on a zigzag pattern (yellow line). C. Volar 
+intercalated segment instability. The lunate tilts palmar and the capitolunate angle increases, 
+but the scapholunate angle is maintained. The zigzag pattern is in the opposite direction.
+capitate should nearly overlap and form an angle that is <10 to 20 degrees. 
+The scaphoid is normally palmar-flexed on the lateral view; its axis 
+should form an angle between 30 and 60 degrees with the lunate. 
+Deviation from either of these angles suggests ligament disruption and 
+carpal instability patterns (Figure 269-4B and C).19
+Fracture of the distal radius is the most common fracture in the 
+wrist.17 Although a displaced fracture is the obvious deformity, the 
+alteration of the normal volar tilt of 10 to 15 degrees of the distal 
+radial articular surface has greater long-term consequences for wrist 
+function, resulting in carpal misalignment and, subsequently, the insta­
+bility patterns mentioned above.18
+Other radiographic views profile specific areas of the wrist. Oblique 
+views are performed in either partial pronation or supination and project 
+the scaphotrapezial joint or pisiform away from overlapping adjacent 
+carpal bones. The scaphoid view is a cone-down posteroanterior view 
+of the scaphoid in ulnar deviation. This position extends the normal 
+flexed posture of the scaphoid so that the bone is projected lengthwise. 
+This view may assist in detecting subtle fractures and is used whenever 
+scaphoid injury is suspected.16 The carpal tunnel view is a tangential 
+view through the carpal tunnel and is helpful in visualizing the pisiform 
+and hook of the hamate. Motion studies are dynamic views in flexion, 
+extension, and radial and ulnar deviation. These views examine carpal 
+movement relative to one another and stress the intercarpal ligaments for 
+laxity, characterized by widening of the intercarpal space.20 Likewise, the 
+grip compression or fist view is a stress view in the posteroanterior pro­
+jection of the tightly clenched fist. The capitate is pushed into the proxi­
+mal carpal row and forces the carpal bones apart if intrinsic ligaments are 
+disrupted. CT is useful for defining fractures and dislocations, whereas 
+MRI is useful for evaluation for both bony and soft tissue abnormalities 
+such as occult fractures, avascular necrosis, and triangular fibrocartilage 
+complex abnormality.20 Table 269-1 presents a summary of standard and 
+supplemental wrist radiographs and the injuries they enhance.
+LIGAMENTOUS INJURIES
+The lunate is located in the middle of the wrist, so it is not surprising that 
+the majority of ligamentous injuries are centered on the lunate. Injuries 
+usually result from forceful dorsiflexion of the wrist, most often from 
+a fall on an outstretched hand. The various injuries occur sequentially 
+depending on the degree of force and range from isolated tears to peri­
+lunate and lunate dislocations.21,22 Although infrequent, they account for 
+7% of carpal injuries.23 Four distinct stages are present: scapholunate, 
+perilunate, perilunate and triquetrum, and lunate dislocation.23,24
+
+ SCAPHOLUNATE LIGAMENT INSTABILITY
+The scapholunate ligament is the intrinsic ligament that binds the scaph­
+oid and lunate. Because the scaphoid bridges the proximal and distal 
+carpal rows, the scapholunate ligament has a marked propensity for 
+injury and is the most commonly injured ligament of the wrist. Injury 
+most often is from a fall on an outstretched hand with impact on the 
+thenar eminence.21 Patients complain of pain and swelling on the radial 
+side of the wrist and often a “clicking” sensation with wrist movement. 
+Examination reveals localized tenderness on the dorsum of the wrist 
+in the area immediately distal to Lister’s tubercle. Ballottement of the 
+scaphoid may also produce pain in this area.19
+This injury is often referred to by the various radiographic appearances 
+it may take. There are three different radiographic signs that may occur 
+separately or in combination with one another (Figure 269-5A). Scaph­
+olunate dissociation is a widening of the scapholunate joint space of 
+>3 mm on the posteroanterior view or >8 mm on the ulnar/deviation/
+clenched fist view. If it is not apparent on routine views, a grip compres­
+sion view or motion study may be necessary to demonstrate the abnormal 
+gap (Figure 269-5B).4,22 These maneuvers are particularly helpful in 
+identifying an incomplete tear of the ligament. Rotary subluxation of the 
+scaphoid is another radiographic finding that often accompanies scaph­
+olunate dissociation. A torn scapholunate ligament can cause the scaphoid 
+to tilt more palmar and increase the scapholunate angle to >60 degrees 
+on the lateral view. On the posteroanterior view, the scaphoid tilts toward 
+the observer so that it appears shorter as it is viewed more on its end. 
+This causes the circular cortex of the bone to become more prominent 
+and appear as a ring, known as the “cortical ring sign” (Figure 269-5A). 
+  TABLE 269-1    Wrist Radiography
+View
+Injuries to Identify
+Posteroanterior
+Distal radius/ulna fractures, carpal bone fractures, ligamentous 
+disruptions
+Lateral
+Radius/ulna fractures, lunate/perilunate dislocation, dorsal 
+intercalated segment instability, volar intercalated segment 
+instability
+Scaphoid
+Scaphoid fracture, scapholunate dissociation
+Carpal tunnel
+Pisiform and hamate fractures
+Motion studies
+Scapholunate or triquetrolunate instability
+Grip compression
+Scapholunate or triquetrolunate instability
+CT
+All fractures and dislocations
+MRI
+Occult fracture, avascular necrosis, soft tissue abnormality
+
+
+--- PDF PAGE 1843 ---
+1798 
+ 
+  SECTION 22: Orthopedics
+FIGURE 269-5.  A. Scapholunate dissociation and rotary subluxation of the scaphoid. The scaphoid and lunate are separated by a gap of >3 mm (black arrow), and the scaphoid 
+appears shorter from rotation with a dense ring, the “cortical ring sign” (white arrow). B. Grip compression view showing enhancement of scapholunate dissociation (arrow). C. Dorsal 
+intercalated segment instability. Lateral view exhibiting dorsal intercalated instability with scapholunate dissociation. (See Figure 269-4.)
+A
+B
+C
+
+
+--- PDF PAGE 1844 ---
+CHAPTER 269: Wrist Injuries 
+ 
+  1799 
+A third radiographic abnormality is a carpal instability pattern known 
+as dorsal intercalated segment instability (Figure 269-4B). The normal 
+flexed posture of the scaphoid produces a flexion torque on the lunate 
+that is counterbalanced by an extension torque from the triquetrum. 
+When the scapholunate ligament is torn, this balance is disrupted. The 
+lunate tilts dorsal from the unopposed extension torque from the tri­
+quetrum, whereas the scaphoid tilts more palmar (rotary subluxation 
+of the scaphoid) because it has lost support from the lunate. The dorsal 
+tilt of the lunate also causes a slight flexion tilt of the capitate. In the 
+lateral view, the normal collinear arrangement of the axes of the capitate, 
+lunate, and radius is replaced by a characteristic zigzag pattern. Both the 
+scapholunate and capitolunate angles are increased. The concept of the 
+proximal carpal row being the middle link or “intercalated segment” in 
+this system, combined with the lunate’s pathologic dorsal tilt and zigzag 
+pattern (Figure 269-5C), is how this abnormality came to be named 
+dorsal intercalated segment instability.
+Refer to an orthopedist or hand surgeon. ED treatment is with a 
+radial gutter splint or short arm volar posterior mold. Orthopedic 
+referral is necessary because these injuries require either closed reduc­
+tion with percutaneous pinning or open reduction and internal repair of 
+the ligament.21 Dorsal intercalated segment instability and subsequent 
+early, severe degenerative arthritis can occur if left untreated.18 Failure 
+to identify this injury may result in scapholunate advanced collapse and 
+altered wrist biomechanics.25,26
+
+ TRIQUETROLUNATE LIGAMENT INSTABILITY
+The triquetrolunate ligament binds the triquetrum and lunate on the 
+ulnar aspect of the wrist. Injury to this ligament is the ulnar equivalent of 
+the scapholunate ligament injury. Triquetrolunate ligament injury occurs 
+much less often than scapholunate ligament injury, is more stable, and can 
+be confused with other causes of ulnar-sided wrist pain such as triangular 
+fibrocartilage complex injury or distal radioulnar joint abnormality.18,19 
+This injury most often results from falls on the outstretched, dorsiflexed 
+hand with impact on the hypothenar eminence. There will be localized 
+tenderness on the ulnar aspect of the wrist just distal to the ulna. Ballotte­
+ment of the triquetrum may produce a painful clicking sensation.4
+Subtle injuries may have a normal radiographic appearance.18 Com­
+plete disruption of the triquetrolunate ligament removes the ability of the 
+triquetrum to counterbalance the flexion torque from the palmar-flexed 
+scaphoid. The lunate then tilts palmar, and the capitate extends slightly in 
+response. A zigzag pattern in the opposite direction of the scapholunate 
+injury is produced. The capitolunate angle is increased >10 to 20 degrees; 
+however, the scapholunate angle is unaffected because the scapholunate 
+ligament is still intact. The lateral radiograph may reveal the “volar inter­
+calated segment instability” pattern (Figure 269-4C and Figure 269-6). 
+The posteroanterior view may reveal a widening of the triquetrolunate 
+joint space and obliteration of the capitolunate joint space and the normal 
+smooth arcs typically seen because of the volar tilt of the lunate.
+Refer to an orthopedist or hand surgeon. ED treatment is an ulnar 
+gutter splint or short arm posterior mold and referral to an orthope­
+dist. Immobilization in a cast for 6 to 8 weeks, followed by a protective 
+splint, is sufficient in most cases. Open reduction and internal fixation 
+are generally reserved for chronic injuries.18 Unrecognized injuries can 
+cause early degenerative arthritis, weakened grip, ulnar neuropathy, and 
+chronic wrist pain.27,28
+
+ PERILUNATE AND LUNATE DISLOCATIONS
+Perilunate and lunate dislocations represent the final stages of midcarpal 
+ligament disruption and are thought to account for 10% of all carpal 
+injuries.29 These injuries are the result of forceful dorsiflexion and impact 
+on the outstretched hand, but usually with great force, such as a fall 
+from height, impact from a motor vehicle collision, or a sporting event.30 
+These injuries are often associated with other injuries, including scaph­
+oid fractures (61% to 65%) and other upper extremity injuries (11%).4,31 
+Polytrauma involving other systems is present in 26% of these patients.31
+Perilunate dislocation is the posterior dislocation of carpal bones 
+while the lunate maintains its position with respect to the distal radius. 
+This is a very rare dislocation. Lunate dislocation produces posterior dis­
+location of carpal bones with the concavity of the lunate facing anteriorly.
+The injury can begin on either side of the lunate, but typically begins 
+on the radial aspect, with either a tear of the scapholunate ligament or a 
+fracture of the scaphoid. Injury progresses around the lunate in a semi­
+circular fashion, tearing the volar ligament arcade at the radiocapitate 
+ligament. Remember that the extrinsic ligaments form two strong volar 
+arcades with an inherently weak area between them that widens with 
+dorsiflexion of the wrist (Figure 269-2). The space of Poirier lies at the 
+FIGURE 269-6.  A. Volar intercalated instability. Note widened capitolunate angle. B. Dorsal intercalated instability.
+A
+B
+
+
+--- PDF PAGE 1845 ---
+1800 
+ 
+  SECTION 22: Orthopedics
+I
+II
+III
+IV
+FIGURE 269-7.  Four stages of perilunate instability. The first stage (I) is disruption of 
+the scapholunate articulation (scapholunate dissociation). The second (II) and third (III) stages 
+are separation of the capitolunate and triquetrolunate joints (perilunate dislocation). The 
+fourth (IV) stage is a lunate dislocation.
+FIGURE 269-8.  Perilunate dislocation. A. Posteroanterior view shows obliteration of the three smooth arcs as bones overlap one another (white hash marks). B. Lateral view shows 
+capitate dorsal to lunate, disrupting the “three C’s” (arrow).
+A
+B
+junction of the lunate and capitate. This space opens further as heavy 
+loading disrupts the lunotriquetral ligament. Besides ligament disrup­
+tion, any number of carpal bones may fracture along an arc around 
+the lunate (Figure 269-7). If sufficient force is applied, the ligaments 
+and carpal bones around the lunate are stripped away. The capitate 
+is displaced dorsal to the lunate, producing a perilunate dislocation. 
+If the capitate rebounds with sufficient force, it can push the lunate 
+off the radius and into the palm, creating a lunate dislocation. These 
+injuries are all part of a continuous spectrum of ligament disruption 
+(Figure 269-7).32
+On clinical examination, there is generalized swelling, pain, and ten­
+derness of the wrist. However, a gross deformity, typical of many joint 
+dislocations, is often absent. Radiographic interpretation is the key to 
+diagnosis. The perilunate dislocation is best appreciated on the lat­
+eral view. The linear arrangement of the three C’s sign is disrupted 
+with the capitate, represented by the third C, displaced dorsal to the 
+lunate. The lunate retains its contact with the radius. The scapholu­
+nate and capitolunate angles are increased. On the posteroanterior view, 
+the three smooth arcs are disrupted, and the capitolunate joint space 
+is obliterated as the bones overlap one another. The scapholunate and 
+triquetrolunate joint space may either be increased because of torn 
+ligaments or obliterated by rotation of the fractured carpal fragments. 
+The scaphoid will appear shortened from rotary subluxation or fracture 
+(Figure 269-8). A perilunate dislocation may also overshadow any asso­
+ciated carpal bone fracture. The scaphoid and capitate are most often 
+involved, so carefully inspect these bones for fractures. Such fractures 
+are designated by adding the prefix “trans-” to the carpal bone name 
+(e.g., transscaphoid perilunate dislocation) (Figure 269-9).
+A lunate dislocation has many similar and several distinct radio­
+graphic features when compared with a perilunate dislocation. On the 
+posteroanterior view, the lunate has a triangular shape (“piece-of-pie” 
+sign) that is suggestive of lunate dislocation (Figure 269-10A). On the 
+lateral view, it also disrupts the three C’s sign. The lunate (represented 
+by the middle C) is pushed off the radius into the palm. This has been 
+called the “spilled teacup” sign because it resembles a cup spilling in 
+the direction of the palm (Figure 269-10B). The capitate may rebound 
+back and even rest on the radius. The signs of ligament disruption and 
+the associated carpal bone fractures described with perilunate injuries 
+may also be present.
+Perilunate or lunate dislocations require emergency orthopedic/
+hand consultation.32 Treatment is determined by the extent of the 
+injury. Closed reduction and long arm splint immobilization are appro­
+priate for reducible dislocations, although closed reductions are often 
+
+
+--- PDF PAGE 1846 ---
+CHAPTER 269: Wrist Injuries 
+ 
+  1801 
+FIGURE 269-9.  A and B. Transscaphoid perilunate dislocation. [Photos contributed 
+by Brooke Beckett, MD, Department of Radiology, Oregon Health & Science University, 
+Portland, OR.]
+A
+B
+unsuccessful.30,31 Open, unstable, and irreducible dislocations require 
+open reduction and internal fixation, with repair of the ligaments 
+and fractures. Some orthopedists operate on all perilunate and lunate 
+dislocations.18 The complications include development of carpal 
+instability patterns that lead to early degenerative arthritis, delayed 
+union, malunion, nonunion, avascular necrosis, and occasionally, 
+median nerve compression from the volar dislocation of the lunate 
+into the carpal tunnel.30
+FIGURE 269-10.  Lunate dislocation. A. Posteroanterior view demonstrates pathog­
+nomonic triangular shape of the lunate (piece-of-pie sign; circle). B. Lateral view exhibits the 
+lunate tilting into the palm (spilled teacup sign; circle) and the capitate positioned dorsal to 
+the lunate (arrow).
+A
+B
+
+
+--- PDF PAGE 1847 ---
+1802 
+ 
+  SECTION 22: Orthopedics
+  TABLE 269-2    Summary of Carpal Bone Fractures and ED Management
+Carpal Bone
+Mechanism of Injury
+Examination
+Initial ED Management
+Scaphoid
+Fall on outstretched hand or axial load on thumb 
+metacarpal
+Snuffbox tenderness; pain with radial deviation and flexion; 
+scaphoid tubercle tenderness; pain with resisted supination/
+pronation; pain with active thumb movement
+If diagnosed, long arm thumb spica splint 
+in dorsiflexion with radial deviation
+If continued pain but no definitive 
+radiograph findings, short arm thumb 
+spica splint, in dorsiflexion with radial 
+deviation
+Triquetrum
+Avulsion fracture—twisting of hand against resistance 
+or hyperextension and ulnar deviation
+Body fracture—direct trauma
+Tenderness at the dorsum of the wrist, distal to the ulnar 
+styloid; axial compression along the third metacarpal may 
+cause pain
+Short arm sugar-tong splint
+Lunate
+Fall on outstretched hand or trauma to the wrist in 
+hyperextension and ulnar deviation
+Tenderness at shallow indentation of the mid-dorsum of the 
+wrist, ulnar and distal to Lister’s tubercle
+Short arm thumb spica splint
+Trapezium
+Direct blow to thumb; force to wrist while dorsiflexed 
+and radially deviated
+Painful thumb movement and weak pinch strength
+Snuffbox tenderness
+Short arm thumb spica splint
+Pisiform
+Fall or trauma directed on the hypothenar eminence
+Tender pisiform, prominent at the base of the hypothenar 
+eminence; decreased grip strength; ulnar/median nerve 
+paresthesias may occur
+Short arm volar splint in 30 degrees of 
+flexion and ulnar deviation
+Hamate
+Interrupted swing of a golf club, bat, or racquet; 
+repeated microtrauma or acute fall
+Tenderness at the hook of the hamate, just distal and radial 
+to the pisiform; positive hook of hamate test
+Short arm volar wrist splint with fourth 
+and fifth metacarpal joints in flexion
+Capitate
+Forceful dorsiflexion of the hand with radial impact; 
+direct blow to the dorsum of the wrist; force applied to 
+the second to fourth metacarpals; flexion force to the 
+wrist
+Tenderness and swelling over the capitate just proximal to 
+the third metacarpal
+Short arm volar wrist splint
+Trapezoid
+Axial load onto the index metacarpal; second metacarpal 
+palmar hyperflexion
+Tenderness over the radial aspect of the base of the index 
+metacarpal
+Short arm thumb spica splint
+FIGURE 269-11.  Scaphoid fracture in the middle third or waist (arrow).
+CARPAL BONE FRACTURES
+Carpal bone fractures are the most commonly missed wrist injuries. 
+A careful examination is critical to recognize carpal bone fractures. 
+The carpal fractures are listed in Table 269-2 in descending order of 
+occurrence.
+
+ SCAPHOID FRACTURE
+The scaphoid is the most common carpal bone fractured, with non­
+scaphoid fractures accounting for the other 13% to 38% of carpal bone 
+fractures.4,33 Scaphoid injuries result from a fall on either an outstretched 
+dorsiflexed hand or from an axial load directed along the thumb’s meta­
+carpal. There is pain along the radial aspect of the wrist and localized 
+tenderness in the anatomic snuffbox.34,35 Examination of the wrist in 
+ulnar deviation exposes more of the scaphoid to direct palpation within 
+the anatomic snuffbox. Snuffbox tenderness demonstrates a sensitiv­
+ity and specificity for scaphoid fracture of 90% and 40%, respectively, 
+whereas tubercle tenderness demonstrates a sensitivity and specific­
+ity of 87% and 57%, respectively. Eliciting pain in this area when the 
+patient resists supination or pronation of the hand (sensitivity 79% and 
+specificity 58%) or pain with axial pressure directed along the thumb’s 
+metacarpal also suggests injury. Pain at the snuffbox with thumb–index 
+finger pinch possesses a sensitivity of 73% and specificity of 75%.34,35 
+One study examined the combination of several findings for diagnosis 
+of scaphoid fracture including anatomic snuffbox tenderness, scaphoid 
+tubercle tenderness, tenderness with longitudinal compression of thumb 
+on scaphoid, and pain with active thumb movement. The first three 
+maneuvers demonstrated an individual sensitivity of 100%, whereas the 
+fourth had a sensitivity of 69%.34 Specificities included 9%, 30%, 48%, 
+and 66%, respectively, and if the first three maneuvers were combined, 
+specificity increased to 75%.34
+Radiographic evaluation includes both standard and scaphoid views 
+for cortical disruption (Figure 269-11). The scaphoid view profiles the 
+bone lengthwise and may assist in detecting subtle fractures. Distortion 
+of a soft tissue fat stripe adjacent to the radial aspect of the scaphoid is 
+suggestive of injury. Two thirds of the fractures occur at the waist or 
+middle third of the bone, 16% to 28% in the proximal third, and 10% in 
+the distal third.4 CT possesses a sensitivity of 89% to 100% and specific­
+ity of 85% to 100%. MRI demonstrates a sensitivity of 98% to 100% and 
+specificity up to 100%.36,37 A scaphoid fracture may also have an associ­
+ated injury in 12% of cases.4 Associated injuries may include the radius, 
+neighboring carpal bones, a carpal instability pattern, or a dislocation. 
+In patients with initial negative plain films, yet in whom a high index of 
+suspicion remains for fracture, MRI is considered the gold standard for 
+definitive diagnosis.38
+A scaphoid fracture can develop avascular necrosis of the proximal 
+fracture segment that can lead to disabling arthritis.39 Because the 
+vascular supply to the scaphoid enters the distal portion of the bone 
+through small branches off the radial artery and palmar and superficial 
+arteries, a fracture can easily disrupt the blood supply to the proximal 
+segment. The more proximal, oblique, or displaced a fracture, the 
+greater is the risk of developing avascular necrosis (up to 80% of proxi­
+mal fractures result in necrosis).4,39,40 A scaphoid fracture is considered 
+unstable if it is oblique, if there is as little as 1 mm of displacement, if 
+
+
+--- PDF PAGE 1848 ---
+CHAPTER 269: Wrist Injuries 
+ 
+  1803 
+those associated with perilunate/lunate dislocations may require inter­
+nal fixation.33,44 Palmar cortical fractures are treated surgically.33
+
+ LUNATE FRACTURE
+Lunate fractures tend to occur with other carpal injuries. Isolated 
+lunate injuries are rare, as 70% of the lunate rests on the radius and 
+30% articulates with the TFCC.4,33 The mechanism of injury is com­
+monly the result of a fall on the outstretched hand or trauma to the 
+wrist in hyperextension and ulnar deviation.33 The lunate is present in 
+the shallow indentation on the mid-dorsum of the wrist. The lunate is 
+easily palpable as it rises out of the floor of this indentation when the 
+wrist is in a flexed position. Examination reveals tenderness at this 
+point. Axial compression applied along the third metacarpal ray may 
+also elicit pain in this area and is suggestive of injury. The lunate’s 
+blood supply enters through the distal end of the bone. A fracture 
+subjects the lunate to risk for avascular necrosis of the proximal 
+portion.4,24
+The lunate is seated in the middle of the wrist, so overlap with other 
+carpal bones may make it difficult to identify an injury on a plain radio­
+graph. On the lateral radiograph, the lunate, capitate, and distal radius 
+should lie in the same vertical plane.
+Refer suspected or actual lunate fractures to an orthopedist or hand 
+surgeon. Clinical suspicion dictates the acute treatment. A short arm 
+thumb spica splint should be applied when the diagnosis is unclear. MRI 
+and CT may be used to identify occult fractures. The major complica­
+tion is avascular necrosis (Kienböck’s disease), leading to lunate collapse, 
+osteoarthritis, chronic pain, and decreased grip strength.4
+
+ TRAPEZIUM FRACTURE
+The trapezium is a saddle-shaped bone that articulates with the thumb 
+metacarpal. Injuries are produced by a direct blow to the thumb or from 
+a dorsiflexion and radial deviation force. Fractures occur either at the 
+trapezial ridge or body and are often intra-articular. Vertical fractures 
+occur and are analogous to a Bennett’s fracture (an intra-articular proxi­
+mal thumb metacarpal fracture) (Figure 269-13). Examination reveals 
+painful thumb movement and a weak pinch. There is tenderness at the 
+apex of the anatomic snuffbox and at the base of the thenar eminence. 
+This injury is best profiled on a 20-degree pronated oblique view. The 
+major complication is nonunion.
+FIGURE 269-12.  A and B. Triquetrum fracture seen at tip of arrow. [Photos contributed by Brooke Beckett, MD, Department of Radiology, Oregon Health & Science University, Portland, OR.]
+Lateral
+Oblique
+A
+B
+there is rotation or comminution, or if a carpal instability pattern is 
+present. Two thirds of the scaphoid’s surface is articular. This only adds 
+to the scaphoid’s problems because articular fractures are more difficult 
+to heal. Thus, the main complications of improperly healed scaphoid 
+fractures are avascular necrosis, delayed union, nonunion, malunion, 
+and subsequent early degenerative arthritis.
+Up to 16% of initial radiographs fail to detect a fracture, so initial 
+treatment should be directed by clinical suspicion.34,36 Immobilize 
+scaphoid fractures in a long arm thumb spica splint with hand 
+surgery consultation. If fracture is suspected despite negative radio­
+graph, apply a short arm thumb spica splint, with repeat imaging in 7 
+to 10 days.4,39,40 Several studies have evaluated immediate CT or MRI for 
+definitive diagnosis versus prolonged immobilization on costs (includ­
+ing patient lost income and productivity), suggesting earlier advanced 
+imaging is more cost effective.40-42
+
+ TRIQUETRUM FRACTURE
+Triquetrum fractures are the second most common carpal bone injury, 
+accounting for up to 20% of carpal fractures, and occur as a fracture 
+through the dorsal cortex, palmar cortex, or body.33,43 Avulsion fractures 
+are produced when a twisting motion of the hand is suddenly resisted 
+or a hyperextension shear stress pushes the hamate or ulnar styloid 
+against the triquetrum. This may occur with a fall on an outstretched 
+hand with hyperextension and ulnar deviation.4,33 Fractures of the body 
+occur from direct trauma and are found in association with perilunate 
+and lunate dislocations (part of the arc fractures). Localized tenderness 
+is found over the dorsum of the wrist in the area immediately distal to 
+the ulnar styloid. The dorsal avulsion fracture is best seen on the lat­
+eral radiograph or an oblique view in partial pronation. The fracture 
+appears as a tiny flake of bone on the dorsum of the triquetrum best seen 
+on lateral view (Figure 269-12). Triquetrum body fractures are usually 
+nondisplaced because numerous ligaments encase the bone; these are 
+best seen on the posteroanterior view. Nonunion is possible, but avascu­
+lar necrosis has not been reported.
+Refer triquetrum fractures to an orthopedist or hand surgeon. 
+Patients with a dorsal avulsion fracture have an excellent prognosis for 
+full recovery. Symptomatic patients are treated with a wrist splint for 1 
+to 2 weeks. Asymptomatic or minimally symptomatic patients may be 
+treated with early range of motion. Stable body fractures are treated in 
+a cast for 6 weeks. Unstable body fractures (>1 mm displacement) and 

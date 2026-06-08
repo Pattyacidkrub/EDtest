@@ -1,6 +1,25 @@
 {
   "completed": [
     {
+      "title": "Scaphoid Fracture: Occult Wrist Injury",
+      "slug": "scaphoid-fracture",
+      "system": "Orthopedics / Hand / Trauma / Pediatrics",
+      "date": "2026-06-08",
+      "chapter": "Tintinalli 9e Ch.269 pp.1795-1803; Ch.267 pp.1769-1778; Ch.268 pp.1787-1789; Ch.141 p.916; Ch.35/115 analgesia",
+      "summary": "Remade with a generated bitmap infographic for ED scaphoid fracture: FOOSH or axial thumb-load mechanism, anatomic snuffbox and scaphoid-tubercle exam, PA/lateral/scaphoid radiographs, CT/MRI pathway for occult fracture or AVN, negative-x-ray but persistent radial wrist pain rule, long-arm versus short-arm thumb-spica immobilization, adult/pediatric analgesia, adolescent caveats, early hand/orthopedic follow-up, and nonunion/avascular necrosis traps.",
+      "href": "scaphoid-fracture/",
+      "file": "scaphoid-fracture/index.html",
+      "assets": {
+        "image_2160x3840": "scaphoid-fracture/assets/scaphoid-fracture-gpt-image-2-2160x3840.png",
+        "image_4320x7680": "scaphoid-fracture/assets/scaphoid-fracture-gpt-image-2-4320x7680.png",
+        "image_original": "scaphoid-fracture/assets/scaphoid-fracture-gpt-image-2-original.png"
+      },
+      "source_extract": "source_extracts/scaphoid-fracture-tintinalli9-pdf-extract-2026-06-08-redo.txt",
+      "generation": "Built-in image generation requested as gpt-image-2-style bitmap; resized to exact 2160x3840 and upscaled 2x to 4320x7680.",
+      "completed_at": "2026-06-08T23:48:00+07:00",
+      "notes": "Redo requested by user; old custom-diagram assets replaced by generated bitmap assets."
+    },
+    {
       "title": "MCA Infarction: Anterior Circulation Stroke",
       "slug": "mca-infarction",
       "system": "Neurology / Stroke / Critical Care",
@@ -169,12 +188,6 @@
       "slug": "naphthalene-poisoning-g6pd",
       "title": "Naphthalene Poisoning in G6PD Deficiency",
       "system": "Toxicology / Hematology / Pediatrics",
-      "date": "2026-06-08"
-    },
-    {
-      "slug": "scaphoid-fracture",
-      "title": "Scaphoid Fracture: Occult Wrist Injury",
-      "system": "Orthopedics / Hand / Trauma / Pediatrics",
       "date": "2026-06-08"
     },
     {
@@ -377,22 +390,22 @@
     }
   ],
   "last_run": {
-    "title": "MCA Infarction: Anterior Circulation Stroke",
-    "slug": "mca-infarction",
-    "system": "Neurology / Stroke / Critical Care",
+    "title": "Scaphoid Fracture: Occult Wrist Injury",
+    "slug": "scaphoid-fracture",
+    "system": "Orthopedics / Hand / Trauma / Pediatrics",
     "date": "2026-06-08",
-    "chapter": "Tintinalli 9e Ch.167 pp.1119-1136",
-    "summary": "Remade with a generated bitmap infographic for ED MCA infarction: face/arm > leg anterior-circulation stroke pattern, dominant aphasia versus nondominant neglect/extinction/apraxia, stroke mimics, last-known-well and NIHSS workflow, bedside glucose, noncontrast CT and CTA pathway, alteplase dosing, BP target and IV BP agents, thrombectomy criteria, aspirin timing, monitored stroke-unit disposition, and malignant MCA edema/herniation traps.",
-    "href": "mca-infarction/",
-    "file": "mca-infarction/index.html",
+    "chapter": "Tintinalli 9e Ch.269 pp.1795-1803; Ch.267 pp.1769-1778; Ch.268 pp.1787-1789; Ch.141 p.916; Ch.35/115 analgesia",
+    "summary": "Remade with a generated bitmap infographic for ED scaphoid fracture: FOOSH or axial thumb-load mechanism, anatomic snuffbox and scaphoid-tubercle exam, PA/lateral/scaphoid radiographs, CT/MRI pathway for occult fracture or AVN, negative-x-ray but persistent radial wrist pain rule, long-arm versus short-arm thumb-spica immobilization, adult/pediatric analgesia, adolescent caveats, early hand/orthopedic follow-up, and nonunion/avascular necrosis traps.",
+    "href": "scaphoid-fracture/",
+    "file": "scaphoid-fracture/index.html",
     "assets": {
-      "image_2160x3840": "mca-infarction/assets/mca-infarction-gpt-image-2-2160x3840.png",
-      "image_4320x7680": "mca-infarction/assets/mca-infarction-gpt-image-2-4320x7680.png",
-      "image_original": "mca-infarction/assets/mca-infarction-gpt-image-2-original.png"
+      "image_2160x3840": "scaphoid-fracture/assets/scaphoid-fracture-gpt-image-2-2160x3840.png",
+      "image_4320x7680": "scaphoid-fracture/assets/scaphoid-fracture-gpt-image-2-4320x7680.png",
+      "image_original": "scaphoid-fracture/assets/scaphoid-fracture-gpt-image-2-original.png"
     },
-    "source_extract": "source_extracts/mca-infarction-tintinalli9-pdf-extract-2026-06-08-redo.txt",
+    "source_extract": "source_extracts/scaphoid-fracture-tintinalli9-pdf-extract-2026-06-08-redo.txt",
     "generation": "Built-in image generation requested as gpt-image-2-style bitmap; resized to exact 2160x3840 and upscaled 2x to 4320x7680.",
-    "completed_at": "2026-06-08T22:58:00+07:00",
+    "completed_at": "2026-06-08T23:48:00+07:00",
     "notes": "Redo requested by user; old custom-diagram assets replaced by generated bitmap assets."
   }
 }

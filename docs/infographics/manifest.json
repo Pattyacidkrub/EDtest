@@ -1,5 +1,22 @@
 [
   {
+    "title": "Scaphoid Fracture: Occult Wrist Injury",
+    "slug": "scaphoid-fracture",
+    "system": "Orthopedics / Hand / Trauma / Pediatrics",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli 9e Ch.269 pp.1795-1803; Ch.267 pp.1769-1778; Ch.268 pp.1787-1789; Ch.141 p.916; Ch.35/115 analgesia",
+    "summary": "Remade with a generated bitmap infographic for ED scaphoid fracture: FOOSH or axial thumb-load mechanism, anatomic snuffbox and scaphoid-tubercle exam, PA/lateral/scaphoid radiographs, CT/MRI pathway for occult fracture or AVN, negative-x-ray but persistent radial wrist pain rule, long-arm versus short-arm thumb-spica immobilization, adult/pediatric analgesia, adolescent caveats, early hand/orthopedic follow-up, and nonunion/avascular necrosis traps.",
+    "href": "scaphoid-fracture/",
+    "file": "scaphoid-fracture/index.html",
+    "assets": {
+      "image_2160x3840": "scaphoid-fracture/assets/scaphoid-fracture-gpt-image-2-2160x3840.png",
+      "image_4320x7680": "scaphoid-fracture/assets/scaphoid-fracture-gpt-image-2-4320x7680.png",
+      "image_original": "scaphoid-fracture/assets/scaphoid-fracture-gpt-image-2-original.png"
+    },
+    "source_extract": "source_extracts/scaphoid-fracture-tintinalli9-pdf-extract-2026-06-08-redo.txt",
+    "generation": "Built-in image generation requested as gpt-image-2-style bitmap; resized to exact 2160x3840 and upscaled 2x to 4320x7680."
+  },
+  {
     "title": "MCA Infarction: Anterior Circulation Stroke",
     "slug": "mca-infarction",
     "system": "Neurology / Stroke / Critical Care",
@@ -238,15 +255,6 @@
     "file": "naphthalene-poisoning-g6pd-infographic.html",
     "chapter": "Tintinalli Ch.236 pp.1488-1489; Ch.237 pp.1491-1494; Ch.207 pp.1329-1332; Ch.176 pp.1191-1192; ATSDR/MedlinePlus/UKHSA",
     "summary": "Mothball/naphthalene exposure in G6PD deficiency: oxidative hemolysis, methemoglobinemia diagnosis, labs to send, treatment pathway, methylene-blue trap, disposition, and why milk/feeding is held initially."
-  },
-  {
-    "title": "Scaphoid Fracture: Occult Wrist Injury",
-    "slug": "scaphoid-fracture",
-    "system": "Orthopedics / Hand / Trauma / Pediatrics",
-    "date": "2026-06-08",
-    "chapter": "Tintinalli Ch.269 pp.1795-1803; Ch.267 pp.1769-1778; Ch.141 p.916; Ch.35/115 analgesia",
-    "summary": "ED approach to scaphoid fracture: FOOSH and axial thumb-load mechanisms, snuffbox and tubercle exam, diagnostic test characteristics, standard and scaphoid-view radiographs, occult-negative-film pathway, CT/MRI performance, AVN/nonunion risk, thumb-spica immobilization, hand-surgery consultation, pediatric caveats, analgesic dosing, disposition, and exam traps.",
-    "file": "scaphoid-fracture-infographic.html"
   },
   {
     "title": "Legg-Calve-Perthes Disease",
