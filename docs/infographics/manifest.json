@@ -1,5 +1,14 @@
 [
   {
+    "title": "สถิติ Diagnostic Test",
+    "slug": "diagnostic-test-statistics-thai",
+    "system": "Evidence-Based Medicine / Statistics / Diagnostic Testing",
+    "date": "2026-06-08",
+    "chapter": "NCBI StatPearls Diagnostic Testing Accuracy; Oxford CEBM Likelihood Ratios; UCSF Hospital Handbook",
+    "summary": "Thai diagnostic-test statistics infographic: 2x2 table, sensitivity, specificity, PPV, NPV, pretest/post-test probability, odds conversion, LR+/LR-, diagnostic odds ratio, interpretation thresholds, and a worked example showing how prevalence changes PPV/NPV.",
+    "file": "diagnostic-test-statistics-thai/"
+  },
+  {
     "title": "Seatbelt Injury",
     "slug": "seatbelt-injury",
     "system": "Trauma / Abdomen / Spine / Thoracic",

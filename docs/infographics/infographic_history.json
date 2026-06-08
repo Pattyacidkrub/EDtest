@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "diagnostic-test-statistics-thai",
+      "title": "สถิติ Diagnostic Test",
+      "system": "Evidence-Based Medicine / Statistics / Diagnostic Testing",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "seatbelt-injury",
       "title": "Seatbelt Injury",
       "system": "Trauma / Abdomen / Spine / Thoracic",
