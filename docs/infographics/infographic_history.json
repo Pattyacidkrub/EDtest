@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "seatbelt-injury",
+      "title": "Seatbelt Injury",
+      "system": "Trauma / Abdomen / Spine / Thoracic",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "blunt-thoracic-injury-atls11",
       "title": "Blunt Thoracic Injury",
       "system": "Trauma / Thoracic / ATLS",

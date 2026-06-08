@@ -1,5 +1,14 @@
 [
   {
+    "title": "Seatbelt Injury",
+    "slug": "seatbelt-injury",
+    "system": "Trauma / Abdomen / Spine / Thoracic",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.3 p.12; Ch.258 pp.1700,1713; Ch.261 pp.1731,1739; Ch.262 pp.1744,1748; Ch.263 pp.1752-1755; ATLS 11 Ch.11,14,21",
+    "summary": "ED approach to seat-belt sign and restraint-associated injury: lap-belt abdominal trauma, hollow viscus and mesenteric injury, Chance fracture, pancreatic/duodenal injury, thoracic/BCI/great-vessel clues, pediatric and pregnancy caveats, CT/FAST limitations, operative triggers, serial reassessment, and disposition traps.",
+    "file": "seatbelt-injury/"
+  },
+  {
     "title": "Blunt Thoracic Injury",
     "slug": "blunt-thoracic-injury-atls11",
     "system": "Trauma / Thoracic / ATLS",
