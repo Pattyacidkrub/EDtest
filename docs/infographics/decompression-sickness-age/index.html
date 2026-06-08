@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Decompression Sickness vs Arterial Gas Embolism</title>
   <style>
-    :root { --bg:#f8f6ef; --ink:#17232b; --muted:#64727a; --line:#d9ddd5; --accent:#4285f4; }
+    :root { --bg:#f8f6ef; --ink:#17232b; --muted:#627078; --line:#d9ddd5; --accent:#1a73e8; --surface:#ffffff; }
     * { box-sizing:border-box; }
     body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Tahoma,Arial,sans-serif; letter-spacing:0; }
-    main { width:min(1120px, calc(100% - 28px)); margin:0 auto; padding:24px 0 46px; }
+    main { width:min(1160px, calc(100% - 28px)); margin:0 auto; padding:24px 0 48px; }
     nav a, .sources a { color:var(--accent); text-decoration:none; font-weight:800; }
     h1 { font-size:clamp(1.8rem,4vw,3rem); line-height:1.05; margin:18px 0 8px; }
     p { color:var(--muted); line-height:1.5; }
-    .frame { background:#fff; border:1px solid var(--line); border-radius:8px; padding:10px; box-shadow:0 12px 36px rgba(20,32,38,.10); }
+    .frame { background:var(--surface); border:1px solid var(--line); border-radius:8px; padding:10px; box-shadow:0 12px 36px rgba(20,32,38,.10); }
     img { display:block; width:100%; height:auto; border-radius:6px; }
     .actions { display:flex; flex-wrap:wrap; gap:10px; margin:14px 0 18px; }
     .actions a { display:inline-flex; align-items:center; min-height:38px; padding:8px 12px; border-radius:8px; border:1px solid var(--line); background:#fff; color:var(--ink); text-decoration:none; font-weight:800; }
@@ -23,20 +23,14 @@
 <main>
   <nav><a href="../">ED Infographics</a></nav>
   <h1>Decompression Sickness vs Arterial Gas Embolism</h1>
-  <p>ED approach to decompression illness: DCS type I/II/III, cutis marmorata with real photo, arterial gas embolism comparison, clinical diagnosis, oxygen/fluids/recompression, transport, and exam traps.</p>
+  <p>NotebookLM-style generated infographic rebuilt from local Tintinalli source notes: decompression sickness, arterial gas embolism, ED diagnosis, oxygen/fluids/recompression, disposition, and exam traps.</p>
   <div class="actions">
-    <a href="assets/decompression-sickness-age/decompression-sickness-age-custom-diagram-2160x3840.png">Open 2160x3840 PNG</a>
-    <a href="assets/decompression-sickness-age/decompression-sickness-age-custom-diagram-4320x7680.png">Open 4320x7680 PNG</a>
-    <a href="assets/decompression-sickness-age/cutis-marmorata-dcs-huckfinne-cc0.jpg">Open real cutis marmorata photo</a>
+    <a href="assets/decompression-sickness-age/decompression-sickness-age-imagegen-2160x3840.png">Open 2160x3840 PNG</a>
+    <a href="assets/decompression-sickness-age/decompression-sickness-age-imagegen-4320x7680.png">Open 4320x7680 PNG</a>
+    <a href="assets/decompression-sickness-age/decompression-sickness-age-imagegen-source.png">Open generated source PNG</a>
   </div>
-  <section class="frame"><img src="assets/decompression-sickness-age/decompression-sickness-age-custom-diagram-2160x3840.png" alt="Decompression Sickness vs Arterial Gas Embolism infographic"></section>
-  <p class="sources">
-    Sources: local Tintinalli 9e PDF extracts from Ch.214 and Ch.21;
-    <a href="https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/scuba-diving-decompression-illness-and-other-dive-related-injuries.html">CDC Yellow Book scuba diving injuries</a>;
-    <a href="https://dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/diagnosing-dcs/">Divers Alert Network DCS diagnosis</a>;
-    <a href="https://dan.org/health-medicine/health-resource/dive-medical-reference-books/decompression-sickness/treating-dcs/">Divers Alert Network DCS treatment</a>.
-    Photo: <a href="https://commons.wikimedia.org/wiki/File:Cutis_marmorata_DCS_I.jpg">Huckfinne / Wikimedia Commons, CC0</a>.
-  </p>
+  <section class="frame"><img src="assets/decompression-sickness-age/decompression-sickness-age-imagegen-2160x3840.png" alt="Decompression Sickness vs Arterial Gas Embolism ED infographic"></section>
+  <p class="sources">Sources: local Tintinalli Emergency Medicine 9th ed. PDF, Chapter 214 “Diving Disorders” pp.1370-1374 and Chapter 21 “Hyperbaric Oxygen Therapy” pp.137-139. Image generated with built-in image generation, then resized to 2160x3840 and upscaled 2x to 4320x7680.</p>
 </main>
 </body>
 </html>
