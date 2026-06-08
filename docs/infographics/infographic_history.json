@@ -1,6 +1,25 @@
 {
   "completed": [
     {
+      "title": "MCA Infarction: Anterior Circulation Stroke",
+      "slug": "mca-infarction",
+      "system": "Neurology / Stroke / Critical Care",
+      "date": "2026-06-08",
+      "chapter": "Tintinalli 9e Ch.167 pp.1119-1136",
+      "summary": "Remade with a generated bitmap infographic for ED MCA infarction: face/arm > leg anterior-circulation stroke pattern, dominant aphasia versus nondominant neglect/extinction/apraxia, stroke mimics, last-known-well and NIHSS workflow, bedside glucose, noncontrast CT and CTA pathway, alteplase dosing, BP target and IV BP agents, thrombectomy criteria, aspirin timing, monitored stroke-unit disposition, and malignant MCA edema/herniation traps.",
+      "href": "mca-infarction/",
+      "file": "mca-infarction/index.html",
+      "assets": {
+        "image_2160x3840": "mca-infarction/assets/mca-infarction-gpt-image-2-2160x3840.png",
+        "image_4320x7680": "mca-infarction/assets/mca-infarction-gpt-image-2-4320x7680.png",
+        "image_original": "mca-infarction/assets/mca-infarction-gpt-image-2-original.png"
+      },
+      "source_extract": "source_extracts/mca-infarction-tintinalli9-pdf-extract-2026-06-08-redo.txt",
+      "generation": "Built-in image generation requested as gpt-image-2-style bitmap; resized to exact 2160x3840 and upscaled 2x to 4320x7680.",
+      "completed_at": "2026-06-08T22:58:00+07:00",
+      "notes": "Redo requested by user; old custom-diagram assets replaced by generated bitmap assets."
+    },
+    {
       "title": "Orbital Cellulitis: ED Eye Emergency",
       "slug": "orbital-cellulitis",
       "system": "Ophthalmology / Infectious Disease / Pediatrics",
@@ -150,12 +169,6 @@
       "slug": "naphthalene-poisoning-g6pd",
       "title": "Naphthalene Poisoning in G6PD Deficiency",
       "system": "Toxicology / Hematology / Pediatrics",
-      "date": "2026-06-08"
-    },
-    {
-      "slug": "mca-infarction",
-      "title": "MCA Infarction: Anterior Circulation Stroke",
-      "system": "Neurology / Stroke / Critical Care",
       "date": "2026-06-08"
     },
     {
@@ -364,22 +377,22 @@
     }
   ],
   "last_run": {
-    "title": "Orbital Cellulitis: ED Eye Emergency",
-    "slug": "orbital-cellulitis",
-    "system": "Ophthalmology / Infectious Disease / Pediatrics",
+    "title": "MCA Infarction: Anterior Circulation Stroke",
+    "slug": "mca-infarction",
+    "system": "Neurology / Stroke / Critical Care",
     "date": "2026-06-08",
-    "chapter": "Tintinalli 9e Ch.122 pp.765-767; Ch.241 pp.1533,1539",
-    "summary": "Remade with a generated bitmap infographic for ED orbital cellulitis: preseptal versus postseptal split, sinusitis and valveless venous spread, pain with eye movement, EOM restriction, proptosis, chemosis, decreased visual acuity/APD, contrast CT orbit/sinus pathway, ophthalmology/ENT consultation, inpatient IV antibiotics with pediatric doses, abscess drainage, lateral canthotomy triggers, disposition, and exam traps.",
-    "href": "orbital-cellulitis/",
-    "file": "orbital-cellulitis/index.html",
+    "chapter": "Tintinalli 9e Ch.167 pp.1119-1136",
+    "summary": "Remade with a generated bitmap infographic for ED MCA infarction: face/arm > leg anterior-circulation stroke pattern, dominant aphasia versus nondominant neglect/extinction/apraxia, stroke mimics, last-known-well and NIHSS workflow, bedside glucose, noncontrast CT and CTA pathway, alteplase dosing, BP target and IV BP agents, thrombectomy criteria, aspirin timing, monitored stroke-unit disposition, and malignant MCA edema/herniation traps.",
+    "href": "mca-infarction/",
+    "file": "mca-infarction/index.html",
     "assets": {
-      "image_2160x3840": "orbital-cellulitis/assets/orbital-cellulitis-gpt-image-2-2160x3840.png",
-      "image_4320x7680": "orbital-cellulitis/assets/orbital-cellulitis-gpt-image-2-4320x7680.png",
-      "image_original": "orbital-cellulitis/assets/orbital-cellulitis-gpt-image-2-original.png"
+      "image_2160x3840": "mca-infarction/assets/mca-infarction-gpt-image-2-2160x3840.png",
+      "image_4320x7680": "mca-infarction/assets/mca-infarction-gpt-image-2-4320x7680.png",
+      "image_original": "mca-infarction/assets/mca-infarction-gpt-image-2-original.png"
     },
-    "source_extract": "source_extracts/orbital-cellulitis-tintinalli9-pdf-extract-2026-06-08-redo.txt",
+    "source_extract": "source_extracts/mca-infarction-tintinalli9-pdf-extract-2026-06-08-redo.txt",
     "generation": "Built-in image generation requested as gpt-image-2-style bitmap; resized to exact 2160x3840 and upscaled 2x to 4320x7680.",
-    "completed_at": "2026-06-08T21:48:00+07:00",
+    "completed_at": "2026-06-08T22:58:00+07:00",
     "notes": "Redo requested by user; old custom-diagram assets replaced by generated bitmap assets."
   }
 }

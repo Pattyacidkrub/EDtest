@@ -1,5 +1,22 @@
 [
   {
+    "title": "MCA Infarction: Anterior Circulation Stroke",
+    "slug": "mca-infarction",
+    "system": "Neurology / Stroke / Critical Care",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli 9e Ch.167 pp.1119-1136",
+    "summary": "Remade with a generated bitmap infographic for ED MCA infarction: face/arm > leg anterior-circulation stroke pattern, dominant aphasia versus nondominant neglect/extinction/apraxia, stroke mimics, last-known-well and NIHSS workflow, bedside glucose, noncontrast CT and CTA pathway, alteplase dosing, BP target and IV BP agents, thrombectomy criteria, aspirin timing, monitored stroke-unit disposition, and malignant MCA edema/herniation traps.",
+    "href": "mca-infarction/",
+    "file": "mca-infarction/index.html",
+    "assets": {
+      "image_2160x3840": "mca-infarction/assets/mca-infarction-gpt-image-2-2160x3840.png",
+      "image_4320x7680": "mca-infarction/assets/mca-infarction-gpt-image-2-4320x7680.png",
+      "image_original": "mca-infarction/assets/mca-infarction-gpt-image-2-original.png"
+    },
+    "source_extract": "source_extracts/mca-infarction-tintinalli9-pdf-extract-2026-06-08-redo.txt",
+    "generation": "Built-in image generation requested as gpt-image-2-style bitmap; resized to exact 2160x3840 and upscaled 2x to 4320x7680."
+  },
+  {
     "title": "Orbital Cellulitis: ED Eye Emergency",
     "slug": "orbital-cellulitis",
     "system": "Ophthalmology / Infectious Disease / Pediatrics",
@@ -221,15 +238,6 @@
     "file": "naphthalene-poisoning-g6pd-infographic.html",
     "chapter": "Tintinalli Ch.236 pp.1488-1489; Ch.237 pp.1491-1494; Ch.207 pp.1329-1332; Ch.176 pp.1191-1192; ATSDR/MedlinePlus/UKHSA",
     "summary": "Mothball/naphthalene exposure in G6PD deficiency: oxidative hemolysis, methemoglobinemia diagnosis, labs to send, treatment pathway, methylene-blue trap, disposition, and why milk/feeding is held initially."
-  },
-  {
-    "title": "MCA Infarction: Anterior Circulation Stroke",
-    "slug": "mca-infarction",
-    "system": "Neurology / Stroke / Critical Care",
-    "date": "2026-06-08",
-    "chapter": "Tintinalli Ch.167 pp.1119-1134; Ch.239 p.1509; Ch.57 p.404",
-    "summary": "ED approach to middle cerebral artery infarction: anterior-circulation MCA syndrome, dominant aphasia versus nondominant neglect, stroke mimics, last-known-well timing, NIHSS caveats, CT/CTA/perfusion pathway, alteplase and tenecteplase dosing cautions, blood-pressure targets, thrombectomy criteria for ICA/proximal MCA occlusion, malignant MCA edema, disposition, and exam traps.",
-    "file": "mca-infarction-infographic.html"
   },
   {
     "title": "Scaphoid Fracture: Occult Wrist Injury",

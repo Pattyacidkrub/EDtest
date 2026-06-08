@@ -1,0 +1,2340 @@
+========================================================================================
+Tintinalli 9e Ch.167 Stroke Syndromes / MCA infarction / acute stroke treatment pp.1119-1136
+========================================================================================
+
+--- PDF PAGE 1164 ---
+CHAPTER 167: Stroke Syndromes 
+ 
+  1119 
+Stroke Syndromes
+Steven Go 
+INTRODUCTION AND EPIDEMIOLOGY
+In the United States, 795,000 people experience strokes annually (one 
+stroke every 40 seconds and one death from stroke every 4 minutes).1 Of 
+these events, 77% are primary strokes, whereas 23% represent recurrent 
+strokes.1 In addition to the human costs, the financial implications of 
+stroke are enormous—strokes accounted for an estimated $33.9 billion 
+of total expenditures in the United States in 2012 to 2013.1 Despite these 
+grim statistics, from 2004 to 2014, the age-adjusted stroke death rate fell 
+28.7%.1 With the growing use of stroke units, thrombolysis, mechanical 
+retrieval, and the ever-expanding treatment time window, there is 
+potential for improving patient outcomes.
+PATHOPHYSIOLOGY AND ANATOMY
+Stroke is generally defined as any disease process that interrupts blood 
+flow to the brain. Injury is related to the loss of oxygen and glucose sub­
+strates necessary for high-energy phosphate production and the pres­
+ence of mediators of secondary cellular injury. Subsequent factors, such 
+as edema and mass effect, may exacerbate the initial insult.
+An understanding of the diagnosis and treatment of stroke begins 
+with a working knowledge of the relevant vascular supply and neuro­
+anatomy of the brain. The arterial supply to the brain is illustrated in 
+Figures 167-1 and 167-2.
+The vascular supply is divided into anterior and posterior circula­
+tions. Clinical findings in stroke are determined by the location of the 
+lesion(s) (Table 167-1), but the degree of collateral circulation may 
+cause variations in the specific clinical symptoms and their severity.
+Stroke results from two major mechanisms: ischemia and hemor­
+rhage. Ischemic strokes account for 87% of all strokes and are categorized 
+by cause: thrombotic, embolic, or hypoperfusion related. Hemorrhagic 
+strokes are subdivided into intracerebral (accounting for 10% of all 
+strokes) and nontraumatic subarachnoid hemorrhage (accounting for 
+3% of all strokes)1 (Table 167-2). The final common pathway for all of 
+these mechanisms is altered neuronal perfusion. Neurons are exquisitely 
+sensitive to changes in cerebral blood flow and die within minutes of 
+complete cessation of perfusion—hence, the current treatment emphasis 
+on rapid reperfusion strategies.
+PREHOSPITAL CARE
+The early detection of stroke must begin with the general public. In gen­
+eral, stroke knowledge among laypersons remains suboptimal, especially 
+in the elderly,2 the poorly educated,2 and minority populations.3 This 
+has led to mass media initiatives to raise stroke awareness4; however, the 
+effectiveness of these initiatives is often short lived.4-6
+Three of the more commonly used prehospital tools are the Cincinnati 
+Prehospital Stroke Scale,7 the Los Angeles Prehospital Stroke Screen,8 
+and the Melbourne Ambulance Stroke Screen9 (Table 167-3).
+With the increasing usage of endovascular thrombectomy for emer­
+gent large-vessel occlusion, numerous attempts have been made to 
+derive prehospital tools to detect emergent large-vessel occlusion in 
+order to aid in patient routing to comprehensive stroke centers.10-16 How­
+ever, at this time, no published scale has demonstrated both high speci­
+ficity and sensitivity for detection of emergent large-vessel occlusion,17,18 
+and the assessment of these scales in actual prehospital use has been 
+limited.18 Therefore, routine use of these emergent large-vessel occlusion 
+scales in the prehospital setting awaits further validation.
+Time is a critical component in the care of stroke patients. EMS per­
+sonnel should quickly ascertain the time of onset of the patient’s symp­
+toms, giving particular attention to bystander accounts to clarify details, 
+because stroke patients may be difficult historians. Family members and/
+or witnesses to the event should be urged to come to the ED as soon as 
+possible to provide further medical information to the treating physi­
+cian. Time at the scene should be limited. EMS personnel should rapidly 
+stabilize the patient’s condition and transport the patient to the closest 
+facility best able to emergently and properly treat the patient’s stroke.19 
+In some cases, it may be necessary to bypass closer, but less capable, 
+facilities in order to increase the chances of the patient receiving the best 
+CHAPTER
+167
+Broca’s area
+Sensory cortex
+Auditory area
+Motor cortex
+Contraversive eye center
+Wernicke’s aphasia area
+Visual cortex
+Post. parietal a.
+Ant. parietal a.
+Rolandic a.
+Prerolandic a.
+Lateral
+oribitofrontal a.
+Sup. division
+middle cerebral a.
+Temporopolar a.
+Middle cerebral a.
+Inf. division
+middle cerebral a.
+Angular a.
+Post. temporal a.
+Visual radiation
+Ant. temporal a.
+FIGURE 167-1.  Cerebral hemisphere, lateral aspect. Note the branches and distribution of the middle cerebral artery and the principal regions of cerebral localization. The middle cerebral 
+artery bifurcates into a superior and inferior division. a. = artery; ant. = anterior; inf. = inferior; post. = posterior; sup. = superior. [Modified with permission from Fauci AS, Braunwald E, 
+Kasper DL, et al: Harrison’s Principles of Internal Medicine, 17th ed. New York: McGraw-Hill Professional; 2008.]
+
+
+--- PDF PAGE 1165 ---
+1120 
+ 
+  SECTION 14: Neurology
+  TABLE 167-1    Anterior and Posterior Circulation of the Brain
+Circulation
+Major Arteries
+Major Regions of Brain Supplied
+Anterior 
+(internal carotid 
+system)
+Ophthalmic
+Optic nerve and retina
+Anterior cerebral
+Frontal pole
+ 
+Anteromedial cerebral cortex
+ 
+Anterior corpus callosum
+Middle cerebral
+Frontoparietal lobe
+ 
+Anterotemporal lobe
+Posterior 
+(vertebral system)
+Vertebral
+Brainstem
+Posteroinferior cerebellar
+Cerebellum
+Basilar
+Thalamus
+Posterior cerebral
+Auditory/vestibular structures
+Medial temporal lobe
+Visual occipital cortex
+Medial rolandic a.
+Sensory
+cortex
+Post.
+parietal a.
+Splenial a.
+Lateral posterior
+choroidal a.
+Post. thalamic a.
+Parietooccipital a.
+Visual cortex
+Striate area
+along calcarine
+sulcus
+Calcarine a.
+Post. temporal a.
+Medial posterior
+choroidal a.
+Hippocampal a.
+Ant. temporal a.
+Post. cerebral a.
+Penetrating
+thalamosubthalamic
+paramedian a.
+Post. communicating a.
+Medial orbitofrontal a.
+Ant. cerebral a.
+Frontopolar a.
+Callosomarginal a.
+Medial
+prerolandic a.
+Secondary
+motor area
+Pericallosal a.
+Motor cortex
+FIGURE 167-2.  Cerebral hemisphere, medial aspect. Note the branches and distribution of the anterior cerebral artery, posterior cerebral artery, and the principal regions of cerebral 
+localization. a. = artery; ant. = anterior; post. = posterior. [Reproduced with permission from Fauci AS, Braunwald E, Kasper DL, et al: Harrison’s Principles of Internal Medicine, 17th ed. 
+New York: McGraw-Hill Professional; 2008.]
+possible care, especially if a patient may be a candidate for endovascular 
+therapy. However, the decision-making process for determining the 
+ideal destination remains complex. For example, one must weigh the 
+known harms from delays in administration of IV thrombolytics20 if a 
+patient bypasses a primary stroke center versus the potential harm from 
+delays in thrombectomy21 that can be caused by the “drip and ship to 
+a comprehensive stroke center” approach in patients who turn out to 
+have an emergent large-vessel occlusion. At the time of this writing, the 
+2018 American Heart Association (AHA)/American Stroke Association 
+(ASA) acute ischemic stroke recommendations19 are being modified to 
+better address this difficult issue.22 Therefore, the development of local 
+EMS stroke routing policies should involve EMS directors, ED medi­
+cal directors, stroke center directors, and healthcare policy officials to 
+determine how best to utilize the specific resources available in that 
+particular community.
+CLINICAL FEATURES
+The diagnosis of stroke in the ED rests on the bedrock of a focused, 
+accurate history and physical examination.23 The clinical presentation 
+of stroke can range from the obvious (facial droop, arm drift, abnormal 
+speech) to the subtle (generalized weakness, lightheadedness, vague sen­
+sory changes, altered mental status). Women account for slightly more 
+than half of strokes in the United States,24 and very modest gender dif­
+ferences exist in terms of presenting signs and symptoms.25-27 In general, 
+women tend to report more severe, but diffuse, nontraditional symp­
+toms compared to the more traditional symptoms typically reported by 
+men,26 but evidence of these distinctions is limited (Table 167-4).
+
+ HISTORY
+The timing of symptom onset, the presence of associated symptoms, 
+and the medical history may point toward a particular mechanism of 
+stroke. For example, sudden onset of symptoms suggests an embolic or 
+hemorrhagic stroke, whereas a stuttering or waxing and waning deficit 
+suggests a thrombotic or hypoperfusion-related stroke. A history of 
+Valsalva maneuver immediately preceding a thunderclap headache 
+or sudden onset of symptoms suggests a ruptured cerebral aneurysm, 
+whereas a recent history of neck trauma or manipulation suggests cervi­
+cal artery dissection. Risk factors for vessel thrombus include hyperten­
+sion, diabetes mellitus, and coronary atherosclerotic disease. In contrast, 
+atrial fibrillation, valvular replacement, or recent myocardial infarction 
+suggests embolism. Transient neurologic deficits occurring in the same 
+vascular distribution suggest underlying vascular disease consistent with 
+a thrombotic stroke, whereas transient deficits involving different vas­
+cular distributions suggest embolism. Although adjunctive history can 
+be helpful in determining the type of stroke, exhaustive or unduly pro­
+longed attempts to elicit nonessential history should not delay therapy.
+Accurately determine the time of symptom onset. Time of onset is 
+frequently misreported as the time a patient was discovered with symp­
+toms or the time of awakening (if symptoms were noted upon awakening). 
+
+
+--- PDF PAGE 1166 ---
+CHAPTER 167: Stroke Syndromes 
+ 
+  1121 
+  TABLE 167-2    Stroke Classification
+Stroke Type
+Mechanism
+Major Causes
+Clinical Notes
+Ischemic
+Thrombotic
+Narrowing of a damaged 
+vascular lumen by an in situ 
+process—usually clot formation
+Atherosclerosis
+Vasculitis
+Arterial dissection
+Polycythemia
+Hypercoagulable state
+Infection (human immunodeficiency virus infection, 
+syphilis, trichinosis, tuberculosis, aspergillosis)
+Symptoms often have gradual onset and may wax and wane.
+Common cause of transient ischemic attack.
+Embolic
+Obstruction of a normal vascular 
+lumen by intravascular material 
+from a remote source
+Valvular vegetations
+Mural thrombi
+Paradoxical emboli
+Cardiac tumors (myxomas)
+Arterial-arterial emboli from proximal source
+Fat emboli
+Particulate emboli (IV drug use)
+Septic emboli
+Typically sudden in onset.
+Account for 20% of ischemic strokes.
+Hypoperfusion
+Low–blood flow state leading to 
+hypoperfusion of the brain
+Cardiac failure resulting in systemic hypotension
+Diffuse injury pattern in watershed regions.
+Symptoms may wax and wane with hemodynamic factors.
+Hemorrhagic
+Intracerebral
+Intraparenchymal hemorrhage 
+from previously weakened 
+arterioles
+Hypertension
+Amyloidosis
+Iatrogenic anticoagulation
+Vascular malformations
+Cocaine use
+Intracranial pressure rise causes local neuronal damage.
+Secondary vasoconstriction mediated by blood breakdown products or 
+neuronal mechanisms (diaschisis) can cause remote perfusion changes.
+Risks include advanced age, history of stroke, and tobacco or alcohol use.
+More common in those of Asian or African descent.
+Nontraumatic 
+subarachnoid
+Hemorrhage into subarachnoid 
+space
+Berry aneurysm rupture
+Vascular malformation rupture
+May be preceded by a sentinel headache (“warning leak”).
+  TABLE 167-3    Prehospital Stroke Scales
+Cincinnati Prehospital Stroke Scale (If any of the three items are abnormal, 
+sensitivity = 66%, specificity = 87% for acute stroke.)
+1.  Facial droop (abnormal: one side of face does not move as well as other side)
+2.  Arm drift (abnormal: one arm does not move or one arm drifts down compared with the 
+other)
+3.  Speech (abnormal: slurred, inappropriate words or mute)
+Los Angeles Prehospital Stroke Screen (If answers to all items 1–6 are “Yes” or 
+“Unknown,” sensitivity = 91% [95% confidence interval (CI) 76%–98%], 
+specificity = 97% [95% CI 93%–99%] for acute stroke.)
+1.  Age >45 y
+2.  No history of seizure disorder
+3.  New onset of neurologic symptoms in last 24 h
+4.  Patient ambulatory at baseline (prior to event)
+5.  Blood glucose level of 60–400 milligrams/dL
+6.  Obvious asymmetry in any of the following examinations: facial smile/grimace, grip, arm 
+strength
+Melbourne Ambulance Stroke Screen (If answers to all items 1–4 are “Yes” PLUS at 
+least one of 5–8 is present, sensitivity = 90% [95% CI 81%–96%], specificity = 74% 
+[95% CI 53%–88%] for acute stroke.)
+1.  Age >45 y
+2.  No history of seizure/epilepsy
+3.  Not wheelchair-bound/bedridden at baseline
+4.  Blood glucose 50–400 milligrams/dL
+5.  Unilateral facial droop
+6.  Unilateral hand grip weakness
+7.  Unilateral arm drift
+8.  Abnormal speech
+The time of onset is defined as the last known time when the patient’s 
+condition was at their baseline (i.e., “last known well” time).19
+Quickly exclude as many stroke mimics as possible (Table 167-5).28-30 
+After likely stroke mimics are excluded, if acute stroke is still the most 
+likely diagnosis and if the symptom onset is within the recommended 
+time limits for thrombolytic therapy, elicit information pertaining to 
+inclusion and exclusion criteria for the administration of thrombolytics 
+in acute ischemic stroke.19,31
+
+ PHYSICAL EXAMINATION
+Assessment of airway, breathing, and circulation is the top priority. Next, 
+the goals of examination are to confirm the diagnosis of stroke, exclude 
+stroke mimics, and identify comorbidities. Fever should prompt an inves­
+tigation for potential infection. CNS infections (meningitis, encephalitis) 
+may mimic a stroke, or an infection such as aspiration pneumonia or a 
+urinary tract infection may be a complication of the stroke. Evaluate for 
+
+
+--- PDF PAGE 1167 ---
+1122 
+ 
+  SECTION 14: Neurology
+  TABLE 167-4    Selected Stroke Symptoms
+Traditional symptoms
+Sudden numbness or weakness of face, arm, or 
+leg—especially unilateral*
+Sudden aphasia
+Sudden dysarthria*
+Sudden memory deficit or spatial orientation or 
+perception difficulties
+Sudden visual deficit or diplopia*
+Sudden dizziness, gait disturbance, or ataxia*
+Sudden severe headache with no known cause
+Nontraditional symptoms
+Impaired consciousness or syncope†
+Generalized weakness†
+Altered mental status†
+Dysphagia†
+Shortness of breath
+Sudden pain in the face, chest, arms, or legs
+Seizure
+Falls or accidents
+Sudden hiccups
+Sudden nausea
+Sudden fatigue
+Sudden palpitations
+*More common in men.
+†More common in women.
+  TABLE 167-5    Stroke Mimics
+Disorder
+Distinguishing Clinical Features
+Seizures/postictal 
+paralysis (Todd’s 
+paralysis)
+Transient paralysis following a seizure, which typically disappears 
+quickly; can be confused with transient ischemic attack. Seizures 
+can be secondary to a cerebrovascular accident.
+Syncope
+No persistent or associated neurologic symptoms.
+Meningitis/
+encephalitis
+Fever, immunocompromised state may be present, meningismus, 
+detectable on lumbar puncture.
+Complicated 
+migraine
+History of similar episodes, preceding aura, headache.
+Brain neoplasm 
+or abscess
+Focal neurologic findings, signs of infection, detectable by 
+imaging.
+Epidural/subdural 
+hematoma
+History of trauma, alcoholism, anticoagulant use, bleeding disorder; 
+detectable by imaging.
+Subarachnoid 
+hemorrhage
+Sudden onset of severe headache.*
+Hypoglycemia
+Can be detected by bedside glucose measurement, history of 
+diabetes mellitus.
+Hyponatremia
+History of diuretic use, neoplasm, excessive free water intake.
+Hypertensive 
+encephalopathy
+Gradual onset; global cerebral dysfunction, headache, delirium, 
+hypertension, cerebral edema.
+Hyperosmotic coma
+Extremely high glucose levels, history of diabetes mellitus.
+Wernicke’s 
+encephalopathy
+History of alcoholism or malnutrition; triad of ataxia, ophthal­
+moplegia, and confusion.
+Labyrinthitis
+Predominantly vestibular symptoms; patient should have no other 
+focal findings; can be confused with cerebellar stroke.
+Drug toxicity 
+(lithium, phenytoin, 
+carbamazepine)
+Can be detected by particular toxidromes and elevated blood 
+levels. Phenytoin and carbamazepine toxicity may present with 
+ataxia, vertigo, nausea, and abnormal reflexes.
+Bell’s palsy
+Neurologic deficit confined to isolated peripheral seventh nerve 
+palsy; often associated with younger age.
+Ménière’s disease
+History of recurrent episodes dominated by vertigo symptoms, 
+tinnitus, deafness.
+Demyelinating 
+disease (multiple 
+sclerosis)
+Gradual onset. Patient may have a history of multiple episodes of 
+neurologic findings in multifocal anatomic distributions.
+Conversion disorder
+No cranial nerve findings, nonanatomic distribution of findings 
+(e.g., midline sensory loss), inconsistent history or examination 
+findings.
+*Although subarachnoid hemorrhage is a type of stroke, it has special considerations in terms of diagnosis 
+and management. See Chapter 166, “Spontaneous Subarachnoid and Intracerebral Hemorrhage.”
+meningismus, signs of emboli (Janeway lesions and Osler nodes), and 
+bleeding diatheses (ecchymoses or petechiae). A funduscopic examination 
+may identify signs of papilledema (suggesting a mass lesion, cerebral vein 
+thrombosis, or hypertensive crisis) or preretinal hemorrhage (consistent 
+with subarachnoid hemorrhage). Assess for findings suggestive of possible 
+cardiac or vascular disease, such as rales, an S3 gallop, or carotid bruit.
+Use a validated stroke severity scale to assess the neurologic status of the 
+patient. The National Institutes of Health Stroke Scale (NIHSS)32 is the 
+most widely used scale for documenting the severity of a stroke. The 
+NIHSS is an 11-category (15-item) neurologic evaluation (score range of 0 
+to 42) that is rapid (5 to 10 minutes), has a high interrater reliability,33,34 and 
+provides a baseline score that is useful in predicting patient outcomes35,36 
+(Table 167-6). An Adobe Acrobat (pdf) file of the NIHSS, as well as detailed 
+instructions for its use, are readily available for download from the National 
+Institute of Neurological Disorders and Stroke (NINDS) website (https://
+www.ninds.nih.gov/sites/default/files/NIH_Stroke_Scale.pdf). In addition, 
+NIHSS calculators are available on the internet37 and for use with mobile 
+devices.38,39 An important caveat is that the NIHSS is weighted toward 
+the detection of anterior circulation strokes as opposed to posterior 
+circulation strokes.40,41 This is because common symptoms of posterior 
+strokes (cranial nerve deficits and ataxia) receive fewer points, and ataxia 
+is often scored as absent by raters if weakness is present. In addition, the 
+NIHSS has a bias toward detection of left hemisphere strokes.42 A modified 
+NIHSS, which omits the redundant and least reliable items, produces 
+clinical results similar to those for the full NIHSS43 and is easier to use 
+(score range of 0 to 31); however, this scale has not been as widely validated 
+as the full NIHSS and is not in common use. Important scoring rules for 
+proper use of the NIHSS44 are as follows: Score what you see, not what you 
+think; score the first response, not the best response, except item 9 (best 
+language); and do not coach. (See Video: NIH Stroke Scale.)
+
+ ISCHEMIC STROKE SYNDROMES
+ANTERIOR CEREBRAL ARTERY INFARCTION
+Occlusion of the anterior cerebral artery is uncommon (0.5% to 3% of all 
+strokes45), but when unilateral occlusion occurs, it can cause contralateral 
+sensory and motor symptoms in the lower extremity, with sparing of the 
+hands and face. In addition, a left-sided lesion is typically associated with 
+akinetic mutism and transcortical motor aphasia (a nonfluent aphasia 
+with greatly reduced spontaneous speech, but with retained auditory 
+comprehension and repetition ability), whereas right-sided infarction 
+can result in confusion and motor hemineglect. Bilateral occlusion can 
+cause a combination of the above symptoms but was particularly associ­
+ated with mutism, incontinence, and poor outcome in one small series.46
+MIDDLE CEREBRAL ARTERY INFARCTION
+The middle cerebral artery is the vessel most commonly involved in 
+stroke, and clinical findings can be quite variable, depending on exactly 
+where the lesion is located and which brain hemisphere is dominant. 
+(In right-handed patients and in up to 80% of left-handed patients, the 
+left hemisphere is dominant.) A middle cerebral artery stroke typically 
+presents with hemiparesis, facial plegia, and sensory loss contralateral 
+to the affected cortex. These deficits variably affect the face and upper 
+extremity more than the lower extremity. If the dominant hemisphere is 
+involved, aphasia (receptive, expressive, or both) is often present. If the 
+nondominant hemisphere is involved, inattention, neglect, extinction 
+on double-simultaneous stimulation, dysarthria without aphasia, and 
+constructional apraxia (difficulty in drawing complex two-dimensional 
+
+
+--- PDF PAGE 1168 ---
+CHAPTER 167: Stroke Syndromes 
+ 
+  1123 
+  TABLE 167-6    National Institutes of Health Stroke Scale (NIHSS) 
+Instructions
+Scale Definition
+	1a.	 Level of consciousness (LOC)*
+	
+	 The investigator must choose a response if a full evaluation is prevented by such obstacles as an 
+endotracheal tube, language barrier, or orotracheal trauma/bandages. A 3 is scored only if the 
+patient makes no movement (other than reflexive posturing) in response to noxious stimulation.
+0 = Alert; keenly responsive.
+1 = Not alert, but arousable by minor stimulation to obey, answer, or respond.
+2 = Not alert; requires repeated stimulation to attend, or is obtunded 
+and requires strong or painful stimulation to make movements (not 
+stereotyped).
+3 = Responds only with reflex motor or autonomic effects or is totally unre­
+sponsive, flaccid, and areflexic.
+	1b.	 LOC questions
+	
+	 The patient is asked the month and his or her age. The answer must be correct—there is no 
+partial credit for being close. Aphasic and stuporous patients who do not comprehend the 
+questions are given a score of 2. Patients unable to speak because of endotracheal intubation, 
+orotracheal trauma, severe dysarthria from any cause, language barrier, or any other problem not 
+secondary to aphasia are given a score of 1. It is important that only the initial answer be graded 
+and that the examiner not “help” the patient with verbal or nonverbal cues.
+0 = Answers both questions correctly.
+1 = Answers one question correctly.
+2 = Answers neither question correctly.
+	1c.	 LOC commands
+	
+	 The patient is asked to open and close the eyes and then to grip and release the nonparetic hand. 
+Substitute another one-step command if the hands cannot be used. Credit is given if an unequivocal 
+attempt is made but not completed due to weakness. If the patient does not respond to command, 
+the task should be demonstrated to him or her (pantomime) and the result scored (i.e., follows no, 
+one, or two commands). Patients with trauma, amputation, or other physical impediments 
+should be given suitable one-step commands. Only the first attempt is scored.
+0 = Performs both tasks correctly.
+1 = Performs one task correctly.
+2 = Performs neither task correctly.
+	 2.	 Best gaze
+	
+	 Only horizontal eye movements are tested. Voluntary or reflexive (oculocephalic) eye movements 
+are scored, but caloric testing is not done. If the patient has a conjugate deviation of the eyes 
+that can be overcome by voluntary or reflexive activity, the score is 1. If a patient has an isolated 
+peripheral nerve paresis (cranial nerve III, IV, or VI), the score is 1. Gaze is testable in all aphasic 
+patients. Patients with ocular trauma, bandages, preexisting blindness, or other disorder of visual 
+acuity or fields should be tested with reflexive movements, and a choice made by the investigator. 
+Establishing eye contact and then moving about the patient from side to side will occasionally clarify 
+the presence of a partial gaze palsy.
+0 = Normal.
+1 = Partial gaze palsy; gaze is abnormal in one or both eyes, but forced 
+deviation or total gaze paresis is not present.
+2 = Forced deviation, or total gaze paresis not overcome by the oculoce­
+phalic maneuver.
+	 3.	 Visual
+	
+	 Visual fields (upper and lower quadrants) are tested by confrontation, using finger counting or 
+visual threat, as appropriate. Patients may be encouraged, but if they look at the side of the 
+moving fingers appropriately, this can be scored as normal. If there is unilateral blindness or 
+enucleation, visual fields in the remaining eye are scored. Score 1 only if a clear-cut asymmetry, 
+including quadrantanopia, is found. If the patient is blind from any cause, score 3. Double 
+simultaneous stimulation is performed at this point. If there is extinction, patient receives a 
+score of 1, and the results are used to respond to item 11.
+0 = No vision loss.
+1 = Partial hemianopia.
+2 = Complete hemianopia.
+3 = Bilateral hemianopia (blind including cortical blindness).
+	 4.	 Facial palsy*
+	
+	 Ask—or use pantomime to encourage—the patient to show teeth or raise eyebrows and 
+close eyes. Score symmetry of grimace in response to noxious stimuli in the poorly responsive 
+or noncomprehending patient. If facial trauma/bandages, orotracheal tube, tape, or other physical 
+barriers obscure the face, these should be removed to the extent possible.
+0 = Normal symmetric movements.
+1 = Minor paralysis (flattened nasolabial fold, asymmetry on smiling).
+2 = Partial paralysis (total or near-total paralysis of lower face).
+3 = Complete paralysis of one or both sides (absence of facial movement in 
+the upper and lower face).
+	 5.	 Motor arm
+	
+	 The limb is placed in the appropriate position: extend the arms (palms down) 90 degrees (if sitting) 
+or 45 degrees (if supine). Drift is scored if the arm falls before 10 s. (Count out loud and use fingers 
+to show the patient the count.) The aphasic patient is encouraged using urgency in the voice and 
+pantomime, but not noxious stimulation. Each limb is tested in turn, beginning with the nonparetic 
+arm. Only in the case of amputation or joint fusion at the shoulder, the examiner should record the 
+score as untestable (UN) and clearly write the explanation for this choice.
+	
+	  
+5a. Left arm
+	
+	  
+5b. Right arm
+0 = No drift; limb holds 90 (or 45) degrees for full 10 s.
+1 = Drift; limb holds 90 (or 45) degrees, but drifts down before full 10 s; does 
+not hit bed or other support.
+2 = Some effort against gravity; limb cannot get to or maintain (if cued) 
+90 (or 45) degrees, drifts down to bed, but has some effort against gravity.
+3 = No effort against gravity; limb falls.
+4 = No movement.
+	 6.	 Motor leg
+	
+	 The limb is placed in the appropriate position: hold the leg at 30 degrees (the patient is always tested 
+supine). Drift is scored if the leg falls before 5 s. (Count out loud and use fingers to show the patient 
+the count.) The aphasic patient is encouraged using urgency in the voice and pantomime, but not 
+noxious stimulation. Each limb is tested in turn, beginning with the nonparetic leg. Only in the case of 
+amputation or joint fusion at the hip, the examiner should record the score as untestable (UN) and 
+clearly write the explanation for this choice.
+	
+	  
+6a. Left leg
+	
+	  
+6b. Right leg
+0 = No drift; leg holds 30-degree position for full 5 s.
+1 = Drift; leg falls by the end of the 5-s period but does not hit bed.
+2 = Some effort against gravity; leg falls to bed by 5 s, but has some effort 
+against gravity.
+3 = No effort against gravity; leg falls to bed immediately.
+4 = No movement.
+(Continued)
+
+
+--- PDF PAGE 1169 ---
+1124 
+ 
+  SECTION 14: Neurology
+  TABLE 167-6    National Institutes of Health Stroke Scale (NIHSS) 
+Instructions
+Scale Definition
+	 7.	 Limb ataxia*
+	
+	 This item is aimed at finding evidence of a unilateral cerebellar lesion. Test with the patient’s 
+eyes open. In case of visual defect, ensure that testing is done in the intact visual field. The 
+finger-nose-finger and heel-shin tests are performed on both sides, and ataxia is scored only if 
+present out of proportion to weakness. Ataxia is absent in the patient who cannot understand or is 
+paralyzed. Only in the case of amputation or joint fusion, the examiner should record the score as 
+untestable (UN) and clearly write the explanation for this choice. In case of blindness, test by 
+having the patient touch the nose from an extended arm position.
+0 = Absent.
+1 = Present in one limb.
+2 = Present in two limbs.
+	 8.	 Sensory†
+	
+	 Sensation or grimace to pinprick when tested, or withdrawal from a noxious stimulus in the 
+obtunded or aphasic patient. Only sensory loss attributed to stroke is scored as abnormal, and the 
+examiner should test as many body areas (arms [not hands], legs, trunk, face) as needed to check 
+accurately for hemisensory loss. A score of 2, “severe or total sensory loss,” should be given only 
+when a severe or total loss of sensation can be clearly demonstrated. Stuporous and aphasic 
+patients will therefore probably score 1 or 0. The patient with brainstem stroke who has bilateral 
+loss of sensation is scored 2. If the patient does not respond and is quadriplegic, score 2. Patients 
+in a coma (item 1a score = 3) are automatically given a 2 on this item.
+0 = Normal; no sensory loss.
+1 = Mild-to-moderate sensory loss; patient feels pinprick is less sharp or is 
+dull on affected side, or there is loss of superficial pain with pinprick, 
+but patient is aware of being touched.
+2 = Severe to total sensory loss; patient is not aware of being touched on 
+face, arm, and leg.*
+	 9.	 Best language
+	
+	 A great deal of information about comprehension is obtained during the preceding sections of 
+the examination. For this scale item, the patient is asked to describe what is happening in the test 
+picture, to name the items on the test naming sheet, and to read from the test list of sentences. 
+Comprehension is judged from responses here as well as responses to all of the commands in the 
+preceding general neurologic examination. If vision loss interferes with the tests, ask the patient to 
+identify objects placed in the hand, repeat, and produce speech. The intubated patient should be 
+asked to write. The patient in a coma (item 1a score = 3) automatically scores 3 on this item. 
+The examiner must choose a score for the patient with stupor or limited cooperation, but a score 
+of 3 should be used only if the patient is mute and follows no one-step commands.
+0 = No aphasia; normal.
+1 = Mild-to-moderate aphasia; some obvious loss of fluency or facility of 
+comprehension, without significant limitation on ideas expressed or 
+form of expression. However, reduction of speech and/or comprehension 
+makes conversation about provided materials difficult or impossible. 
+For example, in conversation about provided materials, examiner can 
+identify picture or naming card content from patient’s response.
+2 = Severe aphasia; all communication is through fragmentary expression; 
+great need for inference, questioning, and guessing by listener. Range 
+of information that can be exchanged is limited; listener carries burden 
+of communication. Examiner cannot identify materials provided from 
+patient’s response.
+3 = Mute, global aphasia; no usable speech or auditory comprehension.
+	10.	 Dysarthria*
+	
+	 If the patient is thought to be normal, an adequate sample of speech must be obtained by asking 
+the patient to read or repeat words from the test list. If the patient has severe aphasia, the clarity of 
+articulation of spontaneous speech can be rated. Only if the patient is intubated or has other physical 
+barriers to producing speech, the examiner should record the score as untestable (UN) and clearly 
+write an explanation for this choice. Do not tell the patient why he or she is being tested.
+0 = Normal.
+1 = Mild-to-moderate dysarthria; patient slurs at least some words and, at 
+worst, can be understood with some difficulty.
+2 = Severe dysarthria; patient’s speech is so slurred as to be unintelligible 
+in the absence of or out of proportion to any dysphasia, or is mute/
+anarthric.
+	11.	 Extinction and inattention
+	
+	 Sufficient information to identify neglect may be obtained during the prior testing. If the patient 
+has a severe vision loss preventing visual double simultaneous stimulation and the responses to 
+cutaneous stimuli are normal, the score is 0. If the patient has aphasia but does appear to attend to 
+both sides, the score is 0. The presence of visual spatial neglect or anosognosia may also be taken 
+as evidence of abnormality. Because the abnormality is scored only if present, the item is never 
+scored as untestable.
+0 = No abnormality.
+1 = Visual, tactile, auditory, spatial, or personal inattention or extinction to 
+bilateral simultaneous stimulation in one of the sensory modalities.
+2 = Profound hemi-inattention or extinction in more than one modality; 
+patient does not recognize own hand or orients to only one side of 
+space.
+*Items not included in the modified NIHSS.43
+†Scale for item 8 is compressed to two elements (0 = normal; 1 = abnormal) for modified NIHSS.43
+Source: National Institute of Neurological Disorders and Stroke (NINDS) website (https://www.ninds.nih.gov/sites/default/files/NIH_Stroke_Scale.pdf). Accessed September 11, 2018.
+or three-dimensional figures) may occur. A homonymous hemianopsia 
+and gaze preference toward the side of the infarct may also be seen, 
+regardless of the side of the infarction.
+POSTERIOR CEREBRAL ARTERY INFARCTION 
+(DISTAL POSTERIOR CIRCULATION)
+The classic symptoms and signs of posterior circulation strokes include 
+ataxia, nystagmus, altered mental status, and vertigo, but presentation 
+can sometimes be rather subtle.47 Crossed neurologic deficits (e.g., 
+ipsilateral cranial nerve deficits with contralateral motor weakness) may 
+indicate a brainstem lesion. According to an analysis of a large stroke 
+registry,48 symptoms of posterior cerebral artery involvement include 
+unilateral limb weakness, dizziness, blurry vision, headache, and dys­
+arthria. Common presenting signs include visual field loss, unilateral 
+limb weakness, gait ataxia, unilateral limb ataxia, cranial nerve VII signs, 
+lethargy, and sensory deficits.48 Visual field loss, classically described as 
+contralateral homonymous hemianopsia and unilateral cortical blind­
+ness, is thought to be specific for distal posterior circulation stroke 
+because the visual centers of the brain are supplied by the posterior cere­
+bral artery. Light-touch and pinprick sensation deficits, loss of ability to 
+read (alexia) without agraphia, inability to name colors, recent memory 
+loss, unilateral third nerve palsy, and hemiballismus have also been 
+reported. Motor dysfunction, although common, is typically minimal, 
+which can keep some patients from realizing they have had a stroke.
+BASILAR ARTERY OCCLUSION 
+(MIDDLE POSTERIOR CIRCULATION)
+Occlusion of the basilar artery most commonly presents with symp­
+toms of unilateral limb weakness, dizziness, dysarthria, diplopia, and 
+headache.48 The most common presenting signs are unilateral limb 
+(Continued)
+
+
+--- PDF PAGE 1170 ---
+CHAPTER 167: Stroke Syndromes 
+ 
+  1125 
+weakness, cranial nerve VII signs, dysarthria, Babinski sign, and oculo­
+motor signs.48 Dysphagia, nausea or vomiting, dizziness, and Horner’s 
+syndrome are positively correlated with basilar artery occlusion.48 Basilar 
+artery occlusion can also rarely cause locked-in syndrome, which occurs 
+with bilateral pyramidal tract lesions in the ventral pons and is character­
+ized by complete muscle paralysis except for upward gaze and blinking. 
+Basilar artery occlusions have a high risk of death and poor outcomes.49,50
+VERTEBROBASILAR INFARCTION 
+(PROXIMAL POSTERIOR CIRCULATION)
+Patients with vertebrobasilar infarction most commonly present with 
+symptoms of dizziness, nausea or vomiting, headache, dysphagia, 
+unilateral limb weakness, and unilateral cranial nerve V symptoms.48 
+Common presenting signs include unilateral limb ataxia, nystagmus, 
+gait ataxia, cranial nerve V signs, limb sensory deficit, and Horner’s 
+syndrome.48 For further discussion of vertigo, see Chapter 170, “Vertigo.”
+CEREBELLAR INFARCTION
+Patients with cerebellar infarction can present with very nonspecific 
+symptoms and can present with dizziness (with or without vertigo), 
+nausea and vomiting, gait instability, headache, limb ataxia, dysarthria, 
+dysmetria, nystagmus, hearing loss, and intractable hiccups.51 Mental 
+status may vary from alert to comatose. Because up to 25% of noncon­
+trasted head CTs can be normal in cerebellar infarction,52 if the initial 
+noncontrasted head CT is unremarkable, obtain an emergent diffusion-
+weighted MRI when this diagnosis is suspected. A CT angiogram or 
+magnetic resonance angiogram is useful to characterize any vascular 
+lesion once the diagnosis is made. The clinical presentation and course 
+of cerebellar infarction can be frustratingly difficult to predict, but the 
+clinician must remain vigilant to the possibility of rapid deterioration 
+secondary to increased brainstem pressure caused by cerebellar edema. 
+Therefore, extremely close serial examinations (especially looking for 
+gaze palsy and altered mental status) and prompt neurologic and neuro­
+surgical bedside consultations are needed. Obtain early neurosurgical 
+consultation for patients with cerebellar infarction. Cerebellar edema 
+can lead to rapid deterioration with herniation, and consultation is 
+required to determine the need for emergency posterior fossa decom­
+pression in these patients. Acute obstructing hydrocephalus or symp­
+tomatic mass effect requires rapid treatment of elevated intracranial 
+pressure with hyperosmolar therapy (mannitol or hypertonic saline) and 
+emergent surgical decompression.51
+LACUNAR INFARCTION
+Lacunar infarcts are pure motor or sensory deficits caused by infarction 
+of small penetrating arteries and are commonly associated with chronic 
+hypertension and increasing age. The presentation is variable based on 
+the location and size of the lesions. The prognosis is generally consid­
+ered more favorable than for other stroke syndromes.
+CAROTID AND VERTEBRAL ARTERY DISSECTION
+Carotid or vertebral artery dissection (collectively referred to as “cervi­
+cal artery dissection”) is an uncommon entity (2.6 to 2.9 per 100,000 
+annually in the general population) that is a major cause of stroke (up 
+to 20% prevalence) in young adults and the middle-aged.53 A history of 
+neck trauma in the days to weeks prior to presentation is a prominent 
+risk factor. The trauma is usually minor54 (e.g., manipulative therapy 
+of the neck55-57 or sport-related trauma58). Other associated condi­
+tions include hypertension,59 large-vessel arteriopathies,60 history of 
+migraine,61 and heritable connective tissue disease.62
+The typical first symptom of patients with carotid or vertebral artery 
+dissection is unilateral headache (68%), neck pain (39%), or face pain 
+(10%),63 which can precede other symptoms by hours to days (median, 
+4 days).64 New-onset headache or neck pain of unclear etiology is such 
+an important symptom that imaging of the neck vessels is recommended 
+by some as part of initial evaluation.65 Symptoms may be transient or 
+persistent. The median time between an initial presentation of neck 
+pain and the development of other neurologic symptoms is 14 days, 
+but if headache is the first symptom, other neurologic symptoms follow 
+within a median time of 15 hours.64
+
+ CAROTID ARTERY DISSECTION
+The headache is most commonly in the frontotemporal region and, due 
+to its variable quality and severity, may mimic subarachnoid hemor­
+rhage (i.e., “thunderclap” headache), temporal arteritis, or preexisting 
+migraine. A partial Horner’s syndrome (miosis and ptosis) has tradition­
+ally been linked to carotid artery dissection, but in reality, it occurs in 
+only about 25% of patients and is a sign accompanying other disorders 
+besides stroke.66 Associated cranial nerve palsies have been reported in 
+12% of carotid artery dissections.67 Carotid dissection can progress to 
+cause cerebral ischemia or, rarely, retinal infarction.
+
+ VERTEBRAL ARTERY DISSECTION
+Vertebral artery dissection commonly presents with dizziness/vertigo 
+(58%), headache (51% to 65%), and neck pain (46% to 66%).63,68 Both 
+headache and neck pain can be unilateral or bilateral.63 The headache 
+is typically occipital, but can rarely present with pain on an entire side 
+of the head or in the frontal region.69 Other symptoms and signs may 
+include unilateral facial paresthesia, dizziness, vertigo, nausea/emesis, 
+diplopia and other visual disturbances, ataxia, limb weakness, numb­
+ness, dysarthria, and hearing loss. Cervical radiculopathy (typically a 
+peripheral motor deficit at the C5 level) is a rare presentation (1%) and 
+can also involve multiple levels and sensory findings.70 Untreated ver­
+tebral artery dissection may result in infarction in regions of the brain 
+supplied by the posterior circulation.
+CT/CT angiography and MRI/magnetic resonance angiography are the 
+diagnostic modalities of choice for suspected carotid, vertebral, or basi­
+lar artery dissection and have similar test performance characteristics.71 
+The choice of study is usually determined by immediate availability and 
+patient stability. The sensitivity of color duplex US for the detection of 
+cervical artery dissection is comparatively low (approximately 92%) and 
+may miss important vascular lesions.72,73
+
+ TREATMENT OF CAROTID AND VERTEBRAL ARTERY DISSECTION
+Cervical artery dissection can cause ischemic stroke via a thromboem­
+bolic process, or a decreased blood flow secondary to the vascular lesion 
+itself, or from a mixed mechanism.74 If a patient with cervical artery 
+dissection presents with the symptoms of acute ischemic stroke, treat 
+them similarly to any other stroke patient. Although no large-scale 
+randomized trials regarding systemic thrombolysis in cervical artery 
+dissection have yet been published, a meta-analysis of 10 observational 
+studies (n = 846) concluded that thrombolysis was equally efficacious in 
+stroke from cervical artery dissection as in stroke from other causes.75 
+Furthermore, the study determined that thrombolysis in cervical artery 
+dissection caused no increased incidence of harm when compared to its 
+use in stroke from other causes.75 Therefore, consider the administra­
+tion of IV thrombolytic therapy in all eligible patients with stroke 
+from cervical artery dissection. The efficacy of endovascular therapy 
+for cervical artery dissection–related stroke is unclear because the 
+benefits of endovascular therapy have been shown only for the anterior 
+circulation (see later section “Endovascular Therapy”), and there is a 
+paucity of published data to direct care in these patients. For example, 
+after excluding many studies for low quality, a 2017 meta-analysis study­
+ing this issue was able to include only 16 retrospective case reports or 
+small case series, which had “an overall high risk of bias.”76 Although 
+the outcome trend in the included data was favorable for endovascular 
+therapy, the lack of high-quality randomized data makes drawing defini­
+tive conclusions difficult. Therefore, if a patient with cervical artery 
+dissection–related stroke qualifies for consideration of endovascular 
+therapy, discuss with a stroke neurointerventionalist at a comprehensive 
+stroke center to help determine the best course of action.
+In cervical artery dissection patients who are not candidates for 
+thrombolysis or endovascular therapy, the two major medical choices 
+
+
+--- PDF PAGE 1171 ---
+1126 
+ 
+  SECTION 14: Neurology
+for treatment are anticoagulation or antiplatelet therapy. Historically, 
+carotid and vertebral artery dissection has been traditionally treated 
+with IV heparin followed by warfarin (to maintain an INR of 2.0 to 
+3.0). This treatment has persisted despite the absence of high-quality 
+randomized controlled trials comparing anticoagulation with other 
+potentially more effective treatment modalities.77 In 2012 and 2015, 
+meta-analyses of nonrandomized trials found no difference in patient 
+outcomes between antiplatelet therapy and anticoagulation.78,79 In 2015, 
+the Cervical Artery Dissection in Stroke Study was published.80 The 
+Cervical Artery Dissection in Stroke Study was the first randomized 
+trial comparing antiplatelet agents (aspirin, dipyridamole, or clopidogrel 
+alone or in combination [determined by the individual clinician]) to 
+anticoagulation (heparin [either unfractionated heparin or therapeutic 
+low-molecular-weight heparin] followed by warfarin) in acute cervical 
+artery dissection. The Cervical Artery Dissection in Stroke Study 
+found no difference in patient outcomes between the two treatment 
+modalities. An important caveat is that based on previous estimates of 
+recurrent stroke prevalence, the planned study size was small (n =250). 
+However, during the trial, it was discovered that the prevalence of recur­
+rent stroke in both the control and study groups was far lower than 
+expected and there were no deaths. Based on these data, the authors 
+determined the study lacked the power to detect a difference between 
+the two treatment modalities and that the revised sample size to do so 
+(n = 10,000) made further investigation unfeasible.81 Therefore, pend­
+ing the availability of new randomized controlled trial data, administer 
+either anticoagulant or antiplatelet therapy in the ED if the patient 
+is not a candidate for IV thrombolysis. Select the specific therapy in 
+conjunction with appropriate specialist consultation.
+
+ HEMORRHAGIC STROKE SYNDROMES
+Spontaneous intracerebral hemorrhage may be clinically indistinguish­
+able from ischemic infarction, but the two conditions are distinct clinical 
+entities in terms of management, with higher levels of morbidity and 
+mortality for hemorrhage than for ischemic infarction.82,83 Therefore, 
+perform CT to differentiate between the two. Headache, nausea, and 
+vomiting often precede the neurologic deficit, and the patient’s condition 
+may quickly deteriorate (see Chapter 166, “Spontaneous Subarachnoid 
+and Intracerebral Hemorrhage”).
+Cerebellar hemorrhage may be clinically indistinguishable from 
+cerebellar infarction. The same clinical presentation and management 
+considerations detailed earlier in this chapter apply (see earlier section 
+“Cerebellar Infarction”).
+Subarachnoid hemorrhage is typically characterized by a severe 
+occipital or nuchal headache. Patient history includes the recent sudden 
+onset of a maximal-intensity headache in many cases. Careful history 
+taking may reveal activities associated with a Valsalva maneuver, such 
+as defecation, sexual activity, weight lifting, or coughing, at stroke onset. 
+For further information, see Chapter 166, “Spontaneous Subarachnoid 
+and Intracerebral Hemorrhage.”
+
+ STROKE DIAGNOSIS
+Mimics (Table 167-5)28-30 can often be distinguished from stroke by care­
+ful history taking and physical examination, bedside tests, observation, 
+and appropriate imaging. However, it can be difficult to distinguish 
+conditions with focal transient symptoms (e.g., seizure) from transient 
+ischemic attack (TIA).
+INITIAL DIAGNOSTIC EVALUATION
+The classic mantra, “time is brain,”84 explains the current AHA/ASA 
+stroke guidelines Class IB recommendation to enact “an organized 
+protocol for the emergency evaluation of patients with suspected 
+stroke” in which the primary goal is to achieve a door-to-needle time of 
+≤60 minutes of ED arrival in ≥50% of acute ischemic stroke patients who 
+are treated with thrombolytics.19 Based on performance data in hospitals 
+participating in the “Get with the Guidelines—Stroke” initiative (i.e., 
+median door-to-needle time 56 minutes; 30% treated in ≤45 minutes),85 
+it seems likely that the recommended door-to-needle time goal will 
+decrease in the future. Creation of a multidisciplinary stroke team is rec­
+ommended, along with implementation of quality improvement initia­
+tives to “safely increase IV thrombolytic treatment.”19 The culture of the 
+institution should be aligned to encourage rapid diagnosis and treatment 
+of stroke. Train triage personnel to suspect stroke and to quickly activate 
+a stroke critical pathway that includes specific standing orders and pro­
+cedures. Implement the critical pathway immediately upon that patient’s 
+arrival, beginning in the triage area. Notify the emergency physician, the 
+ED charge nurse, and the CT and laboratory technicians immediately 
+when acute stroke is suspected. Do not delay the workup because ED 
+beds are overcrowded or the emergency physician is currently otherwise 
+engaged. ED core interventions are listed in Table 167-7.19,86-98
+Nonessential testing and procedures (including IV starts and blood 
+draws) should not delay performing brain imaging within 20 minutes of 
+the patient’s arrival. A summary of time goals is listed in Table 167-8.19
+BRAIN IMAGING
+Obtain emergency non–contrast-enhanced CT for suspected acute 
+stroke upon arrival. Most acute ischemic strokes are not visualized by 
+a noncontrast brain CT in the early hours of a stroke.23 Therefore, the 
+utility of the first brain CT is primarily to exclude intracranial bleeding, 
+abscess, tumor, and other stroke mimics, as well as to detect current 
+contraindications to thrombolytics (e.g., “extensive regions of clear 
+hypoattenuation”).19
+The CT scan should be interpreted by the most expert interpreter 
+available as soon as it is completed. The identification of subtle hem­
+orrhage and early cerebral infarction requires expertise. In hospitals 
+without on-site experts, telemedicine consultation is an option. Studies 
+have shown fair to excellent interobserver agreement in CT readings 
+between telemedicine stroke neurologists and neuroradiologists,99,100 
+and telemedicine was associated with faster head CT interpretation in a 
+cohort of 19 rural critical access hospitals.101 In one retrospective study 
+(n = 1659), even when there were differing CT interpretations between 
+telemedicine stroke neurologists and overreading neuroradiologists 
+in patients who received thrombolytics, there was no association with 
+thrombolysis-related symptomatic intracranial hemorrhage.99
+Diffusion-weighted MRI is superior to non–contrast-enhanced CT 
+or other types of MRI (T1/T2 weighted, fluid-attenuated inversion 
+recovery) in the detection of acute infarction.102,103 However, CT’s 
+superior rapid availability, MRI’s patient-specific contraindications 
+(lack of cooperation, claustrophobia, metallic implants or pacemak­
+ers, and diminished access to the patient), the relative inexperience in 
+some practitioners in interpreting MRI scans in acute stroke, and cost-
+effectiveness102 work in CT’s favor for this indication. Therefore, in the 
+vast majority of EDs, a non–contrast-enhanced CT is the most readily 
+available imaging study and is the only imaging study necessary prior 
+to administration of thrombolytics.19 An emerging exception to this 
+general rule is in the case of patients in whom time of stroke symptom 
+onset is uncertain. One trial found that patients with ischemic stroke seen 
+with diffusion-weighted MRI, but no hyperintensity of the parenchyma 
+seen on fluid-attenuated inversion recovery, benefited from IV thrombo­
+lytic therapy104 (see later section “Thrombolysis: Indications, Exclusions, 
+Dosage, and Complications”). Nevertheless, even in these patients, non–
+contrast-enhanced CT is still the imaging mode of first choice.
+
+ VASCULAR IMAGING
+With the advent of endovascular therapies, identifying the presence of 
+intracranial large-vessel stenosis or occlusion is important for therapeutic 
+decisions. CT angiography or magnetic resonance angiography can detect 
+these lesions. If a patient is a possible candidate for endovascular therapy, 
+vascular imaging (typically CT angiography of the head and neck) is rec­
+ommended concurrently with the initial head CT; however, these 
+additional studies should not delay thrombolytic administration.19 In 
+other words, if a patient is a candidate based on the initial CT, do not 
+delay thrombolytic administration while waiting to perform CT angi­
+ography or to receive the results of CT angiography. Therefore, if an 
+
+
+--- PDF PAGE 1172 ---
+CHAPTER 167: Stroke Syndromes 
+ 
+  1127 
+  TABLE 167-7    Core ED Interventions for Suspected Acute Stroke
+Intervention/Evaluation
+Rationale/Discussion
+All patients 
+Assessment of airway, breathing, 
+circulation
+Immediate life threats must be addressed before other interventions are undertaken. Actively manage airway if necessary.
+Establish IV access
+IV access is necessary for possible thrombolytic therapy. (Do not delay brain imaging for prolonged IV access attempts.)
+Pulse oximetry
+To detect hypoxia.
+Oxygen administration (if hypoxia 
+is present)
+Routine oxygen supplementation is not indicated in stroke86 and should be given only to keep oxygen saturation >94%.
+Cardiac monitoring
+Dysrhythmias, especially atrial fibrillation, are not infrequent in acute stroke and may predict 3-month mortality.87,88 Prophylactic administration 
+of antiarrhythmic agents is not indicated.
+Bedside glucose determination
+To rapidly rule out hypoglycemia mimicking stroke. Treat hypoglycemia (<60 milligrams/dL) with IV dextrose.
+This is the only laboratory test result required prior to thrombolytic therapy19 unless the patient is taking oral anticoagulation therapy or 
+heparin, or if there is a strong suspicion of thrombocytopenia or other bleeding diatheses19 (see Table 167-11).
+Noncontrasted brain CT or MRI
+To exclude intracerebral hemorrhage, other contraindications to IV thrombolytics, or stroke mimics. (See discussion in “Brain Imaging” section 
+of this chapter.)
+ECG
+Acute coronary syndrome, dysrhythmias (especially atrial fibrillation), ECG changes, and abnormal cardiac biomarkers are frequently associated 
+with acute stroke.89,90 ECG abnormalities and abnormal troponin T levels may also predict short-term and 3-mo mortality.87,91 A large study 
+(n = 9180) of consecutive stroke patients revealed that 2.3% suffered a subsequent myocardial infarction, with 64.9% morbidity/mortality 
+compared with 35.8% in the entire cohort.92 A 2016 meta-analysis (n = 52,098) determined that one third of ischemic stroke patients with no 
+previous cardiac history had >50% coronary stenosis. There was also a 3% overall risk of having an myocadiac infarction within a year of an 
+acute stroke.93
+CBC including platelet count
+To detect polycythemia, thrombocytosis, or thrombocytopenia.
+Coagulation studies
+To detect preexisting coagulopathy in hemorrhagic stroke or when thrombolytics are being considered in circumstances where there is a 
+strong suspicion of the possibility of a coagulopathy (see Table 167-11).
+Electrolyte levels
+To detect electrolyte-imbalance stroke mimics (particularly Na+ and Ca2+).
+Cardiac biomarker levels
+See “ECG” earlier in this table. A 2018 study also found that an elevated B-type natriuretic peptide within 48 hours was associated with a pure 
+cardiac stroke mechanism (odds ratio 4.35; 95% confidence interval 2.59–7.29; P < .5) and may be useful in detecting cardiac etiologies of 
+ischemic stroke.94
+Nothing by mouth (NPO) order
+To protect against aspiration.
+Strict bed rest in the ED
+To protect against falls and seizures (in the period immediately after stroke). In patients who can maintain oxygenation, supine position has 
+been suggested to possibly improve patient outcomes by enhancing cerebral blood flow95; however, a large (n = 11,093) cluster-randomized, 
+crossover trial found no difference in stroke patient outcomes between lying flat for 24 hours and head of bed elevation to at least 
+30 degrees.96 However, significant methodologic concerns about this study have been raised, and optimal head positioning for stroke remains 
+controversial.97 That said, it is probably reasonable to consider raising the head of the bed to 15 to 30 degrees in patients at risk for hypoxia, 
+airway compromise, aspiration, or suspected increased intracranial pressure.
+Selected patients 
+Chest radiograph
+Routine chest radiography in asymptomatic patients is not recommended and should be reserved only for situations where a cardiopulmonary 
+contraindication to thrombolytics is suspected or if immediate management would be significantly impacted by chest radiograph findings.98
+Urinalysis
+To detect infectious stroke mimics or stroke-associated infections.
+Pregnancy test (if female of 
+childbearing age)
+Pregnancy influences diagnosis and management considerations.
+Toxicology screen and/or blood alcohol 
+level (if ingestion suspected)
+To detect stroke mimics as well as potential causes of stroke such as ingestion of a sympathomimetic (e.g., cocaine, methamphetamine, 
+phencyclidine).
+Lumbar puncture (if infection or 
+subarachnoid hemorrhage suspected)
+To detect stroke mimics. 2018 American Heart Association/American Stroke Association guidelines recommend that based on consensus 
+expert opinion (Class IIb; Level of evidence: C-EO), IV thrombolysis may be considered in patients who have undergone lumbar puncture in the 
+preceding 7 d.19
+indicated CT angiography is not done with the initial head CT, it is 
+reasonable to administer thrombolytics after the noncontrasted CT 
+and then return the patient to the CT scanner for CT angiography 
+to minimize door-to-needle time.19 It is important to realize that in 
+patients with no history of renal insufficiency, it is not necessary to 
+have a serum creatinine result prior to performing contrasted studies 
+for stroke, because these studies are not associated with significantly 
+increased risk of acute kidney injury.105-107
+
+ PERFUSION STUDIES
+In acute ischemic stroke, the area of irreversible brain infarct (core) 
+is surrounded by ischemic tissue that may potentially be salvageable, 
+regardless of the time of onset of symptoms. The size of this penumbra 
+region cannot be ascertained clinically, so perfusion CT and diffusion-
+weighted MRI/fluid-attenuated inversion recovery can be used to mea­
+sure the size of the penumbra and to guide further therapy for patients 
+who fall outside the time ranges for thrombolysis or where the time of 
+symptom onset is unclear.108 However, to date, there are only two 
+major positive studies in these particular patients that used perfusion 
+  TABLE 167-8    AHA/ASA Time Recommendations for Acute Ischemic Stroke 
+Presenting to the ED
+Intervention
+Time Goal (from ED arrival)
+Activation of stroke team
+Immediately upon arrival
+Start of brain imaging
+≤20 minutes
+Administration of IV thrombolytics
+≤60 minutes (secondary goal ≤45 minutes)
+Abbreviation: AHA/ASA = American Heart Association/American Stroke Association.
+
+
+--- PDF PAGE 1173 ---
+1128 
+ 
+  SECTION 14: Neurology
+  TABLE 167-9    Management of Hypertension Before Administration of 
+Recombinant Tissue Plasminogen Activator (rtPA) or in Patients 
+Awaiting Thrombectomy
+If the patient is a candidate for rtPA therapy, the target arterial blood pressures are 
+systolic blood pressure ≤185 mm Hg and diastolic blood pressure ≤110 mm Hg.
+Drug
+Comments
+Labetalol, 10–20 milligrams 
+IV over 1–2 min, may repeat ×1
+Use with caution in patients with severe asthma, severe 
+chronic obstructive pulmonary disease, congestive heart 
+failure, diabetes mellitus, myasthenia gravis, concurrent 
+calcium channel blocker use, hepatic insufficiency. 
+May cause dizziness and nausea.
+or
+ 
+Nicardipine infusion, 
+5 milligrams/h, titrate up by 
+2.5 milligrams/h at 5- to 
+15-min intervals; maximum 
+dose: 15 milligrams/h; when 
+desired blood pressure attained, 
+reduce to 3 milligrams/h
+Use with caution in patients with myocardial 
+ischemia, concurrent use of fentanyl (hypotension), 
+congestive heart failure, hypertrophic cardiomyopathy, 
+portal hypertension, renal insufficiency, hepatic 
+insufficiency (may need to adjust starting dose). 
+Contraindicated in patients with severe aortic 
+stenosis. Can cause headache, flushing, dizziness, 
+nausea, reflex tachycardia.
+or
+ 
+Clevidipine infusion, 
+1–2 milligrams/h, titrate up 
+by doubling dose every 
+2–5 min; maximum dose: 
+21 milligrams/h
+Use with caution in patients with congestive 
+heart failure. Can cause reflex tachycardia atrial 
+fibrillation, and systemic hypotension. Contraindicated 
+in patients with severe aortic stenosis, allergies 
+to soy or eggs, and lipid metabolism disorders 
+(e.g., pathologic hyperlipidemia, lipoid nephrosis, or 
+acute pancreatitis with hyperlipidemia).
+Alternative agents such as hydralazine or enalaprilat may be considered if clinically 
+appropriate.
+If the target arterial blood pressures for rtPA administration cannot be reached with these 
+initial measures, then the patient is no longer a candidate for rtPA therapy.
+studies to select candidates for endovascular therapy in their protocols 
+(see later section “Endovascular Therapy”): the Diffusion-Weighted 
+Imaging or Computerized Tomography Perfusion Assessment with 
+Clinical Mismatch in the Triage of Wake-Up and Late Presenting Strokes 
+Undergoing Neurointervention (DAWN) trial109 and the Diffusion and 
+Perfusion Imaging Evaluation for Understanding Stroke Evolution trial 
+(DEFUSE 3).110 Therefore, the current AHA/ASA guidelines do not 
+recommend routine use of perfusion studies in all stroke patients. 
+Rather, they primarily advocate using perfusion studies in the context 
+of strict adherence to DAWN and DEFUSE 3’s inclusion and exclusion 
+criteria when treating patients outside of clinical trials.19 This point has 
+become an issue of debate because of the publication of positive studies on 
+patients who awaken with stroke symptoms (“wake-up strokes”) that used 
+CT perfusion to aid in selecting patients for thrombolytic therapy.104,111,112 
+These studies and clinician feedback caused the AHA/ASA to withdraw 
+the portion of their 2018 guidelines that suggested using perfusion stud­
+ies in selecting patients for endovascular therapy in <6 hours was not 
+beneficial.22 Therefore, at this time, the best use of perfusion studies in 
+acute stroke remains somewhat unsettled, but it is likely to be pivotal in 
+the management of patients with unknown or prolonged last known well 
+times113 and in patients with TIA (see later section “TIA Risk Stratification 
+and Disposition”).
+
+ GENERAL TREATMENT OF 
+ACUTE ISCHEMIC STROKE
+STANDARD TREATMENT
+Initial ED stabilization and interventions are listed in Table 167-7.19,86-98 
+Many of these interventions are consensus based. Not all patients will be 
+eligible for thrombolytics, so it is important to follow general treatment 
+principles for all patients.
+Dehydration can contribute to worsened outcomes in ischemic stroke 
+patients secondary to increased blood viscosity, hypotension, renal impair­
+ment, and venous thromboembolism.114,115 However, routine volume 
+expansion and hemodilution do not improve outcomes in stroke patients.116 
+Therefore, correct dehydration if present with IV crystalloid fluids, but do 
+not overcorrect. For euvolemic patients, provide maintenance fluids.
+Routine oxygen supplementation is not indicated in stroke86 and 
+should be given only if necessary to keep oxygen saturation >94%. 
+Hyperbaric oxygenation treatment is of no benefit.117
+Fever is associated with increased morbidity and mortality in stroke,118 
+possibly due to fever-related inflammatory response,118 increased meta­
+bolic demands, and free radical production.119 Identify the source of 
+fever and treat the underlying cause (e.g., infection). While it is tradi­
+tional to treat the fever itself with acetaminophen, strong evidence of 
+favorable outcomes as a result of doing this remains elusive.120,121 Avoid 
+ibuprofen for temperature regulation, as it has been shown to not lower 
+temperature in these patients122 and may be associated with risk of 
+bleeding. In addition, physical cooling measures should be considered 
+second-line therapies only,123 as their benefit has not been established.124
+Admit all acute stroke patients to monitored care units familiar with 
+the care of stroke patients, preferably to specialized stroke units at des­
+ignated stroke centers. The use of stroke units has been associated with 
+decreased complications and length of stay, improved daily function, 
+decreased rate of discharge to long-term care facilities, and increased 
+likelihood of being able to live at home in the long term—with the benefit 
+being independent of thrombolytic use.125-127 If a patient with acute stroke 
+presents to a facility that lacks these resources, consider transferring the 
+patient to a higher level of care after the patient’s condition has stabilized 
+and IV thrombolytics have been given, as indicated—the “drip and ship” 
+model. Emergent, early consultation with an experienced stroke physi­
+cian at the accepting institution is desirable in these circumstances.
+BLOOD PRESSURE CONTROL IN STROKE
+The optimal blood pressure for acute ischemic stroke victims is 
+unknown; however, based on consensus opinion, the current AHA/ASA 
+acute stroke guidelines19 recommend that hypotension and hypovolemia 
+be corrected with either colloids or crystalloids128 to maintain organ 
+perfusion; however, there is no specific target blood pressure for patients 
+not eligible for reperfusion therapy.
+Conversely, based on the blood pressure guidelines used in 
+randomized controlled trials of thrombolytics, blood pressure control 
+is considered essential prior to, during, and after thrombolytic therapy. 
+A systolic blood pressure >185 mm Hg or a diastolic blood pressure 
+>110 mm Hg is a contraindication to the use of thrombolytics19 because 
+elevated blood pressure (both before and after thrombolysis)129,130 
+is associated with increased risk for hemorrhagic transformation of 
+ischemic stroke. Elevated pretreatment blood pressure is common 
+(20%),131 and a strategy of active management of elevated blood 
+pressure as opposed to watchful waiting may increase the proportion 
+of patients able to receive thrombolysis.131,132 Therefore, if a patient 
+is a candidate for thrombolytics, lower blood pressure to meet 
+these entry parameters. An approach to management of arterial 
+hypertension is detailed in Table 167-919 and Table 167-10.19 If 
+the target arterial blood pressures cannot be reached with these 
+measures, then the patient is no longer a candidate for thrombolytic 
+therapy. Similarly, based on randomized controlled trials of intra-
+arterial therapy, the same blood pressure goal of ≤185/110 mm Hg 
+is recommended for those who are candidates for intra-arterial 
+therapy.19 Preliminary studies also suggest that less favorable outcomes 
+after thrombectomy are also associated with elevated baseline blood 
+pressures.133
+HYPERGLYCEMIA
+The current AHA/ASA guidelines recommend the maintenance of blood 
+glucose between 140 milligrams/dL (7.77 mmol/L) and 180 milligrams/dL 
+(9.99 mmol/L).19 Avoid and treat hypoglycemia (<60 milligrams/dL 
+
+
+--- PDF PAGE 1174 ---
+CHAPTER 167: Stroke Syndromes 
+ 
+  1129 
+  TABLE 167-10    Management of Hypertension During and After Administration 
+of Thrombolytics or Other Acute Reperfusion Therapy
+Blood Pressure Monitoring Frequencies 
+Time After Start of rtPA Infusion
+Frequency of Blood Pressure Monitoring
+0–2 h
+Every 15 min
+3–8 h
+Every 30 min
+9–24 h
+Every 60 min
+Drug Treatment of Hypertension During and After Administration of Thrombolytics 
+or Other Acute Reperfusion Therapy
+If systolic blood pressure is 
+>180–230 mm Hg or diastolic 
+blood pressure is >105–120 mm Hg
+Labetalol, 10 milligrams IV followed by infusion 
+at 2–8 milligrams/min.
+or
+Nicardipine infusion, 5 milligrams/h, titrate up 
+by 2.5 milligrams/h at 5- to 15-min intervals; 
+maximum dose 15 milligrams/h.
+or
+Clevidipine infusion, 1–2 milligrams/h, titrate 
+up by doubling dose every 2–5 min; maximum 
+dose 21 milligrams/h.
+If blood pressure is not controlled by 
+above measures or if diastolic blood 
+pressure >140 mm Hg
+Consider sodium nitroprusside infusion 
+(0.5–10 micrograms/kg/min). Continuous 
+arterial monitoring advised; use with caution 
+in patients with hepatic or renal insufficiency. 
+Increases intracranial pressure. Pregnancy 
+category C.
+[3.33 mmol/L]). Remember that both hypoglycemia and hyperglycemia 
+are important stroke mimics.
+Hyperglycemia is common in acute stroke,134,135 and glycemic con­
+trol has been recommended based on data that associate less favorable 
+outcomes with hyperglycemia.136-138 However, data to support improved 
+outcomes with tight glycemic control are lacking,139,140 and hypoglycemia 
+must be avoided because it is associated with brain dysfunction.140
+ANTIPLATELET THERAPY
+The current AHA/ASA guidelines recommend the adminis­
+tration of oral (or by rectum if swallowing impairment is pres­
+ent) aspirin within 24 to 48 hours after stroke onset unless 
+thrombolytics have been given within the prior 24 hours.19 No 
+antiplatelet agent (including aspirin) should be given within 24 
+hours of receiving thrombolytic therapy. When the results 
+of the International Stroke Trial141 and the Chinese Acute Stroke 
+Trial142 are combined (40,000 patients), these studies demonstrate 
+significant reduction in mortality and morbidity rates (at 4 weeks and 
+6 months) when aspirin (dose 160 to 300 milligrams) is administered 
+to acute ischemic stroke patients within 48 hours.143 The benefit seems 
+due mainly to reduction of recurrent stroke. Aspirin is cost-effective and 
+adds no risk to the outcome of ischemic stroke.143 In eligible patients 
+with aspirin contraindications, it might be reasonable to consider alter­
+native antiplatelet drugs, but evidence for their efficacy is limited.19 In 
+terms of combination antiplatelet therapy, the Clopidogrel in High-Risk 
+Patients With Acute Nondisabling Cerebrovascular Events (CHANCE) 
+trial found that mild stroke patients who received clopidogrel along 
+with aspirin within 24 hours had fewer recurrent strokes (hazard ratio 
+0.68; 95% confidence interval [CI], 0.57 to 0.81; number needed to 
+treat = 29)144,145 and better functional outcomes (1.7% absolute reduction 
+of poor functional outcome; 95% CI, 0.03% to 3.42%; number needed 
+to treat = 59)146 in 90 days than patients who received aspirin alone. 
+However, the CHANCE study patients had mild, nondisabling strokes or 
+TIAs, and the study was performed entirely in China. Therefore, these 
+results await wider external validation before they can be recommended 
+routinely. Antiplatelet therapy is contraindicated in acute hemor­
+rhagic stroke.
+
+ THROMBOLYSIS BACKGROUND
+NINDS STUDY
+The National Institutes of Health/NINDS study147 was a randomized 
+double-blind trial comparing IV alteplase with placebo. The drug was 
+administered within 3 hours of symptom onset, with approximately one 
+half of patients treated within 90 minutes. Outcomes were measured using 
+four different neurologic outcome scales (including the NIHSS) and a 
+global statistic. Although there was no difference in the treatment and 
+control groups at 24 hours, at 3 months, the odds ratio (OR) for a favorable 
+outcome in treated patients was 1.7 (95% CI, 1.2 to 2.61; P = .008), an 11% 
+to 13% absolute risk reduction benefit (number needed to treat = 8 to 9 
+for tPA <3 hours). Put another way, 31% to 50% of the patients receiving 
+alteplase (depending on the scale used) had a favorable outcome at 3 months 
+compared with 20% to 38% of patients given placebo. Benefit was found 
+regardless of ischemic stroke subtype and was sustained 1 year after therapy. 
+Symptomatic intracerebral hemorrhage attributable to thrombolytics 
+occurred in 6.4% of patients in the alteplase group (45% mortality), whereas 
+symptomatic intracerebral hemorrhage occurred in 0.6% of those in the 
+placebo group (50% mortality). Despite this increased rate of intracerebral 
+hemorrhage, the mortality rate at 3 months was not significantly different 
+for the treatment and placebo groups (17% vs. 21%, respectively; P = .30), 
+and the percentage of patients left severely disabled was lower among 
+those receiving thrombolytics.147 The NINDS trial represented the first 
+randomized placebo-controlled trial that showed benefit of IV alteplase 
+in acute stroke. Prior trials using different thrombolytic agents, different 
+dosing of thrombolytics, or different treatment windows failed to show 
+benefit or showed harm. Based largely on the NINDS data, in 1996, the 
+U.S. Food and Drug Administration approved the use of IV alteplase in 
+acute ischemic stroke within 3 hours of stroke onset.
+Concerns have been raised about the NINDS trial results.148,149 The 
+NINDS trial, although well designed, was relatively small and studied 
+624 patients total, 312 of whom received alteplase. As a result of chance, 
+there existed an imbalance in baseline stroke severity between the two 
+groups that apparently favored the thrombolytic group. Therefore, the 
+NINDS investigators commissioned an independent reanalysis of the 
+data150 in 2004 that took this imbalance into account. This reanalysis 
+found that, despite the imbalance, the originally described benefit of 
+alteplase held. The authors concluded that “these findings support the 
+use of alteplase to treat patients with acute ischemic stroke within 3 
+hours of onset.”150 However, they did concede the need to collect further 
+data to determine which particular stroke subgroups would benefit or 
+be harmed. In 2009, a graphic reanalysis of the NINDS trial data set was 
+published,151 which showed very small differences in the treatment and 
+placebo group outcomes, with a slight favoring of thrombolytic treat­
+ment. Therefore, the authors concluded that the reported NINDS results 
+could have resulted from confounding alone. However, the methodology 
+of this reanalysis was challenged in a subsequent graphic reanalysis of 
+the NINDS data that supported the original results,152 although these cri­
+tiques have also been challenged in turn.153 Finally, the reliability of one 
+of the primary measures of stroke disability in NINDS and subsequent 
+trials, the modified Rankin scale, has been questioned.154
+SUBSEQUENT THROMBOLYTIC TRIALS
+The European Cooperative Acute Stroke Study III (ECASS III) demon­
+strated efficacy with an expansion of the treatment window to 4.5 hours.31 
+The OR favored treated patients (OR 1.34; 95% CI, 1.02 to 1.76), and 
+the post hoc analysis, which adjusted for confounding variables, yielded 
+similar statistical results (OR 1.42; 95% CI, 1.02 to 1.98). Although the 
+incidence of intracerebral hemorrhage was higher in the treated group 
+than the placebo group (27% vs. 17%) and the incidence of symptomatic 
+hemorrhage was also higher in the treated group (2.4% vs. 0.2%; 7.9% vs. 
+3.5% when the NINDS definition of symptomatic hemorrhage was used), 
+mortality was similar in both groups (7.7% in the rtPA group and 8.4% in 
+the control group). Based on these data, AHA/ASA issued a 2009 scientific 
+advisory155 that recommended thrombolytics should be administered to 
+eligible patients who present between 3 and 4.5 hours of an acute stroke, 
+as long as they meet the ECASS III criteria (see Table 167-11). However, 
+
+
+--- PDF PAGE 1175 ---
+1130 
+ 
+  SECTION 14: Neurology
+(Continued)
+  TABLE 167-11    Summary of American Heart Association (AHA)/American Stroke Association (ASA) 2018 Inclusion/Exclusion Criteria for IV Alteplase in Acute 
+Ischemic Stroke
+Inclusion Criteria 
+Onset of symptoms <3 h prior to thrombolytic administration
+Defined as the time the patient was last known well or last known to be at their neurologic 
+baseline.
+Measurable diagnosis of acute ischemic stroke
+Use of NIHSS score recommended. There is no upper or lower limit of NIHSS score for thrombolytics, 
+as benefit may be seen with both mild but disabling stroke symptoms170 as well as in very severe 
+strokes.158 Early improvement with residual moderate impairment and potential disability is not a 
+contraindication.
+Age ≥18 y
+No upper age limit for <3 h last known well time administration.
+Onset of symptoms from 3 to 4.5 h prior to rtPA administration
+Must meet the above inclusion criteria, plus these additional inclusion criteria:
+Age ≤80 y
+No history of diabetes mellitus and prior stroke
+NIHSS score ≤25
+Not taking oral anticoagulants
+No brain imaging evidence of ischemic injury involving greater than one third of the middle cerebral 
+artery territory
+Exclusion Criteria 
+Last known well time >3 or 4.5 hours
+Acute intercranial hemorrhage or history of intracranial hemorrhage
+Symptoms and signs suggestive of subarachnoid hemorrhage
+CT brain imaging that exhibits extensive regions of clear hypoattenuation (obvious hypodensity)
+Prior ischemic stroke or severe head trauma within 3 months
+Acute posttraumatic brain infarction that occurs during acute in-hospital phase
+Intracranial/intraspinal surgery within 3 months
+GI malignancy or GI bleeding within 21 days
+Pretreatment systolic blood pressure >185 mm Hg or diastolic blood pressure >110 mm Hg despite therapy (see Table 167-9)
+Platelet count <100,000/mm3
+If patient has no history of thrombocytopenia, thrombolytics may be given before this lab result is 
+available; however, stop thrombolytics if the platelet count is <100,000/mm3.
+INR >1.7 or activated PTT >40 s, or prothrombin time >15 s
+If patient is not taking oral anticoagulant or heparin, thrombolytics may be given before this lab 
+result is available; however, stop thrombolytics if these lab tests come back elevated above normal 
+limits.
+Oral anticoagulant use in and of itself is not a contraindication, but these labs should be checked 
+prior to administration of thrombolytics if the patient is taking oral anticoagulants or heparin.
+Use of low-molecular-weight heparin within preceding 48 h
+ 
+Current use of direct thrombin inhibitors or direct factor Xa inhibitors with 
+elevated sensitive laboratory tests (such as activated PTT, INR, platelet count, 
+and ecarin clotting time [ECT]; thrombin time; or appropriate factor Xa activity 
+assays)
+Thrombolytics may be given before coagulopathy labs results available if the patient has not 
+received a dose of these agents for >48 h and if renal function is normal. Thrombolytics may be 
+given if the appropriate coagulopathy laboratory tests are not elevated.
+Current use of glycoprotein IIb/IIIa receptor inhibitors
+ 
+Current infective endocarditis
+ 
+Known or suspected aortic arch dissection
+ 
+Intra-axial intracranial neoplasm
+ 
+Blood glucose level <50 milligrams/dL (2.7 mmol/L)
+The glucose level should be normalized prior to thrombolytic administration.
+Selected Additional Recommendations for Various Conditions
+Arterial puncture of noncompressible artery <7 d
+The safety and efficacy of thrombolytics in this condition are unclear.
+Arteriovenous malformation
+The safety and efficacy of thrombolytics with this condition are unclear; however, thrombolytics 
+may be considered in the case of severe stroke with unruptured/untreated intracranial arteriove­
+nous malformation.
+Dural puncture
+Dural puncture (<7 d) is not a contraindication.
+Eye hemorrhage
+Diabetic retinal hemorrhage or other ophthalmologic hemorrhage is not a contraindication, but the 
+benefits of thrombolytics must be weighed against the potential threat to sight.
+Major surgery or major trauma (not involving the head) within preceding 14 d
+rtPA may be carefully considered if the benefits outweigh risks.
+Malignancy
+Extra-axial intracranial neoplasm is not a contraindication.
+The safety and efficacy of thrombolytic administration in systemic malignancy are unclear.
+Menstruation
+Menstruation and menorrhagia without clinically significant anemia are not contraindications. 
+Clinically significant anemia due to these processes mandates an emergent consultation with a 
+gynecologist prior to thrombolytic administration
+
+
+--- PDF PAGE 1176 ---
+CHAPTER 167: Stroke Syndromes 
+ 
+  1131 
+based on trial data and unpublished data from the U.S. manufacturer of 
+alteplase (Genentech), the U.S. Food and Drug Administration has denied 
+approval for this indication156; therefore, alteplase administration >3 hours 
+after symptom onset is still considered off label in the United States.157 In 
+contrast, the European Medicines Agency has approved use from 3 to 4.5 
+hours after symptom onset.
+In 2012, the third International Stroke Trial (IST-3)158 was published, 
+making it the largest (n = 3035 patients) randomized controlled trial for 
+ischemic stroke to date. Patients in the treatment group were given the 
+standard dose of thrombolytics up to 6 hours after stroke onset, with 
+72% of patients receiving thrombolytics after 3 hours. The exclusion 
+criteria were loosened, including eliminating any upper age limit and the 
+broadening of the acceptable blood pressure range prior to thrombolytics 
+(systolic 90 to 220 mm Hg; diastolic 40 to 130 mm Hg).159 The trial 
+showed no difference at 6 months in the primary outcome measure, 
+Oxford Handicap Score (0 to 2; alive and independent): 37% versus 34% 
+(OR 1.13; 95% CI, 0.95 to 1.35; P = .181) in the treatment versus control 
+groups, respectively. However, a secondary ordinal analysis showed a 
+favorable shift in Oxford Handicap Scores (indicating less disability) in 
+the treatment group at 6 months. Although symptomatic intracranial 
+hemorrhage occurred in 7% of treated patients versus 1% of controls (P 
+<.0001) and 11% of deaths occurred within 7 days in treated patients 
+versus 7% in controls (P <.001), mortality at 6 months was the same 
+(27%) in both treatment and control groups. The favorable shift in Oxford 
+Handicap Score in treated patients appeared to last at least 18 months and 
+was associated with higher overall self-reported health, with no increased 
+mortality.160 Interestingly, a subgroup analysis in the IST-3 revealed that 
+patients receiving thrombolytics between 3 and 4.5 hours after symptom 
+onset actually had a nonstatistical trend toward a worse functional 
+outcome compared with controls than patients receiving thrombolytics 
+less than 3 hours and from 4.5 to 6 hours after symptom onset.158
+In 2014, a Cochrane systematic review and meta-analysis (27 trials, 
+10,187 patients) concluded that thrombolytic-treated stroke patients 
+were less likely to be dead or dependent than controls, and that early 
+treatment was better than late treatment, with possible benefit up to 
+6 hours after symptom onset.161 This benefit held despite increased 
+symptomatic intracranial hemorrhage and more early and late deaths. 
+In 2016, a group of nonneurologists and nonemergency physicians pub­
+lished a systematic review and meta-analysis (26 trials, 10,431 patients) 
+that concluded that although thrombolysis was associated with margin­
+ally improved functional outcomes, it also increased early mortality and 
+symptomatic intracranial hemorrhage rates.154,162 These authors urgently 
+called for further randomized controlled trials to be performed to help 
+resolve this continuing controversy.
+In 2015, the American College of Emergency Physicians gave a Level B 
+(moderate clinical certainty) recommendation for IV thrombolytics both 
+in the below 3 hour and in the 3 to 4.5 hour treatment windows.163 Sub­
+sequently, although the Canadian Association of Emergency Physicians 
+“strongly recommended” IV thrombolytics in the below 3 hour window, as 
+a result of data from the IST-3158 and other data,164 the Canadian Association 
+of Emergency Physicians issued a conditional recommendation against the 
+use of thrombolytic therapy beyond 3 hours of symptom onset.165 Others 
+recently raised similar concerns,149,166 some of which prompted a review 
+of alteplase for ischemic stroke by the United Kingdom Medicines and 
+Healthcare Products Regulatory Agency. This review eventually upheld 
+the decision to endorse the use of IV alteplase for stroke up to 4.5 hours.167
+
+ THROMBOLYSIS: INDICATIONS, 
+EXCLUSIONS, DOSAGE, 
+MONITORING, AND COMPLICATIONS
+Indications  The decision to administer thrombolytics must be made 
+rapidly and accurately. There must be careful identification of the time 
+of symptom onset, defined as the last moment the patient was known 
+to be at baseline (i.e., last known well time). Taking the patient and 
+family chronologically through the events immediately prior to the 
+stroke is particularly helpful in unclear cases. Thrombolytic use in 
+stroke is not currently recommended by AHA/ASA when the time of 
+onset cannot be reliably determined.
+As of this writing, the AHA/ASA recommend that strokes rec­
+ognized upon awakening (up to approximately 25% to 30% of 
+strokes168,169) should be clocked from the time at which the patient 
+was last known to be without symptoms. However, after the current 
+AHA/ASA guidelines19 were published, the landmark Efficacy and 
+Safety of MRI-Based Thrombolysis in Wake-Up Stroke (WAKE-UP) 
+trial results were published.104 WAKE-UP was a randomized con­
+trolled multicenter European trial that recruited patients who awoke 
+with stroke symptoms or who were not considered candidates for IV 
+thrombolysis with a last known well time of >4.5 hours. These patients 
+underwent MRI with diffusion-weighted imaging and fluid-attenuated 
+inversion recovery. If in the judgment of the treating physician, there 
+was evidence of an acute ischemic stroke on diffusion-weighted MRI, 
+but no parenchymal hyperintensity on fluid-attenuated inversion recov­
+ery, the patients were considered to have a diffusion-weighted imag­
+ing–fluid-attenuated inversion recovery mismatch consistent with a 
+recent stroke and the patients were offered enrollment into the study. 
+A total of 503 patients were randomly assigned to either a standard 
+dose of alteplase or placebo, and there were no significant differences in 
+demographic qualities, stroke severity (median NIHSS of 6), or median 
+time of thrombolysis to symptom onset between the groups. Average 
+last known well time for both groups was about 10 hours, and the aver­
+age time from symptom recognition to treatment was about 3 hours for 
+both groups. At 90 days after treatment, 53.3% of the alteplase group 
+had minimal disability (modified Rankin scale score of 0 or 1) compared 
+with 41.8% of the placebo group (adjusted OR 1.61; 95% CI, 1.09 to 2.36; 
+P = .02). The median 90-day modified Rankin scale score of the alteplase 
+group was 1, whereas in the placebo group, it was 2 (adjusted common 
+OR 1.62; 95% CI, 1.17 to 2.23; P = .003). However, 4.1% of patients who 
+received alteplase died within 90 days compared with 1.2% of patients 
+in the control group (OR 3.38; 95% CI, 0.92 to 12.52; P = .07), with 50% 
+of the deaths in the treatment group being unrelated to the acute stroke. 
+In a similar vein, 2.0% of the alteplase patients suffered a symptomatic 
+  TABLE 167-11    Summary of American Heart Association (AHA)/American Stroke Association (ASA) 2018 Inclusion/Exclusion Criteria for IV Alteplase in Acute 
+Ischemic Stroke
+Myocardial infarction
+Acute myocardial infarction is not a contraindication to rtPA.
+Recent (<3 months) non–ST-segment elevation myocardial infarction is not a contraindication to rtPA.
+Recent (<3 months) ST-segment elevation myocardial infarction involving the left anterior, right, or 
+inferior myocardium is not a contraindication to rtPA.
+Other cardiac conditions
+Consult a cardiologist prior to rtPA administration for other cardiac conditions such as pericarditis, 
+heart chamber thromboses, and cardiac tumors.
+Pregnancy
+rtPA may be considered for pregnant women with moderate to severe stroke. The administration of 
+rtPA at <14 d postpartum remains controversial.
+Seizure at onset
+Seizure at onset is not a contraindication to rtPA if residual impairments are thought secondary to 
+stroke and not postictal phenomenon.
+Unruptured intracranial aneurysm
+An aneurysm <10 mm in size is not a contraindication to rtPA.
+rtPA administration with an aneurysm ≥10 mm size is controversial.
+Abbreviation: NIHSS = National Institutes of Health Stroke Scale.
+(Continued)
+
+
+--- PDF PAGE 1177 ---
+1132 
+ 
+  SECTION 14: Neurology
+intracerebral hemorrhage compared with 0.4% in the placebo group (OR 
+4.95; 95% CI, 0.57 to 42.87; P = .15). This trial had several limitations, 
+including the exclusion of patients eligible for mechanical thrombec­
+tomy, adults >80 years old, and patients with NIHSS score of >25 and/
+or large middle cerebral artery lesions. In addition, the trial was stopped 
+early (about 300 patients short of planned enrollment) due to cessation 
+of funding. Had these limitations not been present, the numerical trends 
+toward increased harm in the treatment group may well have been 
+statistically significant. Although these important results await further 
+confirmation by larger trials, WAKE-UP is a landmark trial that has the 
+potential to change practice in the near future, especially when mechani­
+cal thrombectomy is not a viable option; however, its results should be 
+considered preliminary at this time.
+To achieve optimal outcomes, the patient must be evaluated carefully 
+for indications and exclusions for IV thrombolytic therapy (Table 167-11), 
+and the findings must be documented meticulously, preferably on 
+computerized or preprinted assessment forms. The decision to admin­
+ister thrombolytics is made by assessing multiple factors, including the 
+numerical NIHSS score. A score between 4 and 22 is commonly used 
+as one of the criteria for thrombolytic administration. However, some 
+patients may have a lower NIHSS score, yet have a potentially disabling 
+condition (e.g., aphasia, hemianopia, gait disturbance). Some studies 
+have also shown benefit with thrombolysis in minor strokes,170,171 but 
+further data are needed to be conclusive.172,173 Nevertheless, interpret an 
+NIHSS score in the total context of the individual patient when making 
+treatment decisions.
+A bedside blood glucose is required prior to thrombolysis; how­
+ever, do not withhold thrombolysis because other laboratory results 
+are still pending unless there is reason to suspect a pathologic or 
+iatrogenic coagulopathy. Administer thrombolytic therapy to eligible 
+patients even if endovascular therapies are being considered.19
+Exclusions  In the previous AHA/ASA stroke guidelines,155,174 the exclu­
+sion criteria hewed very closely to the conservative criteria used by the 
+NINDS and ECASS III trials. However, in the current recommenda­
+tions,19 several of the previous exclusion/relative exclusion criteria from 
+the 2013 guidelines156 have been eliminated or modified based on recent 
+data and expert consensus.157 In addition, the practical clinical validity of the 
+ECASS III criteria for administration of thrombolytics from 3 to 4.5 hours 
+has been challenged, because positive outcomes have been demonstrated 
+in patients who would not have qualified for treatment in ECASS III.157 
+However, the current AHA/ASA guidelines still list them as part of the 
+inclusion criteria for thrombolytics from 3 to 4.5 hours (Table 167-11), 
+but they note the ongoing controversy. Therefore, carefully consider the 
+treatment risks versus anticipated benefits of proposed rtPA therapy, 
+especially if any of the relative contraindications are present prior to 
+administration of the drug. When faced with such patients, obtain emer­
+gency consultation with a physician with acute stroke expertise, whether 
+on-site or via telemedicine, because local expert treatment varies and 
+patient care decisions should be individualized.
+Dosage  As of this writing, only alteplase is FDA approved for treatment 
+of acute ischemic stroke.  However, the treatment options may include 
+tenecteplase in some situations, especially outside the US. Alteplase 
+and tenecteplase have different dosages. Therefore, use the full brand or 
+generic name (alteplase, tenecteplase) when ordering.  Do not use  abbre­
+viations (rtPA,  TNK, etc) to avoid medication errors. As doses also vary 
+for the clinical indication (stroke, STEMI, PE), make sure  the dose you 
+select is the dose appropriate for the clinical indication.175 The standard 
+total dose of alteplase is 0.9 milligram/kg IV, with a maximum dose of 
+90 milligrams; administer 10% of the dose as a bolus over 1 minute, 
+with the remaining amount infused over 60 minutes. Recent data from 
+Asian trials have suggested that low-dose alteplase in acute ischemic 
+stroke results in comparable patient outcomes, with less morbidity and 
+mortality.176 However, at the time of this writing, these preliminary results 
+await large-scale confirmation in non-Asian populations; therefore, the 
+above standard alteplase dose remains recommended.
+The dose of tenecteplase is weight-based,: <60 kg: 30 milligrams; 
+60-70 kg: 40 milligrams; 80-90 kg 45 milligrams; >90 kg, 50 milligrams 
+for patients > 90 kg. The maximum dose is 50 milligrams.  Tenecteplase 
+is given as a single IV bolus over 5-10 seconds.
+Monitoring and Complications  Perform blood pressure and neu­
+rologic checks every 15 minutes for 2 hours after starting the infusion. 
+Table 167-10 outlines the emergent management of hypertension during 
+and after administration of thrombolytics. Admit patients to a specialized 
+stroke unit (if available) or an intensive care unit familiar with the use of 
+thrombolytic drugs and neurologic monitoring. If post-rtPA bleeding 
+is suspected, halt drug administration and perform an emergent CT. 
+Order a CBC with platelet count, coagulation studies, fibrinogen level, 
+and typing and cross-match for packed red blood cells, cryoprecipitate 
+or fresh frozen plasma, and platelets. Emergent neurology, neurosurgery, 
+and hematology consultations, as needed, are appropriate. Be prepared 
+to treat the possible side effect of orolingual angioedema (reported 
+incidence approximately 0.2% to 17%).177-179 Patients taking angiotensin-
+converting enzyme inhibitors appear to be at higher risk for this com­
+plication (adjusted OR 3.9; 95% CI, 1.6 to 9.7).180 Middle cerebral artery 
+infarction has also been previously reported to be a risk factor, but this 
+has been challenged by more recent data.181 If orolingual angioedema 
+occurs, discontinue thrombolysis19 and treat angioedema similarly to 
+other causes of angioedema (see Chapter 14, “Allergy and Anaphylaxis”). 
+Consider administration of icatibant, which has been reported to be 
+efficacious in thrombolytic-associated angioedema in a handful of case 
+reports.182,183 Administration of plasma-derived C1 esterase inhibitor has 
+also been suggested to be of value, given its efficacy in angiotensin-con­
+verting enzyme inhibitor–associated angioedema.19,184 The role of angio­
+edema prophylaxis in this setting is unknown, but there has been at least 
+one reported case of successful IV thrombolysis for recurrent stroke in 
+a patient with history of previous thrombolytic-associated angioedema, 
+using simultaneous administration of prednisolone, ranitidine, and clem­
+astine.185 History of angioedema to thrombolytics and use of angiotensin-
+converting enzyme inhibitors are not designated by the ASA/AHA as 
+explicit contraindications to IV thrombolysis19; however, if these factors 
+are present, specifically discuss them as part of informed consent.
+
+ ENDOVASCULAR THERAPY
+There is intense interest in endovascular therapies, primarily intra-arterial 
+thrombolysis and mechanical clot disruption/extraction. Potential advan­
+tages of endovascular therapies include an expanded treatment window, 
+a treatment for patients with non–time-based contraindications to IV 
+thrombolysis, an ability to specifically evaluate the occluded vascular 
+territory, use of lower total doses of thrombolytic drugs, and the pos­
+sibility of mechanical clot disruption. However, early randomized trials 
+of mechanical endovascular therapy with primarily intra-arterial throm­
+bolysis or first-generation endovascular devices did not show benefit.186-189
+Subsequently, in 2015, five pivotal multicenter trials regarding intra-
+arterial thrombectomy in acute ischemic stroke were published. The 
+Multicenter Randomized Clinical Trial of Endovascular Treatment for 
+Acute Ischemic Stroke in the Netherlands (MR CLEAN),190 the Extend­
+ing the Time for Thrombolysis in Emergency Neurological Deficits–
+Intra-Arterial (EXTEND-IA) trial,191 the Endovascular Treatment for 
+Small Core and Anterior Circulation Proximal Occlusion With Emphasis 
+on Minimizing CT to Recanalization Times (ESCAPE) trial,192 the Solitaire 
+FR With the Intention for Thrombectomy as Primary Endovascular 
+Treatment for Acute Ischemic Stroke (SWIFT PRIME) trial,193 and the 
+Randomized Trial of Revascularization With Solitaire FR Device Versus 
+Best Medical Therapy in the Treatment of Acute Stroke Due to Anterior 
+Circulation Large Vessel Occlusion Presenting Within Eight Hours 
+of Symptom Onset (REVASCAT) trial194 were the first prospective, 
+randomized trials to demonstrate the efficacy of intra-arterial throm­
+bectomy with IV thrombolysis with second-generation devices in acute 
+ischemic stroke. In 2016, an additional randomized trial, Thrombecto­
+mie des Artères Cerebrales (THRACE),195 was published, the results of 
+which were consistent with those of the previous studies.
+MR CLEAN190 was the largest trial (n = 502) and the only trial of this 
+group that was not stopped prematurely for efficacy. It compared intra-
+arterial treatment (thrombolysis, thrombectomy, or both) with usual 
+medical therapy for patients with anterior circulation proximal occlu­
+sions within 6 hours of stroke onset (91% of the control group received 
+IV rtPA). The inclusion criteria included adults >18 years old (no upper 
+
+
+--- PDF PAGE 1178 ---
+CHAPTER 167: Stroke Syndromes 
+ 
+  1133 
+  TABLE 167-12    Results of Eight Positive Randomized Trials of Mechanical Intra-Arterial Treatment in Acute Anterior Stroke
+Trial
+No.
+Upper 
+Age Limit (y)
+Endovascular 
+Treatment
+Time Inclusion Criteria
+mRS (0–2) at 90 d* 
+(treatment vs. controls)
+Mortality† 
+(treatment vs. 
+controls)
+Symptomatic 
+Intracranial 
+Hemorrhage† 
+(treatment vs. 
+controls)
+MR CLEAN190
+502
+None
+Retrievable stent 
++/– intra-arterial 
+thrombolysis or 
+intra-arterial 
+thrombolysis alone
+Ability to undergo 
+endovascular treatment 
+within 6 h
+32.6% vs. 19.1%
+OR = 2.16 (95% CI, 
+2.39–3.38)
+NNT = 8
+18.9% vs. 18.4%
+7.7% vs. 6.4%
+EXTEND-IA191
+70
+None
+Solitaire FR stent 
+retriever
+IV thrombolysis 
+<4.5 h of stroke onset
+71% vs. 40%
+OR = 4.2 (95% CI, 1.4–12)
+NNT = 4
+9% vs. 20%
+0% vs. 6%
+ESCAPE192
+316
+None
+Retrievable stent
+Within 12 h of stroke 
+onset
+53% vs. 29.3%
+Rate ratio = 1.8 (95% CI, 
+1.4–2.4)
+NNT = 5
+10.4% vs. 19%
+3.6% vs. 2.7%
+SWIFT PRIME193
+196
+80
+Solitaire stent 
+retriever
+Within 6 h of 
+stroke onset
+60% vs. 35%
+Risk ratio = 1.70 (95% CI, 
+1.23–2.33)
+NNT = 4
+9% vs. 12%
+0% vs. 3%
+REVASCAT194
+206
+80
+Solitaire stent 
+retriever
+Within 8 h of
+ stroke onset
+43.7% vs. 28.2%
+OR = 2.1 (95% CI, 1.1–4.0)
+ NNT = 7
+18.4% vs. 15.5%
+1.9% vs. 1.9%
+THRACE195
+414
+80
+Various stent 
+retriever devices
+IV thrombolysis within 
+4 h and thrombectomy 
+within 5 h of stroke 
+onset
+53% vs. 42%
+OR = 1.55 (95% CI, 
+1.05–2.30)
+NNT = 9
+12% vs. 13%
+2% vs. 2%
+DAWN109
+206
+None
+Trevo stent retriever
+Within 6–24 h of last 
+known well time
+49% vs. 13%
+OR = 6.25 (95% CI, 
+3.11–12.54)
+NNT = 3
+19% vs. 18%
+6% vs. 3%
+DEFUSE 3110
+182
+90
+Various FDA-approved 
+thrombectomy devices
+Within 6–16 h of last 
+known well time
+45% vs. 17%
+OR = 4.01 (95% CI, 
+2.02–8.02)
+NNT = 4
+14% vs. 26%
+7% vs. 4%
+Abbreviations: CI = confidence interval; DAWN = Diffusion-Weighted Imaging or Computerized Tomography Perfusion Assessment with Clinical Mismatch in the Triage of Wake-Up and Late Presenting Strokes 
+Undergoing Neurointervention; DEFUSE 3 = Endovascular Therapy Following Imaging Evaluation for Ischemic Stroke; ESCAPE = Endovascular Treatment for Small Core and Anterior Circulation Proximal Occlusion 
+with Emphasis on Minimizing CT to Recanalization Times; EXTEND-IA = Extending the Time for Thrombolysis in Emergency Neurological Deficits–Intra-Arterial; FDA = U.S. Food and Drug Administration; MR CLEAN = 
+Multicenter Randomized Clinical Trial of Endovascular Treatment for Acute Ischemic Stroke in the Netherlands; mRS = modified Rankin scale; NNT = number needed to treat; OR = adjusted odds ratio; REVASCAT = 
+Randomized Trial of Revascularization with Solitaire FR Device Versus Best Medical Therapy in the Treatment of Acute Stroke Due to Anterior Circulation Large Vessel Occlusion Presenting Within Eight Hours of 
+Symptom Onset; SWIFT PRIME = Solitaire FR with the Intention for Thrombectomy as Primary Endovascular Treatment for Acute Ischemic Stroke; THRACE = Thrombectomie des Artères Cerebrales.
+*Treatment efficacy differences in each trial are statistically significant.
+†Differences in mortality and symptomatic intracranial hemorrhage in each trial were not statistically significant.
+age limit) and an NIHSS score ≥2. Major findings included significant 
+90-day functional benefit in treatment versus controls (90-day modified 
+Rankin scale score of 0 to 2: 32.6% vs. 19.1%, respectively [OR 2.16; 
+95% CI, 1.39 to 3.38]; number needed to treat = 7). With intra-arterial 
+treatment, there was no significant increase in symptomatic ICH (7.7% 
+vs. 6.4%), but there was a higher incidence of vessel perforation (0.9%) 
+and dissection (1.7%), and 5.6% of patients had an ischemic stroke in a 
+different vascular distribution within 90 days versus 0.4% in controls. 
+However, despite these findings, there was no statistical difference in 
+mortality (18.9% vs. 18.4%). An important limitation of this study is that 
+although the disease severity was similar in the treatment and control 
+groups, the control group had relatively poor outcomes in terms of the 
+modified Rankin scale. This reflects the rather broad inclusion criteria 
+of the study, which may allow greater generalizability of the results.
+The results of the other five trials cited are largely consistent with MR 
+CLEAN, and these trials were all stopped early during interim safety 
+analyses because of efficacy of the treatment arm (Table 167-12).
+Based on the data from the previously discussed six trials, in 2015, 
+the AHA/ASA issued a new Class IA recommendation196 that patients 
+receive endovascular therapy with a stent retriever if they meet all of the 
+inclusion criteria in Table 167-13.
+A subsequent pooled analysis (n =1287) for the first five random­
+ized positive trials found that a modified Rankin scale score of 0 to 2 
+at 90 days was present in 46% of patients in the endovascular treatment 
+group versus 26.5% of controls (number needed to treat = 5.1), with no 
+significant difference in 90-day mortality or symptomatic intracranial 
+hemorrhage.197 A 2016 Cochrane systematic review and meta-analysis of 
+10 trials of endovascular therapy, including the previous negative trials, 
+concluded the following: “Moderate to high quality evidence suggests that 
+compared with medical care alone in a selected group of patients endo­
+vascular thrombectomy as add-on to intravenous thrombolysis performed 
+within six to eight hours after large vessel ischaemic stroke in the anterior 
+circulation provides beneficial functional outcomes, without increased 
+detrimental effects.”198
+
+
+--- PDF PAGE 1179 ---
+1134 
+ 
+  SECTION 14: Neurology
+In 2018, two important studies, the DAWN trial109 (n = 206) and 
+the DEFUSE 3 trial110 (n = 182) compared endovascular therapy plus 
+standard treatment with standard treatment alone in patients with late 
+presenting stroke (6 to 24 hours and 6 to 16 hours last known well 
+time, respectively) and evidence of potentially reversible ischemia (a 
+mismatch between clinical symptoms and infarct size and a penumbra 
+of ≥15 mL, respectively; Table 167-12). Both trials were multicenter, 
+randomized, open-label trials with blinded outcome assessment, and 
+both were stopped early because of the loss of clinical equipoise in 
+favor of the treatment group. DAWN found that the percentage of 
+patients with functional outcome at 90 days (modified Rankin scale 
+score of 0 to 2) with thrombectomy was 49% compared with 13% in 
+the control group (an adjusted difference of 33% [95% CI, 21% to 
+44%]; posterior probability of superiority >0.999). Similarly, DEFUSE 
+3 found that thrombectomy patients had a better distribution of dis­
+ability scores at 90 days than controls (OR 2.77; 95% CI, 1.63 to 4.70; 
+P <.001). The percentage of thrombectomy patients compared with 
+controls who had a modified Rankin scale score of 0 to 2 at 90 days 
+was 45% versus 17%, respectively (risk ratio 2.67; 95% CI, 1.60 to 4.48; 
+P <.001). In both trials, the mortality and morbidity outcomes in both 
+the treatment and control groups were statistically equal. Although 
+these results support the notion of extending the window for acute 
+treatment of stroke, an important caveat is that the AHA/ASA recom­
+mends thrombectomy in the >6 hour window only if the strict inclu­
+sion/exclusion criteria for DAWN or DEFUSE 3 are followed. The 
+inclusion and exclusion criteria of both trials are complex and lengthy 
+but are readily available online.199,200
+Despite the encouraging results of all of these recent endovascular 
+therapy trials, the current availability of endovascular treatment modali­
+ties remains rather limited at most primary stroke centers, which may 
+circumscribe widespread use.201
+Nevertheless, although all eligible stroke patients should be consid­
+ered for IV thrombolysis as a first-line therapy, also consider emergent 
+consultation with a neurointerventionalist for adjunctive endovascu­
+lar therapy in patients who meet the criteria listed in Table 167-13196 
+and in patients who meet the DAWN or DEFUSE 3 criteria.199,200
+
+ OTHER TREATMENT MODALITIES
+Therapeutic hypothermia, induced hypertension, endovascular thera­
+pies, carotid endarterectomy/stenting, and emergency hemicraniectomy 
+for massive infarcts are modalities that are being studied, but as of this 
+writing, benefits are unproven.
+Mild therapeutic hypothermia is associated with improved neu­
+rologic outcomes in comatose patients who survive cardiopulmonary 
+arrest.202 Consequently, there is much interest in the potential benefit 
+of induced hypothermia in acute stroke, both alone and in combination 
+with neuroprotective strategies203 and endovascular therapy.204 However, 
+hypothermia’s efficacy has not been firmly established, and it may be 
+associated with increased risk of pneumonia.205 Therefore, its use is con­
+sidered experimental at this time.19
+Animal data206 and preliminary trials have suggested that implement­
+ing drug-induced hypertension in an effort to increase blood flow 
+to the ischemic penumbra may benefit outcomes from acute ischemic 
+stroke,207-209 with recent increased interest given penumbra-based endo­
+vascular interventions.210 However, there are insufficient data to recom­
+mend this modality outside of clinical trials at this time.19
+Patients with a massive middle cerebral artery infarct are less favor­
+able candidates for thrombolytic therapy and have an 80% mortality 
+rate. Massive middle cerebral artery infarct is commonly associated with 
+space-occupying cerebral edema and may be amenable to decompressive 
+craniectomy. A 2007 pooled analysis of data from three European trials 
+(Decompressive Surgery for the Treatment of Malignant Infarction of 
+the Middle Cerebral Artery [DECIMAL],211 Decompressive Surgery for 
+the Treatment of Malignant Infarction of the Middle Cerebral Artery 
+[DESTINY],212 and Hemicraniectomy After Middle Cerebral Artery 
+Infarction With Life-Threatening Edema Trial [HAMLET])213 showed 
+that decompressive hemicraniectomy was associated with better out­
+comes than medical therapy.214 However, the overall efficacy of this 
+approach remains in question. For example, in 2014, the Hemicraniec­
+tomy and Durotomy upon Deterioration Infarction-Related Swelling 
+(HeADDFIRST) pilot trial215 found no statistical difference in the 
+180-day mortality between the medically managed patients in this trial 
+(40%) and the patients who underwent hemicraniectomy plus medical 
+treatment (34%). Ultimately, several recent meta-analyses of hemicra­
+niectomy versus medical treatment for large middle cerebral artery 
+infarction concluded that although decompressive craniectomy results 
+in reduced mortality, most survivors are left with severe or very severe 
+disability.216-218 Therefore, the decision to perform surgery must be made 
+on an individual case-by-case basis.
+
+ TRANSIENT ISCHEMIC ATTACK
+TIA is defined as follows: “a transient episode of neurological dysfunc­
+tion caused by focal brain, spinal cord, or retinal ischemia, without acute 
+infarction.”219 This tissue-based definition recognizes that although TIA 
+symptoms typically last <1 to 2 hours, duration of symptoms is an unre­
+liable discriminator between TIA and infarction because about 33% of 
+TIAs have signs of infarction on MRI.220 View a TIA as analogous to 
+unstable angina—that is, an ominous harbinger of a potential future 
+vascular event. In fact, the adjusted OR for stroke <1 month after TIA 
+is 30.4 (95% CI, 10.4 to 89.4),221 and the overall 90-day stroke risk after 
+TIA is about 9.2% to 9.5%.136-138 Some data suggest that 50% of these 
+subsequent events occur within 2 days after presentation to the ED.136 
+Published risk factors associated with increased risk for subsequent 
+stroke include hypertension, diabetes mellitus, symptom duration of 
+≥10 minutes, weakness, and speech impairment.136 A study of admitted 
+patients found increased risk with male sex, age ≥65 years, hyperlipid­
+emia, and dysarthria.139
+TIA DIAGNOSIS
+The initial considerations and workup of TIA are very similar to those 
+of acute stroke (see earlier section “Stroke Diagnosis”), including the 
+emphasis on seeking mimics that can simulate TIA (Table 167-5). Pay 
+particular attention to performing an ECG in these patients to detect 
+atrial fibrillation, given its association with cardioembolic stroke and 
+the fact its associated stroke risk can be mitigated in many patients. An 
+unsettled issue in the initial workup involves brain imaging. Although a 
+noncontrasted CT is still the initial imaging study of choice (primarily 
+to rule out stroke mimics), it cannot reliably predict risk of subsequent 
+stroke.222 However, it has been shown that positive findings on diffusion-
+weighted MRI have predictive value for subsequent early stroke risk in 
+TIA patients,223 as does cervical vascular imaging by magnetic reso­
+nance angiography.224 Furthermore, a large meta-analysis225 of 41 studies 
+(n = 2541) determined that although Doppler US has test characteristics 
+slightly inferior to magnetic resonance angiography in detecting 70% to 
+99% carotid stenosis (sensitivity of 89% [95% CI, 85% to 92%] and 94% 
+  TABLE 167-13    AHA/ASA Indications for Endovascular Therapy With a Stent 
+Retriever196
+•  Prestroke mRS score 0 to 1
+•  Acute ischemic stroke receiving IV rtPA within 4.5 h of onset according to guidelines 
+from professional medical societies
+•  Causative occlusion of the ICA or proximal MCA (M1)
+•  Age ≥18 y
+•  NIHSS score of ≥6
+•  ASPECTS of ≥6
+•  Treatment can be initiated (groin puncture) within 6 h of symptom onset
+All 7 criteria need to be met for stent retriever endovascular therapy to be 
+indicated.
+Abbreviations: AHA/ASA = American Heart Association/American Stroke Association; ASPECTS = Alberta 
+Stroke Program Early CT Score; ICA = internal carotid artery; MCA (M1) = sphenoidal (horizontal) segment 
+of the middle cerebral artery; mRS = modified Rankin scale; NIHSS = National Institutes of Health Stroke 
+Scale; rtPA = recombinant tissue plasminogen activator.
+
+
+--- PDF PAGE 1180 ---
+CHAPTER 167: Stroke Syndromes 
+ 
+  1135 
+[95% CI, 88% to 97%] and specificity of 84% [95% CI, 77% to 89%] and 
+93% [95% CI, 89% to 96%], respectively),225 Doppler US still performs 
+well enough (negative likelihood ratio of 0.13, compared to 0.06 for 
+MRA)225 to be useful in helping to risk-stratify TIA patients in the ED.226 
+Due to its relatively low specificity (84%), confirm any positive Dop­
+pler US findings with magnetic resonance angiography or CT angiog­
+raphy. As a screening test, CT angiography lagged behind the other two 
+modalities in detecting extracerebral carotid stenosis in TIA patients 
+(sensitivity 77% [95% CI, 68% to 84%], specificity 95% [95% CI, 91% 
+to 97%], negative likelihood ratio 0.24),225 despite its utility in detect­
+ing intracranial vascular lesions.227 Based on these and similar data, in 
+2016, the American College of Emergency Physicians recommended226 
+that suspected TIA patients should receive a noncontrasted head CT in 
+the ED, and when feasible, physicians should obtain diffusion-weighted 
+MRI and cervical vascular imaging. These recommendations reference 
+a growing trend to attempt to use clinical characteristics plus imaging 
+to selectively manage some TIA patients as outpatients (see later section 
+“TIA Risk Stratification and Disposition”).
+TIA TREATMENT
+Treatment of TIA primarily focuses on prevention of subsequent stroke.
+
+ ANTIPLATELET AGENTS
+After TIA, the use of aspirin to prevent future vascular events is histori­
+cally well accepted. Current practice includes dipyridamole plus aspirin 
+(reasonable as a first choice), clopidogrel, and aspirin alone. The selec­
+tion of a particular antiplatelet regimen is a multifactorial decision based 
+on comorbid conditions, bleeding risk, prior drug use, and cost.
+A very large meta-analysis (>88,000 patients)228 concluded that aspi­
+rin plus dipyridamole was superior to aspirin alone for prevention of 
+vascular events after stroke or TIA. Aspirin plus dipyridamole was asso­
+ciated with more hemorrhagic events than dipyridamole (relative risk 
+1.83; 95% CI, 1.17 to 2.81) but was associated with fewer hemorrhagic 
+events than aspirin and clopidogrel (relative risk 0.38; 95% CI, 0.25 to 
+0.56). However, the previously mentioned CHANCE trial (n = 5170) 
+found that the combination of clopidogrel and aspirin was superior to 
+aspirin alone for reducing the risk of stroke in the first 90 days without 
+increasing the risk of hemorrhage.144 These positive outcomes were 
+found to have persisted at 1-year follow-up.145 The Platelet-Oriented 
+Inhibition in New TIA and Minor Ischemic Stroke trial is currently in 
+progress to investigate this comparison as well.229
+
+ ANTICOAGULATION
+Adjusted-dose oral anticoagulation with warfarin has been the histori­
+cal therapy of choice for stroke prevention in patients with nonvalvular 
+atrial fibrillation and TIA; however, an assessment of warfarin antico­
+agulation for stroke prevention in the United States demonstrated a 
+dismal rate of optimal anticoagulation control.230 This has led to mul­
+tiple randomized controlled trials of novel anticoagulants, which have 
+been shown to have equivalent efficacy but with less risk of intracranial 
+hemorrhage compared to warfarin.231 The risk of recurrent stroke in 
+the presence of atrial fibrillation without anticoagulation is low, prob­
+ably <5% over the next 48 hours; moreover, the risk of hemorrhagic 
+transformation of an acute stroke is also greatest in the first 48 hours. 
+Consequently, in the setting of acute atrial fibrillation, anticoagula­
+tion therapy typically should not be started in the ED but should be 
+initiated in the inpatient setting.
+Multiple studies have demonstrated that, although unfractionated 
+heparin may help prevent recurrent stoke, its potential benefits are out­
+weighed by the increased risk of intracranial hemorrhage. Multiple studies 
+of low-molecular-weight heparin and heparinoids have found similarly 
+disappointing results. A Cochrane systematic review of 24 randomized 
+trials (23,748 patients) found no net benefit of anticoagulants in acute 
+stroke.232 In addition, a meta-analysis of seven trials focused specifically 
+on anticoagulant use in acute cardiothrombotic stroke and found no 
+overall benefit.233 Therefore, the use of unfractionated heparin, low-
+molecular-weight heparin, or heparinoids for emergent treatment of a 
+specific stroke subtype or TIA cannot be recommended based on avail­
+able evidence, even in the presence of atrial fibrillation.234
+
+ ENDARTERECTOMY
+In TIA patients with medically treated high-grade internal carotid 
+artery lesions, carotid endarterectomy should be performed promptly, 
+because surgical benefit is greatest within 2 weeks of the TIA.235 
+The Carotid Revascularization Endarterectomy versus Stenting Trial 
+(CREST)236 and the International Carotid Stenting Study (ICSS)237 sug­
+gest that carotid stenting may be a viable alternative to endarterectomy, 
+with similar functional outcomes up to 10 years,237,238 despite a small 
+increase in nondisabling stroke in stented patients in the ICSS trial.237 
+Carotid stenting may be especially useful in patients <70 years old236 or 
+in patients with higher surgical risks.239 On the other hand, the evidence-
+based role of emergent or urgent carotid endarterectomy/stenting in 
+acute stroke is still not conclusively defined.19
+TIA RISK STRATIFICATION AND DISPOSITION
+Because TIAs frequently precede acute strokes, much work has been 
+done in attempting to develop TIA risk stratification tools in an effort 
+to identify which low-risk patients may safely be discharged from the 
+ED and worked up as outpatients. The most frequently studied of these 
+tools is the Age, Blood pressure, Clinical characteristics, Duration, 
+and Diabetes (ABCD2) scoring system.240 In 2007, the ABCD2 scoring 
+system was developed to incorporate and replace two previous scoring 
+scales (California score and ABCD score).240 Johnston et al240 initially 
+reported 2-day risks of subsequent stroke as 1% (ABCD2 score 0 to 3), 
+4.1% (score 4 to 5), and 8.1% (score 6 to 7). The 7-day stroke risks were 
+1.2% (ABCD2 score 0 to 3), 5.9% (score 4 to 5), and 11.7% (score 6 to 7).
+Despite these initial promising data, subsequent published studies 
+produced conflicting conclusions as to the ABCD2 score’s utility for pre­
+dicting subsequent stroke after TIA.241-243 The interrater reliability and 
+accuracy of the ABCD2 score have been challenged, especially with non­
+specialists in actual use.244-247 A large meta-analysis (>16,000 patients)248 
+found inadequate positive and negative likelihood ratios (1 to 2 and 0.5 
+to 1, respectively) to be of practical use when deciding stroke risk in a 
+given patient. Overall, the ABCD2 score identified high-risk patients 
+poorly and had only modest success in predicting low-risk patients, 
+and the study authors cautioned against solely relying on the ABCD2 
+score to risk-stratify patients.248 In an attempt to improve accuracy of 
+ABCD2, the presence of two or more TIA events at 7 days (ABCD3) and 
+diffusion-weighted MRI (ABCD3-I) have been added to the original 
+scoring system. One study did demonstrate the superiority of these new 
+scales to predict stroke.249 However, the addition of these two data points 
+limits the usefulness of these scales in the ED during initial presentation.
+Although use of the ABCD2 score had been recommended previ­
+ously by major guidelines,219 based on the most current literature, the 
+American College of Emergency Physicians issued an updated clinical 
+policy226 in 2016. This clinical policy recommends that current risk 
+stratification instruments such as ABCD2 should not be used to iden­
+tify TIA patients who can be safely discharged home.226 Specifically, 
+“the ABCD2 does not sufficiently identify the short-term risk for stroke 
+to use alone as a risk-stratification instrument.”226
+A 13-factor Canadian TIA score250 has been developed that has shown 
+initial promising results; however, it has yet to be validated for general use.
+In light of the difficulty in precisely identifying TIA patients who are 
+safe to send home from the ED, some experts have recommended that 
+most TIA patients be hospitalized to monitor and educate them, begin 
+antiplatelet therapy (unless contraindicated), rapidly treat subsequent 
+stroke, assess stroke risk factors, implement preventive measures, and 
+perform endarterectomy in appropriate patients.219
+However, as a result of cost resource utilization concerns, there is 
+great interest in developing ED-based strategies for safely managing 
+TIAs as outpatients as opposed to standard admission. Numerous stud­
+ies have been published exploring this issue.226 Although these studies 
+have largely shown that the use of special ED-directed TIA protocols 
+results in decreased resource use with no increased risk of subsequent 
+stroke, most have compared admission with extensive ED observation 
+
+
+--- PDF PAGE 1181 ---
+1136 
+ 
+  SECTION 14: Neurology
+protocols or prompt referral to dedicated TIA clinics. A representative 
+example is a 2007 randomized controlled trial251 (n = 151) that demon­
+strated that lower-risk patients (i.e., those without the following factors: 
+abnormality on initial head CT, abnormal ECG, abnormal lab values, 
+known possible embolic source [atrial fibrillation, cardiomyopathy, or 
+valvulopathy], known carotid stenosis, previous large stroke, or cre­
+scendo TIAs) can be safely discharged after a 12-hour ED observation 
+period that includes continual cardiac and serial clinical monitoring, 
+coupled with a thorough initial evaluation (including neurology con­
+sultation, carotid imaging, and echocardiography). More recent studies 
+have also included diffusion-weighted MRI in their protocols.252 Many 
+of these studies lack sufficient controls and are relatively small, and there 
+is no consensus on which specific protocol or approach is optimal. In 
+addition, many of the proposed algorithms require resources that are not 
+readily available in most EDs. However, there is general support for the 
+use of these types of protocols by the American College of Emergency 
+Physicians.226 The approach to the disposition of a specific patient must 
+be individualized and may depend not only on medical factors, but also 
+the patient’s social situation, as well as the healthcare resources available 
+at the particular treating institution.
+
+ SPECIAL POPULATIONS
+STROKE OR TIA WITH CONCURRENT ACUTE 
+MYOCARDIAL INFARCTION
+The co-occurrence of acute myocardial infarction and acute stroke 
+has implications for acute treatment in the ED, but strong evidence-
+based treatment recommendations are lacking. Troponin elevation in 
+acute ischemic stroke is not uncommon (prevalence, 0% to 34%253), is 
+associated with multiple disease processes (e.g., acute coronary syn­
+drome, congestive heart failure, renal failure, myopericarditis, chronic 
+obstructive pulmonary disease, pulmonary embolism, sepsis, atrial 
+fibrillation254,255), and is independently associated with worse all-cause 
+mortality.256 Troponin elevation in acute stroke is most probably second­
+ary to acute coronary syndrome if other obvious causes are excluded, 
+especially if typical ECG findings for acute coronary syndrome are 
+present.257 Concomitant acute stroke and acute myocardial infarction 
+due to paradoxical embolus traversing a patent foramen ovale has been 
+well described in the literature.258,259 Type A aortic dissection has also 
+been reported to present with simultaneous stroke and myocardial 
+infarction.260
+Simultaneous acute ischemic stroke and myocardial infarction can be 
+therapeutically problematic because treating one condition with a pro­
+cedure may delay a time-dependent indicated procedure for the other. In 
+addition, there are some therapies for acute myocardial infarction (e.g., 
+heparin) that are contraindicated in acute stroke. There are no published 
+controlled trials directly addressing these complex patients. Nonethe­
+less, based on expert consensus, the 2018 AHA/ASA guidelines gave a 
+Class IIa (moderate) recommendation: “For patients presenting with 
+concurrent AIS [acute ischemic stroke] and acute MI [myocardial 
+infarction], treatment with IV alteplase at the dose appropriate for 
+cerebral ischemia, followed by percutaneous coronary angioplasty 
+and stenting if indicated is reasonable.”19 Regardless of the treat­
+ment strategy chosen, the risks and benefits of the various therapeutic 
+approaches must be carefully weighed in this situation in order to pri­
+oritize the various proposed interventions, depending on the clinical 
+condition of the patient.261 Obtain emergent neurology and cardiology 
+consults on these patients, but do not delay thrombolysis for stroke if 
+the patient qualifies.
+SICKLE CELL DISEASE
+Stroke afflicts both adults and children with sickle cell disease, with an 
+overall prevalence of 3.8%262 compared to the overall prevalence of 2.7% 
+(age ≥20 years) in the general population in the United States.1 Sickle 
+cell disease is the most common cause of ischemic stroke in children. 
+Patients homozygous for hemoglobin S have the highest incidence of 
+stroke (0.61 in 100 patient-years), but all genotypes are at increased 
+risk.262 The highest incidence of hemorrhagic stroke in these patients 
+occurs from ages 20 to 29.262
+Cerebral aneurysms and arterial abnormalities also occur with 
+increased frequency in patients with sickle cell disease, and careful 
+evaluation for subarachnoid hemorrhage is mandated for patients pre­
+senting with headache and neurologic findings. Initial management is 
+similar to that for stroke patients without sickle cell disease, but care 
+should also be taken to treat the underlying sickle cell disease with oxy­
+gen administration, hydration, and pain control, if necessary.
+The presence of sickle cell disease has not been found to significantly 
+affect safety or outcomes in stroke patients treated with IV thrombolysis263 
+and is not considered a contraindication to thrombolytic therapy in eli­
+gible patients.19 Therefore, if patients with sickle cell disease otherwise 
+qualify, administer IV thrombolysis.
+Despite a paucity of high-quality evidence, expert consensus also 
+recommends emergent exchange packed red blood cell transfusion in 
+sickle cell patients with acute ischemic stroke, with the goal of reduc­
+ing hemoglobin S levels to <30%,264 along with a target goal to achieve 
+a total hemoglobin level of 10 grams/dL (but no higher in order to 
+avoid hyperviscosity).265-267 The same therapy has been recommended 
+in hemorrhagic stroke in order to reduce vasospasm and secondary 
+ischemic infarction.264 Exchange transfusion appears to reduce the inci­
+dence of subsequent ischemic stroke in children compared with simple 
+transfusion.268 However, if exchange transfusion is not readily available, 
+consider a simple packed red blood cell transfusion in these patients 
+while preparations for exchange transfusion are being made.
+Emergent consultation with a hematologist and a stroke neurologist 
+is in order for these patients, and admission to a comprehensive stroke 
+center is indicated.
+YOUNG ADULTS
+Strokes in young adults (age 18 to 50 years) are increasing in incidence.269,270 
+Possible causes include an increasing prevalence of some traditional 
+cardiovascular risk factors271 (e.g., hyperlipidemia,272 diabetes,273,274 
+obesity275), increasing rates of recreational drug use,276 and better aware­
+ness and diagnosis of stroke in this age group.269,277 In this group, cervical 
+arterial dissection accounts for 20% of all ischemic strokes and may often 
+be preceded by only minor trauma. The young adult with a cardioembolic 
+event may have mitral valve prolapse, rheumatic heart disease, or para­
+doxical embolism259 as the originating cause. Migrainous stroke (infarc­
+tion associated with typical migraine attack among those with established 
+recurrent migraines) is also a possibility in this age group. Some members 
+of this population are at risk for ischemic stroke from substance abuse. 
+Heroin, cocaine, amphetamines, and other sympathomimetic drugs are 
+often implicated.276 Patients who have human immunodeficiency virus 
+and a recent CD4 cell count <200 cells/mm3 are also at increased risk for 
+ischemic stroke (rate ratio 2.5; 95% CI, 1.3 to 4.6),278 as are young adults 
+who survive cancer.279 Studies suggest that younger stroke victims have 
+more favorable morbidity and mortality rates than elders after undergo­
+ing stroke treatments such as IV thrombolysis,280 thrombectomy,281 and 
+decompressive surgery for large middle cerebral artery strokes.282 
+Therefore, treat these patients aggressively.
+Acknowledgments:  The author gratefully acknowledges Karen Manley 
+for her steadfast manuscript support, as well as Amanda Augustine, 
+Ashley Borden, Jarrett Gardner, Ryan Jacobsen, Liliya Kraynov, Sean Mark, 
+and Charles Spencer for their insightful suggestions.
+REFERENCES
+The complete reference list is available online at www.TintinalliEM.com.
