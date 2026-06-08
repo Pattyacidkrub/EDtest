@@ -100,7 +100,8 @@
       "slug": "acid-base-interpretation-oxygenation",
       "title": "Acid-Base Interpretation + Oxygenation",
       "system": "Resuscitation / Critical Care / Calculations",
-      "date": "2026-06-08"
+      "date": "2026-06-08",
+      "status": "redone_with_gpt_image_2_generated_bitmap"
     },
     {
       "slug": "cerebellar-infarction-hints-exam",
@@ -345,8 +346,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "decompression-sickness-age",
-    "title": "Decompression Sickness vs Arterial Gas Embolism",
-    "status": "redone_with_built_in_image_generation_resized_and_2x_upscaled"
+    "slug": "acid-base-interpretation-oxygenation",
+    "title": "Acid-Base Interpretation + Oxygenation",
+    "status": "redone_with_gpt_image_2_generated_bitmap"
   }
 }

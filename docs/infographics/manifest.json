@@ -148,9 +148,17 @@
     "slug": "acid-base-interpretation-oxygenation",
     "system": "Resuscitation / Critical Care / Calculations",
     "date": "2026-06-08",
+    "file": "acid-base-interpretation-oxygenation-infographic.html",
     "href": "acid-base-interpretation-oxygenation/",
-    "chapter": "Tintinalli Ch.15 pp.73-78; Ch.16 pp.79-80; Merck Manual; Berlin ARDS definition",
-    "summary": "Thai ED formula dashboard for ABG/VBG acid-base interpretation: pH-first workflow, anion gap and albumin correction, delta gap/delta ratio, expected compensation, mixed-disorder traps, A-a gradient, P/F ratio, FiO2 estimates, pulse-ox/VBG limitations, and oxygen delivery pearls."
+    "chapter": "Tintinalli 9e Ch.15 pp.73-78; Ch.16 pp.79-80; Ch.62 pp.426-428",
+    "summary": "Remade with a generated bitmap infographic for ED acid-base and oxygenation interpretation: pH-first ABG/VBG workflow, anion gap with albumin correction, delta gap/delta ratio, expected compensation checks, mixed-disorder traps, A-a gradient, P/F ratio, oxygenation goals, pulse-ox and capnography caveats.",
+    "assets": {
+      "image_2160": "acid-base-interpretation-oxygenation/assets/acid-base-interpretation-oxygenation-gpt-image-2-2160x3840.png",
+      "image_4320": "acid-base-interpretation-oxygenation/assets/acid-base-interpretation-oxygenation-gpt-image-2-4320x7680.png",
+      "image_original": "acid-base-interpretation-oxygenation/assets/acid-base-interpretation-oxygenation-gpt-image-2-original.png"
+    },
+    "generation": "built-in image generation, source-constrained prompt, exact-size local PNG derivatives",
+    "source_note": "Source was extracted locally from Tintinallis Emergency Medicine 9th Ed 2019.pdf; public repo does not include textbook text extracts."
   },
   {
     "title": "Cerebellar Infarction + HINTS Exam",
