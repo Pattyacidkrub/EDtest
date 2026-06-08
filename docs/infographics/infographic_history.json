@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "scaphoid-fracture",
+      "title": "Scaphoid Fracture: Occult Wrist Injury",
+      "system": "Orthopedics / Hand / Trauma / Pediatrics",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "orbital-cellulitis",
       "title": "Orbital Cellulitis: ED Eye Emergency",
       "system": "Ophthalmology / Infectious Disease / Pediatrics",
