@@ -1,5 +1,14 @@
 [
   {
+    "title": "Legg-Calve-Perthes Disease",
+    "slug": "legg-calve-perthes-disease",
+    "system": "Pediatrics / Orthopedics / Hip Pain",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.141 pp.917-924; Ch.115 pp.723-725",
+    "summary": "ED approach to Legg-Calve-Perthes disease: avascular necrosis of the femoral head, age/sex epidemiology, insidious limp with referred thigh/knee pain, decreased hip abduction and internal rotation, radiographic progression, MRI/bone scan when early radiographs are normal, urgent orthopedic referral, pediatric hip-pain differential, and exam traps.",
+    "file": "legg-calve-perthes-disease/"
+  },
+  {
     "title": "von Willebrand Disease (vWD)",
     "slug": "von-willebrand-disease",
     "system": "Hematology / Bleeding Disorders / Pediatrics / OB-GYN",

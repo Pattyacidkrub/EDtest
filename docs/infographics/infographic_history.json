@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "legg-calve-perthes-disease",
+      "title": "Legg-Calve-Perthes Disease",
+      "system": "Pediatrics / Orthopedics / Hip Pain",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "von-willebrand-disease",
       "title": "von Willebrand Disease (vWD)",
       "system": "Hematology / Bleeding Disorders / Pediatrics / OB-GYN",
