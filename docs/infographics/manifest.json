@@ -1,5 +1,14 @@
 [
   {
+    "title": "Castor Bean (Ricin) Poisoning",
+    "slug": "castor-bean-ricin-poisoning",
+    "system": "Toxicology / Plants / Biotoxin",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.8 pp.40-42; Ch.176 pp.1187-1189; Ch.221 pp.1411-1413",
+    "summary": "ED approach to castor bean and ricin exposure: real castor bean photo, toxalbumin protein-synthesis inhibition, route-based risk split for ingestion versus inhalation/parenteral exposure, GI and pulmonary/sepsis-like syndromes, decontamination and activated charcoal criteria, no-antidote supportive care, poison-center/public-health escalation, labs/imaging, disposition, and exam traps.",
+    "file": "castor-bean-ricin-poisoning-infographic.html"
+  },
+  {
     "title": "Slipped Capital Femoral Epiphysis (SCFE)",
     "slug": "slipped-capital-femoral-epiphysis-scfe",
     "system": "Pediatrics / Orthopedics / Hip Pain",

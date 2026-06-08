@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "castor-bean-ricin-poisoning",
+      "title": "Castor Bean (Ricin) Poisoning",
+      "system": "Toxicology / Plants / Biotoxin",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "slipped-capital-femoral-epiphysis-scfe",
       "title": "Slipped Capital Femoral Epiphysis (SCFE)",
       "system": "Pediatrics / Orthopedics / Hip Pain",
