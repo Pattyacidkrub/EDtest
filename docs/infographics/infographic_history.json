@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "flexor-tenosynovitis-kanavel",
+      "title": "Pyogenic Flexor Tenosynovitis",
+      "system": "Orthopedics / Hand / Infectious Disease",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "decompression-sickness-age",
       "title": "Decompression Sickness vs Arterial Gas Embolism",
       "system": "Environmental / Diving Medicine / Hyperbaric",
@@ -291,8 +297,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "decompression-sickness-age",
-    "title": "Decompression Sickness vs Arterial Gas Embolism",
-    "status": "generated_code_native_poster_with_real_cutis_marmorata_photo"
+    "slug": "flexor-tenosynovitis-kanavel",
+    "title": "Pyogenic Flexor Tenosynovitis",
+    "status": "generated_code_native_poster_with_custom_hand_diagram"
   }
 }
