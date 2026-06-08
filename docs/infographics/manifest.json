@@ -1,5 +1,14 @@
 [
   {
+    "title": "สถิติ Diagnostic Test: 2x2 + LR",
+    "slug": "diagnostic-test-statistics-thai",
+    "system": "Evidence-Based Medicine / Statistics / Diagnostic Testing",
+    "date": "2026-06-08",
+    "href": "diagnostic-test-statistics-thai/",
+    "chapter": "NCBI StatPearls Diagnostic Testing Accuracy; Oxford CEBM Likelihood Ratios; UCSF Hospital Handbook; TheNNT",
+    "summary": "Remade Thai diagnostic-test statistics infographic: 2x2 TP/FP/FN/TN table, sensitivity, specificity, PPV, NPV, prevalence effect, LR+/LR-, odds conversion, post-test probability workflow, diagnostic odds ratio, worked example, and common exam traps."
+  },
+  {
     "title": "Carbon Monoxide Poisoning: CT Findings + ED Oxygen Pathway",
     "slug": "carbon-monoxide-poisoning-ct",
     "system": "Toxicology / Environmental / Critical Care / Radiology",
@@ -178,15 +187,6 @@
     "chapter": "Tintinalli Ch.17 pp.95-97; Ch.132 pp.855-856; Ch.138 pp.891-894",
     "summary": "ED approach to hypocalcemia: ionized-versus-total calcium traps, alkalosis/hypoalbuminemia physiology, causes, neuromuscular and ECG clues, adult and pediatric IV calcium dosing, magnesium replacement, disposition, and exam traps.",
     "file": "hypocalcemia/"
-  },
-  {
-    "title": "สถิติ Diagnostic Test",
-    "slug": "diagnostic-test-statistics-thai",
-    "system": "Evidence-Based Medicine / Statistics / Diagnostic Testing",
-    "date": "2026-06-08",
-    "chapter": "NCBI StatPearls Diagnostic Testing Accuracy; Oxford CEBM Likelihood Ratios; UCSF Hospital Handbook",
-    "summary": "Thai diagnostic-test statistics infographic: 2x2 table, sensitivity, specificity, PPV, NPV, pretest/post-test probability, odds conversion, LR+/LR-, diagnostic odds ratio, interpretation thresholds, and a worked example showing how prevalence changes PPV/NPV.",
-    "file": "diagnostic-test-statistics-thai/"
   },
   {
     "title": "Blunt Thoracic Injury",

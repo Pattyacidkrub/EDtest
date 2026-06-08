@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "diagnostic-test-statistics-thai",
+      "title": "สถิติ Diagnostic Test: 2x2 + LR",
+      "system": "Evidence-Based Medicine / Statistics / Diagnostic Testing",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "carbon-monoxide-poisoning-ct",
       "title": "Carbon Monoxide Poisoning: CT Findings + ED Oxygen Pathway",
       "system": "Toxicology / Environmental / Critical Care / Radiology",
@@ -118,12 +124,6 @@
       "slug": "hypocalcemia",
       "title": "Hypocalcemia in the ED",
       "system": "Renal / Electrolytes / Cardiology / Pediatrics",
-      "date": "2026-06-08"
-    },
-    {
-      "slug": "diagnostic-test-statistics-thai",
-      "title": "สถิติ Diagnostic Test",
-      "system": "Evidence-Based Medicine / Statistics / Diagnostic Testing",
       "date": "2026-06-08"
     },
     {
