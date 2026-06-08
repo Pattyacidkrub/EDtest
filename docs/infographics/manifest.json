@@ -1,5 +1,14 @@
 [
   {
+    "title": "Herpes in the ED: HSV vs VZV",
+    "slug": "herpes-hsv-vzv-ed",
+    "system": "Infectious Disease / Dermatology / Ophthalmology",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.153/154/102/120/122/124/142/250/253/283/88; CDC STI Treatment Guidelines cross-check",
+    "summary": "Remade ED approach to HSV vs VZV: pattern/site/host-risk triage, painful grouped vesicles versus dermatomal zoster, ocular/CNS/neonatal/disseminated red flags, PCR/culture and CSF pathway, antiviral dosing, renal cautions, disposition, and exam traps.",
+    "href": "herpes-hsv-vzv-ed/"
+  },
+  {
     "title": "Xanthopsia: Digoxin/Cardiac Glycoside Toxicity",
     "slug": "xanthopsia-digoxin-toxicity",
     "system": "Toxicology / Ophthalmology / Cardiology",
@@ -196,15 +205,6 @@
     "chapter": "Tintinalli Ch.14 pp.68-72; Ch.196 pp.1279-1282; Ch.29A pp.184-189; Ch.30 pp.194-196; Ch.243 p.1567; Ch.251 pp.1644-1645",
     "summary": "Airway-first ED approach to ACE inhibitor-induced angioedema: bradykinin/substance P mechanism, histamine versus bradykinin pattern split, airway red flags, early fiberoptic/surgical airway planning, off-label targeted options, observation, discontinuation of ACEI/ARB, and exam traps.",
     "file": "acei-induced-angioedema/"
-  },
-  {
-    "title": "Herpes in the ED: HSV vs VZV",
-    "slug": "herpes-hsv-vzv-ed",
-    "system": "Infectious Disease / Dermatology / Ophthalmology",
-    "date": "2026-06-08",
-    "chapter": "Tintinalli Ch.154 pp.1025-1029; Ch.250 pp.1629-1631; Ch.102 pp.651-652; Ch.120 pp.752-755; Ch.122 pp.768-769; Ch.241 pp.1541-1543; Ch.253/283",
-    "summary": "ED approach to herpes simplex and varicella-zoster infections: mucocutaneous HSV/genital herpes, gingivostomatitis, herpetic whitlow, HSV encephalitis/neonatal HSV, ocular HSV, herpes zoster/HZO, antiviral dosing, red flags, disposition, and exam traps.",
-    "file": "herpes-hsv-vzv-ed/"
   },
   {
     "title": "ECG Tall R in aVR: ED DDx",

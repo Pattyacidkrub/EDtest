@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "herpes-hsv-vzv-ed",
+      "title": "Herpes in the ED: HSV vs VZV",
+      "system": "Infectious Disease / Dermatology / Ophthalmology",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "xanthopsia-digoxin-toxicity",
       "title": "Xanthopsia: Digoxin/Cardiac Glycoside Toxicity",
       "system": "Toxicology / Ophthalmology / Cardiology",
@@ -130,12 +136,6 @@
       "slug": "acei-induced-angioedema",
       "title": "ACEI-Induced Angioedema",
       "system": "Allergy / Airway / Toxicology",
-      "date": "2026-06-08"
-    },
-    {
-      "slug": "herpes-hsv-vzv-ed",
-      "title": "Herpes in the ED: HSV vs VZV",
-      "system": "Infectious Disease / Dermatology / Ophthalmology",
       "date": "2026-06-08"
     },
     {
@@ -315,8 +315,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "cerebellar-infarction-hints-exam",
-    "title": "Cerebellar Infarction + HINTS Exam",
-    "status": "generated_code_native_poster_with_custom_hints_diagram"
+    "slug": "herpes-hsv-vzv-ed",
+    "title": "Herpes in the ED: HSV vs VZV",
+    "status": "redone_with_built_in_imagegen_replacing_custom_diagram"
   }
 }
