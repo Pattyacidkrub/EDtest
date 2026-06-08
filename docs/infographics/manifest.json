@@ -1,5 +1,14 @@
 [
   {
+    "title": "Castor Bean (Ricin) Poisoning",
+    "slug": "castor-bean-ricin-poisoning",
+    "system": "Toxicology / Plants / Biotoxin / Critical Care",
+    "date": "2026-06-08",
+    "href": "castor-bean-ricin-poisoning/",
+    "chapter": "Tintinalli Ch.9 pp.41-42; Ch.221 pp.1410-1413; Ch.176 pp.1191-1192; Ch.20 pp.133-135; CDC PHIL ID 19558 visual reference",
+    "summary": "Remade ED approach to castor bean toxalbumin poisoning: Ricinus communis and ricin mechanism, route-dependent risk, GI-limited ingestion caveat, chewed/large ingestion observation, inhalational/parenteral severe toxicity, no-antidote supportive care, activated charcoal adult/pediatric dosing, airway-risk cautions, poison-center escalation, workup, shock/ICU support, disposition, and exam traps."
+  },
+  {
     "title": "Slipped Capital Femoral Epiphysis (SCFE)",
     "slug": "slipped-capital-femoral-epiphysis-scfe",
     "system": "Pediatrics / Orthopedics / Hip Pain",
@@ -214,15 +223,6 @@
     "chapter": "Tintinalli Ch.209 pp.1337-1344",
     "summary": "ED approach to accidental hypothermia focused on ECG and management: clinical staging, Osborn J waves, bradycardia, PR/QRS/QTc changes, atrial fibrillation/flutter, low-flow pseudo-pulseless states, core temperature measurement, active external/minimally invasive rewarming, warmed fluids, ECLS/ECMO indications, hypothermic cardiac arrest defibrillation/epinephrine caveats, termination traps, labs, disposition, and exam pearls.",
     "file": "hypothermia-ecg-management-infographic.html"
-  },
-  {
-    "title": "Castor Bean (Ricin) Poisoning",
-    "slug": "castor-bean-ricin-poisoning",
-    "system": "Toxicology / Plants / Biotoxin",
-    "date": "2026-06-08",
-    "chapter": "Tintinalli Ch.8 pp.40-42; Ch.176 pp.1187-1189; Ch.221 pp.1411-1413",
-    "summary": "ED approach to castor bean and ricin exposure: real castor bean photo, toxalbumin protein-synthesis inhibition, route-based risk split for ingestion versus inhalation/parenteral exposure, GI and pulmonary/sepsis-like syndromes, decontamination and activated charcoal criteria, no-antidote supportive care, poison-center/public-health escalation, labs/imaging, disposition, and exam traps.",
-    "file": "castor-bean-ricin-poisoning-infographic.html"
   },
   {
     "title": "Legg-Calve-Perthes Disease",
