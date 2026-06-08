@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "open-globe-injury",
+      "title": "Open Globe Injury",
+      "system": "Ophthalmology / Trauma / Emergency Surgery / Pediatrics",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "regional-nerve-blocks-foot-face-forehead",
       "title": "Regional Nerve Blocks: Face + Foot",
       "system": "Procedures / Analgesia / Trauma / ENT-Oral / Orthopedics",
@@ -190,12 +196,6 @@
       "slug": "pediatric-hip-pain-ddx",
       "title": "Pediatric Hip Pain & Limp",
       "system": "Pediatrics / Orthopedics / Infectious",
-      "date": "2026-06-08"
-    },
-    {
-      "slug": "open-globe-injury",
-      "title": "Open Globe Injury",
-      "system": "Ophthalmology / Trauma / Procedures",
       "date": "2026-06-08"
     },
     {

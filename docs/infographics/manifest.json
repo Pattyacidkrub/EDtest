@@ -1,5 +1,14 @@
 [
   {
+    "title": "Open Globe Injury",
+    "slug": "open-globe-injury",
+    "system": "Ophthalmology / Trauma / Emergency Surgery / Pediatrics",
+    "date": "2026-06-08",
+    "href": "open-globe-injury/",
+    "chapter": "Tintinalli Ch.241 pp.1527-1559; Cureus 2025 real clinical/Seidel/CT images CC BY 4.0; NCBI StatPearls CT IOFB image CC BY-NC-ND 4.0",
+    "summary": "Remade open-globe ED pathway with a built-in image_gen poster plus real reference images: pupillary deformity, positive Seidel sign, CT orbit trauma, and metallic intraocular foreign body. Covers stop-exam rule, shield, CT, antibiotics, tetanus, antiemetic, and OR/transfer disposition."
+  },
+  {
     "title": "Regional Nerve Blocks: Face + Foot",
     "slug": "regional-nerve-blocks-foot-face-forehead",
     "system": "Procedures / Analgesia / Trauma / ENT-Oral / Orthopedics",
@@ -286,15 +295,6 @@
     "chapter": "Tintinalli Ch.141 pp.917-924; Ch.115 pp.725-726; Ch.281 pp.1896-1897",
     "summary": "ED differential and decision pathway for a child with hip pain or limp: septic arthritis versus transient synovitis, SCFE, Legg-Calve-Perthes, toddler fracture/trauma, osteomyelitis, psoas abscess, inflammatory, hematologic, and referred causes.",
     "href": "pediatric-hip-pain-ddx/index.html"
-  },
-  {
-    "title": "Open Globe Injury",
-    "slug": "open-globe-injury",
-    "system": "Ophthalmology / Trauma / Procedures",
-    "date": "2026-06-08",
-    "chapter": "Tintinalli Ch.241 pp.1523-1560; Ch.35 pp.231-233; Ch.115 pp.724-727; Ch.47 pp.324-325",
-    "summary": "Vision-threatening ocular trauma pathway: occult high-speed penetration, red flags, stop-exam rule, rigid shield, CT orbit, IV antibiotics, antiemetic/analgesia/tetanus, and immediate ophthalmology disposition.",
-    "href": "open-globe-injury/index.html"
   },
   {
     "title": "Child Abuse & Neglect",
