@@ -1,5 +1,14 @@
 [
   {
+    "title": "P. falciparum Malaria: PBS Reading + ED Treatment",
+    "slug": "plasmodium-falciparum-pbs-treatment",
+    "system": "Infectious Disease / Tropical Medicine / Hematology",
+    "date": "2026-06-08",
+    "href": "plasmodium-falciparum-pbs-treatment/",
+    "chapter": "Tintinalli Ch.159 pp.1057-1063; CDC Malaria Clinical Guidance/DPDx",
+    "summary": "ED approach to Plasmodium falciparum malaria focused on detailed peripheral blood smear reading, parasitemia calculation, severe-malaria criteria, IV artesunate, oral regimens, pediatric/pregnancy cautions, and exam traps."
+  },
+  {
     "title": "Naphthalene Poisoning in G6PD Deficiency",
     "slug": "naphthalene-poisoning-g6pd",
     "system": "Toxicology / Hematology / Pediatrics",

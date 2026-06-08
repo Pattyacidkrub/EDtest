@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "plasmodium-falciparum-pbs-treatment",
+      "title": "P. falciparum Malaria: PBS Reading + ED Treatment",
+      "system": "Infectious Disease / Tropical Medicine / Hematology",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "naphthalene-poisoning-g6pd",
       "title": "Naphthalene Poisoning in G6PD Deficiency",
       "system": "Toxicology / Hematology / Pediatrics",
@@ -279,8 +285,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "naphthalene-poisoning-g6pd",
-    "title": "Naphthalene Poisoning in G6PD Deficiency",
-    "status": "generated_code_native_poster_with_real_photo"
+    "slug": "plasmodium-falciparum-pbs-treatment",
+    "title": "P. falciparum Malaria: PBS Reading + ED Treatment",
+    "status": "generated_code_native_poster_with_real_cdc_dpdx_smear_images"
   }
 }
