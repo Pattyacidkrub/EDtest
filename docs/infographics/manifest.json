@@ -1,5 +1,14 @@
 [
   {
+    "title": "Slipped Capital Femoral Epiphysis (SCFE)",
+    "slug": "slipped-capital-femoral-epiphysis-scfe",
+    "system": "Pediatrics / Orthopedics / Hip Pain",
+    "date": "2026-06-08",
+    "href": "slipped-capital-femoral-epiphysis-scfe/",
+    "chapter": "Tintinalli Ch.141 pp.917-918,921-923; Ch.115 pp.723-726; Ch.281 pp.1896-1897",
+    "summary": "Remade ED approach to SCFE: adolescent hip disability from femoral-epiphysis slip, growth-spurt and obesity/endocrine/renal/radiation risk clues, chronic hip-groin-thigh-knee pain, acute inability to bear weight, external progression angle, obligate external rotation with hip flexion, bilateral AP/lateral-Lowenstein radiographs, Klein line/Trethowan sign, MRI for occult early slips, strict non-weight-bearing, urgent orthopedics, operative fixation, pediatric analgesia, and exam traps."
+  },
+  {
     "title": "Open Globe Injury",
     "slug": "open-globe-injury",
     "system": "Ophthalmology / Trauma / Emergency Surgery / Pediatrics",
@@ -214,15 +223,6 @@
     "chapter": "Tintinalli Ch.8 pp.40-42; Ch.176 pp.1187-1189; Ch.221 pp.1411-1413",
     "summary": "ED approach to castor bean and ricin exposure: real castor bean photo, toxalbumin protein-synthesis inhibition, route-based risk split for ingestion versus inhalation/parenteral exposure, GI and pulmonary/sepsis-like syndromes, decontamination and activated charcoal criteria, no-antidote supportive care, poison-center/public-health escalation, labs/imaging, disposition, and exam traps.",
     "file": "castor-bean-ricin-poisoning-infographic.html"
-  },
-  {
-    "title": "Slipped Capital Femoral Epiphysis (SCFE)",
-    "slug": "slipped-capital-femoral-epiphysis-scfe",
-    "system": "Pediatrics / Orthopedics / Hip Pain",
-    "date": "2026-06-08",
-    "chapter": "Tintinalli Ch.141 pp.917-918,921-923; Ch.115 pp.723-725",
-    "summary": "ED approach to SCFE: adolescent hip disability, growth-spurt physis slip, obesity/endocrine/renal risk clues, hip-groin-thigh-knee pain, external progression angle, obligate external rotation with hip flexion, bilateral AP/lateral radiographs with Klein's line/Trethowan sign, MRI for occult early slips, strict non-weight-bearing, urgent orthopedics, operative management, pediatric hip-pain differential, and exam traps.",
-    "file": "slipped-capital-femoral-epiphysis-scfe-infographic.html"
   },
   {
     "title": "Legg-Calve-Perthes Disease",
