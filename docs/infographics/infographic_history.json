@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "blunt-thoracic-injury-atls11",
+      "title": "Blunt Thoracic Injury",
+      "system": "Trauma / Thoracic / ATLS",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "warfarin-pathophysiology",
       "title": "Warfarin Pathophysiology",
       "system": "Hematology / Pharmacology / Emergency Medicine",

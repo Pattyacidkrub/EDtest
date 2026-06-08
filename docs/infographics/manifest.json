@@ -1,5 +1,14 @@
 [
   {
+    "title": "Blunt Thoracic Injury",
+    "slug": "blunt-thoracic-injury-atls11",
+    "system": "Trauma / Thoracic / ATLS",
+    "date": "2026-06-08",
+    "chapter": "ATLS 11th ed. Ch.5 pp.66-78; Ch.6 pp.82-87,92-96; Ch.14 pp.224,232",
+    "summary": "ATLS 11 primary-survey approach to blunt thoracic injury: oxygenation and ventilation failure, tension/open pneumothorax, hemothorax, flail chest and pulmonary contusion, blunt cardiac injury, diagnostic adjuncts, decompression/tube thoracostomy decisions, reassessment, transfer, and exam traps.",
+    "file": "blunt-thoracic-injury-atls11/"
+  },
+  {
     "title": "Warfarin Pathophysiology",
     "slug": "warfarin-pathophysiology",
     "system": "Hematology / Pharmacology / Emergency Medicine",
