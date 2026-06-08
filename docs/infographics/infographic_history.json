@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "orbital-cellulitis",
+      "title": "Orbital Cellulitis: ED Eye Emergency",
+      "system": "Ophthalmology / Infectious Disease / Pediatrics",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "hypothermia-ecg-management",
       "title": "Hypothermia: ECG + ED Management",
       "system": "Environmental / Resuscitation / ECG",
