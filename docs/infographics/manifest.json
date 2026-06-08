@@ -1,5 +1,14 @@
 [
   {
+    "title": "Hypothermia: ECG + ED Management",
+    "slug": "hypothermia-ecg-management",
+    "system": "Environmental / Resuscitation / ECG / Critical Care",
+    "date": "2026-06-08",
+    "href": "hypothermia-ecg-management/",
+    "chapter": "Tintinalli Ch.209 pp.1337-1344",
+    "summary": "Remade ED approach to accidental hypothermia focused on ECG and management: core-temperature staging, Osborn J waves, bradycardia, PR/QRS/QTc changes, AF/flutter, low-flow pseudo-pulseless states, core temperature measurement, careful handling, active external/minimally invasive rewarming, warmed fluids, ECLS/ECMO indications, hypothermic cardiac arrest defibrillation/epinephrine caveats, termination traps, labs, disposition, and exam pearls."
+  },
+  {
     "title": "Castor Bean (Ricin) Poisoning",
     "slug": "castor-bean-ricin-poisoning",
     "system": "Toxicology / Plants / Biotoxin / Critical Care",
@@ -214,15 +223,6 @@
     "chapter": "Tintinalli Ch.122 pp.765-767; Ch.241 pp.1533-1539; local antibiotic-dose passages",
     "summary": "ED approach to orbital cellulitis: preseptal versus postseptal split, orbital septum anatomy, sinusitis and valveless venous spread, pain with eye movement, EOM restriction, proptosis, chemosis, decreased visual acuity/APD, CT orbit/sinus pathway, cavernous sinus thrombosis clues, IV antibiotics, ophthalmology/ENT consultation, drainage/canthotomy triggers, disposition, and exam traps.",
     "file": "orbital-cellulitis-infographic.html"
-  },
-  {
-    "title": "Hypothermia: ECG + ED Management",
-    "slug": "hypothermia-ecg-management",
-    "system": "Environmental / Resuscitation / ECG",
-    "date": "2026-06-08",
-    "chapter": "Tintinalli Ch.209 pp.1337-1344",
-    "summary": "ED approach to accidental hypothermia focused on ECG and management: clinical staging, Osborn J waves, bradycardia, PR/QRS/QTc changes, atrial fibrillation/flutter, low-flow pseudo-pulseless states, core temperature measurement, active external/minimally invasive rewarming, warmed fluids, ECLS/ECMO indications, hypothermic cardiac arrest defibrillation/epinephrine caveats, termination traps, labs, disposition, and exam pearls.",
-    "file": "hypothermia-ecg-management-infographic.html"
   },
   {
     "title": "Legg-Calve-Perthes Disease",
