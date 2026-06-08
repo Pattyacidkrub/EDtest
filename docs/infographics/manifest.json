@@ -1,5 +1,14 @@
 [
   {
+    "title": "Hypocalcemia in the ED",
+    "slug": "hypocalcemia",
+    "system": "Renal / Electrolytes / Cardiology / Pediatrics",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.17 pp.95-97; Ch.132 pp.855-856; Ch.138 pp.891-894",
+    "summary": "Remade ED approach to hypocalcemia: ionized-versus-total calcium traps, alkalosis/hypoalbuminemia physiology, causes, neuromuscular and ECG red flags, magnesium/phosphate/renal workup, IV calcium and magnesium treatment, pediatric dosing, disposition, and exam traps.",
+    "file": "hypocalcemia/"
+  },
+  {
     "title": "Oral Burn in a Child: Electrical Cord & Caustic ED Pathway",
     "slug": "oral-burn-child",
     "system": "Pediatrics / Burns / Toxicology / ENT-Oral Surgery",
@@ -187,15 +196,6 @@
     "chapter": "Tintinalli Ch.235 pp.1478-1482; Ch.144 pp.948-951; Ch.96 pp.608-612",
     "summary": "ED approach to von Willebrand disease: mucocutaneous bleeding pattern, vWF platelet-adhesion and FVIII-carrier physiology, type 1/2/3 classification, diagnostic labs, DDAVP/vWF concentrate/antifibrinolytic therapy, menorrhagia, pediatric traps, disposition, and antiplatelet medication cautions.",
     "file": "von-willebrand-disease/"
-  },
-  {
-    "title": "Hypocalcemia in the ED",
-    "slug": "hypocalcemia",
-    "system": "Renal / Electrolytes / Cardiology / Pediatrics",
-    "date": "2026-06-08",
-    "chapter": "Tintinalli Ch.17 pp.95-97; Ch.132 pp.855-856; Ch.138 pp.891-894",
-    "summary": "ED approach to hypocalcemia: ionized-versus-total calcium traps, alkalosis/hypoalbuminemia physiology, causes, neuromuscular and ECG clues, adult and pediatric IV calcium dosing, magnesium replacement, disposition, and exam traps.",
-    "file": "hypocalcemia/"
   },
   {
     "title": "Blunt Thoracic Injury",

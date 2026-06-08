@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "hypocalcemia",
+      "title": "Hypocalcemia in the ED",
+      "system": "Renal / Electrolytes / Cardiology / Pediatrics",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "oral-burn-child",
       "title": "Oral Burn in a Child: Electrical Cord & Caustic ED Pathway",
       "system": "Pediatrics / Burns / Toxicology / ENT-Oral Surgery",
@@ -124,12 +130,6 @@
       "slug": "von-willebrand-disease",
       "title": "von Willebrand Disease (vWD)",
       "system": "Hematology / Bleeding Disorders / Pediatrics / OB-GYN",
-      "date": "2026-06-08"
-    },
-    {
-      "slug": "hypocalcemia",
-      "title": "Hypocalcemia in the ED",
-      "system": "Renal / Electrolytes / Cardiology / Pediatrics",
       "date": "2026-06-08"
     },
     {
@@ -333,8 +333,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "herpes-hsv-vzv-ed",
-    "title": "Herpes in the ED: HSV vs VZV",
+    "slug": "hypocalcemia",
+    "title": "Hypocalcemia in the ED",
     "status": "redone_with_built_in_imagegen_replacing_custom_diagram"
   }
 }
