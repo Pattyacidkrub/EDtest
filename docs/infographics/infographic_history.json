@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "hyperkalemia-ed-treatment",
+      "title": "Hyperkalemia: ECG + ED Treatment Algorithm",
+      "system": "Renal / Electrolytes / Cardiology / Critical Care / Pediatrics",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "hypocalcemia",
       "title": "Hypocalcemia in the ED",
       "system": "Renal / Electrolytes / Cardiology / Pediatrics",

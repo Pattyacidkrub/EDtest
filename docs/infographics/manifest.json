@@ -1,5 +1,14 @@
 [
   {
+    "title": "Hyperkalemia: ECG + ED Treatment Algorithm",
+    "slug": "hyperkalemia-ed-treatment",
+    "system": "Renal / Electrolytes / Cardiology / Critical Care / Pediatrics",
+    "date": "2026-06-08",
+    "href": "hyperkalemia-ed-treatment/",
+    "chapter": "Tintinalli Ch.17 pp.88-93; Ch.88 pp.563-569; Ch.132 pp.855-856; Ch.146 p.989; StatPearls Hyperkalemia; UK Kidney Association Hyperkalaemia guideline",
+    "summary": "ED approach to hyperkalemia: pseudohyperkalemia check, ECG-first risk stratification, membrane stabilization with calcium, intracellular shift therapy, definitive potassium removal, adult and pediatric dosing, glucose/rebound monitoring, dialysis triggers, disposition, and exam traps."
+  },
+  {
     "title": "Hypocalcemia in the ED",
     "slug": "hypocalcemia",
     "system": "Renal / Electrolytes / Cardiology / Pediatrics",
