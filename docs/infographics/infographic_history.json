@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "acei-induced-angioedema",
+      "title": "ACEI-Induced Angioedema",
+      "system": "Allergy / Airway / Toxicology",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "herpes-hsv-vzv-ed",
       "title": "Herpes in the ED: HSV vs VZV",
       "system": "Infectious Disease / Dermatology / Ophthalmology",
@@ -183,8 +189,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "herpes-hsv-vzv-ed",
-    "title": "Herpes in the ED: HSV vs VZV",
+    "slug": "acei-induced-angioedema",
+    "title": "ACEI-Induced Angioedema",
     "status": "generated_custom_diagram_source_backed"
   }
 }

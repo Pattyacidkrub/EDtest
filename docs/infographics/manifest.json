@@ -1,5 +1,14 @@
 [
   {
+    "title": "ACEI-Induced Angioedema",
+    "slug": "acei-induced-angioedema",
+    "system": "Allergy / Airway / Toxicology",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.14 pp.68-72; Ch.196 pp.1279-1282; Ch.29A pp.184-189; Ch.30 pp.194-196; Ch.243 p.1567; Ch.251 pp.1644-1645",
+    "summary": "Airway-first ED approach to ACE inhibitor-induced angioedema: bradykinin/substance P mechanism, histamine versus bradykinin pattern split, airway red flags, early fiberoptic/surgical airway planning, off-label targeted options, observation, discontinuation of ACEI/ARB, and exam traps.",
+    "file": "acei-induced-angioedema/"
+  },
+  {
     "title": "Herpes in the ED: HSV vs VZV",
     "slug": "herpes-hsv-vzv-ed",
     "system": "Infectious Disease / Dermatology / Ophthalmology",
