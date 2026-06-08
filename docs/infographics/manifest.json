@@ -1,5 +1,14 @@
 [
   {
+    "title": "Regional Nerve Blocks: Face + Foot",
+    "slug": "regional-nerve-blocks-foot-face-forehead",
+    "system": "Procedures / Analgesia / Trauma / ENT-Oral / Orthopedics",
+    "date": "2026-06-08",
+    "href": "regional-nerve-blocks-foot-face-forehead/",
+    "chapter": "Tintinalli Ch.36 pp.236-246; PMC maxillofacial regional anesthesia figures CC BY-NC 3.0; The POCUS Atlas lower extremity blocks CC BY-NC 4.0; NCBI StatPearls facial block technique references",
+    "summary": "Remade ED regional anesthesia guide for forehead/face and foot/ankle blocks using a built-in image_gen summary poster plus real reference images from open-license medical sources; includes landmark coverage, dose ceilings, LAST rescue, contraindications, and exam traps."
+  },
+  {
     "title": "Ludwig Angina: Airway-First ED Pathway",
     "slug": "ludwig-angina",
     "system": "ENT / Oral-Maxillofacial / Airway / Infectious Disease / Pediatrics",
@@ -286,15 +295,6 @@
     "chapter": "Tintinalli Ch.241 pp.1523-1560; Ch.35 pp.231-233; Ch.115 pp.724-727; Ch.47 pp.324-325",
     "summary": "Vision-threatening ocular trauma pathway: occult high-speed penetration, red flags, stop-exam rule, rigid shield, CT orbit, IV antibiotics, antiemetic/analgesia/tetanus, and immediate ophthalmology disposition.",
     "href": "open-globe-injury/index.html"
-  },
-  {
-    "title": "Regional Nerve Blocks: Foot, Face & Forehead",
-    "slug": "regional-nerve-blocks-foot-face-forehead",
-    "system": "Procedures / Analgesia / Trauma",
-    "date": "2026-06-08",
-    "chapter": "Tintinalli Ch.36 pp.236-246; Ch.245 pp.1590-1593; Ch.259 pp.1715-1719; NYSORA/StatPearls/Merck procedural refs",
-    "summary": "ED regional anesthesia cheat sheet for ankle/foot, facial, and forehead blocks with clear custom anatomy diagrams, landmark injection map, doses, LAST safety, contraindications, and exam traps.",
-    "href": "regional-nerve-blocks-foot-face-forehead/index.html"
   },
   {
     "title": "Child Abuse & Neglect",

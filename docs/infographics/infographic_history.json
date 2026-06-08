@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "regional-nerve-blocks-foot-face-forehead",
+      "title": "Regional Nerve Blocks: Face + Foot",
+      "system": "Procedures / Analgesia / Trauma / ENT-Oral / Orthopedics",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "ludwig-angina",
       "title": "Ludwig Angina: Airway-First ED Pathway",
       "system": "ENT / Oral-Maxillofacial / Airway / Infectious Disease / Pediatrics",
@@ -190,12 +196,6 @@
       "slug": "open-globe-injury",
       "title": "Open Globe Injury",
       "system": "Ophthalmology / Trauma / Procedures",
-      "date": "2026-06-08"
-    },
-    {
-      "slug": "regional-nerve-blocks-foot-face-forehead",
-      "title": "Regional Nerve Blocks: Foot, Face & Forehead",
-      "system": "Procedures / Analgesia / Trauma",
       "date": "2026-06-08"
     },
     {
