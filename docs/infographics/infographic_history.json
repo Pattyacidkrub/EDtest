@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "naphthalene-poisoning-g6pd",
+      "title": "Naphthalene Poisoning in G6PD Deficiency",
+      "system": "Toxicology / Hematology / Pediatrics",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "mca-infarction",
       "title": "MCA Infarction: Anterior Circulation Stroke",
       "system": "Neurology / Stroke / Critical Care",
@@ -273,8 +279,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "acei-induced-angioedema",
-    "title": "ACEI-Induced Angioedema",
-    "status": "generated_custom_diagram_source_backed"
+    "slug": "naphthalene-poisoning-g6pd",
+    "title": "Naphthalene Poisoning in G6PD Deficiency",
+    "status": "generated_code_native_poster_with_real_photo"
   }
 }
