@@ -1,6 +1,25 @@
 {
   "completed": [
     {
+      "title": "Orbital Cellulitis: ED Eye Emergency",
+      "slug": "orbital-cellulitis",
+      "system": "Ophthalmology / Infectious Disease / Pediatrics",
+      "date": "2026-06-08",
+      "chapter": "Tintinalli 9e Ch.122 pp.765-767; Ch.241 pp.1533,1539",
+      "summary": "Remade with a generated bitmap infographic for ED orbital cellulitis: preseptal versus postseptal split, sinusitis and valveless venous spread, pain with eye movement, EOM restriction, proptosis, chemosis, decreased visual acuity/APD, contrast CT orbit/sinus pathway, ophthalmology/ENT consultation, inpatient IV antibiotics with pediatric doses, abscess drainage, lateral canthotomy triggers, disposition, and exam traps.",
+      "href": "orbital-cellulitis/",
+      "file": "orbital-cellulitis/index.html",
+      "assets": {
+        "image_2160x3840": "orbital-cellulitis/assets/orbital-cellulitis-gpt-image-2-2160x3840.png",
+        "image_4320x7680": "orbital-cellulitis/assets/orbital-cellulitis-gpt-image-2-4320x7680.png",
+        "image_original": "orbital-cellulitis/assets/orbital-cellulitis-gpt-image-2-original.png"
+      },
+      "source_extract": "source_extracts/orbital-cellulitis-tintinalli9-pdf-extract-2026-06-08-redo.txt",
+      "generation": "Built-in image generation requested as gpt-image-2-style bitmap; resized to exact 2160x3840 and upscaled 2x to 4320x7680.",
+      "completed_at": "2026-06-08T21:48:00+07:00",
+      "notes": "Redo requested by user; old custom-diagram assets replaced by generated bitmap assets."
+    },
+    {
       "slug": "hypothermia-ecg-management",
       "title": "Hypothermia: ECG + ED Management",
       "system": "Environmental / Resuscitation / ECG / Critical Care",
@@ -143,12 +162,6 @@
       "slug": "scaphoid-fracture",
       "title": "Scaphoid Fracture: Occult Wrist Injury",
       "system": "Orthopedics / Hand / Trauma / Pediatrics",
-      "date": "2026-06-08"
-    },
-    {
-      "slug": "orbital-cellulitis",
-      "title": "Orbital Cellulitis: ED Eye Emergency",
-      "system": "Ophthalmology / Infectious Disease / Pediatrics",
       "date": "2026-06-08"
     },
     {
@@ -351,9 +364,22 @@
     }
   ],
   "last_run": {
+    "title": "Orbital Cellulitis: ED Eye Emergency",
+    "slug": "orbital-cellulitis",
+    "system": "Ophthalmology / Infectious Disease / Pediatrics",
     "date": "2026-06-08",
-    "slug": "acid-base-interpretation-oxygenation",
-    "title": "Acid-Base Interpretation + Oxygenation",
-    "status": "redone_with_gpt_image_2_generated_bitmap"
+    "chapter": "Tintinalli 9e Ch.122 pp.765-767; Ch.241 pp.1533,1539",
+    "summary": "Remade with a generated bitmap infographic for ED orbital cellulitis: preseptal versus postseptal split, sinusitis and valveless venous spread, pain with eye movement, EOM restriction, proptosis, chemosis, decreased visual acuity/APD, contrast CT orbit/sinus pathway, ophthalmology/ENT consultation, inpatient IV antibiotics with pediatric doses, abscess drainage, lateral canthotomy triggers, disposition, and exam traps.",
+    "href": "orbital-cellulitis/",
+    "file": "orbital-cellulitis/index.html",
+    "assets": {
+      "image_2160x3840": "orbital-cellulitis/assets/orbital-cellulitis-gpt-image-2-2160x3840.png",
+      "image_4320x7680": "orbital-cellulitis/assets/orbital-cellulitis-gpt-image-2-4320x7680.png",
+      "image_original": "orbital-cellulitis/assets/orbital-cellulitis-gpt-image-2-original.png"
+    },
+    "source_extract": "source_extracts/orbital-cellulitis-tintinalli9-pdf-extract-2026-06-08-redo.txt",
+    "generation": "Built-in image generation requested as gpt-image-2-style bitmap; resized to exact 2160x3840 and upscaled 2x to 4320x7680.",
+    "completed_at": "2026-06-08T21:48:00+07:00",
+    "notes": "Redo requested by user; old custom-diagram assets replaced by generated bitmap assets."
   }
 }
