@@ -105,7 +105,7 @@
     },
     {
       "slug": "cerebellar-infarction-hints-exam",
-      "title": "Cerebellar Infarction + HINTS Exam",
+      "title": "Cerebellar Infarction + HINTS+",
       "system": "Neurology / Stroke / Vertigo",
       "date": "2026-06-08"
     },
@@ -339,8 +339,14 @@
     },
     {
       "slug": "iga-vasculitis-hsp",
-      "title": "IgA Vasculitis / HSP",
-      "system": "Pediatrics / Renal / Vasculitis",
+      "title": "IgA Vasculitis (HSP)",
+      "system": "Dermatology / Pediatrics",
+      "date": "2026-06-07"
+    },
+    {
+      "slug": "tetralogy-of-fallot",
+      "title": "Tetralogy of Fallot",
+      "system": "Pediatrics / Cardiology",
       "date": "2026-06-07"
     }
   ],

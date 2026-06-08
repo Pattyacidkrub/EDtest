@@ -4,36 +4,36 @@
     "slug": "hypothermia-ecg-management",
     "system": "Environmental / Resuscitation / ECG / Critical Care",
     "date": "2026-06-08",
-    "href": "hypothermia-ecg-management/",
     "chapter": "Tintinalli Ch.209 pp.1337-1344",
-    "summary": "Remade ED approach to accidental hypothermia focused on ECG and management: core-temperature staging, Osborn J waves, bradycardia, PR/QRS/QTc changes, AF/flutter, low-flow pseudo-pulseless states, core temperature measurement, careful handling, active external/minimally invasive rewarming, warmed fluids, ECLS/ECMO indications, hypothermic cardiac arrest defibrillation/epinephrine caveats, termination traps, labs, disposition, and exam pearls."
+    "summary": "Remade ED approach to accidental hypothermia focused on ECG and management: core-temperature staging, Osborn J waves, bradycardia, PR/QRS/QTc changes, AF/flutter, low-flow pseudo-pulseless states, core temperature measurement, careful handling, active external/minimally invasive rewarming, warmed fluids, ECLS/ECMO indications, hypothermic cardiac arrest defibrillation/epinephrine caveats, termination traps, labs, disposition, and exam pearls.",
+    "file": "hypothermia-ecg-management-infographic.html"
   },
   {
     "title": "Castor Bean (Ricin) Poisoning",
     "slug": "castor-bean-ricin-poisoning",
     "system": "Toxicology / Plants / Biotoxin / Critical Care",
     "date": "2026-06-08",
-    "href": "castor-bean-ricin-poisoning/",
     "chapter": "Tintinalli Ch.9 pp.41-42; Ch.221 pp.1410-1413; Ch.176 pp.1191-1192; Ch.20 pp.133-135; CDC PHIL ID 19558 visual reference",
-    "summary": "Remade ED approach to castor bean toxalbumin poisoning: Ricinus communis and ricin mechanism, route-dependent risk, GI-limited ingestion caveat, chewed/large ingestion observation, inhalational/parenteral severe toxicity, no-antidote supportive care, activated charcoal adult/pediatric dosing, airway-risk cautions, poison-center escalation, workup, shock/ICU support, disposition, and exam traps."
+    "summary": "Remade ED approach to castor bean toxalbumin poisoning: Ricinus communis and ricin mechanism, route-dependent risk, GI-limited ingestion caveat, chewed/large ingestion observation, inhalational/parenteral severe toxicity, no-antidote supportive care, activated charcoal adult/pediatric dosing, airway-risk cautions, poison-center escalation, workup, shock/ICU support, disposition, and exam traps.",
+    "file": "castor-bean-ricin-poisoning-infographic.html"
   },
   {
     "title": "Slipped Capital Femoral Epiphysis (SCFE)",
     "slug": "slipped-capital-femoral-epiphysis-scfe",
     "system": "Pediatrics / Orthopedics / Hip Pain",
     "date": "2026-06-08",
-    "href": "slipped-capital-femoral-epiphysis-scfe/",
     "chapter": "Tintinalli Ch.141 pp.917-918,921-923; Ch.115 pp.723-726; Ch.281 pp.1896-1897",
-    "summary": "Remade ED approach to SCFE: adolescent hip disability from femoral-epiphysis slip, growth-spurt and obesity/endocrine/renal/radiation risk clues, chronic hip-groin-thigh-knee pain, acute inability to bear weight, external progression angle, obligate external rotation with hip flexion, bilateral AP/lateral-Lowenstein radiographs, Klein line/Trethowan sign, MRI for occult early slips, strict non-weight-bearing, urgent orthopedics, operative fixation, pediatric analgesia, and exam traps."
+    "summary": "Remade ED approach to SCFE: adolescent hip disability from femoral-epiphysis slip, growth-spurt and obesity/endocrine/renal/radiation risk clues, chronic hip-groin-thigh-knee pain, acute inability to bear weight, external progression angle, obligate external rotation with hip flexion, bilateral AP/lateral-Lowenstein radiographs, Klein line/Trethowan sign, MRI for occult early slips, strict non-weight-bearing, urgent orthopedics, operative fixation, pediatric analgesia, and exam traps.",
+    "file": "slipped-capital-femoral-epiphysis-scfe-infographic.html"
   },
   {
     "title": "Open Globe Injury",
     "slug": "open-globe-injury",
     "system": "Ophthalmology / Trauma / Emergency Surgery / Pediatrics",
     "date": "2026-06-08",
-    "href": "open-globe-injury/",
     "chapter": "Tintinalli Ch.241 pp.1527-1559; Cureus 2025 real clinical/Seidel/CT images CC BY 4.0; NCBI StatPearls CT IOFB image CC BY-NC-ND 4.0",
-    "summary": "Remade open-globe ED pathway with a built-in image_gen poster plus real reference images: pupillary deformity, positive Seidel sign, CT orbit trauma, and metallic intraocular foreign body. Covers stop-exam rule, shield, CT, antibiotics, tetanus, antiemetic, and OR/transfer disposition."
+    "summary": "Remade open-globe ED pathway with a built-in image_gen poster plus real reference images: pupillary deformity, positive Seidel sign, CT orbit trauma, and metallic intraocular foreign body. Covers stop-exam rule, shield, CT, antibiotics, tetanus, antiemetic, and OR/transfer disposition.",
+    "file": "open-globe-injury-ed-infographic.html"
   },
   {
     "title": "Regional Nerve Blocks: Face + Foot",
@@ -60,7 +60,7 @@
     "date": "2026-06-08",
     "chapter": "Tintinalli Ch.235 pp.1478-1482; Ch.144 pp.948-951; Ch.96 pp.608-612; Ch.239 pp.1508-1510",
     "summary": "Remade ED approach to von Willebrand disease: vWF platelet-adhesion and factor VIII carrier physiology, type 1/2/3 split, mucocutaneous and menorrhagia patterns, critical-site bleeding red flags, vWD lab-panel traps, DDAVP, vWF concentrates, antifibrinolytics, medication avoidance, disposition, and exam pearls.",
-    "href": "von-willebrand-disease/"
+    "file": "von-willebrand-disease-infographic.html"
   },
   {
     "title": "Hyperkalemia: ECG + ED Treatment Algorithm",
@@ -78,7 +78,7 @@
     "date": "2026-06-08",
     "chapter": "Tintinalli Ch.17 pp.95-97; Ch.132 pp.855-856; Ch.138 pp.891-894",
     "summary": "Remade ED approach to hypocalcemia: ionized-versus-total calcium traps, alkalosis/hypoalbuminemia physiology, causes, neuromuscular and ECG red flags, magnesium/phosphate/renal workup, IV calcium and magnesium treatment, pediatric dosing, disposition, and exam traps.",
-    "file": "hypocalcemia/"
+    "file": "hypocalcemia-infographic.html"
   },
   {
     "title": "Oral Burn in a Child: Electrical Cord & Caustic ED Pathway",
@@ -94,7 +94,7 @@
     "slug": "diagnostic-test-statistics-thai",
     "system": "Evidence-Based Medicine / Statistics / Diagnostic Testing",
     "date": "2026-06-08",
-    "href": "diagnostic-test-statistics-thai/",
+    "file": "diagnostic-test-statistics-thai-infographic.html",
     "chapter": "NCBI StatPearls Diagnostic Testing Accuracy; Oxford CEBM Likelihood Ratios; UCSF Hospital Handbook; TheNNT",
     "summary": "Remade Thai diagnostic-test statistics infographic: 2x2 TP/FP/FN/TN table, sensitivity, specificity, PPV, NPV, prevalence effect, LR+/LR-, odds conversion, post-test probability workflow, diagnostic odds ratio, worked example, and common exam traps."
   },
@@ -112,7 +112,7 @@
     "slug": "seatbelt-injury",
     "system": "Trauma / Abdomen / Spine / Thoracic",
     "date": "2026-06-08",
-    "href": "seatbelt-injury/",
+    "file": "seatbelt-injury-infographic.html",
     "chapter": "Tintinalli Ch.3 p.12; Ch.258 pp.1700,1713; Ch.261 pp.1731,1739; Ch.262 pp.1744,1748; Ch.263 pp.1751-1755; Ch.110 pp.689-698; Ch.256 pp.1681-1682; ATLS 11 Ch.2/13/14/21",
     "summary": "Remade ED approach to seat-belt sign and restraint-associated injury: mechanism clue, hollow viscus/mesenteric and Chance-fracture risk, pancreatic/duodenal and thoracic/BCI/great-vessel clues, pediatric/pregnancy caveats, CT/FAST limitations, serial exams, operative triggers, medication cautions, and disposition traps."
   },
@@ -121,7 +121,7 @@
     "slug": "intussusception-ultrasound",
     "system": "Pediatrics / GI / Ultrasound / Surgery",
     "date": "2026-06-08",
-    "href": "intussusception-ultrasound/",
+    "file": "intussusception-ultrasound-infographic.html",
     "chapter": "Tintinalli Ch.133 pp.857-860; Ch.131 p.844; Ch.134 p.868; Ch.140 p.903; Merck/StatPearls; Wikimedia US images",
     "summary": "ED approach to pediatric intussusception with real ultrasound examples and lesion description: target/donut sign, pseudokidney sign, bowel-within-bowel anatomy, pain-lethargy presentations, red flags, ultrasound/air-enema pathway, reduction contraindications, recurrence, and disposition."
   },
@@ -130,16 +130,16 @@
     "slug": "herpes-hsv-vzv-ed",
     "system": "Infectious Disease / Dermatology / Ophthalmology",
     "date": "2026-06-08",
+    "file": "herpes-hsv-vzv-ed-infographic.html",
     "chapter": "Tintinalli Ch.153/154/102/120/122/124/142/250/253/283/88; CDC STI Treatment Guidelines cross-check",
-    "summary": "Remade ED approach to HSV vs VZV: pattern/site/host-risk triage, painful grouped vesicles versus dermatomal zoster, ocular/CNS/neonatal/disseminated red flags, PCR/culture and CSF pathway, antiviral dosing, renal cautions, disposition, and exam traps.",
-    "href": "herpes-hsv-vzv-ed/"
+    "summary": "Remade ED approach to HSV vs VZV: pattern/site/host-risk triage, painful grouped vesicles versus dermatomal zoster, ocular/CNS/neonatal/disseminated red flags, PCR/culture and CSF pathway, antiviral dosing, renal cautions, disposition, and exam traps."
   },
   {
     "title": "Xanthopsia: Digoxin/Cardiac Glycoside Toxicity",
     "slug": "xanthopsia-digoxin-toxicity",
     "system": "Toxicology / Ophthalmology / Cardiology",
     "date": "2026-06-08",
-    "href": "xanthopsia-digoxin-toxicity/",
+    "file": "xanthopsia-digoxin-toxicity-infographic.html",
     "chapter": "Tintinalli Ch.193 pp.1267-1270; Ch.221 pp.1411-1412; Ch.19 pp.131-132; NCBI StatPearls",
     "summary": "ED approach to xanthopsia as a visual clue to digoxin or cardiac glycoside toxicity: yellow-green halos/color vision change, acute versus chronic toxicity, cardiac/GI/neuro findings, ECG and lab workup, potassium risk stratification, digoxin-Fab indications and dosing concepts, decontamination, disposition, and exam traps."
   },
@@ -157,17 +157,17 @@
       "image_4320": "acid-base-interpretation-oxygenation/assets/acid-base-interpretation-oxygenation-gpt-image-2-4320x7680.png",
       "image_original": "acid-base-interpretation-oxygenation/assets/acid-base-interpretation-oxygenation-gpt-image-2-original.png"
     },
-    "generation": "built-in image generation, source-constrained prompt, exact-size local PNG derivatives",
-    "source_note": "Source was extracted locally from Tintinallis Emergency Medicine 9th Ed 2019.pdf; public repo does not include textbook text extracts."
+    "source_extract": "source_extracts/acid-base-interpretation-oxygenation-tintinalli9-pages118-126-471.txt",
+    "generation": "built-in image generation, source-constrained prompt, exact-size local PNG derivatives"
   },
   {
-    "title": "Cerebellar Infarction + HINTS Exam",
+    "title": "Cerebellar Infarction + HINTS+",
     "slug": "cerebellar-infarction-hints-exam",
     "system": "Neurology / Stroke / Vertigo",
     "date": "2026-06-08",
     "href": "cerebellar-infarction-hints-exam/",
-    "chapter": "Tintinalli Ch.170 pp.1145-1151; Ch.167 pp.1120-1134; Ch.169 pp.1143-1145; Ch.164 p.1103; GRACE-3; Kattah HINTS",
-    "summary": "ED approach to cerebellar infarction presenting as acute vestibular syndrome: when to use HINTS/HINTS+, how to interpret central signs, red flags, imaging, stroke activation, neurology/neurosurgery disposition, and exam traps."
+    "chapter": "Tintinalli 9e Ch.164 pp.1101-1106; Ch.167 pp.1120-1134; Ch.169 pp.1143-1145; Ch.170 pp.1145-1151",
+    "summary": "Remade with a generated bitmap infographic for ED cerebellar infarction presenting as acute vestibular syndrome: AVS gate for HINTS+, central nystagmus/skew/head-impulse/hearing-loss clues, severe gait ataxia, CT-normal trap, DWI MRI/CTA pathway, stroke stabilization, alteplase and BP dosing, monitored admission, early neurology/neurosurgery, and exam traps."
   },
   {
     "title": "Pyogenic Flexor Tenosynovitis",
@@ -192,7 +192,7 @@
     "slug": "plasmodium-falciparum-pbs-treatment",
     "system": "Infectious Disease / Tropical Medicine / Hematology",
     "date": "2026-06-08",
-    "href": "plasmodium-falciparum-pbs-treatment/",
+    "file": "plasmodium-falciparum-pbs-treatment-infographic.html",
     "chapter": "Tintinalli Ch.159 pp.1057-1063; CDC Malaria Clinical Guidance/DPDx",
     "summary": "ED approach to Plasmodium falciparum malaria focused on detailed peripheral blood smear reading, parasitemia calculation, severe-malaria criteria, IV artesunate, oral regimens, pediatric/pregnancy cautions, and exam traps."
   },
@@ -201,7 +201,7 @@
     "slug": "naphthalene-poisoning-g6pd",
     "system": "Toxicology / Hematology / Pediatrics",
     "date": "2026-06-08",
-    "href": "naphthalene-poisoning-g6pd/",
+    "file": "naphthalene-poisoning-g6pd-infographic.html",
     "chapter": "Tintinalli Ch.236 pp.1488-1489; Ch.237 pp.1491-1494; Ch.207 pp.1329-1332; Ch.176 pp.1191-1192; ATSDR/MedlinePlus/UKHSA",
     "summary": "Mothball/naphthalene exposure in G6PD deficiency: oxidative hemolysis, methemoglobinemia diagnosis, labs to send, treatment pathway, methylene-blue trap, disposition, and why milk/feeding is held initially."
   },
@@ -239,7 +239,7 @@
     "date": "2026-06-08",
     "chapter": "Tintinalli Ch.141 pp.917-924; Ch.115 pp.723-725",
     "summary": "ED approach to Legg-Calve-Perthes disease: avascular necrosis of the femoral head, age/sex epidemiology, insidious limp with referred thigh/knee pain, decreased hip abduction and internal rotation, radiographic progression, MRI/bone scan when early radiographs are normal, urgent orthopedic referral, pediatric hip-pain differential, and exam traps.",
-    "file": "legg-calve-perthes-disease/"
+    "file": "legg-calve-perthes-disease-infographic.html"
   },
   {
     "title": "Blunt Thoracic Injury",
@@ -248,7 +248,7 @@
     "date": "2026-06-08",
     "chapter": "ATLS 11th ed. Ch.5 pp.66-78; Ch.6 pp.82-87,92-96; Ch.14 pp.224,232",
     "summary": "ATLS 11 primary-survey approach to blunt thoracic injury: oxygenation and ventilation failure, tension/open pneumothorax, hemothorax, flail chest and pulmonary contusion, blunt cardiac injury, diagnostic adjuncts, decompression/tube thoracostomy decisions, reassessment, transfer, and exam traps.",
-    "file": "blunt-thoracic-injury-atls11/"
+    "file": "blunt-thoracic-injury-atls11-infographic.html"
   },
   {
     "title": "Warfarin Pathophysiology",
@@ -257,7 +257,7 @@
     "date": "2026-06-08",
     "chapter": "Tintinalli Ch.239 pp.1501-1505; Ch.232 p.1468; Ch.233 p.1470; Ch.234 pp.1475-1476; Ch.166 p.1118; Ch.201 pp.1307-1308",
     "summary": "Mechanism-first ED infographic for warfarin: vitamin K activation and hepatic carboxylation, factor II/VII/IX/X and protein C/S effects, delayed INR kinetics, early hypercoagulability, interaction physiology, bleeding thresholds, and reversal logic with vitamin K, PCC, and FFP.",
-    "file": "warfarin-pathophysiology/"
+    "file": "warfarin-pathophysiology-infographic.html"
   },
   {
     "title": "Hemophilia Factor Calculation",
@@ -275,7 +275,7 @@
     "date": "2026-06-08",
     "chapter": "Tintinalli Ch.14 pp.68-72; Ch.196 pp.1279-1282; Ch.29A pp.184-189; Ch.30 pp.194-196; Ch.243 p.1567; Ch.251 pp.1644-1645",
     "summary": "Airway-first ED approach to ACE inhibitor-induced angioedema: bradykinin/substance P mechanism, histamine versus bradykinin pattern split, airway red flags, early fiberoptic/surgical airway planning, off-label targeted options, observation, discontinuation of ACEI/ARB, and exam traps.",
-    "file": "acei-induced-angioedema/"
+    "file": "acei-induced-angioedema-infographic.html"
   },
   {
     "title": "ECG Tall R in aVR: ED DDx",
@@ -284,7 +284,7 @@
     "date": "2026-06-08",
     "chapter": "Tintinalli Ch.177 pp.1196-1198; Ch.187 pp.1245-1246; Ch.194 pp.1272-1273; Ch.18 pp.113-114; Ch.49 p.337",
     "summary": "ED differential for terminal tall R in aVR: sodium-channel blockade/TCA pattern, cocaine/cathinones, membrane-stabilizing beta-blockers, class I antiarrhythmics, wide-complex tachycardia/VT algorithm traps, and ACS ST-elevation-in-aVR distinction.",
-    "file": "ecg-tall-r-avr-ddx/"
+    "file": "ecg-tall-r-avr-ddx-ed-infographic.html"
   },
   {
     "title": "Cardiac Glycoside Toxic Plants",
@@ -293,7 +293,7 @@
     "date": "2026-06-08",
     "chapter": "Tintinalli Ch.193 pp.1266-1271; Ch.221 pp.1411-1413; Ch.176 pp.1189-1193; Ch.19 pp.78-79",
     "summary": "Digoxin-like ornamental plant poisoning with real flower photos, Na/K ATPase mechanism, early GI warning symptoms, ECG/K risk pathway, digoxin immune Fab triggers and empiric plant dosing, treatment cautions, and disposition traps.",
-    "file": "cardiac-glycoside-toxic-plants/"
+    "file": "cardiac-glycoside-toxic-plants-ed-infographic.html"
   },
   {
     "title": "Pediatric Hip Pain & Limp",
@@ -302,7 +302,7 @@
     "date": "2026-06-08",
     "chapter": "Tintinalli Ch.141 pp.917-924; Ch.115 pp.725-726; Ch.281 pp.1896-1897",
     "summary": "ED differential and decision pathway for a child with hip pain or limp: septic arthritis versus transient synovitis, SCFE, Legg-Calve-Perthes, toddler fracture/trauma, osteomyelitis, psoas abscess, inflammatory, hematologic, and referred causes.",
-    "href": "pediatric-hip-pain-ddx/index.html"
+    "file": "pediatric-hip-pain-ddx-ed-infographic.html"
   },
   {
     "title": "Child Abuse & Neglect",
@@ -311,7 +311,7 @@
     "date": "2026-06-08",
     "chapter": "Tintinalli Ch.150 pp.988-995; Ch.111 pp.699-703; Ch.138 pp.895-896; Ch.115 pp.723-727; Ch.293 pp.1967-1971; Ch.110 p.684",
     "summary": "ED child maltreatment recognition and safety pathway covering neglect, physical abuse, TEN-4 bruising, burns/fractures, abusive head trauma, occult abdominal trauma, sexual abuse evaluation, documentation, reporting, analgesia, and disposition.",
-    "href": "child-abuse-neglect/index.html"
+    "file": "child-abuse-neglect-ed-infographic.html"
   },
   {
     "title": "Cervical Spine Injury",
@@ -320,7 +320,7 @@
     "date": "2026-06-08",
     "chapter": "Tintinalli Ch.258 pp.1697-1714; Ch.254 pp.1669-1671; Ch.255 pp.1678-1679; Ch.112 pp.706-709; Ch.2 pp.6-7; Ch.35 pp.232-234",
     "summary": "Adult ED cervical spine trauma clearance and imaging pathway with NEXUS/Canadian rules, CT/MRI indications, cord syndromes, stabilization, geriatric/pediatric traps, analgesia, steroid cautions, and disposition.",
-    "href": "cervical-spine-injury/index.html"
+    "file": "cervical-spine-injury-ed-infographic.html"
   },
   {
     "title": "ECG de Winter Pattern",
@@ -329,7 +329,7 @@
     "date": "2026-06-08",
     "chapter": "Tintinalli Ch.49 pp.337,342-343,348-350; BMC Cardiovascular Disorders CC BY 4.0 real ECG figures",
     "summary": "Real-ECG de Winter STEMI-equivalent pattern with LAD occlusion framing, morphology checklist, differential traps, ED reperfusion pathway, ACS medication cautions, and four open-access ECG examples.",
-    "href": "ecg-de-winter-pattern/index.html"
+    "file": "ecg-de-winter-pattern-ed-infographic.html"
   },
   {
     "title": "ECG Fascicular Blocks",
@@ -338,7 +338,7 @@
     "date": "2026-06-08",
     "chapter": "Tintinalli Ch.49 pp.335,350; Ch.52 p.367; Ch.18 pp.112-113; ECGpedia/Wikimedia ECG morphology examples",
     "summary": "Real-ECG pattern recognition for LAFB, LPFB, bifascicular block, and bifascicular-plus-PR prolongation, with ED red flags for ACS, syncope, high-grade AV block, and pacing/consult triggers.",
-    "href": "ecg-fascicular-blocks/index.html"
+    "file": "ecg-fascicular-blocks-ed-infographic.html"
   },
   {
     "title": "Geriatric Trauma + Frailty",
@@ -347,7 +347,7 @@
     "date": "2026-06-08",
     "chapter": "Tintinalli Ch.255 pp.1677-1680; Ch.169 pp.1144-1145; Ch.257 p.1687; Ch.35 pp.230-235; Ch.37 pp.252-253",
     "summary": "Older-adult trauma risk lens focused on frailty, misleading vital signs, occult hypoperfusion, low-impact high-consequence mechanisms, lower imaging thresholds, medication cautions, and admission/ICU indicators.",
-    "href": "geriatric-trauma-frailty/index.html"
+    "file": "geriatric-trauma-frailty-ed-infographic.html"
   },
   {
     "title": "TBI + Reversal Agents",
@@ -356,7 +356,7 @@
     "date": "2026-06-08",
     "chapter": "Tintinalli Ch.257 pp.1683-1695; Ch.239 pp.1504-1510; Ch.166 pp.1117-1118; Ch.238 pp.1497-1498; Ch.111 pp.699-703; Ch.13 p.67",
     "summary": "Anticoagulated head trauma pathway with CT-now rule caveats, brain resuscitation targets, reversal table for warfarin/DOACs/heparins/antiplatelets, ICP/herniation actions, and disposition traps.",
-    "href": "tbi-reversal-agents/index.html"
+    "file": "tbi-reversal-agents-ed-infographic.html"
   },
   {
     "title": "Spinal Shock",
@@ -365,7 +365,7 @@
     "date": "2026-06-08",
     "chapter": "Tintinalli Ch.258 pp.1696-1714; Ch.20 pp.133-135; Ch.18 p.101; Ch.109 pp.683-684; Ch.112 pp.707-708",
     "summary": "Temporary areflexia after spinal cord injury, differentiated from neurogenic shock, with airway vigilance, reflex/sacral-sparing exam, imaging pathway, hemodynamic support caveats, steroid cautions, and disposition pearls.",
-    "href": "spinal-shock/index.html"
+    "file": "spinal-shock-ed-infographic.html"
   },
   {
     "title": "Tetrodotoxin Poisoning",
@@ -374,7 +374,7 @@
     "date": "2026-06-08",
     "chapter": "Tintinalli Ch.8 p.41; Ch.160 pp.1064,1068; Ch.176 pp.1187-1192; Ch.213 pp.1365-1366; Ch.35 p.233",
     "summary": "Pufferfish/fugu sodium-channel toxin with rapid paresthesias, GI symptoms, ascending paralysis, airway-first support, poison-center consultation, anticholinesterase caveat, ICU disposition, and exam traps.",
-    "href": "tetrodotoxin/index.html"
+    "file": "tetrodotoxin-ed-infographic.html"
   },
   {
     "title": "Fournier Gangrene",
@@ -383,52 +383,52 @@
     "date": "2026-06-08",
     "chapter": "Tintinalli Ch.93 pp.592-593; Ch.152 pp.1009-1012; Ch.21 pp.140-141; IDSA SSTI guideline check",
     "summary": "Necrotizing perineal soft tissue infection with pain-out-of-proportion clues, sepsis resuscitation, broad antibiotics, immediate debridement, ICU disposition, and exam traps.",
-    "href": "fournier-gangrene/index.html"
+    "file": "fournier-gangrene-ed-infographic.html"
   },
   {
     "title": "Phlegmasia Cerulea Dolens",
     "slug": "phlegmasia-cerulea-dolens",
     "system": "Cardiovascular / Vascular / Hematology",
     "date": "2026-06-08",
+    "file": "phlegmasia-cerulea-dolens-ed-infographic.html",
     "chapter": "Tintinalli Ch.56 pp.389-398; Ch.239 pp.1506-1512; Ch.99 pp.624-625; Ch.61 p.432",
-    "summary": "Limb-threatening iliofemoral DVT with blue swollen painful limb, rapid anticoagulation, vascular consultation, thrombolysis/thrombectomy pathway, and admission traps.",
-    "href": "phlegmasia-cerulea-dolens/index.html"
+    "summary": "Limb-threatening iliofemoral DVT with blue swollen painful limb, rapid anticoagulation, vascular consultation, thrombolysis/thrombectomy pathway, and admission traps."
   },
   {
     "title": "DRESS Syndrome",
     "slug": "dress-syndrome",
     "system": "Dermatology / Toxicology / Pharmacology",
     "date": "2026-06-08",
+    "file": "dress-syndrome-ed-infographic.html",
     "chapter": "Tintinalli Ch.249 pp.1624,1627-1628; Ch.251 pp.1647-1648; Ch.248 pp.1607,1619-1622; Ch.35 p.232; Ch.190 pp.1252-1253; Ch.142 pp.941-942",
-    "summary": "Delayed severe drug rash with fever, eosinophilia/organ injury, culprit-drug triggers, ED workup, steroids/supportive care, and admission criteria.",
-    "href": "dress-syndrome/index.html"
+    "summary": "Delayed severe drug rash with fever, eosinophilia/organ injury, culprit-drug triggers, ED workup, steroids/supportive care, and admission criteria."
   },
   {
     "title": "Stevens-Johnson Syndrome / Toxic Epidermal Necrolysis (SJS/TEN)",
     "slug": "sjs-ten",
     "system": "Dermatology / Toxicology / Critical Care",
     "date": "2026-06-08",
+    "file": "sjs-ten-ed-infographic.html",
     "chapter": "Tintinalli Ch.249 pp.1623-1627; Ch.251 pp.1647-1648; Ch.142 pp.941-942; Ch.248 p.1622",
-    "summary": "SJS/TEN detachment thresholds, drug triggers, mucosal/airway/ocular red flags, ED resuscitation, burn-unit disposition, and medication cautions.",
-    "href": "sjs-ten/index.html"
+    "summary": "SJS/TEN detachment thresholds, drug triggers, mucosal/airway/ocular red flags, ED resuscitation, burn-unit disposition, and medication cautions."
   },
   {
     "title": "Anticholinergic Toxic Plants",
     "slug": "anticholinergic-toxic-plants",
     "system": "Toxicology / Environmental / Plants",
     "date": "2026-06-08",
+    "file": "anticholinergic-toxic-plants-ed-infographic.html",
     "chapter": "Tintinalli Ch.176 pp.1189-1193; Ch.188 pp.1247-1248; Ch.202 pp.1309-1312; Ch.221 pp.1411-1413",
-    "summary": "Jimsonweed/Datura antimuscarinic toxidrome, toxic plant differential, ED stabilization, physostigmine cautions, disposition, and real flower photo.",
-    "href": "anticholinergic-toxic-plants/index.html"
+    "summary": "Jimsonweed/Datura antimuscarinic toxidrome, toxic plant differential, ED stabilization, physostigmine cautions, disposition, and real flower photo."
   },
   {
     "title": "Shellfish Toxin Poisoning",
     "slug": "shellfish-associated-illness",
     "system": "Environmental / Toxicology / Infectious Disease",
     "date": "2026-06-08",
+    "file": "shellfish-associated-illness-ed-infographic.html",
     "chapter": "Tintinalli Ch.160/73/14/152/35 + CDC Yellow Book/HAB + FDA Seafood Hazards",
-    "summary": "Toxin-first shellfish poisoning with PSP/NSP/ASP/DSP/AZP toxin names, onset clues, red flags, ED supportive care, airway/anaphylaxis/Vibrio traps, and disposition.",
-    "href": "shellfish-associated-illness/index.html"
+    "summary": "Toxin-first shellfish poisoning with PSP/NSP/ASP/DSP/AZP toxin names, onset clues, red flags, ED supportive care, airway/anaphylaxis/Vibrio traps, and disposition."
   },
   {
     "title": "Monteggia Fracture-Dislocation",
@@ -444,7 +444,7 @@
     "slug": "nephrotoxic-agents",
     "system": "Renal / Toxicology / Pharmacology",
     "date": "2026-06-07",
-    "href": "nephrotoxic-agents/index.html",
+    "file": "nephrotoxic-agents-ed-infographic.html",
     "chapter": "Tintinalli Ch.88 pp.563-569; Ch.89 pp.570-572; Ch.185 pp.1228,1231-1232; Ch.297 pp.1990-1991; Ch.35 pp.233-234",
     "summary": "Drug-induced AKI risk factors, nephrotoxin mechanisms, diagnostic clues, ED renal-protection steps, dialysis triggers, and medication cautions."
   },
@@ -453,7 +453,7 @@
     "slug": "hiv-pep-medications",
     "system": "Infectious Disease / Occupational Exposure / Sexual Assault",
     "date": "2026-06-07",
-    "href": "hiv-pep-medications/index.html",
+    "file": "hiv-pep-medications-ed-infographic.html",
     "chapter": "Tintinalli Ch.163 pp.1093-1096; Ch.293 pp.1969-1970; Ch.155 pp.1041-1043",
     "summary": "Post-exposure HIV regimen, timing, adult doses, cautions, baseline labs, follow-up, and occupational/sexual assault traps."
   },
@@ -462,7 +462,7 @@
     "slug": "hus",
     "system": "Pediatrics / Renal / Hematology",
     "date": "2026-06-07",
-    "href": "hus/index.html",
+    "file": "hus-ed-infographic.html",
     "chapter": "Tintinalli Ch.137 pp.884-885; Ch.237 pp.1492-1494; Ch.160 p.1065; Ch.131 p.850",
     "summary": "STEC diarrhea with MAHA, thrombocytopenia, AKI, renal support, disposition, and avoid-antibiotic/antimotility/platelet traps."
   },
@@ -471,7 +471,7 @@
     "slug": "ttp",
     "system": "Hematology / Critical Care / Renal",
     "date": "2026-06-07",
-    "href": "ttp/index.html",
+    "file": "ttp-ed-infographic.html",
     "chapter": "Tintinalli Ch.237 pp.1492-1493; Ch.238 p.1497",
     "summary": "MAHA with thrombocytopenia, ADAMTS-13/vWF pathophysiology, plasma exchange, platelet traps, and ICU disposition."
   },
@@ -480,7 +480,7 @@
     "slug": "kawasaki-disease",
     "system": "Pediatrics / Cardiology / Dermatology",
     "date": "2026-06-07",
-    "href": "kawasaki-disease/index.html",
+    "file": "kawasaki-disease-ed-infographic.html",
     "chapter": "Tintinalli Ch.129 pp.831-832; Ch.142 pp.942-943",
     "summary": "Fever with mucocutaneous signs, incomplete criteria, coronary risk, IVIG/aspirin treatment, and admission traps."
   },
@@ -489,7 +489,7 @@
     "slug": "guillain-barre-syndrome",
     "system": "Neurology / Respiratory Failure",
     "date": "2026-06-07",
-    "href": "guillain-barre-syndrome/index.html",
+    "file": "guillain-barre-syndrome-ed-infographic.html",
     "chapter": "Tintinalli Ch.172 pp.1160-1161",
     "summary": "Ascending areflexic weakness, respiratory monitoring, intubation/ICU criteria, IVIG/plasma exchange, and exam traps."
   },
@@ -498,7 +498,7 @@
     "slug": "botulism",
     "system": "Toxicology / Neurology / Infectious Disease",
     "date": "2026-06-07",
-    "href": "botulism/index.html",
+    "file": "botulism-ed-infographic.html",
     "chapter": "Tintinalli Ch.172 pp.1163-1164; Ch.160 pp.1064,1066; Ch.9 pp.43,45",
     "summary": "Descending paralysis, airway-first stabilization, antitoxin coordination, infant BIG-IV, and disposition traps."
   },
@@ -507,17 +507,26 @@
     "slug": "ectopic-pregnancy",
     "system": "OB/GYN",
     "date": "2026-06-07",
-    "href": "ectopic-pregnancy/",
+    "file": "ectopic-pregnancy-dashboard.html",
     "chapter": "Ch.098",
     "summary": "First-trimester bleeding and pain decision dashboard."
   },
   {
-    "title": "IgA Vasculitis / HSP",
+    "title": "IgA Vasculitis (HSP)",
     "slug": "iga-vasculitis-hsp",
-    "system": "Pediatrics / Renal / Vasculitis",
+    "system": "Dermatology / Pediatrics",
     "date": "2026-06-07",
-    "href": "iga-vasculitis-hsp/",
-    "chapter": "Ch.142 / Ch.137",
-    "summary": "Classic tetrad, ED workup, renal/GI red flags, medication doses, disposition, and UA/BP follow-up."
+    "file": "IgA_Vasculitis_HSP_Final_Review_Board.html",
+    "chapter": "Local review board",
+    "summary": "Rash, abdominal pain, renal findings, and pediatric disposition review."
+  },
+  {
+    "title": "Tetralogy of Fallot",
+    "slug": "tetralogy-of-fallot",
+    "system": "Pediatrics / Cardiology",
+    "date": "2026-06-07",
+    "file": "TOF_ED_Decision_Dashboard.html",
+    "chapter": "Local review dashboard",
+    "summary": "Cyanotic congenital heart disease ED decision dashboard."
   }
 ]
