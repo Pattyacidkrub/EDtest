@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "von-willebrand-disease",
+      "title": "von Willebrand Disease (vWD)",
+      "system": "Hematology / Bleeding Disorders / Pediatrics / OB-GYN",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "hypocalcemia",
       "title": "Hypocalcemia in the ED",
       "system": "Renal / Electrolytes / Cardiology / Pediatrics",
