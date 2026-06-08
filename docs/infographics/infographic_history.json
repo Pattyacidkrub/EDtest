@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "ludwig-angina",
+      "title": "Ludwig Angina: Airway-First ED Pathway",
+      "system": "ENT / Oral-Maxillofacial / Airway / Infectious Disease / Pediatrics",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "von-willebrand-disease",
       "title": "von Willebrand Disease (vWD)",
       "system": "Hematology / Bleeding Disorders / Pediatrics / OB-GYN",

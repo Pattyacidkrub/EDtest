@@ -1,5 +1,14 @@
 [
   {
+    "title": "Ludwig Angina: Airway-First ED Pathway",
+    "slug": "ludwig-angina",
+    "system": "ENT / Oral-Maxillofacial / Airway / Infectious Disease / Pediatrics",
+    "date": "2026-06-08",
+    "href": "ludwig-angina/",
+    "chapter": "Tintinalli Ch.126 pp.796-797; Ch.243 pp.1569-1570; Ch.245 pp.1581-1582; Ch.246 pp.1597-1599; Ch.28/29A airway; NCBI StatPearls Ludwig Angina",
+    "summary": "Airway-first ED approach to Ludwig angina: odontogenic floor-of-mouth infection, classic and late airway signs, early ENT/OMFS/anesthesia consultation, awake airway planning, CT only after airway safety, broad IV antibiotics with adult and pediatric doses, source control, ICU/OR disposition, and exam traps."
+  },
+  {
     "title": "von Willebrand Disease (vWD)",
     "slug": "von-willebrand-disease",
     "system": "Hematology / Bleeding Disorders / Pediatrics / OB-GYN",
