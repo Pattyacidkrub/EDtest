@@ -1,5 +1,14 @@
 [
   {
+    "title": "Hypothermia: ECG + ED Management",
+    "slug": "hypothermia-ecg-management",
+    "system": "Environmental / Resuscitation / ECG",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.209 pp.1337-1344",
+    "summary": "ED approach to accidental hypothermia focused on ECG and management: clinical staging, Osborn J waves, bradycardia, PR/QRS/QTc changes, atrial fibrillation/flutter, low-flow pseudo-pulseless states, core temperature measurement, active external/minimally invasive rewarming, warmed fluids, ECLS/ECMO indications, hypothermic cardiac arrest defibrillation/epinephrine caveats, termination traps, labs, disposition, and exam pearls.",
+    "file": "hypothermia-ecg-management-infographic.html"
+  },
+  {
     "title": "Castor Bean (Ricin) Poisoning",
     "slug": "castor-bean-ricin-poisoning",
     "system": "Toxicology / Plants / Biotoxin",
