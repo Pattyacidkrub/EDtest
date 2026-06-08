@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "von-willebrand-disease",
+      "title": "von Willebrand Disease (vWD)",
+      "system": "Hematology / Bleeding Disorders / Pediatrics / OB-GYN",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "hyperkalemia-ed-treatment",
       "title": "Hyperkalemia: ECG + ED Treatment Algorithm",
       "system": "Renal / Electrolytes / Cardiology / Critical Care / Pediatrics",
@@ -130,12 +136,6 @@
       "slug": "legg-calve-perthes-disease",
       "title": "Legg-Calve-Perthes Disease",
       "system": "Pediatrics / Orthopedics / Hip Pain",
-      "date": "2026-06-08"
-    },
-    {
-      "slug": "von-willebrand-disease",
-      "title": "von Willebrand Disease (vWD)",
-      "system": "Hematology / Bleeding Disorders / Pediatrics / OB-GYN",
       "date": "2026-06-08"
     },
     {
@@ -339,8 +339,8 @@
   ],
   "last_run": {
     "date": "2026-06-08",
-    "slug": "hypocalcemia",
-    "title": "Hypocalcemia in the ED",
+    "slug": "von-willebrand-disease",
+    "title": "von Willebrand Disease (vWD)",
     "status": "redone_with_built_in_imagegen_replacing_custom_diagram"
   }
 }

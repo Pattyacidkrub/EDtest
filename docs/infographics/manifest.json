@@ -1,5 +1,14 @@
 [
   {
+    "title": "von Willebrand Disease (vWD)",
+    "slug": "von-willebrand-disease",
+    "system": "Hematology / Bleeding Disorders / Pediatrics / OB-GYN",
+    "date": "2026-06-08",
+    "chapter": "Tintinalli Ch.235 pp.1478-1482; Ch.144 pp.948-951; Ch.96 pp.608-612; Ch.239 pp.1508-1510",
+    "summary": "Remade ED approach to von Willebrand disease: vWF platelet-adhesion and factor VIII carrier physiology, type 1/2/3 split, mucocutaneous and menorrhagia patterns, critical-site bleeding red flags, vWD lab-panel traps, DDAVP, vWF concentrates, antifibrinolytics, medication avoidance, disposition, and exam pearls.",
+    "href": "von-willebrand-disease/"
+  },
+  {
     "title": "Hyperkalemia: ECG + ED Treatment Algorithm",
     "slug": "hyperkalemia-ed-treatment",
     "system": "Renal / Electrolytes / Cardiology / Critical Care / Pediatrics",
@@ -196,15 +205,6 @@
     "chapter": "Tintinalli Ch.141 pp.917-924; Ch.115 pp.723-725",
     "summary": "ED approach to Legg-Calve-Perthes disease: avascular necrosis of the femoral head, age/sex epidemiology, insidious limp with referred thigh/knee pain, decreased hip abduction and internal rotation, radiographic progression, MRI/bone scan when early radiographs are normal, urgent orthopedic referral, pediatric hip-pain differential, and exam traps.",
     "file": "legg-calve-perthes-disease/"
-  },
-  {
-    "title": "von Willebrand Disease (vWD)",
-    "slug": "von-willebrand-disease",
-    "system": "Hematology / Bleeding Disorders / Pediatrics / OB-GYN",
-    "date": "2026-06-08",
-    "chapter": "Tintinalli Ch.235 pp.1478-1482; Ch.144 pp.948-951; Ch.96 pp.608-612",
-    "summary": "ED approach to von Willebrand disease: mucocutaneous bleeding pattern, vWF platelet-adhesion and FVIII-carrier physiology, type 1/2/3 classification, diagnostic labs, DDAVP/vWF concentrate/antifibrinolytic therapy, menorrhagia, pediatric traps, disposition, and antiplatelet medication cautions.",
-    "file": "von-willebrand-disease/"
   },
   {
     "title": "Blunt Thoracic Injury",
