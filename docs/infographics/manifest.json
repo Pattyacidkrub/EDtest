@@ -1,5 +1,14 @@
 [
   {
+    "title": "Seatbelt Injury: ED Trauma Pattern",
+    "slug": "seatbelt-injury",
+    "system": "Trauma / Abdomen / Spine / Thoracic",
+    "date": "2026-06-08",
+    "href": "seatbelt-injury/",
+    "chapter": "Tintinalli Ch.3 p.12; Ch.258 pp.1700,1713; Ch.261 pp.1731,1739; Ch.262 pp.1744,1748; Ch.263 pp.1751-1755; Ch.110 pp.689-698; Ch.256 pp.1681-1682; ATLS 11 Ch.2/13/14/21",
+    "summary": "Remade ED approach to seat-belt sign and restraint-associated injury: mechanism clue, hollow viscus/mesenteric and Chance-fracture risk, pancreatic/duodenal and thoracic/BCI/great-vessel clues, pediatric/pregnancy caveats, CT/FAST limitations, serial exams, operative triggers, medication cautions, and disposition traps."
+  },
+  {
     "title": "Intussusception: Ultrasound + ED Reduction Pathway",
     "slug": "intussusception-ultrasound",
     "system": "Pediatrics / GI / Ultrasound / Surgery",
@@ -169,15 +178,6 @@
     "chapter": "NCBI StatPearls Diagnostic Testing Accuracy; Oxford CEBM Likelihood Ratios; UCSF Hospital Handbook",
     "summary": "Thai diagnostic-test statistics infographic: 2x2 table, sensitivity, specificity, PPV, NPV, pretest/post-test probability, odds conversion, LR+/LR-, diagnostic odds ratio, interpretation thresholds, and a worked example showing how prevalence changes PPV/NPV.",
     "file": "diagnostic-test-statistics-thai/"
-  },
-  {
-    "title": "Seatbelt Injury",
-    "slug": "seatbelt-injury",
-    "system": "Trauma / Abdomen / Spine / Thoracic",
-    "date": "2026-06-08",
-    "chapter": "Tintinalli Ch.3 p.12; Ch.258 pp.1700,1713; Ch.261 pp.1731,1739; Ch.262 pp.1744,1748; Ch.263 pp.1752-1755; ATLS 11 Ch.11,14,21",
-    "summary": "ED approach to seat-belt sign and restraint-associated injury: lap-belt abdominal trauma, hollow viscus and mesenteric injury, Chance fracture, pancreatic/duodenal injury, thoracic/BCI/great-vessel clues, pediatric and pregnancy caveats, CT/FAST limitations, operative triggers, serial reassessment, and disposition traps.",
-    "file": "seatbelt-injury/"
   },
   {
     "title": "Blunt Thoracic Injury",

@@ -1,6 +1,12 @@
 {
   "completed": [
     {
+      "slug": "seatbelt-injury",
+      "title": "Seatbelt Injury: ED Trauma Pattern",
+      "system": "Trauma / Abdomen / Spine / Thoracic",
+      "date": "2026-06-08"
+    },
+    {
       "slug": "intussusception-ultrasound",
       "title": "Intussusception: Ultrasound + ED Reduction Pathway",
       "system": "Pediatrics / GI / Ultrasound / Surgery",
@@ -112,12 +118,6 @@
       "slug": "diagnostic-test-statistics-thai",
       "title": "สถิติ Diagnostic Test",
       "system": "Evidence-Based Medicine / Statistics / Diagnostic Testing",
-      "date": "2026-06-08"
-    },
-    {
-      "slug": "seatbelt-injury",
-      "title": "Seatbelt Injury",
-      "system": "Trauma / Abdomen / Spine / Thoracic",
       "date": "2026-06-08"
     },
     {
